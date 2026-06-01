@@ -66,7 +66,7 @@ Where $\mathbf{x} = [\text{latitude}, \text{longitude}]^T$ represents the locati
 
 Unlike traditional K-Means, which computes distances across the entire dataset globally per iteration, `MiniBatchKMeans` uses random sub-samples to update cluster centers step-by-step. This dramatically reduces computation time on 33 million rows while converging cleanly to identical cluster centroids.
 
-> *Spatial clustering output illustrating the 30 highly optimized operational zones across the NYC grid.*
+> 
 
 ---
 
