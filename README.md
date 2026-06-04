@@ -66,6 +66,8 @@ Where $\mathbf{x} = [\text{latitude}, \text{longitude}]^T$ represents the locati
 
 Unlike traditional K-Means, which computes distances across the entire dataset globally per iteration, `MiniBatchKMeans` uses random sub-samples to update cluster centers step-by-step. This dramatically reduces computation time on 33 million rows while converging cleanly to identical cluster centroids.
 
+<img width="1232" height="545" alt="Image" src="https://github.com/user-attachments/assets/784a3709-736a-4f40-a3f2-fa5dcb9022f7" />
+
 ## Why 30 Regions?
 
 Instead of selecting K using only the Elbow Method,
