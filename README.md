@@ -66,6 +66,21 @@ Where $\mathbf{x} = [\text{latitude}, \text{longitude}]^T$ represents the locati
 
 Unlike traditional K-Means, which computes distances across the entire dataset globally per iteration, `MiniBatchKMeans` uses random sub-samples to update cluster centers step-by-step. This dramatically reduces computation time on 33 million rows while converging cleanly to identical cluster centroids.
 
+## Why 30 Regions?
+
+Instead of selecting K using only the Elbow Method,
+a geographic criterion based on Haversine distance was used.
+
+A good operational zone should have nearby neighboring regions
+within roughly 1–1.5 miles.
+
+K=30 maximized the percentage of clusters satisfying this condition,
+while avoiding:
+
+- Oversized regions (K too small)
+- Sparse unstable regions (K too large)
+
+This produced geographically meaningful dispatch zones.
 > 
 
 ---
@@ -78,7 +93,43 @@ Standard data science approaches often execute a blanket `.dropna()` command fol
 
 To preserve the true cyclical nature of real-world demand patterns, **no rows were dropped.** Instead, an automated boolean feature flagging network was implemented to denote historical lag data availability. For instance, when constructing a 720-hour lag (one month backward looking), if the target interval lies in the first month of the dataset, the value defaults to an imputation value while the structural flag feature `lag_720_available` is set to `0`. This informs the decision trees exactly when a value is true vs. when it is imputed.
 
-### 4.2 Mathematical Formalization of the Feature Matrix
+### 4.2 Rolling Mean vs EWMA
+
+Taxi demand data is inherently noisy, making smoothing an important step before creating temporal features.
+
+Two approaches were evaluated:
+
+- Rolling Mean
+- Exponentially Weighted Moving Average (EWMA)
+
+Rolling Mean treats all observations within a window equally, producing stable trend estimates. EWMA assigns higher weight to recent observations, making it more responsive to short-term fluctuations.
+
+Although EWMA achieved lower smoothing errors at high alpha values, this behavior was largely driven by short-term autocorrelation. At α values close to 1, EWMA effectively behaves like a "last value" predictor, which improves smoothing metrics but does not necessarily create better forecasting features.
+
+To determine which approach generalized better, both feature sets were evaluated using an identical XGBoost pipeline with the same train-test split and hyperparameter optimization strategy.
+
+| Feature Set | Test MAPE | Test RMSE |
+|------------|-----------|-----------|
+| Rolling Mean Features | 28.11% | 20.41 |
+| EWMA Features | 30.91% | 21.40 |
+
+#### Why Rolling Mean Was Selected Over EWMA
+
+Although EWMA achieved lower smoothing errors at high alpha values, these improvements were largely driven by strong dependence on the most recent observation.
+
+As alpha approaches 1, EWMA increasingly behaves like a "last-value predictor", exploiting short-term autocorrelation rather than capturing broader temporal demand patterns.
+
+Rolling Mean, in contrast, aggregates information across a wider historical window and produces more stable trend estimates. This makes the resulting features less sensitive to temporary fluctuations and better suited for forecasting future demand.
+
+A controlled XGBoost experiment confirmed this observation. Using identical train-test splits and model configurations, Rolling Mean features achieved lower MAPE and RMSE than EWMA features on unseen March data.
+
+This indicated that Rolling Mean captured more generalizable temporal structure and therefore served as the primary smoothing strategy in the final production pipeline.
+
+Rolling Mean consistently achieved lower forecasting error and stronger generalization on unseen demand data.
+
+For this reason, Rolling Mean windows were selected as the primary smoothing features of the production pipeline, while EWMA (α = 0.9) was retained as an additional supporting feature (`avg_pickups`).
+
+### 4.3 Mathematical Formalization of the Feature Matrix
 As verified by the serialized pipeline artifact `lgbm_taxi_pipeline.pkl`, the structural feature matrix is segmented into five core analytical layers:
 
 #### A. Multi-Resolution Historical Lags
