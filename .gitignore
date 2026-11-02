@@ -10,3 +10,5 @@ raw_data/
 data/
 catboost_info/
 *.db
+
+artifacts/weather_20261102/nta_geometry.geojson

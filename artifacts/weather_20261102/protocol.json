@@ -1,0 +1,14 @@
+{
+  "purpose": "Post-v4 weather integration requested by user",
+  "selection_window": "May 2016, reused development data; not a fresh holdout",
+  "training_cutoff_for_selection": "2016-04-30T22:00:00-04:00",
+  "fixed_model": "Same XGBoost capacity and calendar recursion as frozen v4; add six weather fields only",
+  "weather_input": "ERA5 reanalysis at origin UTC hour minus 3 hours, held fixed throughout recursion",
+  "weather_availability_limitation": "Reanalysis is retrospective; the three-hour timestamp lag does not certify historical publication availability. No future target-hour weather is used.",
+  "gate": "Deploy as default only if May cumulative 48-step WAPE improves by at least 0.1 percentage point over the matched no-weather control. Otherwise keep v4 default and offer explicit experimental weather mode.",
+  "final_fit_cutoff": "2016-05-31T22:00:00-04:00",
+  "june_role": "Spent diagnostic evidence only; no candidate or threshold selection on June",
+  "protected_v4_sha256": "7b96eaf0f9c9bec866e29677f9df9cb7647a99619c1c4589c35632a8f845c2c4",
+  "threads": 4,
+  "hyperparameter_search": false
+}

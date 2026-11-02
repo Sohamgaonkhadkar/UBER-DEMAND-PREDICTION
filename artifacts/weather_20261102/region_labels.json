@@ -1,0 +1,310 @@
+{
+  "source": {
+    "url": "https://data.cityofnewyork.us/resource/9nt8-h7nd.geojson?%24limit=500",
+    "sha256": "4a036c53ce665a73954f260ef4f3a8c49f33d75fb2fc859fe0baf92f4b7f8af8",
+    "bytes": 4589305
+  },
+  "method": "Point-in-polygon using inverse-scaled frozen centroids and official 2020 NYC NTA geometry; polygon holes respected.",
+  "labels": [
+    {
+      "id": 0,
+      "name": "Harlem (South)",
+      "official_nta_name": "Harlem (South)",
+      "borough": "Manhattan",
+      "nta_code": "MN1001",
+      "lat": 40.803923918901134,
+      "lon": -73.94975045930519,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 1,
+      "name": "Murray Hill-Kips Bay",
+      "official_nta_name": "Murray Hill-Kips Bay",
+      "borough": "Manhattan",
+      "nta_code": "MN0603",
+      "lat": 40.7472652796358,
+      "lon": -73.97685385393811,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 2,
+      "name": "Bushwick (East)",
+      "official_nta_name": "Bushwick (East)",
+      "borough": "Brooklyn",
+      "nta_code": "BK0402",
+      "lat": 40.69670159452723,
+      "lon": -73.92094426563007,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 3,
+      "name": "JFK Airport",
+      "official_nta_name": "John F. Kennedy International Airport",
+      "borough": "Queens",
+      "nta_code": "QN8381",
+      "lat": 40.64663524754884,
+      "lon": -73.78474353998233,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 4,
+      "name": "Tribeca-Civic Center",
+      "official_nta_name": "Tribeca-Civic Center",
+      "borough": "Manhattan",
+      "nta_code": "MN0102",
+      "lat": 40.71939929891764,
+      "lon": -74.00391495872154,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 5,
+      "name": "Midtown-Times Square",
+      "official_nta_name": "Midtown-Times Square",
+      "borough": "Manhattan",
+      "nta_code": "MN0502",
+      "lat": 40.762542197388235,
+      "lon": -73.9790191922139,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 6,
+      "name": "East Elmhurst",
+      "official_nta_name": "East Elmhurst",
+      "borough": "Queens",
+      "nta_code": "QN0302",
+      "lat": 40.77072843501719,
+      "lon": -73.86891020002875,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 7,
+      "name": "Gramercy",
+      "official_nta_name": "Gramercy",
+      "borough": "Manhattan",
+      "nta_code": "MN0602",
+      "lat": 40.73666362494733,
+      "lon": -73.98840090463072,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 8,
+      "name": "Upper East Side-Carnegie Hill",
+      "official_nta_name": "Upper East Side-Carnegie Hill",
+      "borough": "Manhattan",
+      "nta_code": "MN0802",
+      "lat": 40.78020052073431,
+      "lon": -73.95328924650808,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 9,
+      "name": "Downtown Brooklyn-DUMBO-Boerum Hill",
+      "official_nta_name": "Downtown Brooklyn-DUMBO-Boerum Hill",
+      "borough": "Brooklyn",
+      "nta_code": "BK0202",
+      "lat": 40.68996945010233,
+      "lon": -73.98620137158244,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 10,
+      "name": "East Village",
+      "official_nta_name": "East Village",
+      "borough": "Manhattan",
+      "nta_code": "MN0303",
+      "lat": 40.72380321425031,
+      "lon": -73.98889533132302,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 11,
+      "name": "Upper West Side (Central)",
+      "official_nta_name": "Upper West Side (Central)",
+      "borough": "Manhattan",
+      "nta_code": "MN0702",
+      "lat": 40.7827000596712,
+      "lon": -73.9778017045412,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 12,
+      "name": "Midtown South-Flatiron-Union Square",
+      "official_nta_name": "Midtown South-Flatiron-Union Square",
+      "borough": "Manhattan",
+      "nta_code": "MN0501",
+      "lat": 40.748647840088594,
+      "lon": -73.99461377920024,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 13,
+      "name": "Astoria (East)-Woodside (North)",
+      "official_nta_name": "Astoria (East)-Woodside (North)",
+      "borough": "Queens",
+      "nta_code": "QN0104",
+      "lat": 40.759733684899594,
+      "lon": -73.91560827136725,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 14,
+      "name": "Midtown-Times Square",
+      "official_nta_name": "Midtown-Times Square",
+      "borough": "Manhattan",
+      "nta_code": "MN0502",
+      "lat": 40.74983177737007,
+      "lon": -73.98338681923066,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 15,
+      "name": "Midtown-Times Square",
+      "official_nta_name": "Midtown-Times Square",
+      "borough": "Manhattan",
+      "nta_code": "MN0502",
+      "lat": 40.75674607715341,
+      "lon": -73.9870681806372,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 16,
+      "name": "Williamsburg",
+      "official_nta_name": "Williamsburg",
+      "borough": "Brooklyn",
+      "nta_code": "BK0102",
+      "lat": 40.71519694925524,
+      "lon": -73.95483502913534,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 17,
+      "name": "Hamilton Heights-Sugar Hill",
+      "official_nta_name": "Hamilton Heights-Sugar Hill",
+      "borough": "Manhattan",
+      "nta_code": "MN0903",
+      "lat": 40.8270504890436,
+      "lon": -73.94394973941029,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 18,
+      "name": "East Midtown-Turtle Bay",
+      "official_nta_name": "East Midtown-Turtle Bay",
+      "borough": "Manhattan",
+      "nta_code": "MN0604",
+      "lat": 40.758887588911286,
+      "lon": -73.9693076603542,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 19,
+      "name": "Upper West Side-Lincoln Square",
+      "official_nta_name": "Upper West Side-Lincoln Square",
+      "borough": "Manhattan",
+      "nta_code": "MN0701",
+      "lat": 40.7709709446798,
+      "lon": -73.98421995061877,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 20,
+      "name": "Financial District-Battery Park City",
+      "official_nta_name": "Financial District-Battery Park City",
+      "borough": "Manhattan",
+      "nta_code": "MN0101",
+      "lat": 40.70921009498034,
+      "lon": -74.01111796051278,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 21,
+      "name": "Upper East Side-Lenox Hill-Roosevelt Island",
+      "official_nta_name": "Upper East Side-Lenox Hill-Roosevelt Island",
+      "borough": "Manhattan",
+      "nta_code": "MN0801",
+      "lat": 40.769498867087634,
+      "lon": -73.95941788574832,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 22,
+      "name": "Greenwich Village",
+      "official_nta_name": "Greenwich Village",
+      "borough": "Manhattan",
+      "nta_code": "MN0202",
+      "lat": 40.7302698142738,
+      "lon": -74.00151635462399,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 23,
+      "name": "Upper West Side-Manhattan Valley",
+      "official_nta_name": "Upper West Side-Manhattan Valley",
+      "borough": "Manhattan",
+      "nta_code": "MN0703",
+      "lat": 40.795279211677574,
+      "lon": -73.96899532327866,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 24,
+      "name": "Park Slope",
+      "official_nta_name": "Park Slope",
+      "borough": "Brooklyn",
+      "nta_code": "BK0602",
+      "lat": 40.66723526569387,
+      "lon": -73.990006904546,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 25,
+      "name": "Hell's Kitchen",
+      "official_nta_name": "Hell's Kitchen",
+      "borough": "Manhattan",
+      "nta_code": "MN0402",
+      "lat": 40.760617531388206,
+      "lon": -73.99391499646788,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 26,
+      "name": "Gramercy",
+      "official_nta_name": "Gramercy",
+      "borough": "Manhattan",
+      "nta_code": "MN0602",
+      "lat": 40.73552684142262,
+      "lon": -73.98061922758706,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 27,
+      "name": "Chelsea-Hudson Yards",
+      "official_nta_name": "Chelsea-Hudson Yards",
+      "borough": "Manhattan",
+      "nta_code": "MN0401",
+      "lat": 40.74050048841772,
+      "lon": -74.00202020094869,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 28,
+      "name": "Crown Heights (North)",
+      "official_nta_name": "Crown Heights (North)",
+      "borough": "Brooklyn",
+      "nta_code": "BK0802",
+      "lat": 40.67852828459068,
+      "lon": -73.958476692102,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    },
+    {
+      "id": 29,
+      "name": "Sunnyside Yards (South)",
+      "official_nta_name": "Sunnyside Yards (South)",
+      "borough": "Queens",
+      "nta_code": "QN0261",
+      "lat": 40.74753701066236,
+      "lon": -73.93618047106928,
+      "label_kind": "2020 NYC NTA containing the model centroid; approximate area label, not model boundaries"
+    }
+  ]
+}
