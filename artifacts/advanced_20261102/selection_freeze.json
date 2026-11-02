@@ -1,0 +1,36 @@
+{
+  "selected_id": "calendar_feedback_0.6",
+  "best_recursive_id": "calendar_feedback_0.6",
+  "overall_validation_leader": "calendar_blend_direct_0.5",
+  "predeclared_test_comparators": [
+    "calendar_feedback_0.6",
+    "calendar_blend_direct_0.5",
+    "comparable_v2_xgboost",
+    "comparable_v2_lightgbm",
+    "seasonal_weekly_24"
+  ],
+  "selected_validation_WAPE": 10.612063977742162,
+  "best_recursive_validation_WAPE": 10.612063977742162,
+  "frozen_at": "2026-11-01T21:52:04.524380+00:00",
+  "leaderboard_sha256": "105b0cbb9de2920e1e8bdd2431aa096e3bff3f5d5170332153c6027523f5b0e8",
+  "code_sha256": {
+    "urbanflow\\ml\\advanced\\alternatives.py": "5fd98588e965c2b5d8d06e328e95b6a5b2bbe0374bdcd3516f5072cfe4ae8c96",
+    "urbanflow\\ml\\advanced\\baselines.py": "1746c94fe9ae5ef80241b74ddc0f950a80932c684080eba200f9e5f088fa185e",
+    "urbanflow\\ml\\advanced\\calendar_anchoring.py": "3e011854774aca03ac21a9b297f0b6a77837432fcc315b495a55f0cc70555118",
+    "urbanflow\\ml\\advanced\\core.py": "4cc8412dd067338f5250c380dc4bb0132a7b52df8c571317dca8ccc731e0aac5",
+    "urbanflow\\ml\\advanced\\diagnose.py": "4f933183b081357bd4f81cf185eb8b0770b7027dc03d7a7b8bdcb46f2e0fb0bd",
+    "urbanflow\\ml\\advanced\\exposure.py": "a4feb2610605eab629fa8ebe98b9c0a6625f5d312f9d861a1112a540aef80f7d",
+    "urbanflow\\ml\\advanced\\final_evaluate.py": "629da8ceaad27e5f76ff15fc8a831fdaf49c02cca973530e6ddc630aae803bab",
+    "urbanflow\\ml\\advanced\\fresh_data.py": "e34adc8394e360aa0d1cb533ecca6cde6e69762fd20c519a0d0f1a10f132ccbb",
+    "urbanflow\\ml\\advanced\\portable_artifacts.py": "59315be048a0b715bbd1025911d60f290e6e18efb9302fe82d663bbcc6f16d57",
+    "urbanflow\\ml\\advanced\\protocol.py": "4e552c9a614ab9adbb9254a27a9a40a45407bcf1ebea9cf1fa16be37a668f9c4",
+    "urbanflow\\ml\\advanced\\research.py": "aff176dd7588e95825d7e15833720f61729eb42985c151d0caf40213d6b38e4b",
+    "urbanflow\\ml\\advanced\\__init__.py": "835d9049d67df081252107b0d2413d187e304795a6c8c102e76ddb549de0ef84"
+  },
+  "validation_recursive_minus_overall_WAPE_95CI": [
+    -0.05303731225138706,
+    0.16969227892722996
+  ],
+  "selection_reason": "Prefer genuine recursive strategy when within 0.1 WAPE point and paired block uncertainty includes equality; otherwise select overall validation leader. Rule fixed before April evaluation.",
+  "test_policy": "No further model selection, tuning or alternative creation after this freeze. All comparators are fixed before April labels are opened."
+}

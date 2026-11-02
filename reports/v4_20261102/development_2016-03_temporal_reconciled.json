@@ -1,0 +1,17 @@
+{
+  "month": "2016-03",
+  "model": "temporal_reconciled",
+  "metrics": {
+    "WAPE": 12.557781835778078,
+    "MAE": 16.61811293668282,
+    "RMSE": 27.37218070873877,
+    "R2": 0.956113080454133,
+    "bias": 2.381914054716182,
+    "bias_pct": 1.799937042470846
+  },
+  "seconds_per_origin": 0.0625629947365572,
+  "details": {
+    "weights": "Fixed equal-strength nonnegative top-down alignment; not fitted MinT",
+    "training_seconds": 1.0800024028867483e-05
+  }
+}

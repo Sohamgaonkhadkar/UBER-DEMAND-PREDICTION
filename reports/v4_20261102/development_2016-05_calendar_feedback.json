@@ -1,0 +1,17 @@
+{
+  "month": "2016-05",
+  "model": "calendar_feedback",
+  "metrics": {
+    "WAPE": 12.508068078375572,
+    "MAE": 15.849424437568363,
+    "RMSE": 27.500115184618004,
+    "R2": 0.9504140977680544,
+    "bias": 1.24960595719473,
+    "bias_pct": 0.9861655510143781
+  },
+  "seconds_per_origin": 0.031265317544079664,
+  "details": {
+    "reused_prior_frozen_model": true,
+    "training_seconds": 0.08475059998454526
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/uacg-pexx",
+  "fixed_filter": "Identical to Creating-Historical-Data.ipynb cell 5-7; bounds/fare/distance frozen before April requests",
+  "sha256": "aa7f0edfd19905c0e77bfbfc55ff62b7bc3c2ac715930aa39151b79cb339add2",
+  "region_recovery_mismatches": 0,
+  "policy": "All April days and all 30 fixed regions; no difficult origins removed. No target summary or predictive error inspected during acquisition."
+}

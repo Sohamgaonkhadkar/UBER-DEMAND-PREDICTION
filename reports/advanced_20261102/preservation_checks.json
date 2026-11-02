@@ -1,0 +1,352 @@
+{
+  "protected_phase_one_files": {
+    "reports\\backend_ml_audit.md": {
+      "expected": "d766c91df7295984f72cd02a58ee964f54689f4c1d60cdda8a87c62569916b12",
+      "actual": "d766c91df7295984f72cd02a58ee964f54689f4c1d60cdda8a87c62569916b12",
+      "unchanged": true
+    },
+    "reports\\baseline_capture.log": {
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    "reports\\baseline_debug.log": {
+      "expected": "2d6804b9b2c2c7e71f46d5cdb3804cde273f4e2bdef823b5c28213be130257a1",
+      "actual": "2d6804b9b2c2c7e71f46d5cdb3804cde273f4e2bdef823b5c28213be130257a1",
+      "unchanged": true
+    },
+    "reports\\changed_files.json": {
+      "expected": "cc2b3c8f8cf9fd7fbdd6275561aef6acd5d506d2a7744bd5f77a4aec41f73242",
+      "actual": "cc2b3c8f8cf9fd7fbdd6275561aef6acd5d506d2a7744bd5f77a4aec41f73242",
+      "unchanged": true
+    },
+    "reports\\cv.log": {
+      "expected": "05ff12927cca589d4ecbbc239a529dd034c9d11c2f7ca40400d8fe771fcaa4ce",
+      "actual": "05ff12927cca589d4ecbbc239a529dd034c9d11c2f7ca40400d8fe771fcaa4ce",
+      "unchanged": true
+    },
+    "reports\\demand_tier_metrics.csv": {
+      "expected": "9afe413e5bef39fa0ebb83f78f8bd7a4cbf1804c20bb95cdbd957d6f4e0c888f",
+      "actual": "9afe413e5bef39fa0ebb83f78f8bd7a4cbf1804c20bb95cdbd957d6f4e0c888f",
+      "unchanged": true
+    },
+    "reports\\final_evidence.log": {
+      "expected": "f5cf993227a6b39519702bc3b57d1d75532ea6434597ef75a9cf07c091dfa624",
+      "actual": "f5cf993227a6b39519702bc3b57d1d75532ea6434597ef75a9cf07c091dfa624",
+      "unchanged": true
+    },
+    "reports\\final_summary.md": {
+      "expected": "49eb5e41c923b12d1792c47ff2cd48659c6cca0afa4ff8cff6d42f98b67473f3",
+      "actual": "49eb5e41c923b12d1792c47ff2cd48659c6cca0afa4ff8cff6d42f98b67473f3",
+      "unchanged": true
+    },
+    "reports\\frontend_build.log": {
+      "expected": "b6799dd572d0a568cd75455bc6d4ca5a63d3396d615bc7caee28a668d8c2f2ce",
+      "actual": "b6799dd572d0a568cd75455bc6d4ca5a63d3396d615bc7caee28a668d8c2f2ce",
+      "unchanged": true
+    },
+    "reports\\lag_ablation.log": {
+      "expected": "f48054842ee6027c5c35883f210b4d14627e0ea8afb9f7034550a3be2ca5973e",
+      "actual": "f48054842ee6027c5c35883f210b4d14627e0ea8afb9f7034550a3be2ca5973e",
+      "unchanged": true
+    },
+    "reports\\local_system_check.log": {
+      "expected": "841901d758706bf07518eeba3cea9d29e83b6d53d38ebe8425def9716290ed04",
+      "actual": "841901d758706bf07518eeba3cea9d29e83b6d53d38ebe8425def9716290ed04",
+      "unchanged": true
+    },
+    "reports\\local_system_results.json": {
+      "expected": "91f965382f7d18e8811990ef967485db71e932d2f379bb0c0b2e43b8df179ca3",
+      "actual": "91f965382f7d18e8811990ef967485db71e932d2f379bb0c0b2e43b8df179ca3",
+      "unchanged": true
+    },
+    "reports\\mlflow_final_runs.json": {
+      "expected": "acd455838a982e8c3ed61c1b0c48a063a6fe17b0f15afca00d333375049f74f5",
+      "actual": "acd455838a982e8c3ed61c1b0c48a063a6fe17b0f15afca00d333375049f74f5",
+      "unchanged": true
+    },
+    "reports\\model_comparison.md": {
+      "expected": "b2cf0f2a2d2417bf637b0377d021a30508b43e48e50c65097cd9b246013eb9d7",
+      "actual": "b2cf0f2a2d2417bf637b0377d021a30508b43e48e50c65097cd9b246013eb9d7",
+      "unchanged": true
+    },
+    "reports\\notebook_source.txt": {
+      "expected": "26fe40b52091a870eb1687646417f42d85d59c37984931e91c53e406bf606c30",
+      "actual": "26fe40b52091a870eb1687646417f42d85d59c37984931e91c53e406bf606c30",
+      "unchanged": true
+    },
+    "reports\\original_api_smoke.json": {
+      "expected": "f4bcb4ef1f4978df113c4526314ad294c7b52d39e46d44d5ce7f047ed5b2bd51",
+      "actual": "f4bcb4ef1f4978df113c4526314ad294c7b52d39e46d44d5ce7f047ed5b2bd51",
+      "unchanged": true
+    },
+    "reports\\original_api_smoke.log": {
+      "expected": "596f97cb860df9f600614e94b91bfbb5f555259b7eb332106fb087b1913e2c55",
+      "actual": "596f97cb860df9f600614e94b91bfbb5f555259b7eb332106fb087b1913e2c55",
+      "unchanged": true
+    },
+    "reports\\original_capture_run.log": {
+      "expected": "3ae1889afe0eae835e28b7040eadf7b2f573f493e353adb49cf309fa853901f4",
+      "actual": "3ae1889afe0eae835e28b7040eadf7b2f573f493e353adb49cf309fa853901f4",
+      "unchanged": true
+    },
+    "reports\\original_evaluation.log": {
+      "expected": "8c72f21c9d2eebef75656f6bb48466939348c49ecaabedec5a049aba1804ace3",
+      "actual": "8c72f21c9d2eebef75656f6bb48466939348c49ecaabedec5a049aba1804ace3",
+      "unchanged": true
+    },
+    "reports\\peak_metrics.csv": {
+      "expected": "6af662e387ea55a79386f407618bd2924f893ea6b38720a7ec083db1c0312859",
+      "actual": "6af662e387ea55a79386f407618bd2924f893ea6b38720a7ec083db1c0312859",
+      "unchanged": true
+    },
+    "reports\\per_region_metrics.csv": {
+      "expected": "5c9f8b372d7c67e832e66530d002c4be76724f032a8f882ac179882d7a7e715f",
+      "actual": "5c9f8b372d7c67e832e66530d002c4be76724f032a8f882ac179882d7a7e715f",
+      "unchanged": true
+    },
+    "reports\\pytest.log": {
+      "expected": "8576c338ea4f66a15ce05ee8b43d949c548b8c12ca918a74b67d8567a89db648",
+      "actual": "8576c338ea4f66a15ce05ee8b43d949c548b8c12ca918a74b67d8567a89db648",
+      "unchanged": true
+    },
+    "reports\\recursive_backtesting.md": {
+      "expected": "1964668c68487b9ad0282ad19a4920a1d48ec61289f94406d50439a201939006",
+      "actual": "1964668c68487b9ad0282ad19a4920a1d48ec61289f94406d50439a201939006",
+      "unchanged": true
+    },
+    "reports\\report_generation.log": {
+      "expected": "7d28cace8a1c5803b6ef3b24591dc3fef64156739c840cbdf688e78939c72bb4",
+      "actual": "7d28cace8a1c5803b6ef3b24591dc3fef64156739c840cbdf688e78939c72bb4",
+      "unchanged": true
+    },
+    "reports\\repository_inventory.json": {
+      "expected": "293fe2078517df038191399045a8c4c3abb5dd5e630acf3ebdac792ce240a651",
+      "actual": "293fe2078517df038191399045a8c4c3abb5dd5e630acf3ebdac792ce240a651",
+      "unchanged": true
+    },
+    "reports\\step_metrics.csv": {
+      "expected": "c465a1b697c6467d73094c72ce226e63b43751ba702e968ed7e5047dcc2c2378",
+      "actual": "c465a1b697c6467d73094c72ce226e63b43751ba702e968ed7e5047dcc2c2378",
+      "unchanged": true
+    },
+    "reports\\training.log": {
+      "expected": "752fdb809d6ebb9eccfc21e1bac08e2b4e7fea3d78eba4aa5f978b71702c0adb",
+      "actual": "752fdb809d6ebb9eccfc21e1bac08e2b4e7fea3d78eba4aa5f978b71702c0adb",
+      "unchanged": true
+    },
+    "reports\\training_ny.log": {
+      "expected": "02751d258bdd55d134490f0870774b4d9c8fb069da13086717a702af45f23187",
+      "actual": "02751d258bdd55d134490f0870774b4d9c8fb069da13086717a702af45f23187",
+      "unchanged": true
+    },
+    "reports\\training_run.log": {
+      "expected": "dd60f83c71bda3f336ad778da2a1270aac853c3fa77e85404bcd6b5bbca16578",
+      "actual": "dd60f83c71bda3f336ad778da2a1270aac853c3fa77e85404bcd6b5bbca16578",
+      "unchanged": true
+    },
+    "reports\\uvicorn.log": {
+      "expected": "104883f0e61633ceecf7466c5687c98c7e060e33acfee199473adc9f0f8ade73",
+      "actual": "104883f0e61633ceecf7466c5687c98c7e060e33acfee199473adc9f0f8ade73",
+      "unchanged": true
+    },
+    "reports\\baseline\\feature_engineering_original.py": {
+      "expected": "57b72afddc218bddeaf175af72e32a491290437636f48511573308938a8e71cb",
+      "actual": "57b72afddc218bddeaf175af72e32a491290437636f48511573308938a8e71cb",
+      "unchanged": true
+    },
+    "reports\\baseline\\forecasting_service_original.py": {
+      "expected": "f9b7744e23091fb50456efad34db275897d419383d1e837b58909455baa7005c",
+      "actual": "f9b7744e23091fb50456efad34db275897d419383d1e837b58909455baa7005c",
+      "unchanged": true
+    },
+    "reports\\baseline\\main_original.py": {
+      "expected": "904dc3f35722f3b431cce8110e7b99dfd7eed20d72b32bf5a0ddbce2b528cb41",
+      "actual": "904dc3f35722f3b431cce8110e7b99dfd7eed20d72b32bf5a0ddbce2b528cb41",
+      "unchanged": true
+    },
+    "reports\\baseline\\original.json": {
+      "expected": "0b161b758fa48b34c19051c3b720fed6d37461a78533fc78bc799b16deae5e57",
+      "actual": "0b161b758fa48b34c19051c3b720fed6d37461a78533fc78bc799b16deae5e57",
+      "unchanged": true
+    },
+    "reports\\baseline\\original_pipeline.joblib": {
+      "expected": "32dd563d9fdcf3805e8910d335d5bb8d5db137387d21297d2ea6ad637b6fb2d4",
+      "actual": "32dd563d9fdcf3805e8910d335d5bb8d5db137387d21297d2ea6ad637b6fb2d4",
+      "unchanged": true
+    },
+    "reports\\baseline\\weather_service_original.py": {
+      "expected": "4bb7f2801c6666ed059569bb3b269b6202ee30070d16428aaa1f7af674b01e92",
+      "actual": "4bb7f2801c6666ed059569bb3b269b6202ee30070d16428aaa1f7af674b01e92",
+      "unchanged": true
+    },
+    "reports\\plots\\actual_vs_predicted.png": {
+      "expected": "680a409bf51d7b8f02e0b423807ee1de744e35f7d995e3ef99c9fe9f5dafc058",
+      "actual": "680a409bf51d7b8f02e0b423807ee1de744e35f7d995e3ef99c9fe9f5dafc058",
+      "unchanged": true
+    },
+    "reports\\plots\\error_by_step.png": {
+      "expected": "0e3741b861114daf907a376d38a3586546a700cd7d9399e1fedbeaa6dad5285d",
+      "actual": "0e3741b861114daf907a376d38a3586546a700cd7d9399e1fedbeaa6dad5285d",
+      "unchanged": true
+    },
+    "artifacts\\candidates\\catboost_v2.joblib": {
+      "expected": "b31d2fb6793aab45247ce04388994b89588d5b90abcbeb387d9af8e0be720291",
+      "actual": "b31d2fb6793aab45247ce04388994b89588d5b90abcbeb387d9af8e0be720291",
+      "unchanged": true
+    },
+    "artifacts\\candidates\\feature_schema.json": {
+      "expected": "44857638271c9b20f03fad68c76f0ab79f02e6e183003d637b8f39ea9448e427",
+      "actual": "44857638271c9b20f03fad68c76f0ab79f02e6e183003d637b8f39ea9448e427",
+      "unchanged": true
+    },
+    "artifacts\\candidates\\lightgbm_v2.joblib": {
+      "expected": "87ada9248d7ba6306330a357423f314492e0cd609355f6dd70bf0e8609d172c6",
+      "actual": "87ada9248d7ba6306330a357423f314492e0cd609355f6dd70bf0e8609d172c6",
+      "unchanged": true
+    },
+    "artifacts\\candidates\\random_forest_v2.joblib": {
+      "expected": "ee10427249264e8e5281705ed1ad48bedc985c7a2a3fd3fb5b3cf02508cad3c7",
+      "actual": "ee10427249264e8e5281705ed1ad48bedc985c7a2a3fd3fb5b3cf02508cad3c7",
+      "unchanged": true
+    },
+    "artifacts\\candidates\\xgboost_v2.joblib": {
+      "expected": "463da4112d886514e19b5c0769ed09f0426c04fd99f296c69a2fe0e06f957cbb",
+      "actual": "463da4112d886514e19b5c0769ed09f0426c04fd99f296c69a2fe0e06f957cbb",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\apt.txt": {
+      "expected": "3c6a6a1114f41917b3cc5db99c399550535d657d72a618d8ac2d31eed0fd5fe1",
+      "actual": "3c6a6a1114f41917b3cc5db99c399550535d657d72a618d8ac2d31eed0fd5fe1",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\check_pipeline.py": {
+      "expected": "c3efdc3979b5ed55f4fc07ff0cfed905dfe5b808ced39ec9f224337b046f9c80",
+      "actual": "c3efdc3979b5ed55f4fc07ff0cfed905dfe5b808ced39ec9f224337b046f9c80",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\Dockerfile": {
+      "expected": "fdbea5dfbece3e854277bc7cb77b2c113f81aa83c09355d5075e4a9e2125ae67",
+      "actual": "fdbea5dfbece3e854277bc7cb77b2c113f81aa83c09355d5075e4a9e2125ae67",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\errors.py": {
+      "expected": "21127d29e92b12ccf54e041a6c40d6e667f7eab46be280bff6076cc83eb1efe7",
+      "actual": "21127d29e92b12ccf54e041a6c40d6e667f7eab46be280bff6076cc83eb1efe7",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\feature_engineering.py": {
+      "expected": "9a2444430bdb2a7d26d61c166ae52328f7127ef5517c7c2f67359fd9e61a0573",
+      "actual": "9a2444430bdb2a7d26d61c166ae52328f7127ef5517c7c2f67359fd9e61a0573",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\main.py": {
+      "expected": "6df330fc2cfc109af96d2ec0a461c03ac5459b2a560f420f2df4862642b071fd",
+      "actual": "6df330fc2cfc109af96d2ec0a461c03ac5459b2a560f420f2df4862642b071fd",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\nixpacks.toml": {
+      "expected": "48dc2caa34e9eb6511c579985a8404049c5d6f6e3ed728b2e9a3e2c344baa278",
+      "actual": "48dc2caa34e9eb6511c579985a8404049c5d6f6e3ed728b2e9a3e2c344baa278",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\requirements.txt": {
+      "expected": "977f8944c477da9c7a53fac9470178b0b4a5bde3d521a289e965f7887e5529f3",
+      "actual": "977f8944c477da9c7a53fac9470178b0b4a5bde3d521a289e965f7887e5529f3",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\shift_data.py": {
+      "expected": "818cd138541d699287a65cddc79488cdc796b8824c5734524667f5fb5f64a288",
+      "actual": "818cd138541d699287a65cddc79488cdc796b8824c5734524667f5fb5f64a288",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\weather_service.py": {
+      "expected": "e76d3fb7c56ce99c17fe58fa5bc2d172fb042d7e2f56f1ca96a95b46cb752f5f",
+      "actual": "e76d3fb7c56ce99c17fe58fa5bc2d172fb042d7e2f56f1ca96a95b46cb752f5f",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\data\\historical_seed_data.csv": {
+      "expected": "ecc8d4454a870b8c1ac8ae966125e46baf80d917b334e3950a002957889c45a5",
+      "actual": "ecc8d4454a870b8c1ac8ae966125e46baf80d917b334e3950a002957889c45a5",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\data\\lgbm_taxi_pipeline.pkl": {
+      "expected": "1cbff5cf3be0d51053540400b90212ef856ae3df9a84ad074c3c240f183c5a45",
+      "actual": "1cbff5cf3be0d51053540400b90212ef856ae3df9a84ad074c3c240f183c5a45",
+      "unchanged": true
+    },
+    "urbanflow\\backend\\services\\forecasting_service.py": {
+      "expected": "aac266cd363b8fa25b480e04f9510d165f264b90249f9ede6f24416d9a6ce072",
+      "actual": "aac266cd363b8fa25b480e04f9510d165f264b90249f9ede6f24416d9a6ce072",
+      "unchanged": true
+    }
+  },
+  "frozen_source_files": {
+    "urbanflow\\ml\\advanced\\alternatives.py": {
+      "expected": "5fd98588e965c2b5d8d06e328e95b6a5b2bbe0374bdcd3516f5072cfe4ae8c96",
+      "actual": "5fd98588e965c2b5d8d06e328e95b6a5b2bbe0374bdcd3516f5072cfe4ae8c96",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\baselines.py": {
+      "expected": "1746c94fe9ae5ef80241b74ddc0f950a80932c684080eba200f9e5f088fa185e",
+      "actual": "1746c94fe9ae5ef80241b74ddc0f950a80932c684080eba200f9e5f088fa185e",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\calendar_anchoring.py": {
+      "expected": "3e011854774aca03ac21a9b297f0b6a77837432fcc315b495a55f0cc70555118",
+      "actual": "3e011854774aca03ac21a9b297f0b6a77837432fcc315b495a55f0cc70555118",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\core.py": {
+      "expected": "4cc8412dd067338f5250c380dc4bb0132a7b52df8c571317dca8ccc731e0aac5",
+      "actual": "4cc8412dd067338f5250c380dc4bb0132a7b52df8c571317dca8ccc731e0aac5",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\diagnose.py": {
+      "expected": "4f933183b081357bd4f81cf185eb8b0770b7027dc03d7a7b8bdcb46f2e0fb0bd",
+      "actual": "4f933183b081357bd4f81cf185eb8b0770b7027dc03d7a7b8bdcb46f2e0fb0bd",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\exposure.py": {
+      "expected": "a4feb2610605eab629fa8ebe98b9c0a6625f5d312f9d861a1112a540aef80f7d",
+      "actual": "a4feb2610605eab629fa8ebe98b9c0a6625f5d312f9d861a1112a540aef80f7d",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\final_evaluate.py": {
+      "expected": "629da8ceaad27e5f76ff15fc8a831fdaf49c02cca973530e6ddc630aae803bab",
+      "actual": "629da8ceaad27e5f76ff15fc8a831fdaf49c02cca973530e6ddc630aae803bab",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\fresh_data.py": {
+      "expected": "e34adc8394e360aa0d1cb533ecca6cde6e69762fd20c519a0d0f1a10f132ccbb",
+      "actual": "e34adc8394e360aa0d1cb533ecca6cde6e69762fd20c519a0d0f1a10f132ccbb",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\portable_artifacts.py": {
+      "expected": "59315be048a0b715bbd1025911d60f290e6e18efb9302fe82d663bbcc6f16d57",
+      "actual": "59315be048a0b715bbd1025911d60f290e6e18efb9302fe82d663bbcc6f16d57",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\protocol.py": {
+      "expected": "4e552c9a614ab9adbb9254a27a9a40a45407bcf1ebea9cf1fa16be37a668f9c4",
+      "actual": "4e552c9a614ab9adbb9254a27a9a40a45407bcf1ebea9cf1fa16be37a668f9c4",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\research.py": {
+      "expected": "aff176dd7588e95825d7e15833720f61729eb42985c151d0caf40213d6b38e4b",
+      "actual": "aff176dd7588e95825d7e15833720f61729eb42985c151d0caf40213d6b38e4b",
+      "unchanged": true
+    },
+    "urbanflow\\ml\\advanced\\__init__.py": {
+      "expected": "835d9049d67df081252107b0d2413d187e304795a6c8c102e76ddb549de0ef84",
+      "actual": "835d9049d67df081252107b0d2413d187e304795a6c8c102e76ddb549de0ef84",
+      "unchanged": true
+    }
+  },
+  "leaderboard_unchanged": true,
+  "original_model_hashes": {
+    "lgbm_taxi_pipeline.pkl": "1cbff5cf3be0d51053540400b90212ef856ae3df9a84ad074c3c240f183c5a45",
+    "urbanflow\\backend\\data\\lgbm_taxi_pipeline.pkl": "1cbff5cf3be0d51053540400b90212ef856ae3df9a84ad074c3c240f183c5a45"
+  },
+  "no_commits_pushes_prs_or_deployments": true
+}

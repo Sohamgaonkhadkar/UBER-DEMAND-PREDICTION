@@ -1,0 +1,17 @@
+{
+  "month": "2016-03",
+  "model": "pure_lightgbm",
+  "metrics": {
+    "WAPE": 11.914140446151825,
+    "MAE": 15.766361772073594,
+    "RMSE": 25.32057469683237,
+    "R2": 0.962445375961381,
+    "bias": 3.2745719838654996,
+    "bias_pct": 2.474490378998609
+  },
+  "seconds_per_origin": 0.030911915789546215,
+  "details": {
+    "reused_prior_frozen_model": true,
+    "training_seconds": 0.08868489996530116
+  }
+}

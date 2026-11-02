@@ -1,0 +1,44 @@
+{
+  "month": "2016-04",
+  "model": "pure_lightgbm",
+  "metrics": {
+    "WAPE": 11.19357618551766,
+    "MAE": 14.805673967398214,
+    "RMSE": 24.230721104583765,
+    "R2": 0.965523381006064,
+    "bias": 1.0826479922715175,
+    "bias_pct": 0.8185174690645017
+  },
+  "seconds_per_origin": 0.032579987272831866,
+  "details": {
+    "labels": 215640,
+    "start": "2016-01-17 00:00:00-05:00",
+    "end": "2016-03-31 21:45:00-04:00",
+    "mode": "jan",
+    "extra_calendar": false,
+    "params": {
+      "boosting_type": "gbdt",
+      "class_weight": null,
+      "colsample_bytree": 0.7139351238159993,
+      "importance_type": "split",
+      "learning_rate": 0.061245885088435426,
+      "max_depth": 10,
+      "min_child_samples": 52,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.07713516576204174,
+      "n_estimators": 534,
+      "n_jobs": 4,
+      "num_leaves": 63,
+      "objective": null,
+      "random_state": 42,
+      "reg_alpha": 0.1767218232266506,
+      "reg_lambda": 0.13224490091963545,
+      "subsample": 0.8777243706586128,
+      "subsample_for_bin": 200000,
+      "subsample_freq": 1,
+      "verbosity": -1,
+      "max_bin": 255
+    },
+    "training_seconds": 9.705589299963322
+  }
+}

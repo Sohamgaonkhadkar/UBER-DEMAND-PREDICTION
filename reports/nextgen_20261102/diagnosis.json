@@ -1,0 +1,48 @@
+{
+  "realized_top95": {
+    "n": 4825,
+    "WAPE": 11.272889234218235,
+    "MAE": 30.41402151891076,
+    "RMSE": 42.32499186337281,
+    "R2": 0.9566319424749326,
+    "bias": -26.411810885886602,
+    "bias_pct": -9.789478790451717
+  },
+  "calendar_expected_top95": {
+    "n": 3016,
+    "WAPE": 8.096888634020434,
+    "MAE": 24.223200778927037,
+    "RMSE": 34.496365307950505,
+    "R2": 0.9747665730844637,
+    "bias": -1.4183717786639876,
+    "bias_pct": -0.4741073831774797
+  },
+  "forecast_top95": {
+    "n": 2769,
+    "WAPE": 7.921181900821939,
+    "MAE": 23.67303425597177,
+    "RMSE": 34.161792736388236,
+    "R2": 0.9766689057015846,
+    "bias": -1.411146210129533,
+    "bias_pct": -0.47218052820042594
+  },
+  "last_lead_calendar_bias_pct": -3.0592755756701346,
+  "prediction_actual_increment_ratio": 0.45138459672433806,
+  "last_lead_std_ratio": 0.9571419047776631,
+  "architecture": {
+    "first_lead_calendar_weight": 0.0,
+    "last_lead_calendar_weight": 0.5880555947533598,
+    "last_lead_inner_week_anchor": 0.3,
+    "effective_last_GBDT_weight": 0.2883610836726481,
+    "gain_pseudocount": 100,
+    "gain_decay_steps": 12,
+    "profile_statistic": "training weekday/quarter median, within-weekday circular smoothing"
+  },
+  "interpretation": [
+    "Realized-peak conditioning selects positive future innovations; its negative bias alone does not justify a forecast-time multiplier.",
+    "Late forecast/calendar bias is negative. Calendar gain mostly expires by 12h; reliability may vary by origin/region.",
+    "Only 45% as much quarter-to-quarter variation does not prove avoidable error: predictions should omit unpredictable noise; late cross-sectional SD retains about 96%.",
+    "Airport regions have high relative errors and sparse overnight demand; flight-arrival/schedule causality remains unverified.",
+    "April is spent. All novel gate/correction coefficients and selection are confined to earlier development data."
+  ]
+}

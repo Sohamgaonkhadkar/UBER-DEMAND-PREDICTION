@@ -1,24 +1,12 @@
-# Python
+.venv/
 __pycache__/
 *.pyc
-
-# Jupyter
+.pytest_cache/
 .ipynb_checkpoints/
-
-# MLflow
-mlruns/
-
-# VSCode
-.vscode/
-
-# Environment
 .env
-venv/
-myenv/
-
-# Large files
-*.pkl
-*.csv
-
-# Temporary
-tmp/
+mlruns/
+*.log
+raw_data/
+data/
+catboost_info/
+*.db

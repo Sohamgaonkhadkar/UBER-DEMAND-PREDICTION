@@ -1,0 +1,27 @@
+[
+  {
+    "run_id": "300451dc600747fd8e7bebab65b01ef8",
+    "model": "random_forest",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/300451dc600747fd8e7bebab65b01ef8/artifacts"
+  },
+  {
+    "run_id": "8698b331655e42d4b64d1c6be9bf93ef",
+    "model": "catboost",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/8698b331655e42d4b64d1c6be9bf93ef/artifacts"
+  },
+  {
+    "run_id": "a3c3d9c8663c42f882cdb284e81a8d72",
+    "model": "xgboost",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/a3c3d9c8663c42f882cdb284e81a8d72/artifacts"
+  },
+  {
+    "run_id": "68d847ab878240619912f03db7af19c3",
+    "model": "lightgbm",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/68d847ab878240619912f03db7af19c3/artifacts"
+  },
+  {
+    "run_id": "37843f24aa134175adb850cb5dbd62e3",
+    "model": "seasonal_naive",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/37843f24aa134175adb850cb5dbd62e3/artifacts"
+  }
+]

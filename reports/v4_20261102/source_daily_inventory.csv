@@ -1,0 +1,69 @@
+date,dataset,retained_trips,format,bytes,seconds
+2015-11-02,2yzn-sicd,335067,JSON,,
+2015-11-03,2yzn-sicd,352257,JSON,,
+2015-11-04,2yzn-sicd,370259,JSON,,
+2015-11-05,2yzn-sicd,387221,JSON,,
+2015-11-06,2yzn-sicd,403699,JSON,,
+2015-11-07,2yzn-sicd,428006,JSON,,
+2015-11-08,2yzn-sicd,376505,JSON,,
+2015-11-09,2yzn-sicd,339488,"CSV, round-trip float parsing",23296072.0,87.334576
+2015-11-10,2yzn-sicd,364011,"CSV, round-trip float parsing",24979924.0,101.136236
+2015-11-11,2yzn-sicd,358080,"CSV, round-trip float parsing",24572500.0,81.812377
+2015-11-12,2yzn-sicd,392350,"CSV, round-trip float parsing",26923791.0,185.318762
+2015-11-13,2yzn-sicd,411460,"CSV, round-trip float parsing",28235897.0,133.012523
+2015-11-14,2yzn-sicd,429641,"CSV, round-trip float parsing",29485404.0,232.541882
+2015-11-15,2yzn-sicd,365533,"CSV, round-trip float parsing",25084274.0,151.461412
+2015-11-16,2yzn-sicd,335019,"CSV, round-trip float parsing",22991370.0,171.668012
+2015-11-17,2yzn-sicd,370569,"CSV, round-trip float parsing",25430432.0,198.001833
+2015-11-18,2yzn-sicd,377541,"CSV, round-trip float parsing",25908964.0,177.683023
+2015-11-19,2yzn-sicd,379941,"CSV, round-trip float parsing",26073869.0,119.120062
+2015-11-20,2yzn-sicd,406149,"CSV, round-trip float parsing",27871898.0,160.407002
+2015-11-21,2yzn-sicd,422745,"CSV, round-trip float parsing",29010451.0,138.046106
+2015-11-22,2yzn-sicd,362347,"CSV, round-trip float parsing",24866473.0,361.144933
+2015-11-23,2yzn-sicd,352479,"CSV, round-trip float parsing",24189078.0,172.228433
+2015-11-24,2yzn-sicd,363877,"CSV, round-trip float parsing",24970036.0,241.743381
+2015-11-25,2yzn-sicd,345005,"CSV, round-trip float parsing",23676887.0,261.033031
+2015-11-26,2yzn-sicd,232002,"CSV, round-trip float parsing",15921175.0,163.608109
+2015-11-27,2yzn-sicd,266473,"CSV, round-trip float parsing",18286517.0,177.571064
+2015-11-28,2yzn-sicd,332856,"CSV, round-trip float parsing",22841929.0,181.450978
+2015-11-29,2yzn-sicd,320150,"CSV, round-trip float parsing",21970552.0,236.855064
+2015-11-30,2yzn-sicd,333818,"CSV, round-trip float parsing",22908155.0,334.547328
+2015-12-10,2yzn-sicd,390393,"CSV, round-trip float parsing",26790153.0,266.352854
+2015-12-11,2yzn-sicd,411033,"CSV, round-trip float parsing",28207742.0,369.316978
+2015-12-12,2yzn-sicd,422086,"CSV, round-trip float parsing",28966745.0,276.877622
+2015-12-17,2yzn-sicd,402583,"CSV, round-trip float parsing",27627071.0,216.003662
+2015-12-18,2yzn-sicd,440616,"CSV, round-trip float parsing",30235482.0,228.797957
+2015-12-19,2yzn-sicd,441961,"CSV, round-trip float parsing",30328296.0,257.54769
+2015-12-24,2yzn-sicd,285429,"CSV, round-trip float parsing",19587111.0,217.751709
+2015-12-25,2yzn-sicd,180639,"CSV, round-trip float parsing",12395560.0,200.55305
+2015-12-26,2yzn-sicd,229987,"CSV, round-trip float parsing",15782790.0,270.284928
+2016-06-01,uacg-pexx,356107,"CSV, round-trip float parsing",24437925.0,310.593736
+2016-06-02,uacg-pexx,379559,"CSV, round-trip float parsing",26046994.0,304.623235
+2016-06-03,uacg-pexx,387510,"CSV, round-trip float parsing",26591459.0,91.704555
+2016-06-04,uacg-pexx,405702,"CSV, round-trip float parsing",27840650.0,315.651128
+2016-06-05,uacg-pexx,339604,"CSV, round-trip float parsing",23303290.0,355.015938
+2016-06-06,uacg-pexx,343850,"CSV, round-trip float parsing",23596837.0,127.573142
+2016-06-07,uacg-pexx,363607,"CSV, round-trip float parsing",24951735.0,21.237448
+2016-06-08,uacg-pexx,366925,"CSV, round-trip float parsing",25178901.0,300.2245
+2016-06-09,uacg-pexx,379138,"CSV, round-trip float parsing",26017828.0,68.308192
+2016-06-10,uacg-pexx,386615,"CSV, round-trip float parsing",26530296.0,34.990505
+2016-06-11,uacg-pexx,374053,"CSV, round-trip float parsing",25668904.0,32.407764
+2016-06-12,uacg-pexx,316609,"CSV, round-trip float parsing",21726061.0,56.734511
+2016-06-13,uacg-pexx,329132,"CSV, round-trip float parsing",22586451.0,28.673972
+2016-06-14,uacg-pexx,351180,"CSV, round-trip float parsing",24099086.0,30.997181
+2016-06-15,uacg-pexx,369853,"CSV, round-trip float parsing",25381460.0,18.954503
+2016-06-16,uacg-pexx,385139,"CSV, round-trip float parsing",26428785.0,217.052423
+2016-06-17,uacg-pexx,373801,"CSV, round-trip float parsing",25651260.0,13.196117
+2016-06-18,uacg-pexx,356486,"CSV, round-trip float parsing",24463740.0,74.823435
+2016-06-19,uacg-pexx,317578,"CSV, round-trip float parsing",21793374.0,28.429188
+2016-06-20,uacg-pexx,324602,"CSV, round-trip float parsing",22275160.0,198.811528
+2016-06-21,uacg-pexx,352562,"CSV, round-trip float parsing",24194310.0,214.791096
+2016-06-22,uacg-pexx,360682,"CSV, round-trip float parsing",24751818.0,197.22172
+2016-06-23,uacg-pexx,376169,"CSV, round-trip float parsing",25813086.0,151.7702
+2016-06-24,uacg-pexx,374128,"CSV, round-trip float parsing",25673828.0,144.338163
+2016-06-25,uacg-pexx,374686,"CSV, round-trip float parsing",25712589.0,137.558523
+2016-06-26,uacg-pexx,317887,"CSV, round-trip float parsing",21813891.0,167.271185
+2016-06-27,uacg-pexx,346148,"CSV, round-trip float parsing",23752460.0,134.338753
+2016-06-28,uacg-pexx,336544,"CSV, round-trip float parsing",23094836.0,33.866602
+2016-06-29,uacg-pexx,344620,"CSV, round-trip float parsing",23647770.0,216.842845
+2016-06-30,uacg-pexx,344793,"CSV, round-trip float parsing",23660004.0,21.888847

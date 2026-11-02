@@ -1,0 +1,17 @@
+{
+  "pure_xgboost": 0.0,
+  "pure_lightgbm": 0.0,
+  "calendar_feedback": 0.0,
+  "history_expanding": 0.0,
+  "history_rolling60": 0.0,
+  "history_decay90": 0.0,
+  "holiday_boost": 0.0,
+  "holiday_profile": 0.0,
+  "holiday_safety": 0.0,
+  "sparse_nb": 0.0,
+  "hourly_disaggregated": 0.0,
+  "half_hour_disaggregated": 0.0,
+  "temporal_reconciled": 0.0,
+  "cross_temporal": 0.0,
+  "seasonal_weekly": 0.0
+}

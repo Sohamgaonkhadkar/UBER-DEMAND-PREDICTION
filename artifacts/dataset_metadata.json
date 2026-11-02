@@ -1,0 +1,11 @@
+{
+  "source": "C:\\Users\\Soham\\Documents\\UBER DEMAND PREDICATION\\data\\time_series.csv",
+  "sha256": "5d326c5ba36a964e824694fd9561eb7affabe485b1e3ba32d75032f73084a2d1",
+  "trips": 33234199,
+  "rows": 261960,
+  "zero_intervals": 3570,
+  "policy": "Zero means no retained trips in a complete source interval. No arbitrary epsilon. Source completeness is assumed, not independently certified.",
+  "timezone": "America/New_York aware; nonexistent source clock hour quarantined, not reassigned. Timeline advances by true 15-minute elapsed intervals.",
+  "quarantined_nonexistent_clock_trips": 34,
+  "quarantined_intervals": 120
+}

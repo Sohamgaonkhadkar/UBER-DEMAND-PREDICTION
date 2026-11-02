@@ -1,0 +1,482 @@
+[
+  {
+    "run_id": "6e28d96e971c45aa86cf9ce0ef3081a1",
+    "name": "FINAL_seasonal_weekly_24",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/6e28d96e971c45aa86cf9ce0ef3081a1/artifacts"
+  },
+  {
+    "run_id": "35fa9a1edd664ccdb0522224353687ad",
+    "name": "FINAL_comparable_v2_lightgbm",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/35fa9a1edd664ccdb0522224353687ad/artifacts"
+  },
+  {
+    "run_id": "8c4d13b6ca1c470ea18cdfb791a24256",
+    "name": "FINAL_comparable_v2_xgboost",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/8c4d13b6ca1c470ea18cdfb791a24256/artifacts"
+  },
+  {
+    "run_id": "043d4dfda66648f49e11fa1c044d6aab",
+    "name": "FINAL_calendar_blend_direct_0.5",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/043d4dfda66648f49e11fa1c044d6aab/artifacts"
+  },
+  {
+    "run_id": "1acdca44bd3048568e14bd6490f8ee94",
+    "name": "FINAL_calendar_feedback_0.6",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/1acdca44bd3048568e14bd6490f8ee94/artifacts"
+  },
+  {
+    "run_id": "da53ed9a91614724aad9307b74e29a6d",
+    "name": "calendar_feedback_0.9",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/da53ed9a91614724aad9307b74e29a6d/artifacts"
+  },
+  {
+    "run_id": "0e8971d92e68459fb3150fb8b4460af3",
+    "name": "calendar_feedback_0.6",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/0e8971d92e68459fb3150fb8b4460af3/artifacts"
+  },
+  {
+    "run_id": "246f0a940d36452caa785a21e0b4efe1",
+    "name": "calendar_feedback_0.3",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/246f0a940d36452caa785a21e0b4efe1/artifacts"
+  },
+  {
+    "run_id": "b118772b89d846018faaacfd90318b3f",
+    "name": "calendar_hybrid_12",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/b118772b89d846018faaacfd90318b3f/artifacts"
+  },
+  {
+    "run_id": "4af2bfc0c10641f8b42ebec3b9439bf4",
+    "name": "calendar_hybrid_4",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/4af2bfc0c10641f8b42ebec3b9439bf4/artifacts"
+  },
+  {
+    "run_id": "420798898fad4b0a9dfb9dfe582c03c4",
+    "name": "calendar_blend_direct_0.75",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/420798898fad4b0a9dfb9dfe582c03c4/artifacts"
+  },
+  {
+    "run_id": "68323d0a04e54f388b5a49a6bc38a240",
+    "name": "calendar_blend_direct_0.5",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/68323d0a04e54f388b5a49a6bc38a240/artifacts"
+  },
+  {
+    "run_id": "875b536034814ac588e043cd500119c2",
+    "name": "calendar_blend_direct_0.25",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/875b536034814ac588e043cd500119c2/artifacts"
+  },
+  {
+    "run_id": "5c7ece239ad5442d9f5f747fdcb63d8f",
+    "name": "calendar_blend_recursive_0.75",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/5c7ece239ad5442d9f5f747fdcb63d8f/artifacts"
+  },
+  {
+    "run_id": "1fffb401dfd248db88cee18f6dd77b63",
+    "name": "calendar_blend_recursive_0.5",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/1fffb401dfd248db88cee18f6dd77b63/artifacts"
+  },
+  {
+    "run_id": "2fb2557b7d58420bb56c6fe3b69effd0",
+    "name": "calendar_blend_recursive_0.25",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/2fb2557b7d58420bb56c6fe3b69effd0/artifacts"
+  },
+  {
+    "run_id": "c921a450be614939ba9acd977db1c12f",
+    "name": "oof_bias_correction",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/c921a450be614939ba9acd977db1c12f/artifacts"
+  },
+  {
+    "run_id": "4a55105655a14318b29002b92cc19c25",
+    "name": "recursive_anchor_0.5",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/4a55105655a14318b29002b92cc19c25/artifacts"
+  },
+  {
+    "run_id": "df1508bf6ede484090c784775bb7c788",
+    "name": "recursive_anchor_0.3",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/df1508bf6ede484090c784775bb7c788/artifacts"
+  },
+  {
+    "run_id": "be2b2d5c29d9475090de8a197251000b",
+    "name": "recursive_anchor_0.15",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/be2b2d5c29d9475090de8a197251000b/artifacts"
+  },
+  {
+    "run_id": "c6e3e18a0a7f4ebf8def53af533686fd",
+    "name": "blend_recursive_direct_0.75",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/c6e3e18a0a7f4ebf8def53af533686fd/artifacts"
+  },
+  {
+    "run_id": "8dc5ef2fa0dd49629f311e3d4b5a1175",
+    "name": "blend_recursive_direct_0.5",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/8dc5ef2fa0dd49629f311e3d4b5a1175/artifacts"
+  },
+  {
+    "run_id": "d9f9f845ffda474fbd4d6db6eef4083e",
+    "name": "blend_recursive_direct_0.25",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/d9f9f845ffda474fbd4d6db6eef4083e/artifacts"
+  },
+  {
+    "run_id": "62a74f134620476db4d21508d93b21b2",
+    "name": "hybrid_switch_24",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/62a74f134620476db4d21508d93b21b2/artifacts"
+  },
+  {
+    "run_id": "a6830fad1b76442d90979631ffd06ea4",
+    "name": "hybrid_switch_12",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/a6830fad1b76442d90979631ffd06ea4/artifacts"
+  },
+  {
+    "run_id": "f513321afd884edabb59671274ede3e4",
+    "name": "hybrid_switch_4",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/f513321afd884edabb59671274ede3e4/artifacts"
+  },
+  {
+    "run_id": "da3b4133cd0046ab971187c51eb5aef3",
+    "name": "calendar_profile_96",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/da3b4133cd0046ab971187c51eb5aef3/artifacts"
+  },
+  {
+    "run_id": "2cdccf387be64532b71becde36e8867a",
+    "name": "calendar_profile_48",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/2cdccf387be64532b71becde36e8867a/artifacts"
+  },
+  {
+    "run_id": "f347f6af66f6450dac1c6a97e5105601",
+    "name": "calendar_profile_12",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/f347f6af66f6450dac1c6a97e5105601/artifacts"
+  },
+  {
+    "run_id": "b310b16d85484489ab450cf93f49b3b2",
+    "name": "seasonal_adaptive_48",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/b310b16d85484489ab450cf93f49b3b2/artifacts"
+  },
+  {
+    "run_id": "e1cba304db0443189f3bd93e89d69c26",
+    "name": "seasonal_adaptive_24",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/e1cba304db0443189f3bd93e89d69c26/artifacts"
+  },
+  {
+    "run_id": "411677a400d444319fae83395944539f",
+    "name": "seasonal_adaptive_8",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/411677a400d444319fae83395944539f/artifacts"
+  },
+  {
+    "run_id": "8178b251660f42daaa2b3e61e1145c2a",
+    "name": "seasonal_profile_24",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/8178b251660f42daaa2b3e61e1145c2a/artifacts"
+  },
+  {
+    "run_id": "cb0c285d37054b51a1318f61cfcbd7e4",
+    "name": "seasonal_weekly_24",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/cb0c285d37054b51a1318f61cfcbd7e4/artifacts"
+  },
+  {
+    "run_id": "d1d9f790e4ee42669f99d8e7106e84df",
+    "name": "tune_direct_06",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/d1d9f790e4ee42669f99d8e7106e84df/artifacts"
+  },
+  {
+    "run_id": "e0969b84b53545f196ec892fc3ade854",
+    "name": "tune_direct_03",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/e0969b84b53545f196ec892fc3ade854/artifacts"
+  },
+  {
+    "run_id": "2004f52163e544e69a609577f389a732",
+    "name": "tune_direct_02",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/2004f52163e544e69a609577f389a732/artifacts"
+  },
+  {
+    "run_id": "4c4939b4e968487a922001280711a979",
+    "name": "tune_direct_01",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/4c4939b4e968487a922001280711a979/artifacts"
+  },
+  {
+    "run_id": "ab94da66de374a0fa739b9e53d15d22f",
+    "name": "tune_direct_00",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/ab94da66de374a0fa739b9e53d15d22f/artifacts"
+  },
+  {
+    "run_id": "96096af18d4940c18dc3fac83e23c629",
+    "name": "comparable_v2_xgboost",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/96096af18d4940c18dc3fac83e23c629/artifacts"
+  },
+  {
+    "run_id": "9add70bf124746178f05d630ee5fb942",
+    "name": "comparable_v2_lightgbm",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/9add70bf124746178f05d630ee5fb942/artifacts"
+  },
+  {
+    "run_id": "469f5869c42d4753968d758839e553d2",
+    "name": "exposure_weight_1.0",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/469f5869c42d4753968d758839e553d2/artifacts"
+  },
+  {
+    "run_id": "4acc03a1ae5d4f70801493034907be33",
+    "name": "exposure_weight_0.3",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/4acc03a1ae5d4f70801493034907be33/artifacts"
+  },
+  {
+    "run_id": "e73cc8a62ed045eda5ce9b6b6e7f2727",
+    "name": "region_specific",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/e73cc8a62ed045eda5ce9b6b6e7f2727/artifacts"
+  },
+  {
+    "run_id": "5121177a2aea4d688b07781aeee1b05e",
+    "name": "catboost_mae",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/5121177a2aea4d688b07781aeee1b05e/artifacts"
+  },
+  {
+    "run_id": "d2002e75ff714b97aed4123b9f3c82c1",
+    "name": "catboost_rmse",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/d2002e75ff714b97aed4123b9f3c82c1/artifacts"
+  },
+  {
+    "run_id": "197aaa251ff5481fadbfa1987c856ac5",
+    "name": "direct_l1",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/197aaa251ff5481fadbfa1987c856ac5/artifacts"
+  },
+  {
+    "run_id": "dbbeea634f5c480bb68df3b8cec63a86",
+    "name": "direct_normalized",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/dbbeea634f5c480bb68df3b8cec63a86/artifacts"
+  },
+  {
+    "run_id": "f913e2fc951640f9b36422f692a4b519",
+    "name": "direct_residual",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/f913e2fc951640f9b36422f692a4b519/artifacts"
+  },
+  {
+    "run_id": "25117ec9a2bd43df8deb13c761a16054",
+    "name": "direct_raw",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/25117ec9a2bd43df8deb13c761a16054/artifacts"
+  },
+  {
+    "run_id": "ba60c5b5310849e69652962e6d159f13",
+    "name": "tune_xgb_03",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/ba60c5b5310849e69652962e6d159f13/artifacts"
+  },
+  {
+    "run_id": "63486d8b05f446758f2231cb2ef57a19",
+    "name": "tune_xgb_02",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/63486d8b05f446758f2231cb2ef57a19/artifacts"
+  },
+  {
+    "run_id": "c94edc74a5704956b4d4e04c82e3eabe",
+    "name": "tune_xgb_01",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/c94edc74a5704956b4d4e04c82e3eabe/artifacts"
+  },
+  {
+    "run_id": "e7c2eae88ae94e69ba15202329ecd29b",
+    "name": "tune_xgb_00",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/e7c2eae88ae94e69ba15202329ecd29b/artifacts"
+  },
+  {
+    "run_id": "dfaea49b50654680a2890d72e90d4f22",
+    "name": "tune_lgb_11",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/dfaea49b50654680a2890d72e90d4f22/artifacts"
+  },
+  {
+    "run_id": "95c72b225f2e4cb98894ba6f5777b911",
+    "name": "tune_lgb_10",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/95c72b225f2e4cb98894ba6f5777b911/artifacts"
+  },
+  {
+    "run_id": "5165b97c7bee461db134e9e795abfa86",
+    "name": "tune_lgb_08",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/5165b97c7bee461db134e9e795abfa86/artifacts"
+  },
+  {
+    "run_id": "7a303743d99440699528142e5c52f93e",
+    "name": "tune_lgb_07",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/7a303743d99440699528142e5c52f93e/artifacts"
+  },
+  {
+    "run_id": "8cb68940625c4862b2f1911a8525547e",
+    "name": "tune_lgb_06",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/8cb68940625c4862b2f1911a8525547e/artifacts"
+  },
+  {
+    "run_id": "3363a42c173a47bbbe505bb88e0f5ead",
+    "name": "tune_lgb_05",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/3363a42c173a47bbbe505bb88e0f5ead/artifacts"
+  },
+  {
+    "run_id": "6129ef3448484c44b09c64e86ab6f8ce",
+    "name": "tune_lgb_03",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/6129ef3448484c44b09c64e86ab6f8ce/artifacts"
+  },
+  {
+    "run_id": "d5420b1afa1c4daf9e0bb8af052347b8",
+    "name": "tune_lgb_02",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/d5420b1afa1c4daf9e0bb8af052347b8/artifacts"
+  },
+  {
+    "run_id": "6abb2b63787143fa987ba735e910a171",
+    "name": "tune_lgb_01",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/6abb2b63787143fa987ba735e910a171/artifacts"
+  },
+  {
+    "run_id": "a4c65655f5994e348e1fdaaaa08fee0b",
+    "name": "tune_lgb_00",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/a4c65655f5994e348e1fdaaaa08fee0b/artifacts"
+  },
+  {
+    "run_id": "a2f655893c22406dbeaa2e841a2351ec",
+    "name": "weather_lagged_reanalysis_sensitivity",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/a2f655893c22406dbeaa2e841a2351ec/artifacts"
+  },
+  {
+    "run_id": "12c9c090f1cc47b98ad16c17d826cd76",
+    "name": "objective_tweedie",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/12c9c090f1cc47b98ad16c17d826cd76/artifacts"
+  },
+  {
+    "run_id": "b6979466f57d4fc7a2f404ff9ca7cc61",
+    "name": "objective_poisson",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/b6979466f57d4fc7a2f404ff9ca7cc61/artifacts"
+  },
+  {
+    "run_id": "0acb2ebb74334979932f4dbd27abd2a4",
+    "name": "objective_huber",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/0acb2ebb74334979932f4dbd27abd2a4/artifacts"
+  },
+  {
+    "run_id": "91ee4361772e4251a75848503464f8f6",
+    "name": "objective_regression_l1",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/91ee4361772e4251a75848503464f8f6/artifacts"
+  },
+  {
+    "run_id": "700af3469ad148c3b10fa4cc1fc8cd4a",
+    "name": "target_residual",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/700af3469ad148c3b10fa4cc1fc8cd4a/artifacts"
+  },
+  {
+    "run_id": "19898b81550b4033b62e1d1122c500d1",
+    "name": "target_normalized",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/19898b81550b4033b62e1d1122c500d1/artifacts"
+  },
+  {
+    "run_id": "ce4a280945634ce095cc2aaf82e9d7b0",
+    "name": "target_log1p",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/ce4a280945634ce095cc2aaf82e9d7b0/artifacts"
+  },
+  {
+    "run_id": "ce87e20fb3584ccdb462b100f8be7620",
+    "name": "feature_all",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/ce87e20fb3584ccdb462b100f8be7620/artifacts"
+  },
+  {
+    "run_id": "06c225a67af04dbdb528c912837ca7d8",
+    "name": "feature_spatial",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/06c225a67af04dbdb528c912837ca7d8/artifacts"
+  },
+  {
+    "run_id": "926777a611c34f1794feb7039b79edfc",
+    "name": "feature_interactions",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/926777a611c34f1794feb7039b79edfc/artifacts"
+  },
+  {
+    "run_id": "014729e976d640f0a2b2ef15749284cd",
+    "name": "feature_statistics",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/014729e976d640f0a2b2ef15749284cd/artifacts"
+  },
+  {
+    "run_id": "83289ef7b8c647489b3e9d92809d62c0",
+    "name": "feature_calendar",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/83289ef7b8c647489b3e9d92809d62c0/artifacts"
+  },
+  {
+    "run_id": "00f36bc5a526444ab6b5deba199b89b8",
+    "name": "feature_seasonal",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/00f36bc5a526444ab6b5deba199b89b8/artifacts"
+  },
+  {
+    "run_id": "171c1be83562436fa7daf93408495ced",
+    "name": "feature_extended_lags",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/171c1be83562436fa7daf93408495ced/artifacts"
+  },
+  {
+    "run_id": "9af14acb9525438da9d7cfb8550a338d",
+    "name": "feature_core",
+    "status": "FINISHED",
+    "artifact_uri": "file:C:/Users/Soham/Documents/UBER DEMAND PREDICATION/mlruns/1/9af14acb9525438da9d7cfb8550a338d/artifacts"
+  }
+]

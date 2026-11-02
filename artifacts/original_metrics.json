@@ -1,0 +1,52 @@
+{
+  "original_notebook_one_step": {
+    "MAE": 12.414305247412749,
+    "RMSE": 20.05199048178967,
+    "WAPE": 9.419995021970744,
+    "R2": 0.9764406072880308
+  },
+  "rows": 89280,
+  "start": "2016-03-01 00:00:00",
+  "end": "2016-03-31 23:45:00",
+  "disclaimer": "Exact stored notebook feature function replay on existing test_new.csv; historical weather reanalysis downloaded now, source API revisions and notebook state may change numbers. One-step test truth enters lag features. Not a recursive deployment metric.",
+  "recursive": {
+    "MAE": 211.10757435211286,
+    "RMSE": 250.539335070555,
+    "WAPE": 162.39955075847874,
+    "R2": -2.339887893156985
+  },
+  "horizons": {
+    "1": {
+      "MAE": 23.426256471520617,
+      "RMSE": 33.04505684143595,
+      "WAPE": 16.786998546413916,
+      "R2": 0.9391381655135617
+    },
+    "4": {
+      "MAE": 40.24459781771362,
+      "RMSE": 56.815508161418066,
+      "WAPE": 28.208555630059877,
+      "R2": 0.8225896210472169
+    },
+    "12": {
+      "MAE": 84.57632701797193,
+      "RMSE": 118.82217295691129,
+      "WAPE": 57.28719863992605,
+      "R2": 0.36544553720199213
+    },
+    "24": {
+      "MAE": 138.93864217854932,
+      "RMSE": 179.8980004623862,
+      "WAPE": 104.02627008917631,
+      "R2": -0.5810016596547034
+    },
+    "48": {
+      "MAE": 211.10757435211286,
+      "RMSE": 250.539335070555,
+      "WAPE": 162.39955075847874,
+      "R2": -2.339887893156985
+    }
+  },
+  "seconds_per_48step_30region": 110.9490635333447,
+  "recursive_disclaimer": "Original deployed features, region-local inference, missing feature zero fallback retained. Context restricted to last 721 observed intervals then predictions. Weather oracle from historical reanalysis. Original model trained through February; retrained candidates through February 14. Descriptive comparison only."
+}

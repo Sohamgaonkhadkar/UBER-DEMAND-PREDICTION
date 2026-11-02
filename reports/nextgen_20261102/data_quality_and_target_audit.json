@@ -1,0 +1,70 @@
+{
+  "January_raw_rows": 10906858,
+  "marginal_filter_pass_counts": {
+    "pickup_bounds": 10725121,
+    "dropoff_bounds": 10648641,
+    "fare": 10887046,
+    "distance": 10760160,
+    "retained": 10505157
+  },
+  "airport_filter_impact": {
+    "3": {
+      "pickups_in_geography": 254836,
+      "retained": 232807,
+      "excluded_dropoff": 11723,
+      "excluded_fare": 3559,
+      "excluded_distance": 13309
+    },
+    "6": {
+      "pickups_in_geography": 278951,
+      "retained": 268915,
+      "excluded_dropoff": 7632,
+      "excluded_fare": 1962,
+      "excluded_distance": 3377
+    }
+  },
+  "existing_panel_quality": {
+    "1": {
+      "rows": 89280,
+      "duplicates": 0,
+      "zero_intervals": 2205,
+      "nonfinite": 0,
+      "elapsed_15min_continuity": true,
+      "regions": 30,
+      "mean_demand": 117.66528897849463
+    },
+    "2": {
+      "rows": 83520,
+      "duplicates": 0,
+      "zero_intervals": 684,
+      "nonfinite": 0,
+      "elapsed_15min_continuity": true,
+      "regions": 30,
+      "mean_demand": 131.2634219348659
+    },
+    "3": {
+      "rows": 89160,
+      "duplicates": 0,
+      "zero_intervals": 681,
+      "nonfinite": 0,
+      "elapsed_15min_continuity": true,
+      "regions": 30,
+      "mean_demand": 131.96373934499775
+    },
+    "4": {
+      "rows": 86400,
+      "duplicates": 0,
+      "zero_intervals": 676,
+      "nonfinite": 0,
+      "elapsed_15min_continuity": true,
+      "regions": 30,
+      "mean_demand": 133.01881944444443
+    }
+  },
+  "caveats": [
+    "Filter exclusion reasons overlap; do not add marginal counts.",
+    "Fare/distance/dropoff filters exclude genuine trips, including airport journeys; target is retained trips, not all pickup requests.",
+    "Zero counts cannot certify absence of source outages.",
+    "Original March DST quarantine remains preserved; no target changes in this phase."
+  ]
+}

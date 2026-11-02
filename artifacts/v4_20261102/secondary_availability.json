@@ -1,0 +1,10 @@
+{
+  "planned_period": "July 1-7, 2016",
+  "status": "not_executed_no_verified_compatible_coordinates",
+  "eligible": false,
+  "reason": "Official July Parquet footer has PULocationID/DOLocationID and no coordinate fields. A bounded coordinate-API probe timed out; complete compatible July coverage was not established. Zone-only data cannot exactly reproduce the fixed point mapping and original geography filters.",
+  "primary_June_unchanged": true,
+  "no_replacement_period": true,
+  "forecast_outcomes_used": false,
+  "evidence": "reports/v4_20261102/official_july_schema.json"
+}

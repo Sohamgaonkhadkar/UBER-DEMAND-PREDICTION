@@ -1,0 +1,17 @@
+{
+  "month": "2016-03",
+  "model": "pure_xgboost",
+  "metrics": {
+    "WAPE": 11.721927012038837,
+    "MAE": 15.5119996086112,
+    "RMSE": 25.533539201615966,
+    "R2": 0.9618109957641582,
+    "bias": 1.505141638770843,
+    "bias_pct": 1.1373878853541273
+  },
+  "seconds_per_origin": 0.027177468420153384,
+  "details": {
+    "reused_prior_frozen_model": true,
+    "training_seconds": 0.06801149999955669
+  }
+}

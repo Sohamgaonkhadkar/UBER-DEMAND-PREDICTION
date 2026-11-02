@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+lightgbm
+scikit-learn
+joblib
+holidays
+httpx
+tenacity
+pydantic
+python-dotenv

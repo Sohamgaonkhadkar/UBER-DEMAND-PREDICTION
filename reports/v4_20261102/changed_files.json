@@ -1,0 +1,30 @@
+{
+  "new_source_directory": "urbanflow/ml/v4",
+  "new_test_directory": "urbanflow/ml/v4/tests",
+  "artifacts": "artifacts/v4_20261102",
+  "evidence": "reports/v4_20261102",
+  "requested_report": "reports/research_driven_forecasting_v4.md",
+  "local_only": true,
+  "root_git_status": " M .gitignore\n M Breaking_NYC_to_Regions.ipynb\n M \"final model.ipynb\"\n M lightgbm.ipynb\n?? advanced_evidence.py\n?? advanced_report.py\n?? advanced_system_check.py\n?? baseline_capture.py\n?? evaluate_original.py\n?? finalize_evidence.py\n?? lag_ablation.py\n?? local_system_check.py\n?? make_reports.py\n?? nextgen_evidence.py\n?? nextgen_report.py\n?? nextgen_system_check.py\n?? original_api_smoke.py\n?? output.png\n?? repair_frontend.py\n?? reports/\n?? requirements-local-lock.txt\n?? validate_cv.py\n",
+  "urbanflow_git_status": " M .gitignore\n M backend/feature_engineering.py\n M backend/main.py\n M backend/services/forecasting_service.py\n M backend/shift_data.py\n M backend/weather_service.py\n M frontend/src/App.jsx\n M frontend/src/components/SystemAlerts.tsx\n?? Dockerfile.local\n?? LOCAL_REPAIR.md\n?? backend/advanced_main.py\n?? backend/errors.py\n?? backend/requirements-advanced.txt\n?? ml/\n?? tests/\n",
+  "new_phase_files": [
+    "urbanflow\\ml\\v4\\acquire.py",
+    "urbanflow\\ml\\v4\\aggregate_probe.py",
+    "urbanflow\\ml\\v4\\availability.py",
+    "urbanflow\\ml\\v4\\diagnose.py",
+    "urbanflow\\ml\\v4\\final_evaluate.py",
+    "urbanflow\\ml\\v4\\fit.py",
+    "urbanflow\\ml\\v4\\method_diagnostics.py",
+    "urbanflow\\ml\\v4\\models.py",
+    "urbanflow\\ml\\v4\\protocol.py",
+    "urbanflow\\ml\\v4\\README.md",
+    "urbanflow\\ml\\v4\\research.py",
+    "urbanflow\\ml\\v4\\schema_probe.py",
+    "urbanflow\\ml\\v4\\source_probe.py",
+    "urbanflow\\ml\\v4\\system_check.py",
+    "urbanflow\\ml\\v4\\__init__.py",
+    "urbanflow\\ml\\v4\\tests\\test_acquisition.py",
+    "urbanflow\\ml\\v4\\tests\\test_cache.py",
+    "urbanflow\\ml\\v4\\tests\\test_models.py"
+  ]
+}

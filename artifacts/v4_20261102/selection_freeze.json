@@ -1,0 +1,41 @@
+{
+  "selected_id": "calendar_feedback",
+  "primary_period": "June 2016",
+  "secondary_period": "July 1-7, 2016; same model/cutoff if compatible",
+  "secondary_availability": {
+    "planned_period": "July 1-7, 2016",
+    "status": "not_executed_no_verified_compatible_coordinates",
+    "eligible": false,
+    "reason": "Official July Parquet footer has PULocationID/DOLocationID and no coordinate fields. A bounded coordinate-API probe timed out; complete compatible July coverage was not established. Zone-only data cannot exactly reproduce the fixed point mapping and original geography filters.",
+    "primary_June_unchanged": true,
+    "no_replacement_period": true,
+    "forecast_outcomes_used": false,
+    "evidence": "reports/v4_20261102/official_july_schema.json"
+  },
+  "frozen_at": "2026-11-02T10:03:35.503064+00:00",
+  "development_sha256": "71bc0fca8ea66ccb83857fdde62bfa2cd17daf25c210956353408a6a86c8afe8",
+  "code_sha256": {
+    "urbanflow\\ml\\v4\\acquire.py": "99f4ffd7209e54757a57d66364b9af7a07fb21c9466ba3dcb2b5b71192f90da2",
+    "urbanflow\\ml\\v4\\aggregate_probe.py": "a8e742b10db4141d20aad391ffe8588e4c363b890ee59f71dfc2a22d42daa6fd",
+    "urbanflow\\ml\\v4\\availability.py": "2adb3dccdb938b4af624d5a4992a632139ccfdf1dbfd17e8b63d3c0c267858ee",
+    "urbanflow\\ml\\v4\\diagnose.py": "e84f929b026771cca143869f09d5a3cb041077b982922cc2e4b2fbdffa4879a9",
+    "urbanflow\\ml\\v4\\final_evaluate.py": "536076dfe83d0aa629e18ae8e0932eb1b01da8199441490619e674c769468d2a",
+    "urbanflow\\ml\\v4\\fit.py": "d19d4c158cd86a314ab4b71314bce9326748e8a7869370109ed7b6e13af373c2",
+    "urbanflow\\ml\\v4\\method_diagnostics.py": "bf25e71fd26321ad0882cc4bf5d702d9160b4637c61aafd8d0a6bbf8b481860d",
+    "urbanflow\\ml\\v4\\models.py": "bc2db60afcc6fcfbd1bb5540ed20c3751e6ca204331a98622ab2bdbac1f18985",
+    "urbanflow\\ml\\v4\\protocol.py": "dd663ae49f96afaf340575d605d67650e681c95a5f6ba0359b4bfe0b2394c2d0",
+    "urbanflow\\ml\\v4\\research.py": "40481d79f9b8d8f7990659c1c52443113c4f389caab1814adb1180634ac3ebef",
+    "urbanflow\\ml\\v4\\schema_probe.py": "ddc013d42ed95fe4768bf77b56d875132d1c2cf2541d8ee49bf4991931220b5e",
+    "urbanflow\\ml\\v4\\source_probe.py": "26aa965ff1aa7dd1b2c1ae1855c431f807176ea86e7f67663ea7aa3969de425b",
+    "urbanflow\\ml\\v4\\system_check.py": "df7e6db40bbdd6ee9d8a46d0cf44c6bf5e8d524f1490b0e7727017e76e827c92",
+    "urbanflow\\ml\\v4\\__init__.py": "0c0b0e283dfff0fd064fc8d9006a6636a47a81a6a3644ba2a39da6c1c8fba0b7"
+  },
+  "matched_window": null,
+  "comparators": [
+    "pure_xgboost",
+    "pure_lightgbm",
+    "calendar_feedback",
+    "seasonal_weekly"
+  ],
+  "strategy": "regional 15-minute recursive"
+}

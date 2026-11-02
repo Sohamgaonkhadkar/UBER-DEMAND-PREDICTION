@@ -1,0 +1,30 @@
+[
+  {
+    "period": "history_2015",
+    "days": 38,
+    "rows": 109440,
+    "regions": 30,
+    "duplicate_keys": 0,
+    "nonfinite": 0,
+    "negative": 0,
+    "zero_intervals": 1006,
+    "retained_trips": 13719275,
+    "source_count_sum": 13719275,
+    "panel_sha256_matches": true,
+    "geography_sha256_matches": true
+  },
+  {
+    "period": "june_sealed",
+    "days": 30,
+    "rows": 86400,
+    "regions": 30,
+    "duplicate_keys": 0,
+    "nonfinite": 0,
+    "negative": 0,
+    "zero_intervals": 718,
+    "retained_trips": 10735269,
+    "source_count_sum": 10735269,
+    "panel_sha256_matches": true,
+    "geography_sha256_matches": true
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "holidays": [
+    {
+      "date": "2016-01-01",
+      "name": "New Year's Day",
+      "rows": 96
+    },
+    {
+      "date": "2016-05-30",
+      "name": "Memorial Day",
+      "rows": 96
+    },
+    {
+      "date": "2016-01-18",
+      "name": "Martin Luther King Jr. Day",
+      "rows": 96
+    },
+    {
+      "date": "2016-02-15",
+      "name": "Washington's Birthday",
+      "rows": 96
+    }
+  ],
+  "independent_holiday_dates": 4,
+  "existing_features": [
+    "public_holiday",
+    "holiday_adjacent (day before OR after; direction not distinguished)"
+  ],
+  "calendar_profile": "Weekday/quarter medians; holiday dates pooled with ordinary weekdays; no holiday-specific calendar state.",
+  "limits": "March and April have no US federal holiday; May has one. Jan-Feb has only three distinct holiday dates. Event identity/time/region interactions cannot be reliably learned from one summer event.",
+  "resources": {
+    "available_RAM_GiB": 0.6449623107910156,
+    "free_disk_GiB": 68.77048110961914
+  }
+}

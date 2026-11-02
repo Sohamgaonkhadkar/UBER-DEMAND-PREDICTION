@@ -1,0 +1,15 @@
+{
+  "start": "2016-06-01",
+  "end_exclusive": "2016-07-01",
+  "days": 30,
+  "rows": 86400,
+  "sha256": "5fbccad68f5aeb0911f7b9bcb1c864b78a482ce6287a5a33fb2101a892227579",
+  "geography_sha256": "863eb156b6354058ad0cc7c066c7b59c628d5da7fc705780b760ef0322e5647c",
+  "source_datasets": [
+    "uacg-pexx"
+  ],
+  "filters": "pickup_latitude between 40.60 and 40.85 AND pickup_longitude between -74.05 and -73.70 AND dropoff_latitude between 40.60 and 40.85 AND dropoff_longitude between -74.05 and -73.70 AND fare_amount between 0.50 and 81.0 AND trip_distance between 0.25 and 24.43",
+  "zeros": "Preserved under source completeness assumption; raw outages cannot be certified",
+  "duplicate_policy": "No overlapping day requests; no artificial deletion of coincident trips. Aggregated region/time rows are unique.",
+  "raw_trips_persisted": false
+}

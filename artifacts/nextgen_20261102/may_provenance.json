@@ -1,0 +1,6 @@
+{
+  "source": "https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/uacg-pexx",
+  "sha256": "3958ddd47f0a4ed87fe45c4c244fecf6bde9e01d1f15dae0dec83f1e1deeb132",
+  "mapping_sha256": "863eb156b6354058ad0cc7c066c7b59c628d5da7fc705780b760ef0322e5647c",
+  "policy": "Original filters/map; all 31 days, all regions; no outcome-based selection. Test targets sealed from research functions."
+}
