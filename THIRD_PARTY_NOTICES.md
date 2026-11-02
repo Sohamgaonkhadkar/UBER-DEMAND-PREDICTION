@@ -34,3 +34,11 @@ Figures, embedded maps or other third-party material retained in historical
 notebooks keep their original applicable notices and terms. Original analysis
 code is covered by the root MIT License; that does not relabel source datasets
 or third-party illustrations as MIT-licensed material.
+
+## Historical README visuals
+
+Images under `docs/legacy/` are preserved from the repository owner's earlier
+README attachments. Their original canonical URLs, revisions and hashes are in
+`docs/legacy/provenance.json`. Existing embedded map, tile or other third-party
+attributions remain applicable. The figures are labeled as historical material;
+the root MIT license does not relabel third-party material inside a screenshot.

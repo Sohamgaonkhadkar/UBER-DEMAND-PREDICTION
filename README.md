@@ -36,6 +36,8 @@ is historical; it does not establish current operational performance.
 ## Contents
 
 - [Final result](#final-result)
+- [Maps and research figures](#maps-and-research-figures)
+- [Mathematical formulation](#mathematical-formulation)
 - [Selected architecture](#selected-architecture)
 - [Research sequence and evidence](#research-sequence-and-evidence)
 - [Dataset and target definition](#dataset-and-target-definition)
@@ -59,6 +61,58 @@ is historical; it does not establish current operational performance.
 At 12 hours: **MAE 14.5595**, **RMSE 23.9458**, **R² 0.960489**, **bias +2.5667%**. The June 2016 primary evaluation comprises **55** non-overlapping origins spaced 13 elapsed hours apart, **30** regions and **48** leads: **79,200 predictions**. The individual lead-48 WAPE is **13.5862%**. Cumulative 12-hour WAPE has a 3-origin moving-block bootstrap 95% interval of **10.7556–12.5330%** (1,000 draws, seed 42). That interval quantifies metric uncertainty, not prediction uncertainty for individual counts.
 
 WAPE is `100 × Σ|prediction − actual| / Σ|actual|`. Lower is better; these values are error rates, not a classification-accuracy percentage. No model achieved a sub-10% cumulative 12-hour WAPE. Results for April, May and June use different cutoffs and periods; differences between those months are not paired model improvements.
+
+## Maps and research figures
+
+### Original pickup-cluster visualization
+
+![Original standardized-coordinate pickup-cluster figure](docs/legacy/pickup-clusters-original.png)
+
+The original spatial figure from the earlier README is preserved byte-for-byte.
+Its axes show transformed coordinates, not geographic degrees; the original
+notebook labels are retained as historical material. The current model's physical
+centroid coordinates are shown in the verified figure below.
+
+### Verified geographic centroids
+
+![All 30 fitted regional centroids and central NYC detail](docs/figures/verified-region-centroids.png)
+
+This figure inverse-transforms the frozen scaler and K-means centers. Numbers are
+the actual model region IDs; the dashed box selects the detail panel. These are
+point centers, not authoritative cluster polygons or demand-intensity values.
+The reproducible [figure script](docs/figures/render_centroids.py) reads
+`artifacts/advanced_20261102/geography.json` without fitting or changing a model.
+
+### Final June evaluation
+
+![June error by individual lead and variability across prespecified origins](reports/v4_20261102/final_horizon_and_event.png)
+
+The left panel shows **individual-lead WAPE**, while the right panel shows each
+origin's **cumulative 48-step WAPE**. Neither curve should be confused with the
+single pooled cumulative 12-hour score of 11.6086%. The figure's original
+"untouched June" title describes its status at the selection freeze; June is now
+spent final-evaluation evidence. The prespecified July check was unavailable.
+
+![Observed versus forecast demand for four fixed June regional paths](reports/v4_20261102/fixed_june_examples.png)
+
+Fixed June examples compare actual retained trips with calendar-feedback and
+pure-XGBoost predictions. They illustrate regional trajectories; the complete
+55-origin evaluation determines the reported aggregate scores.
+
+<details>
+<summary>View the March–May development comparison</summary>
+
+![Development WAPE across the three spent chronological windows](reports/v4_20261102/development_results.png)
+
+These are development comparisons with their respective training cutoffs,
+not replacements for the frozen June evaluation. Their different observation
+windows do not support an improvement claim based on comparing one month with
+another.
+
+</details>
+
+Original image locations, README revisions and SHA-256 hashes are recorded in
+[historical visual provenance](docs/legacy/provenance.json).
 
 ## Selected architecture
 
@@ -88,6 +142,176 @@ flowchart LR
 This diagram describes the completed research sequence. June outcomes are now
 spent evaluation evidence and are not an untouched selection window for future
 experiments.
+
+## Mathematical formulation
+
+The equations below restore the mathematical explanation from the original
+README and align it with the selected v4 implementation. They describe the
+current target, fitted geography, causal features and recursion; earlier
+LightGBM-specific feature lists and scores are not substituted for v4 behavior.
+
+### 1. Regional count target
+
+For retained trip records indexed by $i$, let $p_i$ be the pickup coordinate,
+$t_i$ the pickup timestamp, and $a(p_i)$ the fixed region assignment. With
+$\Delta=15$ minutes and $r\in\{0,\ldots,29\}$:
+
+$$
+y_{r,t}=\sum_i \mathbf{1}\{a(p_i)=r\}\,\mathbf{1}\{t\leq t_i<t+\Delta\}.
+$$
+
+The count is formed after the original fare, distance and **both pickup and
+dropoff** geographic filters. The post-trip availability caveat in the dataset
+section still applies. The 48-step forecast begins at origin $\tau$ and covers
+the bins starting at $\tau,\tau+\Delta,\ldots,\tau+47\Delta$.
+
+### 2. Standardization, clustering and geographic reconstruction
+
+Coordinate order is explicitly longitude then latitude:
+
+$$
+p_i=\left[\operatorname{lon}_i,\operatorname{lat}_i\right]^{\mathsf{T}},
+\qquad z_i=(p_i-\mu)\oslash\sigma.
+$$
+
+Here $\mu$ and $\sigma$ are the frozen scaler mean and scale, and $\oslash$
+denotes elementwise division. The K-means objective underlying the original
+spatial clustering is:
+
+$$
+\min_{S_0,\ldots,S_{29}}\;\sum_{r=0}^{29}\sum_{z_i\in S_r}
+\Vert z_i-c_r\Vert_2^2.
+$$
+
+The fitted mapping used for regional aggregation and centroid display is:
+
+$$
+a(p_i)=\underset{r\in\{0,\ldots,29\}}{\operatorname{argmin}}
+\Vert z_i-c_r\Vert_2^2,
+\qquad p_r^{\mathrm{center}}=\mu+\sigma\odot c_r.
+$$
+
+The centers are fixed for v4; inference does not recluster the city. Mini-batch
+updates approximate this objective and do not guarantee the identical solution
+of an unrelated full-batch K-means run. The map above uses the inverse transform,
+not the standardized axes from the earlier visualization.
+
+### 3. Causal lags, rolling statistics and EWMA
+
+Let $\widetilde y$ denote the available history: observations strictly before
+the origin and final model predictions at subsequent recursive steps. Then:
+
+$$
+\operatorname{lag}_{\ell}(r,t)=\widetilde y_{r,t-\ell\Delta},
+\qquad
+m_{r,t}^{(w)}=\frac{1}{w}\sum_{j=1}^{w}\widetilde y_{r,t-j\Delta}.
+$$
+
+$$
+s_{r,t}^{(w)}=
+\sqrt{\frac{1}{w-1}\sum_{j=1}^{w}
+\left(\widetilde y_{r,t-j\Delta}-m_{r,t}^{(w)}\right)^2}.
+$$
+
+The fitted extended lag set is
+$\ell\in\{1,2,3,4,8,12,24,48,96,192,288,672,1344\}$.
+Rolling mean/sample-standard-deviation windows are $w\in\{4,24,96,672\}$.
+At this resolution **24 steps are six hours**; 96 and 672 elapsed steps are
+24 hours and seven days. Separate seasonal features use New York civil-clock
+lookups so daylight-saving transitions are handled explicitly.
+
+The original README's standard EWMA recurrence was
+$m_t=\alpha y_{t-1}+(1-\alpha)m_{t-1}$.
+The actual v4 `ewma` feature uses a normalized, finite 32-bin history:
+
+$$
+\operatorname{ewma}_{r,t}=
+\frac{\sum_{j=0}^{31}0.6^j\,\widetilde y_{r,t-(j+1)\Delta}}
+{\sum_{j=0}^{31}0.6^j}.
+$$
+
+This is the implemented weighting, rather than either conflicting alpha value
+from the earlier description. No missing history is silently filled to satisfy
+the 1,536-bin warmup requirement.
+
+### 4. Cyclic time encoding
+
+For the New York quarter-hour slot $q=4h+\lfloor m/15\rfloor$ and weekday $d$:
+
+$$
+q_{\sin}=\sin\left(\frac{2\pi q}{96}\right),\quad
+q_{\cos}=\cos\left(\frac{2\pi q}{96}\right),\qquad
+d_{\sin}=\sin\left(\frac{2\pi d}{7}\right),\quad
+d_{\cos}=\cos\left(\frac{2\pi d}{7}\right).
+$$
+
+The ordered [feature schema](artifacts/v4_20261102/feature_schema.json) remains
+authoritative. The selected configuration enables seasonal/calendar features;
+optional neighbor-feature, interaction, extra-statistic and weather families are
+disabled in this frozen candidate.
+
+### 5. Calendar adaptation and final recursive feedback
+
+Let $P_r(t)$ be the fixed training-only weekday/quarter-hour calendar profile.
+Its origin-local gain uses only the eight bins preceding $\tau$:
+
+$$
+g_{r,\tau}=\operatorname{clip}\left(
+\frac{\sum_{j=1}^{8}y_{r,\tau-j\Delta}+100}
+{\sum_{j=1}^{8}P_r(\tau-j\Delta)+100},\;0.6,\;1.6\right).
+$$
+
+For zero-based lead $k\in\{0,\ldots,47\}$, the adapted calendar component is:
+
+$$
+c_{r,k}=P_r(\tau+k\Delta)
+\left[1+(g_{r,\tau}-1)e^{-k/12}\right].
+$$
+
+Let $b_{r,k}$ be `base.predict` on the current causal features, expressed on the
+original count scale. Let $s_{r,k}$ be the seasonal anchor, combining smoothed
+same-clock profiles one, seven and fourteen days earlier with weights
+$0.25,0.50,0.25$. The stored v4 coefficients give:
+
+$$
+\lambda_k=0.3\frac{k}{47},\qquad
+a_{r,k}=(1-\lambda_k)b_{r,k}+\lambda_k s_{r,k},\qquad
+w_k=0.6\left(1-e^{-k/12}\right).
+$$
+
+$$
+\widehat y_{r,k}=\max\left(0,
+(1-w_k)a_{r,k}+w_k c_{r,k}\right),\qquad
+\widetilde y_{r,\tau+k\Delta}\leftarrow\widehat y_{r,k}.
+$$
+
+The selected base has no additional bias correction. Every **final blended
+prediction** is appended before computing the next step. At $k=0$ the two blend
+weights are zero. This is causal feedback, not a blend applied only after an
+independent 48-step trajectory has already been generated.
+
+### 6. Evaluation equations
+
+For $N$ evaluated origin/region/lead observations and $e_i=\widehat y_i-y_i$:
+
+$$
+\operatorname{MAE}=\frac{1}{N}\sum_{i=1}^{N}|e_i|,\qquad
+\operatorname{RMSE}=\sqrt{\frac{1}{N}\sum_{i=1}^{N}e_i^2}.
+$$
+
+$$
+\operatorname{WAPE}(\%)=100\,
+\frac{\sum_{i=1}^{N}|e_i|}{\sum_{i=1}^{N}|y_i|},\qquad
+R^2=1-\frac{\sum_{i=1}^{N}e_i^2}
+{\sum_{i=1}^{N}(y_i-\overline{y})^2}.
+$$
+
+The primary June aggregate uses $N=55\times30\times48=79{,}200$.
+Cumulative horizon-$h$ metrics pool leads $0$ through $h-1$; individual-lead
+metrics restrict evaluation to a single lead. WAPE requires positive aggregate
+actual demand; $R^2$ requires nonzero actual variance. A zero denominator does
+not become a fabricated zero-error score. WAPE is an error percentage, not a
+classification accuracy, and its bootstrap interval is not a prediction band.
 
 ## Research sequence and evidence
 
