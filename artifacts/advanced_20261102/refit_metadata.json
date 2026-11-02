@@ -1,0 +1,1619 @@
+{
+  "tune_xgb_02": {
+    "class_name": "ml.advanced.core.ForecastModel",
+    "fitted_params": {
+      "objective": "reg:absoluteerror",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": 0.7312056849564288,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": true,
+      "eval_metric": null,
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": 0.361829190515802,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": 0.07844763945313377,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": 0,
+      "max_depth": 8,
+      "max_leaves": null,
+      "min_child_weight": 30.560921680599062,
+      "missing": NaN,
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": 599,
+      "n_jobs": 4,
+      "num_parallel_tree": null,
+      "random_state": 42,
+      "reg_alpha": 3.351715828588323,
+      "reg_lambda": 0.8869847878637795,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": 0.8575767013321436,
+      "tree_method": "hist",
+      "validate_parameters": null,
+      "verbosity": null
+    },
+    "refit_seconds": 43.712619700003415,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "tune_xgb_02",
+      "architecture": "xgboost",
+      "features": {
+        "seasonal": true,
+        "extended_lags": true,
+        "statistics": false,
+        "interactions": false,
+        "spatial": false,
+        "calendar": true,
+        "weather": false
+      },
+      "transform": "raw",
+      "strategy": "recursive",
+      "region_specific": false,
+      "requested_params": {
+        "objective": "reg:absoluteerror",
+        "n_estimators": 600,
+        "max_depth": 8,
+        "learning_rate": 0.07844763945313377,
+        "min_child_weight": 30.560921680599062,
+        "subsample": 0.8575767013321436,
+        "colsample_bytree": 0.7312056849564288,
+        "gamma": 0.361829190515802,
+        "reg_alpha": 3.351715828588323,
+        "reg_lambda": 0.8869847878637795,
+        "max_delta_step": 0,
+        "tree_method": "hist"
+      },
+      "fitted_params": {
+        "objective": "reg:absoluteerror",
+        "base_score": null,
+        "booster": null,
+        "callbacks": null,
+        "colsample_bylevel": null,
+        "colsample_bynode": null,
+        "colsample_bytree": 0.7312056849564288,
+        "device": null,
+        "early_stopping_rounds": null,
+        "enable_categorical": true,
+        "eval_metric": null,
+        "feature_types": null,
+        "feature_weights": null,
+        "gamma": 0.361829190515802,
+        "grow_policy": null,
+        "importance_type": null,
+        "interaction_constraints": null,
+        "learning_rate": 0.07844763945313377,
+        "max_bin": null,
+        "max_cat_threshold": null,
+        "max_cat_to_onehot": null,
+        "max_delta_step": 0,
+        "max_depth": 8,
+        "max_leaves": null,
+        "min_child_weight": 30.560921680599062,
+        "missing": NaN,
+        "monotone_constraints": null,
+        "multi_strategy": null,
+        "n_estimators": 600,
+        "n_jobs": 4,
+        "num_parallel_tree": null,
+        "random_state": 42,
+        "reg_alpha": 3.351715828588323,
+        "reg_lambda": 0.8869847878637795,
+        "sampling_method": null,
+        "scale_pos_weight": null,
+        "subsample": 0.8575767013321436,
+        "tree_method": "hist",
+        "validate_parameters": null,
+        "verbosity": null
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 11.721927012038837,
+        "MAE": 15.5119996086112,
+        "RMSE": 25.533539201615966,
+        "R2": 0.9618109957641582,
+        "bias": 1.505141638770843,
+        "bias_pct": 1.1373878853541273,
+        "cumulative": {
+          "1": {
+            "WAPE": 8.775065702958145,
+            "MAE": 11.204270733640207,
+            "RMSE": 17.279174999124734,
+            "R2": 0.9826408737029664,
+            "bias": 0.991634537898309,
+            "bias_pct": 0.7766376259772043
+          },
+          "4": {
+            "WAPE": 9.417122396245052,
+            "MAE": 12.487517329104985,
+            "RMSE": 20.325539438275545,
+            "R2": 0.9774311623649832,
+            "bias": -0.3153753451044448,
+            "bias_pct": -0.2378317600956989
+          },
+          "12": {
+            "WAPE": 10.16717087906716,
+            "MAE": 14.172689372105033,
+            "RMSE": 23.28296301962674,
+            "R2": 0.9718834249607,
+            "bias": 0.4619453773846519,
+            "bias_pct": 0.3313892984848039
+          },
+          "24": {
+            "WAPE": 10.892118582126251,
+            "MAE": 15.59993958845081,
+            "RMSE": 25.659106524842713,
+            "R2": 0.9657789121416314,
+            "bias": 0.5967624004843116,
+            "bias_pct": 0.41666871814308976
+          },
+          "48": {
+            "WAPE": 11.721927012038837,
+            "MAE": 15.5119996086112,
+            "RMSE": 25.533539201615966,
+            "R2": 0.9618109957641582,
+            "bias": 1.505141638770843,
+            "bias_pct": 1.1373878853541273
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 8.775065702958145,
+            "MAE": 11.204270733640207,
+            "RMSE": 17.279174999124734,
+            "R2": 0.9826408737029664,
+            "bias": 0.991634537898309,
+            "bias_pct": 0.7766376259772043
+          },
+          "4": {
+            "WAPE": 9.620772399528079,
+            "MAE": 13.268901779236849,
+            "RMSE": 21.570765970195104,
+            "R2": 0.9757295028850109,
+            "bias": -1.4392175755131313,
+            "bias_pct": -1.0435215331143115
+          },
+          "12": {
+            "WAPE": 10.964215776862979,
+            "MAE": 16.32680730150457,
+            "RMSE": 26.8482841809763,
+            "R2": 0.9649517095211385,
+            "bias": 0.3577449687740259,
+            "bias_pct": 0.24024250169009265
+          },
+          "24": {
+            "WAPE": 12.236983720651214,
+            "MAE": 17.32964422638305,
+            "RMSE": 28.66767481862702,
+            "R2": 0.9534846173175754,
+            "bias": 1.3826038380986765,
+            "bias_pct": 0.9762982111984544
+          },
+          "48": {
+            "WAPE": 12.451150895148096,
+            "MAE": 15.147298353309171,
+            "RMSE": 25.051192776247834,
+            "R2": 0.9603354279635298,
+            "bias": 3.1409659212008556,
+            "bias_pct": 2.5818888444120325
+          }
+        },
+        "seconds_per_origin_30regions": 0.025187349122573147
+      },
+      "training_seconds": 21.195939400000498,
+      "runtime_seconds": 23.395944800053257,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\tune_xgb_02.joblib",
+      "model_bytes": 3913824
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "recursive_anchor_0.3": {
+    "class_name": "ml.advanced.core.ForecastModel",
+    "fitted_params": {
+      "objective": "reg:absoluteerror",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": 0.7312056849564288,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": true,
+      "eval_metric": null,
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": 0.361829190515802,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": 0.07844763945313377,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": 0,
+      "max_depth": 8,
+      "max_leaves": null,
+      "min_child_weight": 30.560921680599062,
+      "missing": NaN,
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": 599,
+      "n_jobs": 4,
+      "num_parallel_tree": null,
+      "random_state": 42,
+      "reg_alpha": 3.351715828588323,
+      "reg_lambda": 0.8869847878637795,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": 0.8575767013321436,
+      "tree_method": "hist",
+      "validate_parameters": null,
+      "verbosity": null
+    },
+    "refit_seconds": 43.743525700003374,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "recursive_anchor_0.3",
+      "architecture": "anchored_xgboost",
+      "strategy": "recursive",
+      "transform": "composite",
+      "features": {
+        "base": "tune_xgb_02",
+        "anchor_weight": 0.3
+      },
+      "requested_params": {
+        "base": "tune_xgb_02",
+        "anchor_weight": 0.3
+      },
+      "fitted_params": {
+        "base": "tune_xgb_02",
+        "anchor_weight": 0.3
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 11.446941977440074,
+        "MAE": 15.148103148183743,
+        "RMSE": 24.61315896399941,
+        "R2": 0.9645144929959519,
+        "bias": 1.1554880514254404,
+        "bias_pct": 0.8731657390303817,
+        "cumulative": {
+          "1": {
+            "WAPE": 8.775065702958145,
+            "MAE": 11.204270733640207,
+            "RMSE": 17.279174999124734,
+            "R2": 0.9826408737029664,
+            "bias": 0.991634537898309,
+            "bias_pct": 0.7766376259772043
+          },
+          "4": {
+            "WAPE": 9.413499201676029,
+            "MAE": 12.482712814194418,
+            "RMSE": 20.322667210347866,
+            "R2": 0.9774375403768285,
+            "bias": -0.27022211526395284,
+            "bias_pct": -0.20378067685895007
+          },
+          "12": {
+            "WAPE": 10.085933651239616,
+            "MAE": 14.059447447763898,
+            "RMSE": 22.855025583656545,
+            "R2": 0.9729074836755991,
+            "bias": 0.5936186143703628,
+            "bias_pct": 0.42584873843193005
+          },
+          "24": {
+            "WAPE": 10.674782302748456,
+            "MAE": 15.28866563351647,
+            "RMSE": 24.68347073907931,
+            "R2": 0.9683318128195966,
+            "bias": 0.25892585803106516,
+            "bias_pct": 0.18078603020623749
+          },
+          "48": {
+            "WAPE": 11.446941977440074,
+            "MAE": 15.148103148183743,
+            "RMSE": 24.61315896399941,
+            "R2": 0.9645144929959519,
+            "bias": 1.1554880514254404,
+            "bias_pct": 0.8731657390303817
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 8.775065702958145,
+            "MAE": 11.204270733640207,
+            "RMSE": 17.279174999124734,
+            "R2": 0.9826408737029664,
+            "bias": 0.991634537898309,
+            "bias_pct": 0.7766376259772043
+          },
+          "4": {
+            "WAPE": 9.61099967829692,
+            "MAE": 13.255423310695337,
+            "RMSE": 21.554653488441662,
+            "R2": 0.9757657474847894,
+            "bias": -1.3543942115460224,
+            "bias_pct": -0.9820193611586139
+          },
+          "12": {
+            "WAPE": 10.67989695686207,
+            "MAE": 15.903428312909533,
+            "RMSE": 25.707051560203034,
+            "R2": 0.9678679595715354,
+            "bias": 0.4219001273662723,
+            "bias_pct": 0.2833256954226133
+          },
+          "24": {
+            "WAPE": 11.701511773900073,
+            "MAE": 16.571325138751526,
+            "RMSE": 26.203543549157974,
+            "R2": 0.9611374127170943,
+            "bias": -0.44437842233139174,
+            "bias_pct": -0.3137889877507814
+          },
+          "48": {
+            "WAPE": 12.225274648315015,
+            "MAE": 14.872511313097519,
+            "RMSE": 23.46490191797445,
+            "R2": 0.9651996636684731,
+            "bias": 5.517571626682031,
+            "bias_pct": 4.535469975977403
+          }
+        },
+        "seconds_per_origin_30regions": 0.027819868420218035
+      },
+      "training_seconds": 0.0,
+      "runtime_seconds": 1.5896102000260726,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\recursive_anchor_0.3.joblib",
+      "model_bytes": 3913824
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "calendar_profile_12": {
+    "class_name": "ml.advanced.alternatives.CalendarProfile",
+    "fitted_params": null,
+    "refit_seconds": 0.022885399986989796,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "calendar_profile_12",
+      "architecture": "calendar_profile",
+      "strategy": "seasonal",
+      "transform": "composite",
+      "features": {
+        "decay": 12.0,
+        "fit_end": "2016-02-29 22:00:00-05:00",
+        "method": "training-only weekday/quarter median profile; smoothed adjacent quarters, observed-origin gain"
+      },
+      "requested_params": {
+        "decay": 12.0,
+        "fit_end": "2016-02-29 22:00:00-05:00",
+        "method": "training-only weekday/quarter median profile; smoothed adjacent quarters, observed-origin gain"
+      },
+      "fitted_params": {
+        "decay": 12.0,
+        "fit_end": "2016-02-29 22:00:00-05:00",
+        "method": "training-only weekday/quarter median profile; smoothed adjacent quarters, observed-origin gain"
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 11.063720848633086,
+        "MAE": 14.640974414660638,
+        "RMSE": 24.0199951635034,
+        "R2": 0.9662042465845266,
+        "bias": -3.173363926158985,
+        "bias_pct": -2.3980106539212955,
+        "cumulative": {
+          "1": {
+            "WAPE": 9.373721806558114,
+            "MAE": 11.968653051463658,
+            "RMSE": 18.988586700998958,
+            "R2": 0.9790363384042994,
+            "bias": -0.8007510557988582,
+            "bias_pct": -0.6271397124715109
+          },
+          "4": {
+            "WAPE": 9.730153793015553,
+            "MAE": 12.9026106906699,
+            "RMSE": 21.123476954732187,
+            "R2": 0.975624370424376,
+            "bias": -2.1988261856153097,
+            "bias_pct": -1.6581851117632935
+          },
+          "12": {
+            "WAPE": 9.758203634249448,
+            "MAE": 13.602602983953476,
+            "RMSE": 21.89354813163198,
+            "R2": 0.9751390213409434,
+            "bias": -2.257328920324012,
+            "bias_pct": -1.6193573612335235
+          },
+          "24": {
+            "WAPE": 10.225708975309567,
+            "MAE": 14.645492615704567,
+            "RMSE": 23.43776726659023,
+            "R2": 0.9714475600573689,
+            "bias": -3.866037319151183,
+            "bias_pct": -2.6993269226693157
+          },
+          "48": {
+            "WAPE": 11.063720848633086,
+            "MAE": 14.640974414660638,
+            "RMSE": 24.0199951635034,
+            "R2": 0.9662042465845266,
+            "bias": -3.173363926158985,
+            "bias_pct": -2.3980106539212955
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 9.373721806558114,
+            "MAE": 11.968653051463658,
+            "RMSE": 18.988586700998958,
+            "R2": 0.9790363384042994,
+            "bias": -0.8007510557988582,
+            "bias_pct": -0.6271397124715109
+          },
+          "4": {
+            "WAPE": 10.200839232870013,
+            "MAE": 14.068925885137602,
+            "RMSE": 22.946100384974336,
+            "R2": 0.972535903515379,
+            "bias": -3.49303526884745,
+            "bias_pct": -2.5326660686939304
+          },
+          "12": {
+            "WAPE": 9.930059614374098,
+            "MAE": 14.786845964712064,
+            "RMSE": 23.923548957301435,
+            "R2": 0.9721718087630322,
+            "bias": -4.0946109084976525,
+            "bias_pct": -2.7497229981349793
+          },
+          "24": {
+            "WAPE": 11.273263309925303,
+            "MAE": 15.964852686830765,
+            "RMSE": 25.287730070505024,
+            "R2": 0.9638064357661156,
+            "bias": -6.414539797559617,
+            "bias_pct": -4.529499743491811
+          },
+          "48": {
+            "WAPE": 11.723093997822335,
+            "MAE": 14.261589463035,
+            "RMSE": 23.03009114251355,
+            "R2": 0.9664774329413719,
+            "bias": -0.17998280029903765,
+            "bias_pct": -0.14794671318829888
+          }
+        },
+        "seconds_per_origin_30regions": 0.0007657280698287906
+      },
+      "training_seconds": 0.01818369998363778,
+      "runtime_seconds": 0.06735669996123761,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\calendar_profile_12_portable.joblib",
+      "model_bytes": 80985,
+      "initial_artifact_preserved": "artifacts\\advanced_20261102\\models\\calendar_profile_12.joblib"
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "calendar_feedback_0.6": {
+    "class_name": "ml.advanced.calendar_anchoring.CalendarAnchoredRecursive",
+    "fitted_params": null,
+    "refit_seconds": 43.76642649999121,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "calendar_feedback_0.6",
+      "architecture": "calendar_anchored_recursive",
+      "strategy": "recursive",
+      "transform": "composite",
+      "features": {
+        "base": "recursive_anchor_0.3",
+        "calendar": "calendar_profile_12",
+        "weight": 0.6,
+        "decay": 12.0,
+        "causal_note": "Blended predictions, never future truth, feed every subsequent recursive step"
+      },
+      "requested_params": {
+        "base": "recursive_anchor_0.3",
+        "calendar": "calendar_profile_12",
+        "weight": 0.6,
+        "decay": 12.0,
+        "causal_note": "Blended predictions, never future truth, feed every subsequent recursive step"
+      },
+      "fitted_params": {
+        "base": "recursive_anchor_0.3",
+        "calendar": "calendar_profile_12",
+        "weight": 0.6,
+        "decay": 12.0,
+        "causal_note": "Blended predictions, never future truth, feed every subsequent recursive step"
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 10.612063977742162,
+        "MAE": 14.043282482498709,
+        "RMSE": 22.976944484949275,
+        "R2": 0.9690756306755054,
+        "bias": -1.6732621153363443,
+        "bias_pct": -1.2644312069924284,
+        "cumulative": {
+          "1": {
+            "WAPE": 8.775065702958145,
+            "MAE": 11.204270733640207,
+            "RMSE": 17.279174999124734,
+            "R2": 0.9826408737029664,
+            "bias": 0.991634537898309,
+            "bias_pct": 0.7766376259772043
+          },
+          "4": {
+            "WAPE": 9.25299671738317,
+            "MAE": 12.269879480439442,
+            "RMSE": 19.974026534213632,
+            "R2": 0.9782050299797534,
+            "bias": -0.43288366557656865,
+            "bias_pct": -0.32644747187405376
+          },
+          "12": {
+            "WAPE": 9.419841785599647,
+            "MAE": 13.130938109493846,
+            "RMSE": 21.11934879324867,
+            "R2": 0.9768662005811313,
+            "bias": -0.3523733274862206,
+            "bias_pct": -0.252784756634074
+          },
+          "24": {
+            "WAPE": 9.827621619847198,
+            "MAE": 14.075342864825997,
+            "RMSE": 22.443051956220977,
+            "R2": 0.9738197022492759,
+            "bias": -2.007576739184271,
+            "bias_pct": -1.4017210632086143
+          },
+          "48": {
+            "WAPE": 10.612063977742162,
+            "MAE": 14.043282482498709,
+            "RMSE": 22.976944484949275,
+            "R2": 0.9690756306755054,
+            "bias": -1.6732621153363443,
+            "bias_pct": -1.2644312069924284
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 8.775065702958145,
+            "MAE": 11.204270733640207,
+            "RMSE": 17.279174999124734,
+            "R2": 0.9826408737029664,
+            "bias": 0.991634537898309,
+            "bias_pct": 0.7766376259772043
+          },
+          "4": {
+            "WAPE": 9.3241402000099,
+            "MAE": 12.859788731290848,
+            "RMSE": 20.856783772390326,
+            "R2": 0.9773095966973757,
+            "bias": -1.7210989021447143,
+            "bias_pct": -1.2479028852653309
+          },
+          "12": {
+            "WAPE": 9.626825726559394,
+            "MAE": 14.335300559696945,
+            "RMSE": 23.24470134469057,
+            "R2": 0.9737286912341788,
+            "bias": -1.9151134820458644,
+            "bias_pct": -1.2860883984583595
+          },
+          "24": {
+            "WAPE": 10.683114139979365,
+            "MAE": 15.129101378409956,
+            "RMSE": 23.63227256892446,
+            "R2": 0.9683901355703978,
+            "bias": -4.706422716734907,
+            "bias_pct": -3.3233468278308966
+          },
+          "48": {
+            "WAPE": 11.150784803138182,
+            "MAE": 13.565353573258653,
+            "RMSE": 21.632366903439763,
+            "R2": 0.9704230058481809,
+            "bias": 1.3188911408077764,
+            "bias_pct": 1.0841347562738177
+          }
+        },
+        "seconds_per_origin_30regions": 0.030187129825271927
+      },
+      "training_seconds": 0.0,
+      "runtime_seconds": 1.7273792999912985,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\calendar_feedback_0.6.joblib",
+      "model_bytes": 3994760
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "tune_direct_01": {
+    "class_name": "ml.advanced.core.ForecastModel",
+    "fitted_params": {
+      "boosting_type": "gbdt",
+      "class_weight": null,
+      "colsample_bytree": 0.8318310527626296,
+      "importance_type": "split",
+      "learning_rate": 0.026900810193673987,
+      "max_depth": 12,
+      "min_child_samples": 48,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.0,
+      "n_estimators": 450,
+      "n_jobs": 4,
+      "num_leaves": 127,
+      "objective": "regression_l1",
+      "random_state": 42,
+      "reg_alpha": 0.003991872155654645,
+      "reg_lambda": 0.08676208054742436,
+      "subsample": 0.8907374895397433,
+      "subsample_for_bin": 200000,
+      "subsample_freq": 1,
+      "verbosity": -1
+    },
+    "refit_seconds": 45.52968929999042,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "tune_direct_01",
+      "architecture": "lightgbm",
+      "features": {
+        "seasonal": true,
+        "extended_lags": true,
+        "statistics": false,
+        "interactions": false,
+        "spatial": false,
+        "calendar": true,
+        "weather": false
+      },
+      "transform": "raw",
+      "strategy": "direct",
+      "region_specific": false,
+      "requested_params": {
+        "objective": "regression_l1",
+        "n_estimators": 1000,
+        "learning_rate": 0.026900810193673987,
+        "num_leaves": 127,
+        "max_depth": 12,
+        "min_child_samples": 48,
+        "subsample": 0.8907374895397433,
+        "subsample_freq": 1,
+        "colsample_bytree": 0.8318310527626296,
+        "reg_alpha": 0.003991872155654645,
+        "reg_lambda": 0.08676208054742436
+      },
+      "fitted_params": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 0.8318310527626296,
+        "importance_type": "split",
+        "learning_rate": 0.026900810193673987,
+        "max_depth": 12,
+        "min_child_samples": 48,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 615,
+        "n_jobs": 4,
+        "num_leaves": 127,
+        "objective": "regression_l1",
+        "random_state": 42,
+        "reg_alpha": 0.003991872155654645,
+        "reg_lambda": 0.08676208054742436,
+        "subsample": 0.8907374895397433,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 1,
+        "verbosity": -1
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 11.437221153055793,
+        "MAE": 15.135239271460275,
+        "RMSE": 24.656509715241395,
+        "R2": 0.9643893828383412,
+        "bias": 1.6703244589869757,
+        "bias_pct": 1.262211313092055,
+        "cumulative": {
+          "1": {
+            "WAPE": 10.124696779099532,
+            "MAE": 12.927520733070372,
+            "RMSE": 20.357069618685347,
+            "R2": 0.9759058072403424,
+            "bias": 3.482084319221829,
+            "bias_pct": 2.727131413619859
+          },
+          "4": {
+            "WAPE": 10.226043145722079,
+            "MAE": 13.560181721891762,
+            "RMSE": 21.76241136514758,
+            "R2": 0.9741274603218405,
+            "bias": 1.8413772243063797,
+            "bias_pct": 1.3886246755017715
+          },
+          "12": {
+            "WAPE": 10.466615885690661,
+            "MAE": 14.590105496352587,
+            "RMSE": 23.126255697371768,
+            "R2": 0.972260631720608,
+            "bias": 2.275473430756232,
+            "bias_pct": 1.6323738278502609
+          },
+          "24": {
+            "WAPE": 10.791742783873447,
+            "MAE": 15.456179090703772,
+            "RMSE": 24.795774022738886,
+            "R2": 0.9680429934812684,
+            "bias": 1.5402560442600708,
+            "bias_pct": 1.0754305416245165
+          },
+          "48": {
+            "WAPE": 11.437221153055793,
+            "MAE": 15.135239271460275,
+            "RMSE": 24.656509715241395,
+            "R2": 0.9643893828383412,
+            "bias": 1.6703244589869757,
+            "bias_pct": 1.262211313092055
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 10.124696779099532,
+            "MAE": 12.927520733070372,
+            "RMSE": 20.357069618685347,
+            "R2": 0.9759058072403424,
+            "bias": 3.482084319221829,
+            "bias_pct": 2.727131413619859
+          },
+          "4": {
+            "WAPE": 10.055948097214575,
+            "MAE": 13.869093047621519,
+            "RMSE": 22.33300100547772,
+            "R2": 0.9739839290274844,
+            "bias": 0.4283842023694474,
+            "bias_pct": 0.3106049753868077
+          },
+          "12": {
+            "WAPE": 10.66126389718836,
+            "MAE": 15.87568183464594,
+            "RMSE": 25.980730252243365,
+            "R2": 0.9671801588170614,
+            "bias": 1.3096992157170717,
+            "bias_pct": 0.8795243637491136
+          },
+          "24": {
+            "WAPE": 11.597673922001107,
+            "MAE": 16.42427313053449,
+            "RMSE": 26.345617000681756,
+            "R2": 0.960714850781513,
+            "bias": 0.23246842509360507,
+            "bias_pct": 0.16415295641817138
+          },
+          "48": {
+            "WAPE": 12.157670544408155,
+            "MAE": 14.790268350948185,
+            "RMSE": 23.35408479214423,
+            "R2": 0.9655275889099314,
+            "bias": 4.3404540509642064,
+            "bias_pct": 3.5678737608152713
+          }
+        },
+        "seconds_per_origin_30regions": 0.05121085438632259
+      },
+      "training_seconds": 29.443602499959525,
+      "runtime_seconds": 33.45246399997268,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\tune_direct_01.joblib",
+      "model_bytes": 7079565
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "calendar_blend_direct_0.5": {
+    "class_name": "ml.advanced.alternatives.CompositeForecast",
+    "fitted_params": null,
+    "refit_seconds": 45.52970720001031,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "calendar_blend_direct_0.5",
+      "architecture": "ensemble",
+      "strategy": "blend",
+      "transform": "composite",
+      "features": {
+        "first": "tune_direct_01",
+        "second": "calendar_profile_12",
+        "weight": 0.5,
+        "paired_block_gain_ci": [
+          -0.7535746169613062,
+          -0.2863562750698479
+        ]
+      },
+      "requested_params": {
+        "first": "tune_direct_01",
+        "second": "calendar_profile_12",
+        "weight": 0.5,
+        "paired_block_gain_ci": [
+          -0.7535746169613062,
+          -0.2863562750698479
+        ]
+      },
+      "fitted_params": {
+        "first": "tune_direct_01",
+        "second": "calendar_profile_12",
+        "weight": 0.5,
+        "paired_block_gain_ci": [
+          -0.7535746169613062,
+          -0.2863562750698479
+        ]
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 10.55938679276491,
+        "MAE": 13.973573084725576,
+        "RMSE": 22.923973187903147,
+        "R2": 0.9692180530679355,
+        "bias": -0.7515197335860045,
+        "bias_pct": -0.5678996704146201,
+        "cumulative": {
+          "1": {
+            "WAPE": 9.013611902542513,
+            "MAE": 11.508853775306008,
+            "RMSE": 17.815769134849134,
+            "R2": 0.9815459790515433,
+            "bias": 1.3406666317114855,
+            "bias_pct": 1.0499958505741742
+          },
+          "4": {
+            "WAPE": 9.30176544528693,
+            "MAE": 12.334548952619123,
+            "RMSE": 19.952648301361613,
+            "R2": 0.9782516593958335,
+            "bias": -0.1787244806544646,
+            "bias_pct": -0.13478021813076072
+          },
+          "12": {
+            "WAPE": 9.469552409725607,
+            "MAE": 13.200233023743909,
+            "RMSE": 21.061851102639167,
+            "R2": 0.9769919932268404,
+            "bias": 0.009072255216109923,
+            "bias_pct": 0.006508233308368763
+          },
+          "24": {
+            "WAPE": 9.816956291092191,
+            "MAE": 14.060067738778242,
+            "RMSE": 22.543226410108694,
+            "R2": 0.9735854693998841,
+            "bias": -1.1628906374455559,
+            "bias_pct": -0.8119481905223994
+          },
+          "48": {
+            "WAPE": 10.55938679276491,
+            "MAE": 13.973573084725576,
+            "RMSE": 22.923973187903147,
+            "R2": 0.9692180530679355,
+            "bias": -0.7515197335860045,
+            "bias_pct": -0.5678996704146201
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 9.013611902542513,
+            "MAE": 11.508853775306008,
+            "RMSE": 17.815769134849134,
+            "R2": 0.9815459790515433,
+            "bias": 1.3406666317114855,
+            "bias_pct": 1.0499958505741742
+          },
+          "4": {
+            "WAPE": 9.524910031427813,
+            "MAE": 13.136689073871336,
+            "RMSE": 21.20250938297515,
+            "R2": 0.9765511220657108,
+            "bias": -1.5323255332390007,
+            "bias_pct": -1.111030546653561
+          },
+          "12": {
+            "WAPE": 9.701628175662025,
+            "MAE": 14.44668884291155,
+            "RMSE": 23.58970810565146,
+            "R2": 0.9729430461059402,
+            "bias": -1.3924558463902905,
+            "bias_pct": -0.9350993171929329
+          },
+          "24": {
+            "WAPE": 10.636676333771144,
+            "MAE": 15.063337569401689,
+            "RMSE": 24.111624139448853,
+            "R2": 0.9670947958719263,
+            "bias": -3.0910356862330053,
+            "bias_pct": -2.1826733935368194
+          },
+          "48": {
+            "WAPE": 11.325026151089446,
+            "MAE": 13.777324796250499,
+            "RMSE": 21.929127405050206,
+            "R2": 0.9696059442100331,
+            "bias": 2.0802356253325844,
+            "bias_pct": 1.7099635238134865
+          }
+        },
+        "seconds_per_origin_30regions": 0.05643998947415272
+      },
+      "training_seconds": 0.0,
+      "runtime_seconds": 10.94873570004711,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\calendar_blend_direct_0.5.joblib",
+      "model_bytes": 7160472
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "comparable_v2_xgboost": {
+    "class_name": "ml.advanced.baselines.V2Forecast",
+    "fitted_params": {
+      "objective": "reg:squarederror",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": null,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": true,
+      "eval_metric": null,
+      "feature_types": null,
+      "feature_weights": null,
+      "gamma": null,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": 0.05,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": null,
+      "max_depth": 6,
+      "max_leaves": null,
+      "min_child_weight": null,
+      "missing": NaN,
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": 200,
+      "n_jobs": 4,
+      "num_parallel_tree": null,
+      "random_state": 42,
+      "reg_alpha": null,
+      "reg_lambda": null,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": null,
+      "tree_method": "hist",
+      "validate_parameters": null,
+      "verbosity": null
+    },
+    "refit_seconds": 4.783178600016981,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "comparable_v2_xgboost",
+      "architecture": "v2_xgboost",
+      "strategy": "recursive",
+      "transform": "composite",
+      "features": {
+        "phase_one_hyperparameters": true,
+        "features": [
+          "region",
+          "hour",
+          "quarter",
+          "day_of_week",
+          "month",
+          "is_weekend",
+          "hour_sin",
+          "hour_cos",
+          "dow_sin",
+          "dow_cos",
+          "lag_1",
+          "lag_2",
+          "lag_3",
+          "lag_4",
+          "lag_24",
+          "lag_96",
+          "lag_168",
+          "lag_336",
+          "lag_672",
+          "lag_720",
+          "rolling_mean_24",
+          "rolling_std_24",
+          "rolling_mean_96",
+          "rolling_std_96",
+          "rolling_mean_168",
+          "rolling_std_168",
+          "rolling_mean_336",
+          "rolling_std_336",
+          "rolling_mean_672",
+          "rolling_std_672",
+          "rolling_mean_720",
+          "rolling_std_720",
+          "ewma"
+        ],
+        "warmup": 1536,
+        "training_end": "2016-02-29 22:00:00-05:00"
+      },
+      "requested_params": {
+        "phase_one_hyperparameters": true,
+        "features": [
+          "region",
+          "hour",
+          "quarter",
+          "day_of_week",
+          "month",
+          "is_weekend",
+          "hour_sin",
+          "hour_cos",
+          "dow_sin",
+          "dow_cos",
+          "lag_1",
+          "lag_2",
+          "lag_3",
+          "lag_4",
+          "lag_24",
+          "lag_96",
+          "lag_168",
+          "lag_336",
+          "lag_672",
+          "lag_720",
+          "rolling_mean_24",
+          "rolling_std_24",
+          "rolling_mean_96",
+          "rolling_std_96",
+          "rolling_mean_168",
+          "rolling_std_168",
+          "rolling_mean_336",
+          "rolling_std_336",
+          "rolling_mean_672",
+          "rolling_std_672",
+          "rolling_mean_720",
+          "rolling_std_720",
+          "ewma"
+        ],
+        "warmup": 1536,
+        "training_end": "2016-02-29 22:00:00-05:00"
+      },
+      "fitted_params": {
+        "objective": "reg:squarederror",
+        "base_score": null,
+        "booster": null,
+        "callbacks": null,
+        "colsample_bylevel": null,
+        "colsample_bynode": null,
+        "colsample_bytree": null,
+        "device": null,
+        "early_stopping_rounds": null,
+        "enable_categorical": true,
+        "eval_metric": null,
+        "feature_types": null,
+        "feature_weights": null,
+        "gamma": null,
+        "grow_policy": null,
+        "importance_type": null,
+        "interaction_constraints": null,
+        "learning_rate": 0.05,
+        "max_bin": null,
+        "max_cat_threshold": null,
+        "max_cat_to_onehot": null,
+        "max_delta_step": null,
+        "max_depth": 6,
+        "max_leaves": null,
+        "min_child_weight": null,
+        "missing": NaN,
+        "monotone_constraints": null,
+        "multi_strategy": null,
+        "n_estimators": 200,
+        "n_jobs": 4,
+        "num_parallel_tree": null,
+        "random_state": 42,
+        "reg_alpha": null,
+        "reg_lambda": null,
+        "sampling_method": null,
+        "scale_pos_weight": null,
+        "subsample": null,
+        "tree_method": "hist",
+        "validate_parameters": null,
+        "verbosity": null
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 13.451005353973555,
+        "MAE": 17.80014408654583,
+        "RMSE": 29.177620272770323,
+        "R2": 0.9501326790117766,
+        "bias": 1.3150700478899415,
+        "bias_pct": 0.9937568015748834,
+        "cumulative": {
+          "1": {
+            "WAPE": 9.225783943472031,
+            "MAE": 11.779761489180096,
+            "RMSE": 18.121580169993287,
+            "R2": 0.9809070081949653,
+            "bias": 1.0362563971713272,
+            "bias_pct": 0.8115849916931407
+          },
+          "4": {
+            "WAPE": 10.336006955457577,
+            "MAE": 13.705998556575144,
+            "RMSE": 22.213069141706175,
+            "R2": 0.9730448242470271,
+            "bias": -0.42228063708552493,
+            "bias_pct": -0.3184514856071671
+          },
+          "12": {
+            "WAPE": 11.54046060475183,
+            "MAE": 16.087008402594066,
+            "RMSE": 26.539415312227266,
+            "R2": 0.9634684060643212,
+            "bias": 0.1053619996887826,
+            "bias_pct": 0.07558434584084629
+          },
+          "24": {
+            "WAPE": 12.365963988667062,
+            "MAE": 17.710814450066955,
+            "RMSE": 28.78334577047266,
+            "R2": 0.956938088758353,
+            "bias": 0.19504028720006011,
+            "bias_pct": 0.13618013867488216
+          },
+          "48": {
+            "WAPE": 13.451005353973555,
+            "MAE": 17.80014408654583,
+            "RMSE": 29.177620272770323,
+            "R2": 0.9501326790117766,
+            "bias": 1.3150700478899415,
+            "bias_pct": 0.9937568015748834
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 9.225783943472031,
+            "MAE": 11.779761489180096,
+            "RMSE": 18.121580169993287,
+            "R2": 0.9809070081949653,
+            "bias": 1.0362563971713272,
+            "bias_pct": 0.8115849916931407
+          },
+          "4": {
+            "WAPE": 10.945248467630245,
+            "MAE": 15.095609877794459,
+            "RMSE": 24.438601647180512,
+            "R2": 0.9688469736466079,
+            "bias": -1.4127133354370358,
+            "bias_pct": -1.0243043239106397
+          },
+          "12": {
+            "WAPE": 12.509844501076687,
+            "MAE": 18.628402130854756,
+            "RMSE": 30.31318898707062,
+            "R2": 0.95532166072259,
+            "bias": -0.04844756900218495,
+            "bias_pct": -0.03253481165025223
+          },
+          "24": {
+            "WAPE": 13.721482424330102,
+            "MAE": 19.43194614788245,
+            "RMSE": 30.509195981832434,
+            "R2": 0.9473166740585692,
+            "bias": 1.9594229555269431,
+            "bias_pct": 1.3836075625920643
+          },
+          "48": {
+            "WAPE": 14.728362840387803,
+            "MAE": 17.91761324538125,
+            "RMSE": 30.731494114107527,
+            "R2": 0.9403083882315534,
+            "bias": 1.790109145780753,
+            "bias_pct": 1.471478185285196
+          }
+        },
+        "seconds_per_origin_30regions": 0.04350978596515855
+      },
+      "training_seconds": 3.061278799956199,
+      "runtime_seconds": 5.54635849990882,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\comparable_v2_xgboost_portable.joblib",
+      "model_bytes": 958691,
+      "initial_artifact_preserved": "artifacts\\advanced_20261102\\models\\comparable_v2_xgboost.joblib"
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "comparable_v2_lightgbm": {
+    "class_name": "ml.advanced.baselines.V2Forecast",
+    "fitted_params": {
+      "boosting_type": "gbdt",
+      "class_weight": null,
+      "colsample_bytree": 1.0,
+      "importance_type": "split",
+      "learning_rate": 0.05,
+      "max_depth": -1,
+      "min_child_samples": 20,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.0,
+      "n_estimators": 175,
+      "n_jobs": 4,
+      "num_leaves": 63,
+      "objective": null,
+      "random_state": 42,
+      "reg_alpha": 0.0,
+      "reg_lambda": 0.0,
+      "subsample": 1.0,
+      "subsample_for_bin": 200000,
+      "subsample_freq": 0,
+      "verbosity": -1
+    },
+    "refit_seconds": 4.474684899963904,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "comparable_v2_lightgbm",
+      "architecture": "v2_lightgbm",
+      "strategy": "recursive",
+      "transform": "composite",
+      "features": {
+        "phase_one_hyperparameters": true,
+        "features": [
+          "region",
+          "hour",
+          "quarter",
+          "day_of_week",
+          "month",
+          "is_weekend",
+          "hour_sin",
+          "hour_cos",
+          "dow_sin",
+          "dow_cos",
+          "lag_1",
+          "lag_2",
+          "lag_3",
+          "lag_4",
+          "lag_24",
+          "lag_96",
+          "lag_168",
+          "lag_336",
+          "lag_672",
+          "lag_720",
+          "rolling_mean_24",
+          "rolling_std_24",
+          "rolling_mean_96",
+          "rolling_std_96",
+          "rolling_mean_168",
+          "rolling_std_168",
+          "rolling_mean_336",
+          "rolling_std_336",
+          "rolling_mean_672",
+          "rolling_std_672",
+          "rolling_mean_720",
+          "rolling_std_720",
+          "ewma"
+        ],
+        "warmup": 1536,
+        "training_end": "2016-02-29 22:00:00-05:00"
+      },
+      "requested_params": {
+        "phase_one_hyperparameters": true,
+        "features": [
+          "region",
+          "hour",
+          "quarter",
+          "day_of_week",
+          "month",
+          "is_weekend",
+          "hour_sin",
+          "hour_cos",
+          "dow_sin",
+          "dow_cos",
+          "lag_1",
+          "lag_2",
+          "lag_3",
+          "lag_4",
+          "lag_24",
+          "lag_96",
+          "lag_168",
+          "lag_336",
+          "lag_672",
+          "lag_720",
+          "rolling_mean_24",
+          "rolling_std_24",
+          "rolling_mean_96",
+          "rolling_std_96",
+          "rolling_mean_168",
+          "rolling_std_168",
+          "rolling_mean_336",
+          "rolling_std_336",
+          "rolling_mean_672",
+          "rolling_std_672",
+          "rolling_mean_720",
+          "rolling_std_720",
+          "ewma"
+        ],
+        "warmup": 1536,
+        "training_end": "2016-02-29 22:00:00-05:00"
+      },
+      "fitted_params": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 1.0,
+        "importance_type": "split",
+        "learning_rate": 0.05,
+        "max_depth": -1,
+        "min_child_samples": 20,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 175,
+        "n_jobs": 4,
+        "num_leaves": 63,
+        "objective": null,
+        "random_state": 42,
+        "reg_alpha": 0.0,
+        "reg_lambda": 0.0,
+        "subsample": 1.0,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 0,
+        "verbosity": -1
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 13.57304132683237,
+        "MAE": 17.9616381788805,
+        "RMSE": 29.44652314612615,
+        "R2": 0.9492092824471801,
+        "bias": 2.168599425264376,
+        "bias_pct": 1.6387419302916209,
+        "cumulative": {
+          "1": {
+            "WAPE": 9.193610544102452,
+            "MAE": 11.738681514492638,
+            "RMSE": 17.98024626208741,
+            "R2": 0.98120366710592,
+            "bias": 1.0652589499654463,
+            "bias_pct": 0.8342994826557508
+          },
+          "4": {
+            "WAPE": 10.269593287094462,
+            "MAE": 13.617931119445464,
+            "RMSE": 21.920964042444492,
+            "R2": 0.973749091973031,
+            "bias": -0.04730670892171987,
+            "bias_pct": -0.03567507106004581
+          },
+          "12": {
+            "WAPE": 11.63068856064884,
+            "MAE": 16.212783095162784,
+            "RMSE": 27.174626655736944,
+            "R2": 0.961698737243024,
+            "bias": 0.6928525668615648,
+            "bias_pct": 0.49703696005266745
+          },
+          "24": {
+            "WAPE": 12.456837875783155,
+            "MAE": 17.84096609489986,
+            "RMSE": 29.421946398950947,
+            "R2": 0.955006109022094,
+            "bias": 0.7313792048915927,
+            "bias_pct": 0.5106602485869978
+          },
+          "48": {
+            "WAPE": 13.57304132683237,
+            "MAE": 17.9616381788805,
+            "RMSE": 29.44652314612615,
+            "R2": 0.9492092824471801,
+            "bias": 2.168599425264376,
+            "bias_pct": 1.6387419302916209
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 9.193610544102452,
+            "MAE": 11.738681514492638,
+            "RMSE": 17.98024626208741,
+            "R2": 0.98120366710592,
+            "bias": 1.0652589499654463,
+            "bias_pct": 0.8342994826557508
+          },
+          "4": {
+            "WAPE": 10.821873565065198,
+            "MAE": 14.925452077965534,
+            "RMSE": 24.04905651982005,
+            "R2": 0.9698322011416802,
+            "bias": -0.7212831476008424,
+            "bias_pct": -0.5229747807419546
+          },
+          "12": {
+            "WAPE": 12.737852845936528,
+            "MAE": 18.96792922384733,
+            "RMSE": 32.421777549963295,
+            "R2": 0.9488898199455537,
+            "bias": 0.5360768534805429,
+            "bias_pct": 0.3600007145304389
+          },
+          "24": {
+            "WAPE": 13.664299392683398,
+            "MAE": 19.3509652773636,
+            "RMSE": 30.553317064560016,
+            "R2": 0.9471641871729812,
+            "bias": 2.5758771873377246,
+            "bias_pct": 1.8189044619773747
+          },
+          "48": {
+            "WAPE": 14.887558494689564,
+            "MAE": 18.111280810136144,
+            "RMSE": 30.586856850649255,
+            "R2": 0.9408689411499844,
+            "bias": 3.548359429655309,
+            "bias_pct": 2.916768235386861
+          }
+        },
+        "seconds_per_origin_30regions": 0.04691454561390473
+      },
+      "training_seconds": 2.6951280999928713,
+      "runtime_seconds": 5.373658299969975,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\comparable_v2_lightgbm_portable.joblib",
+      "model_bytes": 980264,
+      "initial_artifact_preserved": "artifacts\\advanced_20261102\\models\\comparable_v2_lightgbm.joblib"
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  },
+  "seasonal_weekly_24": {
+    "class_name": "ml.advanced.alternatives.SeasonalForecast",
+    "fitted_params": null,
+    "refit_seconds": 1.769996015354991e-05,
+    "training_end": "2016-03-31 22:00:00-04:00",
+    "validation_record": {
+      "id": "seasonal_weekly_24",
+      "architecture": "seasonal",
+      "strategy": "seasonal",
+      "transform": "composite",
+      "features": {
+        "kind": "weekly",
+        "decay": 24.0
+      },
+      "requested_params": {
+        "kind": "weekly",
+        "decay": 24.0
+      },
+      "fitted_params": {
+        "kind": "weekly",
+        "decay": 24.0
+      },
+      "training_end": "2016-02-29 22:00:00-05:00",
+      "validation_origins": 57,
+      "validation": {
+        "WAPE": 13.586784200344912,
+        "MAE": 17.979824561403507,
+        "RMSE": 29.095804896464017,
+        "R2": 0.9504119474005017,
+        "bias": 1.4389132553606239,
+        "bias_pct": 1.0873411927259926,
+        "cumulative": {
+          "1": {
+            "WAPE": 13.162619424928321,
+            "MAE": 16.80643274853801,
+            "RMSE": 27.419622034496022,
+            "R2": 0.9562875866257251,
+            "bias": 2.349122807017544,
+            "bias_pct": 1.839808004103729
+          },
+          "4": {
+            "WAPE": 13.193401645399078,
+            "MAE": 17.495029239766083,
+            "RMSE": 28.651388217390544,
+            "R2": 0.9551547582505998,
+            "bias": 1.0099415204678364,
+            "bias_pct": 0.7616199970452496
+          },
+          "12": {
+            "WAPE": 13.022292546054457,
+            "MAE": 18.152631578947368,
+            "RMSE": 29.07330755995323,
+            "R2": 0.9561595699768802,
+            "bias": 1.9239766081871346,
+            "bias_pct": 1.380217856271356
+          },
+          "24": {
+            "WAPE": 13.054059636172596,
+            "MAE": 18.69632066276803,
+            "RMSE": 29.90457003481009,
+            "R2": 0.9535178854234735,
+            "bias": 1.2864278752436646,
+            "bias_pct": 0.8982037965634326
+          },
+          "48": {
+            "WAPE": 13.586784200344912,
+            "MAE": 17.979824561403507,
+            "RMSE": 29.095804896464017,
+            "R2": 0.9504119474005017,
+            "bias": 1.4389132553606239,
+            "bias_pct": 1.0873411927259926
+          }
+        },
+        "at_lead": {
+          "1": {
+            "WAPE": 13.162619424928321,
+            "MAE": 16.80643274853801,
+            "RMSE": 27.419622034496022,
+            "R2": 0.9562875866257251,
+            "bias": 2.349122807017544,
+            "bias_pct": 1.839808004103729
+          },
+          "4": {
+            "WAPE": 12.722500657219664,
+            "MAE": 17.546783625730995,
+            "RMSE": 28.51222165363006,
+            "R2": 0.9575957237763116,
+            "bias": 0.22514619883040934,
+            "bias_pct": 0.16324488428693787
+          },
+          "12": {
+            "WAPE": 12.536719081355347,
+            "MAE": 18.66842105263158,
+            "RMSE": 28.987787305441184,
+            "R2": 0.9591432422423855,
+            "bias": 1.645029239766082,
+            "bias_pct": 1.1047141802415998
+          },
+          "24": {
+            "WAPE": 13.652261887556005,
+            "MAE": 19.33391812865497,
+            "RMSE": 30.444321722551134,
+            "R2": 0.947540485789334,
+            "bias": 0.34444444444444444,
+            "bias_pct": 0.24322259616377265
+          },
+          "48": {
+            "WAPE": 13.88659218951295,
+            "MAE": 16.893567251461988,
+            "RMSE": 27.369979712701365,
+            "R2": 0.9526527340597137,
+            "bias": 4.603508771929825,
+            "bias_pct": 3.78410598573269
+          }
+        },
+        "seconds_per_origin_30regions": 0.008920073683839291
+      },
+      "training_seconds": 0.0,
+      "runtime_seconds": 0.5126952999853529,
+      "eligible": true,
+      "status": "completed",
+      "artifact": "artifacts\\advanced_20261102\\models\\seasonal_weekly_24_portable.joblib",
+      "model_bytes": 453,
+      "initial_artifact_preserved": "artifacts\\advanced_20261102\\models\\seasonal_weekly_24.joblib"
+    },
+    "final_fit_policy": "Frozen algorithm refit on permitted Q1 labels; early stopping uses an inner final-training week, never April."
+  }
+}

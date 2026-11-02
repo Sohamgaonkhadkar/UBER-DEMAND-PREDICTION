@@ -1,0 +1,35 @@
+{
+  "root_status": " M .gitignore\n M Breaking_NYC_to_Regions.ipynb\n M \"final model.ipynb\"\n M lightgbm.ipynb\n?? advanced_evidence.py\n?? advanced_report.py\n?? advanced_system_check.py\n?? baseline_capture.py\n?? evaluate_original.py\n?? finalize_evidence.py\n?? lag_ablation.py\n?? local_system_check.py\n?? make_reports.py\n?? original_api_smoke.py\n?? output.png\n?? repair_frontend.py\n?? reports/\n?? requirements-local-lock.txt\n?? validate_cv.py\n",
+  "production_status": " M .gitignore\n M backend/feature_engineering.py\n M backend/main.py\n M backend/services/forecasting_service.py\n M backend/shift_data.py\n M backend/weather_service.py\n M frontend/src/App.jsx\n M frontend/src/components/SystemAlerts.tsx\n?? Dockerfile.local\n?? LOCAL_REPAIR.md\n?? backend/advanced_main.py\n?? backend/errors.py\n?? backend/requirements-advanced.txt\n?? ml/\n?? tests/\n",
+  "new_source_files": [
+    "urbanflow\\ml\\advanced\\alternatives.py",
+    "urbanflow\\ml\\advanced\\baselines.py",
+    "urbanflow\\ml\\advanced\\calendar_anchoring.py",
+    "urbanflow\\ml\\advanced\\core.py",
+    "urbanflow\\ml\\advanced\\diagnose.py",
+    "urbanflow\\ml\\advanced\\exposure.py",
+    "urbanflow\\ml\\advanced\\final_evaluate.py",
+    "urbanflow\\ml\\advanced\\fresh_data.py",
+    "urbanflow\\ml\\advanced\\portable_artifacts.py",
+    "urbanflow\\ml\\advanced\\protocol.py",
+    "urbanflow\\ml\\advanced\\README.md",
+    "urbanflow\\ml\\advanced\\research.py",
+    "urbanflow\\ml\\advanced\\__init__.py"
+  ],
+  "new_backend_files": [
+    "urbanflow/backend/advanced_main.py",
+    "urbanflow/backend/requirements-advanced.txt"
+  ],
+  "new_tests": [
+    "urbanflow/tests/test_advanced.py",
+    "urbanflow/tests/test_advanced_api.py"
+  ],
+  "new_root_scripts": [
+    "advanced_system_check.py",
+    "advanced_report.py",
+    "advanced_evidence.py"
+  ],
+  "artifact_directory": "artifacts\\advanced_20261102",
+  "report_directory": "reports\\advanced_20261102",
+  "final_report": "reports/advanced_model_optimization.md"
+}

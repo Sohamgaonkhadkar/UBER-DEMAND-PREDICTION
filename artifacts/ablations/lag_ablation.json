@@ -1,0 +1,19 @@
+{
+  "without_added_lags": {
+    "MAE": 26.421985090680337,
+    "RMSE": 39.92611255470045,
+    "WAPE": 20.963436266816604,
+    "R2": 0.9110387675155858
+  },
+  "with_added_lags": {
+    "MAE": 19.707860366429195,
+    "RMSE": 33.87933061608194,
+    "WAPE": 15.636390427480988,
+    "R2": 0.9359445067750143
+  },
+  "removed": [
+    "lag_96",
+    "lag_672"
+  ],
+  "policy": "Same train data and fixed hyperparameters, validation only; rolling windows retained. No final candidate changes after seeing test results."
+}

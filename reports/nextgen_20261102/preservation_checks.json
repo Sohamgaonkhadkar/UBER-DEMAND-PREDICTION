@@ -1,0 +1,2066 @@
+{
+  "protected_files": 403,
+  "all_previous_files_preserved": true,
+  "frozen_source_unchanged": true,
+  "validation_unchanged_since_selection": true,
+  "previous_files": [
+    {
+      "path": "Breaking_NYC_to_Regions.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "Creating-Historical-Data.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "EDA-Demand-Prediction.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "Model-Selection.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "Plot-Map.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "Removing Outliers.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "Training-Baseline-Model.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "advanced_evidence.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "advanced_report.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "advanced_system_check.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\advanced_candidate_v3.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-01.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-01.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-02.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-02.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-03.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-03.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-04.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-04.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-05.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-05.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-06.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-06.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-07.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-07.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-08.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-08.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-09.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-09.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-10.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-10.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-11.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-11.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-12.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-12.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-13.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-13.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-14.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-14.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-15.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-15.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-16.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-16.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-17.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-17.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-18.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-18.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-19.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-19.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-20.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-20.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-21.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-21.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-22.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-22.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-23.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-23.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-24.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-24.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-25.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-25.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-26.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-26.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-27.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-27.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-28.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-28.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-29.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-29.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-30.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_daily\\2016-04-30.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\april_holdout.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\diagnostic_predictions.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\feature_schema_v3.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\0c2f9f899598da.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\1c2aa5dd039463.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\34a3a30b46d5e1.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\6f994a704fefb2.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\79f78209e766c1.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\7fb03b73039c64.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\8bb92e9ecdb62f.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\9e0385e8f7b69e.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\af9246412ac171.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\c2fa458102c8df.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\d492a406221204.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\e1bc1e70ba9706.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\features\\e6e0d1e8b34c25.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_models\\calendar_blend_direct_0.5.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_models\\calendar_feedback_0.6.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_models\\comparable_v2_lightgbm.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_models\\comparable_v2_xgboost.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_models\\seasonal_weekly_24.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_test_predictions.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\final_test_results.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\fresh_holdout_provenance.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\__init__.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\advanced_main.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\alternatives.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\baselines.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\calendar_anchoring.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\core.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\diagnose.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\exposure.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\final_evaluate.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\fresh_data.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\portable_artifacts.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\protocol.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\frozen_source\\research.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\geography.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\inference_observations.parquet",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\leaderboard.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\matplotlib_cache\\fontlist-v3.11.0.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.25.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.25_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.5.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.5_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.75.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.75_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_blend_direct_0.25.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_blend_direct_0.5.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_blend_direct_0.75.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_blend_recursive_0.25.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_blend_recursive_0.5.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_blend_recursive_0.75.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_feedback_0.3.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_feedback_0.6.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_feedback_0.9.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_hybrid_12.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_hybrid_4.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_profile_12.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_profile_12_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_profile_48.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_profile_48_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_profile_96.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\calendar_profile_96_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\catboost_mae.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\catboost_rmse.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\comparable_v2_lightgbm.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\comparable_v2_lightgbm_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\comparable_v2_xgboost.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\comparable_v2_xgboost_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\direct_l1.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\direct_raw.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\exposure_weight_0.3.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\exposure_weight_1.0.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_all.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_calendar.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_core.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_extended_lags.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_interactions.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_seasonal.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_spatial.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\feature_statistics.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\hybrid_switch_12.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\hybrid_switch_12_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\hybrid_switch_24.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\hybrid_switch_24_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\hybrid_switch_4.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\hybrid_switch_4_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\oof_bias_correction.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\recursive_anchor_0.15.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\recursive_anchor_0.3.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\recursive_anchor_0.5.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_24.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_24_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_48.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_48_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_8.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_8_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_profile_24.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_profile_24_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_weekly_24.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\seasonal_weekly_24_portable.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\tune_direct_00.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\tune_direct_01.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\tune_lgb_01.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\tune_xgb_00.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\tune_xgb_01.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\models\\tune_xgb_02.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\optuna.db",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\protocol.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\refit_metadata.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\selection_freeze.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\tracking.db",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_demo_v3.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\blend_recursive_direct_0.25.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\blend_recursive_direct_0.5.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\blend_recursive_direct_0.75.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_blend_direct_0.25.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_blend_direct_0.5.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_blend_direct_0.75.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_blend_recursive_0.25.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_blend_recursive_0.5.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_blend_recursive_0.75.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_feedback_0.3.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_feedback_0.6.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_feedback_0.9.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_hybrid_12.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_hybrid_4.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_profile_12.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_profile_48.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\calendar_profile_96.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\catboost_mae.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\catboost_rmse.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\comparable_v2_lightgbm.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\comparable_v2_xgboost.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\direct_l1.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\direct_normalized.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\direct_raw.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\direct_residual.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\exposure_weight_0.3.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\exposure_weight_1.0.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_all.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_calendar.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_core.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_extended_lags.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_interactions.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_seasonal.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_spatial.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\feature_statistics.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\hybrid_switch_12.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\hybrid_switch_24.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\hybrid_switch_4.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\objective_huber.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\objective_poisson.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\objective_regression_l1.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\objective_tweedie.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\oof_bias_correction.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\recursive_anchor_0.15.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\recursive_anchor_0.3.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\recursive_anchor_0.5.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\region_specific.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\seasonal_adaptive_24.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\seasonal_adaptive_48.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\seasonal_adaptive_8.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\seasonal_profile_24.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\seasonal_weekly_24.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\target_log1p.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\target_normalized.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\target_residual.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_direct_00.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_direct_01.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_direct_02.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_direct_03.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_direct_06.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_00.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_01.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_02.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_03.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_05.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_06.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_07.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_08.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_10.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_lgb_11.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_xgb_00.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_xgb_01.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_xgb_02.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\tune_xgb_03.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\advanced_20261102\\validation_predictions\\weather_lagged_reanalysis_sensitivity.npz",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\candidates\\catboost_v2.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\candidates\\feature_schema.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\candidates\\lightgbm_v2.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\candidates\\random_forest_v2.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "artifacts\\candidates\\xgboost_v2.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "baseline_capture.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "catboost.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "evaluate_original.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "final model.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "finalize_evidence.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "lag_ablation.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "lightgbm.ipynb",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "local_system_check.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "make_reports.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "original_api_smoke.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "repair_frontend.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\artifact_portability_repair.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\baseline_diagnostics.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\changed_files.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_demand_tier.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_dow.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_dst_regime.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_hour.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_night.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_peak_demand.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_peak_hour.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_region.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_step.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_volatility_group.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_week_of_month.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\diagnostics_by_weekend.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\feedback_drift.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_actual_vs_predicted.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_by_lead.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_by_origin.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_by_regime.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_error_by_lead.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_origin_variation.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\heldout_per_region.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\high_feature_correlations.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\leaderboard.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\local_system_results.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\mlflow_runs.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\model_feature_importance.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\optuna_direct.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\optuna_lgb.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\optuna_xgb.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\preservation_checks.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\summary.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\uvicorn_final.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_20261102\\uvicorn_validation_demo.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_alternatives_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_api_tests.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_artifact_portability.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_calendar_anchoring_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_calendar_anchoring_retry.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_comparable_baselines_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_diagnostics_clean_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_diagnostics_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_direct_tuning_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_exposure_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_feature_tests.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_features_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_final_feature_tests.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_final_holdout_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_final_regression_tests.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_fresh_data_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_full_regression_tests.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_model_optimization.md",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_preservation_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_report_final_generation.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_report_generation.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_report_render_links.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_strategies_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_system_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\advanced_tuning_execution.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\backend_ml_audit.md",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline\\feature_engineering_original.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline\\forecasting_service_original.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline\\main_original.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline\\original.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline\\original_pipeline.joblib",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline\\weather_service_original.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline_capture.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\baseline_debug.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\changed_files.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\cv.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\demand_tier_metrics.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\final_evidence.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\final_summary.md",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\frontend_build.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\lag_ablation.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\local_system_check.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\local_system_results.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\mlflow_final_runs.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\model_comparison.md",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\notebook_source.txt",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\original_api_smoke.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\original_api_smoke.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\original_capture_run.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\original_evaluation.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\peak_metrics.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\per_region_metrics.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\plots\\actual_vs_predicted.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\plots\\error_by_step.png",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\pytest.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\recursive_backtesting.md",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\report_generation.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\repository_inventory.json",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\step_metrics.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\training.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\training_ny.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\training_run.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "reports\\uvicorn.log",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\Dockerfile",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\advanced_main.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\apt.txt",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\check_pipeline.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\data\\historical_seed_data.csv",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\data\\lgbm_taxi_pipeline.pkl",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\errors.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\feature_engineering.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\main.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\nixpacks.toml",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\requirements-advanced.txt",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\requirements.txt",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\services\\forecasting_service.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\shift_data.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\backend\\weather_service.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\README.md",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\__init__.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\alternatives.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\baselines.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\calendar_anchoring.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\core.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\diagnose.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\exposure.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\final_evaluate.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\fresh_data.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\portable_artifacts.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\protocol.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\advanced\\research.py",
+      "exists": true,
+      "sha256_matches": true
+    },
+    {
+      "path": "validate_cv.py",
+      "exists": true,
+      "sha256_matches": true
+    }
+  ],
+  "frozen_source": [
+    {
+      "path": "urbanflow\\ml\\nextgen\\data_audit.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\diagnose.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\final_evaluate.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\fit.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\fresh_may.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\models.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\protocol.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\research.py",
+      "sha256_matches": true
+    },
+    {
+      "path": "urbanflow\\ml\\nextgen\\__init__.py",
+      "sha256_matches": true
+    }
+  ],
+  "scope": "Local only; no commit, push, PR, deploy or production default change was performed.",
+  "original_model_hashes_unchanged": {
+    "lgbm_taxi_pipeline.pkl": true,
+    "urbanflow\\backend\\data\\lgbm_taxi_pipeline.pkl": true
+  }
+}

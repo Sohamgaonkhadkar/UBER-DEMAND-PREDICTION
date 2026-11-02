@@ -1,0 +1,27 @@
+{
+  "verification": [
+    {
+      "region": 3,
+      "reference": {
+        "name": "JFK",
+        "latitude": 40.63992805555556,
+        "longitude": -73.77869222222222
+      },
+      "centroid_distance_km": 0.903853147220788
+    },
+    {
+      "region": 6,
+      "reference": {
+        "name": "LGA",
+        "latitude": 40.77722222222222,
+        "longitude": -73.87249999999999
+      },
+      "centroid_distance_km": 0.7828383497695263
+    }
+  ],
+  "sources": [
+    "https://www.faa.gov/air_traffic/publications/atpubs/aip_html/part3_ad_2.0_new_york.html",
+    "https://www.faa.gov/documentLibrary/media/Order/2022-08-19_FAA_Order_JO_7400.11G.pdf"
+  ],
+  "limit": "Reference proximity does not prove cluster boundaries or flight-driven causation."
+}

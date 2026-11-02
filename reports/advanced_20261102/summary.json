@@ -1,0 +1,13 @@
+{
+  "selected": "calendar_feedback_0.6",
+  "target_met": false,
+  "test_WAPE": 10.244885566040718,
+  "validation_WAPE": 10.612063977742162,
+  "test_95CI": [
+    9.636984866316224,
+    10.94330488082723
+  ],
+  "regions_improved_vs_v2_xgboost": 30,
+  "completed_experiments": 75,
+  "fresh_retained_trips": 11492826
+}

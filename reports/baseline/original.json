@@ -1,0 +1,435 @@
+{
+  "artifact_sha256": "1cbff5cf3be0d51053540400b90212ef856ae3df9a84ad074c3c240f183c5a45",
+  "experiment_artifact_sha256": "1cbff5cf3be0d51053540400b90212ef856ae3df9a84ad074c3c240f183c5a45",
+  "keys": [
+    "model",
+    "feature_columns",
+    "categorical_columns",
+    "best_params"
+  ],
+  "features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_4",
+    "region",
+    "avg_pickups",
+    "day_of_week",
+    "hour",
+    "day",
+    "month",
+    "is_weekend",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "day_sin",
+    "day_cos",
+    "month_sin",
+    "month_cos",
+    "is_peak_hour",
+    "is_night",
+    "lag_24",
+    "lag_24_available",
+    "lag_168",
+    "lag_168_available",
+    "lag_336",
+    "lag_336_available",
+    "lag_720",
+    "lag_720_available",
+    "rolling_mean_24",
+    "rolling_std_24",
+    "rolling_mean_168",
+    "rolling_std_168",
+    "rolling_mean_336",
+    "rolling_mean_720",
+    "rolling_mean_weekend_24",
+    "rolling_mean_weekday_24",
+    "is_holiday",
+    "holiday_name",
+    "days_to_holiday",
+    "days_after_holiday",
+    "is_restaurant_week",
+    "is_fashion_week",
+    "is_nyc_half_marathon",
+    "rolling_mean_holiday_24",
+    "region_lag_1",
+    "region_lag_24",
+    "region_lag_24_available",
+    "region_lag_168",
+    "region_lag_168_available",
+    "region_lag_336",
+    "region_lag_336_available",
+    "region_rolling_mean_24",
+    "region_rolling_std_24",
+    "region_rolling_mean_168",
+    "temperature_2m",
+    "apparent_temperature",
+    "precipitation",
+    "snowfall",
+    "snow_depth",
+    "windspeed_10m",
+    "cloudcover",
+    "relativehumidity_2m",
+    "is_raining",
+    "is_snowing",
+    "is_heavy_weather",
+    "is_freezing",
+    "is_storm_jonas",
+    "temp_bin",
+    "weather_condition",
+    "weekend_hour_interaction",
+    "rain_x_peak_hour",
+    "snow_x_night",
+    "holiday_x_hour",
+    "temp_x_weekend",
+    "storm_x_peak",
+    "wind_x_rain"
+  ],
+  "categorical": [
+    "region",
+    "holiday_name",
+    "weather_condition",
+    "temp_bin"
+  ],
+  "model_params": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 0.7581367586919908,
+    "importance_type": "split",
+    "learning_rate": 0.05444123476418912,
+    "max_depth": 7,
+    "min_child_samples": 20,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 800,
+    "n_jobs": -1,
+    "num_leaves": 55,
+    "objective": "regression",
+    "random_state": 42,
+    "reg_alpha": 0.006267028144374844,
+    "reg_lambda": 0.0001425134442113599,
+    "subsample": 0.7283622814542228,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0,
+    "verbosity": -1
+  },
+  "model_categories": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    [
+      "mlk_day",
+      "new_years_day",
+      "none",
+      "presidents_day",
+      "valentines_day"
+    ],
+    [
+      "cold",
+      "mild",
+      "warm"
+    ],
+    [
+      "clear",
+      "cloudy",
+      "rain",
+      "snow"
+    ]
+  ],
+  "seed_min": "2016-01-31 00:00:00",
+  "seed_max": "2016-02-29 23:45:00",
+  "seed_rows": 86400,
+  "dtypes": {
+    "lag_1": "float64",
+    "lag_2": "float64",
+    "lag_3": "float64",
+    "lag_4": "float64",
+    "region": "int64",
+    "total_pickups": "int64",
+    "avg_pickups": "float64",
+    "day_of_week": "int64",
+    "hour": "int64",
+    "day": "int64",
+    "month": "int64",
+    "is_weekend": "int64",
+    "hour_sin": "float64",
+    "hour_cos": "float64",
+    "dow_sin": "float64",
+    "dow_cos": "float64",
+    "day_sin": "float64",
+    "day_cos": "float64",
+    "month_sin": "float64",
+    "month_cos": "float64",
+    "is_peak_hour": "int64",
+    "is_night": "int64",
+    "lag_24": "float64",
+    "lag_24_available": "int64",
+    "lag_168": "float64",
+    "lag_168_available": "int64",
+    "lag_336": "float64",
+    "lag_336_available": "int64",
+    "lag_720": "float64",
+    "lag_720_available": "int64",
+    "rolling_mean_24": "float64",
+    "rolling_std_24": "float64",
+    "rolling_mean_168": "float64",
+    "rolling_std_168": "float64",
+    "rolling_mean_336": "float64",
+    "rolling_mean_720": "float64",
+    "rolling_mean_weekend_24": "float64",
+    "rolling_mean_weekday_24": "float64",
+    "is_holiday": "int64",
+    "holiday_name": "str",
+    "days_to_holiday": "int64",
+    "days_after_holiday": "int64",
+    "is_restaurant_week": "int64",
+    "is_fashion_week": "int64",
+    "is_nyc_half_marathon": "int64",
+    "rolling_mean_holiday_24": "float64",
+    "region_lag_1": "float64",
+    "region_lag_24": "float64",
+    "region_lag_24_available": "int64",
+    "region_lag_168": "float64",
+    "region_lag_168_available": "int64",
+    "region_lag_336": "float64",
+    "region_lag_336_available": "int64",
+    "region_rolling_mean_24": "float64",
+    "region_rolling_std_24": "float64",
+    "region_rolling_mean_168": "float64",
+    "temperature_2m": "float64",
+    "apparent_temperature": "float64",
+    "precipitation": "float64",
+    "snowfall": "float64",
+    "snow_depth": "float64",
+    "windspeed_10m": "float64",
+    "cloudcover": "float64",
+    "relativehumidity_2m": "float64",
+    "is_raining": "float64",
+    "is_snowing": "float64",
+    "is_heavy_weather": "float64",
+    "is_freezing": "float64",
+    "is_storm_jonas": "float64",
+    "temp_bin": "str",
+    "weather_condition": "str",
+    "weekend_hour_interaction": "int64",
+    "rain_x_peak_hour": "float64",
+    "snow_x_night": "float64",
+    "holiday_x_hour": "int64",
+    "temp_x_weekend": "float64",
+    "storm_x_peak": "float64",
+    "wind_x_rain": "float64"
+  },
+  "cpu": 12,
+  "ram": {
+    "total": 16802910208,
+    "available": 549781504,
+    "percent": 96.7,
+    "used": 16253128704,
+    "free": 549781504
+  },
+  "forecasts": {
+    "0": {
+      "origin": "2016-03-01 00:00:00",
+      "forecast": [
+        {
+          "datetime": "2016-03-01 00:00:00",
+          "prediction": 42.51
+        },
+        {
+          "datetime": "2016-03-01 00:15:00",
+          "prediction": 54.62
+        },
+        {
+          "datetime": "2016-03-01 00:30:00",
+          "prediction": 59.65
+        },
+        {
+          "datetime": "2016-03-01 00:45:00",
+          "prediction": 74.42
+        },
+        {
+          "datetime": "2016-03-01 01:00:00",
+          "prediction": 79.21
+        },
+        {
+          "datetime": "2016-03-01 01:15:00",
+          "prediction": 88.69
+        },
+        {
+          "datetime": "2016-03-01 01:30:00",
+          "prediction": 85.45
+        },
+        {
+          "datetime": "2016-03-01 01:45:00",
+          "prediction": 83.09
+        },
+        {
+          "datetime": "2016-03-01 02:00:00",
+          "prediction": 82.01
+        },
+        {
+          "datetime": "2016-03-01 02:15:00",
+          "prediction": 83.76
+        },
+        {
+          "datetime": "2016-03-01 02:30:00",
+          "prediction": 82.73
+        },
+        {
+          "datetime": "2016-03-01 02:45:00",
+          "prediction": 81.53
+        }
+      ],
+      "weather": {
+        "temperature": 15.0,
+        "condition": "Unknown"
+      }
+    },
+    "15": {
+      "origin": "2016-03-01 00:00:00",
+      "forecast": [
+        {
+          "datetime": "2016-03-01 00:00:00",
+          "prediction": 166.09
+        },
+        {
+          "datetime": "2016-03-01 00:15:00",
+          "prediction": 164.97
+        },
+        {
+          "datetime": "2016-03-01 00:30:00",
+          "prediction": 162.01
+        },
+        {
+          "datetime": "2016-03-01 00:45:00",
+          "prediction": 170.36
+        },
+        {
+          "datetime": "2016-03-01 01:00:00",
+          "prediction": 180.43
+        },
+        {
+          "datetime": "2016-03-01 01:15:00",
+          "prediction": 184.81
+        },
+        {
+          "datetime": "2016-03-01 01:30:00",
+          "prediction": 209.37
+        },
+        {
+          "datetime": "2016-03-01 01:45:00",
+          "prediction": 238.05
+        },
+        {
+          "datetime": "2016-03-01 02:00:00",
+          "prediction": 260.59
+        },
+        {
+          "datetime": "2016-03-01 02:15:00",
+          "prediction": 276.04
+        },
+        {
+          "datetime": "2016-03-01 02:30:00",
+          "prediction": 287.68
+        },
+        {
+          "datetime": "2016-03-01 02:45:00",
+          "prediction": 299.52
+        }
+      ],
+      "weather": {
+        "temperature": 15.0,
+        "condition": "Unknown"
+      }
+    },
+    "29": {
+      "origin": "2016-03-01 00:00:00",
+      "forecast": [
+        {
+          "datetime": "2016-03-01 00:00:00",
+          "prediction": 19.25
+        },
+        {
+          "datetime": "2016-03-01 00:15:00",
+          "prediction": 22.76
+        },
+        {
+          "datetime": "2016-03-01 00:30:00",
+          "prediction": 25.82
+        },
+        {
+          "datetime": "2016-03-01 00:45:00",
+          "prediction": 29.95
+        },
+        {
+          "datetime": "2016-03-01 01:00:00",
+          "prediction": 30.2
+        },
+        {
+          "datetime": "2016-03-01 01:15:00",
+          "prediction": 32.49
+        },
+        {
+          "datetime": "2016-03-01 01:30:00",
+          "prediction": 33.6
+        },
+        {
+          "datetime": "2016-03-01 01:45:00",
+          "prediction": 33.89
+        },
+        {
+          "datetime": "2016-03-01 02:00:00",
+          "prediction": 34.22
+        },
+        {
+          "datetime": "2016-03-01 02:15:00",
+          "prediction": 33.61
+        },
+        {
+          "datetime": "2016-03-01 02:30:00",
+          "prediction": 34.32
+        },
+        {
+          "datetime": "2016-03-01 02:45:00",
+          "prediction": 33.61
+        }
+      ],
+      "weather": {
+        "temperature": 15.0,
+        "condition": "Unknown"
+      }
+    }
+  },
+  "weather_note": "Baseline uses weather embedded in seed; no claim of live weather or deployment-realistic accuracy.",
+  "baseline_execution_threads": 4
+}

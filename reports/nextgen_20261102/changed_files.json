@@ -1,0 +1,25 @@
+{
+  "new_sources": [
+    "urbanflow\\ml\\nextgen\\data_audit.py",
+    "urbanflow\\ml\\nextgen\\diagnose.py",
+    "urbanflow\\ml\\nextgen\\final_evaluate.py",
+    "urbanflow\\ml\\nextgen\\fit.py",
+    "urbanflow\\ml\\nextgen\\fresh_may.py",
+    "urbanflow\\ml\\nextgen\\models.py",
+    "urbanflow\\ml\\nextgen\\protocol.py",
+    "urbanflow\\ml\\nextgen\\README.md",
+    "urbanflow\\ml\\nextgen\\research.py",
+    "urbanflow\\ml\\nextgen\\__init__.py"
+  ],
+  "new_test": "urbanflow/tests/test_nextgen.py",
+  "new_root_helpers": [
+    "nextgen_system_check.py",
+    "nextgen_report.py",
+    "nextgen_evidence.py"
+  ],
+  "report": "reports/next_generation_model_research.md",
+  "artifacts": "artifacts/nextgen_20261102",
+  "evidence": "reports/nextgen_20261102",
+  "root_git_status": " M .gitignore\n M Breaking_NYC_to_Regions.ipynb\n M \"final model.ipynb\"\n M lightgbm.ipynb\n?? advanced_evidence.py\n?? advanced_report.py\n?? advanced_system_check.py\n?? baseline_capture.py\n?? evaluate_original.py\n?? finalize_evidence.py\n?? lag_ablation.py\n?? local_system_check.py\n?? make_reports.py\n?? nextgen_evidence.py\n?? nextgen_report.py\n?? nextgen_system_check.py\n?? original_api_smoke.py\n?? output.png\n?? repair_frontend.py\n?? reports/\n?? requirements-local-lock.txt\n?? validate_cv.py\n",
+  "urbanflow_git_status": " M .gitignore\n M backend/feature_engineering.py\n M backend/main.py\n M backend/services/forecasting_service.py\n M backend/shift_data.py\n M backend/weather_service.py\n M frontend/src/App.jsx\n M frontend/src/components/SystemAlerts.tsx\n?? Dockerfile.local\n?? LOCAL_REPAIR.md\n?? backend/advanced_main.py\n?? backend/errors.py\n?? backend/requirements-advanced.txt\n?? ml/\n?? tests/\n"
+}

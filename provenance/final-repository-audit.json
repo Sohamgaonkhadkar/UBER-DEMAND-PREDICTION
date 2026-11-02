@@ -1,0 +1,26 @@
+{
+  "original_protected_files_unchanged": true,
+  "original_protected_count": 41,
+  "repositories": {
+    "Model-Experimentation": {
+      "files": 497,
+      "source_bytes": 97218298,
+      "max_file_bytes": 14032356,
+      "suspected_secrets": [],
+      "git_root": "C:/Users/Soham/Documents/UrbanFlow-AI/Model-Experimentation",
+      "remote": "https://github.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION.git",
+      "branch": "codex/final-v4-integration-20261102"
+    },
+    "Deployment-Platform": {
+      "files": 97,
+      "source_bytes": 34169917,
+      "max_file_bytes": 5654410,
+      "suspected_secrets": [],
+      "git_root": "C:/Users/Soham/Documents/UrbanFlow-AI/Deployment-Platform",
+      "remote": "https://github.com/Sohamgaonkhadkar/UrbanFlow-AI-Spatiotemporal-Demand-Forecasting-Platform.git",
+      "branch": "codex/final-v4-integration-20261102"
+    }
+  },
+  "design_hashes_match": true,
+  "candidate_sha256": "7b96eaf0f9c9bec866e29677f9df9cb7647a99619c1c4589c35632a8f845c2c4"
+}

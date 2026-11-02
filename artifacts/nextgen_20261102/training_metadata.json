@@ -1,0 +1,386 @@
+{
+  "training_end": "2016-04-30T22:00:00-04:00",
+  "history_steps": 1536,
+  "geography_sha256": "863eb156b6354058ad0cc7c066c7b59c628d5da7fc705780b760ef0322e5647c",
+  "exact_original_params": {
+    "objective": "reg:absoluteerror",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": 0.7312056849564288,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": true,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": 0.361829190515802,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.07844763945313377,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": 0,
+    "max_depth": 8,
+    "max_leaves": null,
+    "min_child_weight": 30.560921680599062,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 599,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": 3.351715828588323,
+    "reg_lambda": 0.8869847878637795,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": 0.8575767013321436,
+    "tree_method": "hist",
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "refit_params": {
+    "objective": "reg:absoluteerror",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": 0.7312056849564288,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": true,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": 0.361829190515802,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.07844763945313377,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": 0,
+    "max_depth": 8,
+    "max_leaves": null,
+    "min_child_weight": 30.560921680599062,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 599,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": 3.351715828588323,
+    "reg_lambda": 0.8869847878637795,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": 0.8575767013321436,
+    "tree_method": "hist",
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "current_recipe_unchanged": true,
+  "development": {
+    "selected_id": "current",
+    "selected_strategy": "recursive",
+    "records": [
+      {
+        "id": "current",
+        "strategy": "recursive",
+        "details": {
+          "hypothesis": "Matched existing architecture; exact old validation predictions"
+        },
+        "validation": {
+          "WAPE": 10.612063977742162,
+          "MAE": 14.043282482498709,
+          "RMSE": 22.976944484949275,
+          "R2": 0.9690756306755054,
+          "bias": -1.6732621153363443,
+          "bias_pct": -1.2644312069924284
+        },
+        "gain": {
+          "point_gain": 0.0,
+          "CI": [
+            0.0,
+            0.0
+          ],
+          "regions_improved": 0,
+          "worst_region_worsening": 0.0
+        },
+        "promotion_gate_passes": true,
+        "seconds_per_origin": 0.029291043859669578,
+        "model_bytes": 3995143,
+        "artifact": "artifacts\\nextgen_20261102\\models\\current_development.joblib",
+        "training_cutoff": "2016-02-29 22:00:00-05:00"
+      },
+      {
+        "id": "weekly_boundary_only",
+        "strategy": "recursive",
+        "details": {
+          "hypothesis": "Calendar adjacency and seasonal recency",
+          "recipe": "weekly_boundary_only",
+          "half_life_days": 28,
+          "prior_effective_weeks": 4
+        },
+        "validation": {
+          "WAPE": 10.593489419704897,
+          "MAE": 14.01870217785185,
+          "RMSE": 22.93490212936351,
+          "R2": 0.9691886956537082,
+          "bias": -1.6865610634735049,
+          "bias_pct": -1.2744808010701738
+        },
+        "gain": {
+          "point_gain": 0.018574558037265376,
+          "CI": [
+            0.00035302461198543126,
+            0.03997775851068321
+          ],
+          "regions_improved": 28,
+          "worst_region_worsening": 0.02021663044310884
+        },
+        "promotion_gate_passes": false,
+        "seconds_per_origin": 0.030991607017839623,
+        "model_bytes": 3995095,
+        "artifact": "artifacts\\nextgen_20261102\\models\\weekly_boundary_only_development.joblib",
+        "training_cutoff": "2016-02-29 22:00:00-05:00"
+      },
+      {
+        "id": "recent_shrunk_weighted_median",
+        "strategy": "recursive",
+        "details": {
+          "hypothesis": "Calendar adjacency and seasonal recency",
+          "recipe": "recent_shrunk_weighted_median",
+          "half_life_days": 28,
+          "prior_effective_weeks": 4
+        },
+        "validation": {
+          "WAPE": 10.592000983708122,
+          "MAE": 14.01673248305886,
+          "RMSE": 22.929714184509052,
+          "R2": 0.9692026332993072,
+          "bias": -1.29940521662164,
+          "bias_pct": -0.9819193845160925
+        },
+        "gain": {
+          "point_gain": 0.020062994034040216,
+          "CI": [
+            -0.028936019216394288,
+            0.07773678695604275
+          ],
+          "regions_improved": 23,
+          "worst_region_worsening": 0.08866524555460309
+        },
+        "promotion_gate_passes": false,
+        "seconds_per_origin": 0.031828928070976155,
+        "model_bytes": 3995095,
+        "artifact": "artifacts\\nextgen_20261102\\models\\recent_shrunk_weighted_median_development.joblib",
+        "training_cutoff": "2016-02-29 22:00:00-05:00"
+      },
+      {
+        "id": "learned_context_gate",
+        "strategy": "recursive",
+        "details": {
+          "hypothesis": "Origin-context reliability changes calendar trust",
+          "coefficient_source": "Feb OOF",
+          "optimizer": {
+            "kind": "gate",
+            "features": [
+              "lead_fraction",
+              "target_sin",
+              "target_cos",
+              "weekend",
+              "night",
+              "origin_gain",
+              "origin_volatility",
+              "component_disagreement",
+              "training_region_cv",
+              "relative_calendar_level"
+            ],
+            "coefficients": [
+              -0.25219344469290567,
+              0.016980685277139612,
+              0.10117068727239582,
+              0.4752616944143402,
+              -0.0007900336499426848,
+              -0.35220493306091477,
+              0.006082448326046304,
+              -0.018361595725955016,
+              0.06350679161596415,
+              0.2215872126807195
+            ],
+            "optimizer_success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "objective": 15.810728461079954,
+            "regularization": 0.2,
+            "iterations": 8,
+            "loss": "Original-count smooth MAE sqrt(error^2+1), plus L2 penalty; no target replacement"
+          }
+        },
+        "validation": {
+          "WAPE": 10.626890685039719,
+          "MAE": 14.06290313681267,
+          "RMSE": 23.04400401264873,
+          "R2": 0.968894858178436,
+          "bias": -1.924273292391142,
+          "bias_pct": -1.4541124067655973
+        },
+        "gain": {
+          "point_gain": -0.014826707297556752,
+          "CI": [
+            -0.06651436674675967,
+            0.02813861032222802
+          ],
+          "regions_improved": 11,
+          "worst_region_worsening": 0.698911173266282
+        },
+        "promotion_gate_passes": false,
+        "seconds_per_origin": 0.03769171403582094,
+        "model_bytes": 3995648,
+        "artifact": "artifacts\\nextgen_20261102\\models\\learned_context_gate_development.joblib",
+        "training_cutoff": "2016-02-29 22:00:00-05:00"
+      },
+      {
+        "id": "post_path_linear",
+        "strategy": "postprocessed_recursive",
+        "details": {
+          "hypothesis": "Correct residuals outside the state update, avoiding amplification",
+          "coefficient_source": "Feb OOF",
+          "optimizer": {
+            "kind": "post_path",
+            "features": [
+              "lead_fraction",
+              "target_sin",
+              "target_cos",
+              "weekend",
+              "night",
+              "origin_gain",
+              "origin_volatility",
+              "component_disagreement",
+              "training_region_cv",
+              "relative_calendar_level"
+            ],
+            "coefficients": [
+              0.014316760930517442,
+              0.01681863930762381,
+              0.007671215881031555,
+              -0.0029526801788140075,
+              0.007383229508243035,
+              -0.001969744838627182,
+              0.003778318259587145,
+              0.027996665814157624,
+              0.007134868046201102,
+              0.02517620380705385
+            ],
+            "optimizer_success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "objective": 15.63513286052535,
+            "regularization": 0.2,
+            "iterations": 14,
+            "loss": "Original-count smooth MAE sqrt(error^2+1), plus L2 penalty; no target replacement"
+          }
+        },
+        "validation": {
+          "WAPE": 10.817858236697855,
+          "MAE": 14.315616584314611,
+          "RMSE": 23.514989908805433,
+          "R2": 0.9676103768640134,
+          "bias": -1.221898500817737,
+          "bias_pct": -0.9233500131571715
+        },
+        "gain": {
+          "point_gain": -0.20579425895569337,
+          "CI": [
+            -0.38199347243280646,
+            -0.037764654492544965
+          ],
+          "regions_improved": 5,
+          "worst_region_worsening": 0.6181691631918156
+        },
+        "promotion_gate_passes": false,
+        "seconds_per_origin": 0.03216350877253143,
+        "model_bytes": 3995950,
+        "artifact": "artifacts\\nextgen_20261102\\models\\post_path_linear_development.joblib",
+        "training_cutoff": "2016-02-29 22:00:00-05:00"
+      }
+    ],
+    "validation_origins": [
+      "2016-03-01 00:00:00-05:00",
+      "2016-03-01 13:00:00-05:00",
+      "2016-03-02 02:00:00-05:00",
+      "2016-03-02 15:00:00-05:00",
+      "2016-03-03 04:00:00-05:00",
+      "2016-03-03 17:00:00-05:00",
+      "2016-03-04 06:00:00-05:00",
+      "2016-03-04 19:00:00-05:00",
+      "2016-03-05 08:00:00-05:00",
+      "2016-03-05 21:00:00-05:00",
+      "2016-03-06 10:00:00-05:00",
+      "2016-03-06 23:00:00-05:00",
+      "2016-03-07 12:00:00-05:00",
+      "2016-03-08 01:00:00-05:00",
+      "2016-03-08 14:00:00-05:00",
+      "2016-03-09 03:00:00-05:00",
+      "2016-03-09 16:00:00-05:00",
+      "2016-03-10 05:00:00-05:00",
+      "2016-03-10 18:00:00-05:00",
+      "2016-03-11 07:00:00-05:00",
+      "2016-03-11 20:00:00-05:00",
+      "2016-03-12 09:00:00-05:00",
+      "2016-03-12 22:00:00-05:00",
+      "2016-03-13 12:00:00-04:00",
+      "2016-03-14 01:00:00-04:00",
+      "2016-03-14 14:00:00-04:00",
+      "2016-03-15 03:00:00-04:00",
+      "2016-03-15 16:00:00-04:00",
+      "2016-03-16 05:00:00-04:00",
+      "2016-03-16 18:00:00-04:00",
+      "2016-03-17 07:00:00-04:00",
+      "2016-03-17 20:00:00-04:00",
+      "2016-03-18 09:00:00-04:00",
+      "2016-03-18 22:00:00-04:00",
+      "2016-03-19 11:00:00-04:00",
+      "2016-03-20 00:00:00-04:00",
+      "2016-03-20 13:00:00-04:00",
+      "2016-03-21 02:00:00-04:00",
+      "2016-03-21 15:00:00-04:00",
+      "2016-03-22 04:00:00-04:00",
+      "2016-03-22 17:00:00-04:00",
+      "2016-03-23 06:00:00-04:00",
+      "2016-03-23 19:00:00-04:00",
+      "2016-03-24 08:00:00-04:00",
+      "2016-03-24 21:00:00-04:00",
+      "2016-03-25 10:00:00-04:00",
+      "2016-03-25 23:00:00-04:00",
+      "2016-03-26 12:00:00-04:00",
+      "2016-03-27 01:00:00-04:00",
+      "2016-03-27 14:00:00-04:00",
+      "2016-03-28 03:00:00-04:00",
+      "2016-03-28 16:00:00-04:00",
+      "2016-03-29 05:00:00-04:00",
+      "2016-03-29 18:00:00-04:00",
+      "2016-03-30 07:00:00-04:00",
+      "2016-03-30 20:00:00-04:00",
+      "2016-03-31 09:00:00-04:00"
+    ],
+    "baseline_replication_max_error": 0.0,
+    "calibration_seconds": 11.053456199995708,
+    "selection_note": "No April errors fitted coefficients or selected their weights. Selection uses March only and the prespecified block/region gate."
+  },
+  "training_seconds": {
+    "matched_refit_current": 33.0767359000165,
+    "matched_refit_tuned_xgboost": 27.755172199977096,
+    "matched_refit_tuned_lightgbm": 10.686380700033624,
+    "matched_refit_v2_xgboost": 5.952740000037011,
+    "matched_refit_v2_lightgbm": 6.8218397999880835
+  },
+  "target": "Same retained-trip counts; all zeros unchanged",
+  "April_forecast_residuals_used": false
+}

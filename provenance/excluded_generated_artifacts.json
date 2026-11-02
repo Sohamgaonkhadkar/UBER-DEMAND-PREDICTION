@@ -1,0 +1,1772 @@
+[
+  {
+    "path": "nextgen_20261102\\development_calibrators.joblib",
+    "bytes": 1405,
+    "sha256": "4bf12b4fba92a0d84b988cf0a115c000d36750119ca47bb8ff4ff0fc2c7a7e2b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\features_calibration_february.parquet",
+    "bytes": 6478965,
+    "sha256": "d343266b2f4fd52cf72c41e24da3931439be0a09bd06a3094f76622b6143a54f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\development_2016-03.npz",
+    "bytes": 7034967,
+    "sha256": "0aea78f198eb48f9950a7552f011c5468e9e4913f9c510028c452bcf0d36434d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\development_2016-04.npz",
+    "bytes": 6740568,
+    "sha256": "834b439efa634dcb7abbe5824f5d047a24f41079ad212e0191ee45db502ad0f9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\development_results.json",
+    "bytes": 10271,
+    "sha256": "71bc0fca8ea66ccb83857fdde62bfa2cd17daf25c210956353408a6a86c8afe8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\preliminary_2016-03.npz",
+    "bytes": 4606018,
+    "sha256": "124e7738c9f1f25bf1b709d58900e7f4601109fbd514707d5c23a17371883fe6",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\preliminary_2016-04.npz",
+    "bytes": 4397377,
+    "sha256": "921d653078fe9d48b507f2ae4bb3444599c4534df06340d0c47e42249f5eeae8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\preliminary_2016-05.npz",
+    "bytes": 4605015,
+    "sha256": "468ef49a92ba60852f9a09b7afcf73384adbd14819aba33ff0776bd44894b1d4",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\calendar_feedback.joblib",
+    "bytes": 3994760,
+    "sha256": "d00ca5a2f055da0effa453f8ccb66ea3343121973ed5cf1c72dede6c46b17aee",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\calendar_feedback.json",
+    "bytes": 86,
+    "sha256": "a0467926a457c705fba6329c98d875a5e3a2c7b01484f629ca5d526ce9e2a7e7",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\city_hour.joblib",
+    "bytes": 605764,
+    "sha256": "a53a499384f4609f9ad4a705c296e723ad49141d6e75d280d15342496b4b5f3d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\city_hour.json",
+    "bytes": 727,
+    "sha256": "171ac9b7ccb0599b509eec2546e5d9322c7ec772711bc1351c868be9a01c6f4d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\cross_temporal.joblib",
+    "bytes": 7792020,
+    "sha256": "e280277eb0653b2aa4a55afdb846ef83d13e7e14c849cd8d61804ffc98af65ad",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\cross_temporal.json",
+    "bytes": 165,
+    "sha256": "c8c484565753e70ec8a6d061bd64f4b4fed66512e03851af51e43c751a697079",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\half_hour_disaggregated.joblib",
+    "bytes": 1482852,
+    "sha256": "b8f7ea1ab885505ed5bbb9b8c2bfce947ade19ed2d3ee1c192c2132ac7db16b7",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\half_hour_disaggregated.json",
+    "bytes": 728,
+    "sha256": "9bd17a21047ba0914fec9d3220291161dee215d20e5d101d12b6485cb9aa8ab8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_calendar.joblib",
+    "bytes": 4493912,
+    "sha256": "211801a37d2636269ea34c6eaef13b95daa1d202a5f4d071a091153a60e59167",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_calendar.json",
+    "bytes": 1660,
+    "sha256": "3e0e749ff210bfad8185ad72bbf209675c5b2d7bfc3ee0056f3322d6ee883efb",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_decay90.joblib",
+    "bytes": 4000079,
+    "sha256": "a5a8632ba4f4274eaa880d979378b6a471402642030509c9acd43e5e5bf6a901",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_decay90.json",
+    "bytes": 1522,
+    "sha256": "1f4671f0de9aaacf33cec42415bd5aeaab054cbe44c45958e8d3fe217789d763",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_expanding.joblib",
+    "bytes": 4413087,
+    "sha256": "3a9c32429f105fc0f439f861877882e41d6a9edb0f1db99fbe17234c81ed4ea1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_expanding.json",
+    "bytes": 1523,
+    "sha256": "8af727cc2cbbf6dd6a67f431b565cdebc874bde3dd3ac2f6b013dab766ce0ca0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_lightgbm.joblib",
+    "bytes": 2955887,
+    "sha256": "2b9cc573d25d59af6c4f78e74187a44c0b466cdee2cfb9b8a0024cba98feaf69",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_lightgbm.json",
+    "bytes": 953,
+    "sha256": "4ec0ac2e67e428502c366f49e03da762f7b61e36139a69bb4156e3389f243309",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_rolling60.joblib",
+    "bytes": 3913919,
+    "sha256": "1ddbda53138a06a566319254f322948c4cecf5c9e4e1ec23606d9edeec904f96",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\history_rolling60.json",
+    "bytes": 1431,
+    "sha256": "98ce2af8d64e2345e125d679e7cb3fcea192c7134aaecb3e90a9e0da13d95fda",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\holiday_boost.joblib",
+    "bytes": 4488271,
+    "sha256": "7a7a91629395ea0856a5f2df74de3ad22a7d9703db02b188ef9e6ea1551157d5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\holiday_boost.json",
+    "bytes": 1523,
+    "sha256": "bed093d8f44402a89e05641d6f9852fd6a09ab343c9484fe836f437a3c7dee3d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\holiday_profile.joblib",
+    "bytes": 4587166,
+    "sha256": "1f6678007112576a2807bfe10885c570f03ef47695d3bfd6be137cc51484285d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\holiday_profile.json",
+    "bytes": 64450,
+    "sha256": "3ff4f2a56b3afff114a00a46489770e063231f374ef7906fc78e012d12e5ad8b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\holiday_safety.joblib",
+    "bytes": 4569067,
+    "sha256": "945ef37905b68b0db185722152944731428adc7a416e18abdbff90ddf6e60072",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\holiday_safety.json",
+    "bytes": 64414,
+    "sha256": "1eea5f3002bfa17ef181f74c4f855452ff8b35ad007422c2cd21ac69cd38d176",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\hourly_disaggregated.joblib",
+    "bytes": 1792612,
+    "sha256": "2313835d66219f9b2ef9994744e2d6f0b96db907b91dcf43496707fc28e65e0a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\hourly_disaggregated.json",
+    "bytes": 728,
+    "sha256": "7b003f549d2ebb7c7410390eaf1a37cadd33ae3f24e0fdd82a66f4e18194648d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\pure_lightgbm.joblib",
+    "bytes": 2923200,
+    "sha256": "f657dddd18dc75be7df2af85796537dc5873b8fb6573b378462bb30c8c164bb1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\pure_lightgbm.json",
+    "bytes": 85,
+    "sha256": "a5845c3f45cc708a97473842876b6a9432466820eedfa845d6d1ff2f73a643a0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\pure_xgboost.joblib",
+    "bytes": 3913824,
+    "sha256": "97e4338725e510d43373b9b966fa25ae7a53b4e1f403672ee13ab6d1e18cf926",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\pure_xgboost.json",
+    "bytes": 85,
+    "sha256": "6d275a32c5aebfb1aa0c9a5465eecd64ce17c82cbab424ec8b47b8f4f9e81e3d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\seasonal_weekly.joblib",
+    "bytes": 573,
+    "sha256": "9687d125439d1609643f18c6cc7ecf3bc884b5bf08c4624a92c77739f4817dda",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\seasonal_weekly.json",
+    "bytes": 71,
+    "sha256": "fae17b1070a8e4701075e946239e7cc8d935a4920b60d52cad9b464270472c93",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\sparse_nb.joblib",
+    "bytes": 3914551,
+    "sha256": "6a4b6bec60f4b74cf6e1b0149823b2f1c0f75ab95b179bd2306b987460fb408a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\sparse_nb.json",
+    "bytes": 275,
+    "sha256": "e381b11b50aa9864e8917df7e649b6a5a84c8d857cbc563c7128dde71857c3e9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\temporal_reconciled.joblib",
+    "bytes": 7187722,
+    "sha256": "d90a89a5b4eb2d26d06cd47d223aac754a39980b931865dd75abd4d0c9146e2b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-03\\temporal_reconciled.json",
+    "bytes": 136,
+    "sha256": "a21d5d89b551ea3e0ee109d646f30b899ce7e0587c858adf672efdae49d19ec5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\calendar_feedback.joblib",
+    "bytes": 4813112,
+    "sha256": "0929d81bf80419838ac49ac0e5a8ee810dbc812ba642d8250498b6d41e13f9ab",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\calendar_feedback.json",
+    "bytes": 86,
+    "sha256": "2d000c6f636b03288022b7b72e0b83027c56031b2e6b629428ad8330a804f456",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\city_hour.joblib",
+    "bytes": 963764,
+    "sha256": "cdbbaea7b78693018dc6715a66de82f8bc1d1d62696a245822ce67f531555f25",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\city_hour.json",
+    "bytes": 728,
+    "sha256": "d1306229963a79d23ab2cc2f2c6bbfb84120f5aacdff2fce8d8663d8365cc57c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\cross_temporal.joblib",
+    "bytes": 8997156,
+    "sha256": "3e2e7e195735c652aa3c6e63240776627f3989c3a2bf32a6c2b5881f09ec1061",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\cross_temporal.json",
+    "bytes": 165,
+    "sha256": "f5e034b83877cf69ee88fe0b82bd17ccf52945c6b6e08902f36fed3763b36958",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\half_hour_disaggregated.joblib",
+    "bytes": 1491924,
+    "sha256": "e7259a71a7e89c3a68f48c80617f64a2d0590e775f34004a474f8b09140ebfe9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\half_hour_disaggregated.json",
+    "bytes": 729,
+    "sha256": "8b7997db55cd69a54dfd8b8062d6ef06f1acc9f60369cbb49a7b0a57916b3f0c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_calendar.joblib",
+    "bytes": 5112536,
+    "sha256": "9c454f819369036437f9c829b906885dd4fa148a845f1ab56bac8eb891891018",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_calendar.json",
+    "bytes": 1659,
+    "sha256": "d1721e8f4dc1f0a96767a0c077555e042ce9cb190ee084bfa8d7d89a2dd4d7c5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_decay90.joblib",
+    "bytes": 4519039,
+    "sha256": "d5e551e41048c7b9e2b18cb0bf473a0df5439a4eab2f0f3aa180aaf2e68f5a15",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_decay90.json",
+    "bytes": 1521,
+    "sha256": "22c7375a864b47f3c4c1d3edb0eae9da3b63ccaba07788f89c58055c39e61b4c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_expanding.joblib",
+    "bytes": 5038319,
+    "sha256": "91f79d8297afbd21357c6afad5730e59f1fa7f7b5774688db4d098be07085cec",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_expanding.json",
+    "bytes": 1524,
+    "sha256": "144718da9205c231d1284f8f71e525526ee797bae0926f1e945911c54ab095a5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_lightgbm.joblib",
+    "bytes": 2988511,
+    "sha256": "27c2e62c389f190218f703da0873b43fbd655804d19d3f0679d67a87e76efd6c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_lightgbm.json",
+    "bytes": 953,
+    "sha256": "dedd0c8ae245c0cc87273ea36a8320676ac221b95d21395d5c81d7b987d20ce9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_rolling60.joblib",
+    "bytes": 4303071,
+    "sha256": "db2ec76885a268997ae414f72f668fdaa1f18735a57d0a5d0d7b26647743990d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\history_rolling60.json",
+    "bytes": 1430,
+    "sha256": "95a495956599c1cdc96c8997649dbcce030df4954c6a2a2682c5a01643dd91ae",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\holiday_boost.joblib",
+    "bytes": 5072143,
+    "sha256": "480809b239b8b1d09c0d837fa793a63ddced824c067a69367038bb6a15ebfbf0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\holiday_boost.json",
+    "bytes": 1523,
+    "sha256": "745909794e7b53f7128417c1fe5ad4318da6169c5cb4579f380ddc34d29d55ac",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\holiday_profile.joblib",
+    "bytes": 5171038,
+    "sha256": "fc4c0a11ec247feaf538750fa267879dcccdf89af8a65b94a3dbf5308885641f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\holiday_profile.json",
+    "bytes": 64489,
+    "sha256": "13579dbecece6584ddd0548ae5954cc949ef97956242537728c3a18e0d798107",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\holiday_safety.joblib",
+    "bytes": 5152939,
+    "sha256": "fe7af02866828bff9d2b7c8dcb659f24fd987de61b209cd7ef20ad9b5e99ce31",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\holiday_safety.json",
+    "bytes": 64451,
+    "sha256": "ee49aa2c4187e5716a725b1410f60b3eb7f656d3d4b0f0d8d27f340d274508d4",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\hourly_disaggregated.joblib",
+    "bytes": 1801828,
+    "sha256": "9864514c72efe46408b59d68b2c794d85b6f3006edd0128c01f193377025402d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\hourly_disaggregated.json",
+    "bytes": 730,
+    "sha256": "26139338552c834067bc9c3669fb4ee1ac4acbfb0cd4d74bcdfd69b3b12150a0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\pure_lightgbm.joblib",
+    "bytes": 2961695,
+    "sha256": "2499bdb36d2e4bae09195e962c128b2397baf60923db2060c35da6ec81c44ab0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\pure_lightgbm.json",
+    "bytes": 854,
+    "sha256": "4ea33757c4ae2a17ad8786e15735eb54ab43d1d7e82ec16ef8b14942caf605f8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\pure_xgboost.joblib",
+    "bytes": 4742655,
+    "sha256": "5b5aedd3c7e9965b3a51346e5a5894a96391e5e1bcba02ad8e44dce5e5a889b6",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\pure_xgboost.json",
+    "bytes": 1425,
+    "sha256": "2b50ba84222edf3cccb19ccf44cb8cd7d479235363071db20b0df596527b801e",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\seasonal_weekly.joblib",
+    "bytes": 573,
+    "sha256": "9687d125439d1609643f18c6cc7ecf3bc884b5bf08c4624a92c77739f4817dda",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\seasonal_weekly.json",
+    "bytes": 71,
+    "sha256": "eb67262a81dbe249ffb2b32f48096094c0e77f26b3cd3089512393d65beebf8c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\sparse_nb.joblib",
+    "bytes": 4743287,
+    "sha256": "2fd4bfe3c1e4fa72281c0f76473046ea762fef5ba930abb4f721cb52d60aa916",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\sparse_nb.json",
+    "bytes": 278,
+    "sha256": "a26c6b73f3b62b369927576b9fd68248c1907e8af0af6a2f69ba6d1748847fe6",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\temporal_reconciled.joblib",
+    "bytes": 8034826,
+    "sha256": "d1699eae136314d66b89549867c96057f7c0da649fd40b1ca4f7e8b74d217380",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-04\\temporal_reconciled.json",
+    "bytes": 135,
+    "sha256": "c1789b26dfee50f140ad31a9772928a115d573f0c5c8f171ac6c0925f304610e",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\calendar_feedback.joblib",
+    "bytes": 5338759,
+    "sha256": "1791caac01066825620efa9002a2823d2a35d0b8c00404f756727012915c42f1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\calendar_feedback.json",
+    "bytes": 85,
+    "sha256": "d208ae9939b1d16439d12234c75e1dbda89e955380fad71ab39b3c0f7d80b22d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\city_hour.joblib",
+    "bytes": 1108484,
+    "sha256": "7da907e515fb0afcc2ce7a3294a6b2fef48767d5b6a42e481997557048f93fa0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\city_hour.json",
+    "bytes": 727,
+    "sha256": "a2c845a8d3c23fa42f920a1c896707ba48bd7675243ff51041a7d92df36c304c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\cross_temporal.joblib",
+    "bytes": 9674580,
+    "sha256": "5854f7240d6dfa4c6fb3c6eee2a14e65fd800eec673adb0baebb8eadd2d26707",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\cross_temporal.json",
+    "bytes": 164,
+    "sha256": "cae3dbf66649c139c25ad0b0e5d7173a3c184d3c9d4c9150c4114722b103b24f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\half_hour_disaggregated.joblib",
+    "bytes": 1499220,
+    "sha256": "2c69a0db4fb6024095c3ea3886b49a786e8f24cdda704c2d7c3a33a74acdbfa0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\half_hour_disaggregated.json",
+    "bytes": 730,
+    "sha256": "e0c94efbe46e1640f35c4e301b77b69ee17f0e0f97933cf4b4afc788495a51c8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_calendar.joblib",
+    "bytes": 5451304,
+    "sha256": "fd3a64cd5af279a85f47821df2539fe3c4896e1b7fa12c4494734e36eec4f606",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_calendar.json",
+    "bytes": 1659,
+    "sha256": "4d27c14099dc1addedb673e2d2627057c2a8e9eee8cb346d973a0948edd0a08a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_decay90.joblib",
+    "bytes": 4921071,
+    "sha256": "5d95f7da0821aab05835edd389afa963ed24512310f234c13ea3b1f2bcd78734",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_decay90.json",
+    "bytes": 1522,
+    "sha256": "50f4f17ecce4855944c3ecdbced4a65856d97d6410ba6c220ca9f6f24bb0a132",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_expanding.joblib",
+    "bytes": 5376015,
+    "sha256": "803794b2401820a2985a7e9db7a9c21d2991d7da74ec7f8601e17073f16e902f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_expanding.json",
+    "bytes": 1523,
+    "sha256": "21861c7f59800d3ad6ec6b3abbdacbcded1667b704e8688fcaa7a1511fc7231c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_lightgbm.joblib",
+    "bytes": 3003311,
+    "sha256": "09f78804eb186d4b4ea15f25f015201ad0eac2bdbaf89e16038d5a24bf7b44c3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_lightgbm.json",
+    "bytes": 953,
+    "sha256": "33611e209bfc1d00fcc907d81b06b3fcb451fac8a58d0b3687477ae780a4de9a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_rolling60.joblib",
+    "bytes": 4414111,
+    "sha256": "84d3b17fa68aec8a22221b47461727e7e932e05b89cbddb5117b99335383d35f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\history_rolling60.json",
+    "bytes": 1430,
+    "sha256": "0858668237d583abd1774aa145a7712f5432190263804962ef0f5264733b9206",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\holiday_boost.joblib",
+    "bytes": 5458863,
+    "sha256": "e0fdc1a6df5c17888dc039de655d42ee5eb2cd7cf563b347636014510bcfd62c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\holiday_boost.json",
+    "bytes": 1523,
+    "sha256": "dfe0681e25169cbda7f39850f4c3996666827ee84da9cd1a661a25d4293158e3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\holiday_profile.joblib",
+    "bytes": 5557758,
+    "sha256": "5b71d4456c3b859cf069300c61039b5a879006d7ca60b62dbfee7eaaa8ab7ce8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\holiday_profile.json",
+    "bytes": 64489,
+    "sha256": "4a6797ebe869356d2d93729b41b3100d5c83589677ec22e80897f4c7414a538a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\holiday_safety.joblib",
+    "bytes": 5539659,
+    "sha256": "2cf027ea4e6da9ff39cb6114a422a78fd5fc4177ca0e6e68545c3b054bdcce4f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\holiday_safety.json",
+    "bytes": 64451,
+    "sha256": "143139d3a48f15099e6fba2859ade91319189a115252e57b57926de6b4b726e2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\hourly_disaggregated.joblib",
+    "bytes": 1807556,
+    "sha256": "71628b26f02483e55eca8d427ffc6180ad9459fa8cc8f25b19f7a6aaa2a95c72",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\hourly_disaggregated.json",
+    "bytes": 729,
+    "sha256": "12b1f34bfc4cf12e4dc325be56e19d80815754d06d16658937087d6974ab175f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\pure_lightgbm.joblib",
+    "bytes": 2997104,
+    "sha256": "2a2a26025d3739eb9989339fb7e373cb55eb0a8a79d77d2acbdef76d5cc313f3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\pure_lightgbm.json",
+    "bytes": 84,
+    "sha256": "a413214cf2b70eed8ff9a3b5d7e7d0c569210be8381949e8140b8622d57e2465",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\pure_xgboost.joblib",
+    "bytes": 5262368,
+    "sha256": "4291d866aacfef9fcef675e5d4a92d33058b717f21764e83dd8c726394d711e3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\pure_xgboost.json",
+    "bytes": 85,
+    "sha256": "0f7d581199ba68fa7a803e3a31545675e1d6cbb837120e71280b892114819b35",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\seasonal_weekly.joblib",
+    "bytes": 573,
+    "sha256": "9687d125439d1609643f18c6cc7ecf3bc884b5bf08c4624a92c77739f4817dda",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\seasonal_weekly.json",
+    "bytes": 70,
+    "sha256": "56142428630462f72ac94c427efb69346c96a487c19388ddf57f9355f9535109",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\sparse_nb.joblib",
+    "bytes": 5263095,
+    "sha256": "40f518ef0f4821a9b8a88b6d70316f7a649f949e74b371ee84b3c3b645fac1eb",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\sparse_nb.json",
+    "bytes": 277,
+    "sha256": "fac10909740774a02c90bb5977e08c2e400e6819ed96e541b29ad95556a04009",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\temporal_reconciled.joblib",
+    "bytes": 8567562,
+    "sha256": "3928e65394ea363b08482e358c6cfadf5f1212ebab6b9e4d4c97d30774b887c5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-05\\temporal_reconciled.json",
+    "bytes": 136,
+    "sha256": "ef8c84f2a777b0a1b8b575287e9525223d14b359678f5cdecf98e60c2e858956",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\calendar_feedback.joblib",
+    "bytes": 5646616,
+    "sha256": "3bc4ca00fb73a735d885f4b7ae0815872ff096a627007d448526c8c2ca745a76",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\calendar_feedback.json",
+    "bytes": 1518,
+    "sha256": "1644c5495a8dece96f81cf7f4b90351dedac891330fcc740e626b3258e7db3e4",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\pure_lightgbm.joblib",
+    "bytes": 3011247,
+    "sha256": "f9384ee63188ea0f7c804a7a96a401e6b73137a2c1f6a72cb7466582f3eebe87",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\pure_lightgbm.json",
+    "bytes": 948,
+    "sha256": "20c53987d84d828e1be43a9b66770a761563b0c697272eeed1a41f71c8f8b8ed",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\pure_xgboost.joblib",
+    "bytes": 5575327,
+    "sha256": "cefd224ad07280ad27f8b9089cbc4f1c18ff3bbad47813b065e4400954031847",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\pure_xgboost.json",
+    "bytes": 1518,
+    "sha256": "4511f373c74e1bfd8b118a2d62ad671d3a4f8434fab285f675d6d3875b8691ec",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\seasonal_weekly.joblib",
+    "bytes": 573,
+    "sha256": "9687d125439d1609643f18c6cc7ecf3bc884b5bf08c4624a92c77739f4817dda",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "v4_20261102\\models\\2016-06\\seasonal_weekly.json",
+    "bytes": 71,
+    "sha256": "7b672703a535259ce155eabf7bae8c399bddc5aed08a8edf2dce832dee724f2d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\clock_weekly_naive.joblib",
+    "bytes": 453,
+    "sha256": "5f9a26282793291eddddcbaaf26063a302baeb933f80205ad4a6637dc11b1287",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\frozen_Q1_current.joblib",
+    "bytes": 4813112,
+    "sha256": "0929d81bf80419838ac49ac0e5a8ee810dbc812ba642d8250498b6d41e13f9ab",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\matched_refit_current.joblib",
+    "bytes": 5338759,
+    "sha256": "1791caac01066825620efa9002a2823d2a35d0b8c00404f756727012915c42f1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\matched_refit_tuned_lightgbm.joblib",
+    "bytes": 2997104,
+    "sha256": "2a2a26025d3739eb9989339fb7e373cb55eb0a8a79d77d2acbdef76d5cc313f3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\matched_refit_tuned_xgboost.joblib",
+    "bytes": 5262368,
+    "sha256": "4291d866aacfef9fcef675e5d4a92d33058b717f21764e83dd8c726394d711e3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\matched_refit_v2_lightgbm.joblib",
+    "bytes": 997950,
+    "sha256": "40fb685fd50c095289195efab1d49ebe7763f7f9370bf2fce23f961ead1c51b1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\final_models\\matched_refit_v2_xgboost.joblib",
+    "bytes": 985691,
+    "sha256": "0d1d1d4d384883a0bc6835cf35c67f6ad2cc946e09d1f1a7e65149bd14078188",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\models\\current_development.joblib",
+    "bytes": 3995143,
+    "sha256": "a829d30c4b0c12ef15e9bf5edfd38fa1c18d5e7f2ae74870148c568e6b173f64",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\models\\learned_context_gate_development.joblib",
+    "bytes": 3995648,
+    "sha256": "a2059ac503b25a623a75e780c8e77c84c80b2b1dbd258ce1677a196a8bc2c49d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\models\\post_path_linear_development.joblib",
+    "bytes": 3995950,
+    "sha256": "aa48a3341fe2d74a8837928bf70df4f561c8ab3bc173fc6f4acdf20f2dba1289",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\models\\recent_shrunk_weighted_median_development.joblib",
+    "bytes": 3995095,
+    "sha256": "262a793ae6bd5182273ccfdcfaef22deb1301d978709693b6097521d16216de8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "nextgen_20261102\\models\\weekly_boundary_only_development.joblib",
+    "bytes": 3995095,
+    "sha256": "735a26ee4f00de87b782acaffe9f568fd286deb3089167fb186e93c605315937",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\0c2f9f899598da.parquet",
+    "bytes": 11651188,
+    "sha256": "e65f2c0a7d86b7d415567169c803e24fe981b20cf8d4264471412b79432a2f9f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\1c2aa5dd039463.parquet",
+    "bytes": 13902282,
+    "sha256": "abcbe528a4eca1a964e8b7b198ef1b52174b34590d99df7000dc6211ae12da8d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\34a3a30b46d5e1.parquet",
+    "bytes": 10701067,
+    "sha256": "312c54468658f5a1e2c422dfe5438b559f6efbdf5329e1cc14de10f4ecb3d050",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\6f994a704fefb2.parquet",
+    "bytes": 9699354,
+    "sha256": "3151a699647dc3b14c283b4f0b8400e79320c35afb851fc4e12ed8f66d78b974",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\79f78209e766c1.parquet",
+    "bytes": 9721166,
+    "sha256": "84bd20037fe98a5051d4f8fe287bd70387e4e74390f22bb820b030e3821966b1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\8bb92e9ecdb62f.parquet",
+    "bytes": 6546140,
+    "sha256": "2b2daec1cc9abcb38102b324fb78727bfdca43c16458d09434318b62f3be2286",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\af9246412ac171.parquet",
+    "bytes": 6370485,
+    "sha256": "649c6eb3d0feba553d11c2f72b0d871462203642bdb9ef73677ee80723a15021",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\c2fa458102c8df.parquet",
+    "bytes": 6505620,
+    "sha256": "6a6e359c074ec82393dc05333e9cc27a73431e449bec6fce2b2159998cc14284",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\d492a406221204.parquet",
+    "bytes": 10948734,
+    "sha256": "bb470322c287876f678cfc550f6abfa4d7db638ffb4e427c45efb3d86ee42c5b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\e1bc1e70ba9706.parquet",
+    "bytes": 9695306,
+    "sha256": "ccdaaaae424e55bb66baa860e7ec174b7bfa7f6388cfc76fca8e888dcb7ed2ab",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\features\\e6e0d1e8b34c25.parquet",
+    "bytes": 6854294,
+    "sha256": "f804d81b6a765e901d33cb0c6142c94bba4bfeb5cc90b51e90ad4b329b7e8167",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\final_models\\calendar_blend_direct_0.5.joblib",
+    "bytes": 5325640,
+    "sha256": "3dd75313c856a5b9fdfcbbe02d2b4bcea849e07a9e5b2fe807ec9e090fa24653",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\final_models\\calendar_feedback_0.6.joblib",
+    "bytes": 4813112,
+    "sha256": "0929d81bf80419838ac49ac0e5a8ee810dbc812ba642d8250498b6d41e13f9ab",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\final_models\\comparable_v2_lightgbm.joblib",
+    "bytes": 991014,
+    "sha256": "cfbcbb932afa4978f9b1024099b345eb3ea85d31700a19d21e933497c7b41f93",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\final_models\\comparable_v2_xgboost.joblib",
+    "bytes": 981066,
+    "sha256": "e104b9af598c30c93357ab87618d60552cc702f40006bcec6a5c5ee52740f59e",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\final_models\\seasonal_weekly_24.joblib",
+    "bytes": 453,
+    "sha256": "e314fdecab8921c25be7d5e8d21d07bc862137aeb86b11256b17aed7fbad8947",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\blend_recursive_direct_0.25.joblib",
+    "bytes": 10993103,
+    "sha256": "c164c584c83e31e86a644ebf4d2d7714e3947b0da2b3ff69be5e691a5766a86d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\blend_recursive_direct_0.25_portable.joblib",
+    "bytes": 10993327,
+    "sha256": "0342a7fda1ea9809285ef404f8fe5ee2b41752df1fa13fa37c866028a8fbfcac",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\blend_recursive_direct_0.5.joblib",
+    "bytes": 10993103,
+    "sha256": "121fb770b88778490da81cc61c823d8dca1c82c576833816aa818b6bdc8109f2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\blend_recursive_direct_0.5_portable.joblib",
+    "bytes": 10993327,
+    "sha256": "6efa947eb6e90f4cf5fc665895e529f59b47efaab8b90bad63b6bc8c2c2214f3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\blend_recursive_direct_0.75.joblib",
+    "bytes": 10993103,
+    "sha256": "533edb4c27d524e8293e495c7a786e2ef4838bbfa77cb6825296410ac2d824e3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\blend_recursive_direct_0.75_portable.joblib",
+    "bytes": 10993327,
+    "sha256": "6de2a56b0e93858ef7bcb83fd275c09e518b51249e29774a66c4346e2fbdc09a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_blend_direct_0.25.joblib",
+    "bytes": 7160472,
+    "sha256": "815946a3eff602a3f54c99beee5da8aa791a38ca8392fbd3f7aa63c985ddf933",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_blend_direct_0.5.joblib",
+    "bytes": 7160472,
+    "sha256": "52acf136c071c06dd90733973eed046b9d5a23446e97a2b4e0da56360bdf65f9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_blend_direct_0.75.joblib",
+    "bytes": 7160472,
+    "sha256": "59bd22f9faf323827fe26d94fcc0abca0a8ca8b3a25f0eadd9aaa4c60ec10e91",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_blend_recursive_0.25.joblib",
+    "bytes": 3994728,
+    "sha256": "36450f0264de62060c63aea3eb87fed3b839ec274af0e03bd561501e2c6cb11a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_blend_recursive_0.5.joblib",
+    "bytes": 3994728,
+    "sha256": "7c6802a6a8bec47ce2a093ded4917fa71e1f74515247df6229dc6d5fbc6e922c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_blend_recursive_0.75.joblib",
+    "bytes": 3994728,
+    "sha256": "b29bd9eb44b35d41e08be6e5afdd4e2824f8661071d5838d9d676d0597707788",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_feedback_0.3.joblib",
+    "bytes": 3994760,
+    "sha256": "58b89781af822bceb231cbf5bc97cb7a101375edc7e8fcb3306a6ab205d3c990",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_feedback_0.6.joblib",
+    "bytes": 3994760,
+    "sha256": "d00ca5a2f055da0effa453f8ccb66ea3343121973ed5cf1c72dede6c46b17aee",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_feedback_0.9.joblib",
+    "bytes": 3994760,
+    "sha256": "ad43b4374cb6f65bf8c2c3e3bbd1db968ac27d147c0ab608834a999a219539c9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_hybrid_12.joblib",
+    "bytes": 3994728,
+    "sha256": "897d2918c048982b6a5763cf9ffee4ca178122eb9bfbb6ca1cb2a83f554bd1ad",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_hybrid_4.joblib",
+    "bytes": 3994728,
+    "sha256": "933b3a262bc9503cbab52fc3d56df7f01fbc045add99ee83f4c662634aeffe21",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_profile_12.joblib",
+    "bytes": 80969,
+    "sha256": "35d69978490681746fb3cbe4ef9fa04c390e0152405aaf63269c518e6d86b7b5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_profile_12_portable.joblib",
+    "bytes": 80985,
+    "sha256": "d526cde26b46793c1a01b662adc4ed63b076c43da86a2fc4793c325fcf479bc5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_profile_48.joblib",
+    "bytes": 80969,
+    "sha256": "69ea2761f7aca8c3246fc2ba54ad951ca878d520977a771b0d382572f72bc92b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_profile_48_portable.joblib",
+    "bytes": 80985,
+    "sha256": "c1c032555a507ed8d45a08079ea87f049ed1b17c73e6049a171f9cf2b277e1fc",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_profile_96.joblib",
+    "bytes": 80969,
+    "sha256": "a0e937c71dd7be5b11324903edc301ce94c20968a500fb7a7af0e8e3400cff51",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\calendar_profile_96_portable.joblib",
+    "bytes": 80985,
+    "sha256": "b09ec8cd50e5f6f451c03359e8b883d1deeda78fe8b606c81bb0879ebf2d7417",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\catboost_mae.joblib",
+    "bytes": 1516896,
+    "sha256": "69590344b9a558f0b0255cb9f8b272ef03a518596d16008000e0fdca90344a95",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\catboost_rmse.joblib",
+    "bytes": 1516448,
+    "sha256": "f90d7d99655ceff4c1615ccea194cd47866d1658c875878f01474e433135146d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\comparable_v2_lightgbm.joblib",
+    "bytes": 980251,
+    "sha256": "051c74af677cb7fe847944cdfc7ad42244faeca00909bf30661ebfb6449bdd27",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\comparable_v2_lightgbm_portable.joblib",
+    "bytes": 980264,
+    "sha256": "d0bedf5fdb9caa2f1c6b0e8ccaa5410285d6bf2ac4dfde6b4ea341f7bf8e5cf0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\comparable_v2_xgboost.joblib",
+    "bytes": 958678,
+    "sha256": "0687b4907ed0863e56348bcb309c58e65815f9647c71fe85dcbaac2609ebaff9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\comparable_v2_xgboost_portable.joblib",
+    "bytes": 958691,
+    "sha256": "477635e2e6fe642b178b5da056f1deb9d8be5f602f382720e2fd3686e0b08210",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\direct_l1.joblib",
+    "bytes": 1964557,
+    "sha256": "c59ab749abdf9cca54dfd8715608b06c44074a99f5d601302dcd48afd9ede6ab",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\direct_raw.joblib",
+    "bytes": 876765,
+    "sha256": "b45f77ac5c32fe3ff08c94357592ec0353dbf4589f45672039873fc90f35df4b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\exposure_weight_0.3.joblib",
+    "bytes": 3503472,
+    "sha256": "ff8357fc9dc165039146798d78b9fdfee90288949dee41f840a3339b3c0c8711",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\exposure_weight_1.0.joblib",
+    "bytes": 2957504,
+    "sha256": "a0e5a37928c460991ac11712e5d92b7f7edf3cdaf6d94f41bcba9743cfec76b2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_all.joblib",
+    "bytes": 1156190,
+    "sha256": "e026f8ad9afcba7f21612a133cc498bc760017568d437541b1f91e9f74c063f7",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_calendar.joblib",
+    "bytes": 1151118,
+    "sha256": "7d7a393cf70c0adc333748628889484efa3004fe83ddc7a7ae9c3b9865217bee",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_core.joblib",
+    "bytes": 1146734,
+    "sha256": "6c6067b53c07c0a26d18ed6517d66ce581ce3e0e928fcc9e004e793dbc645c57",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_extended_lags.joblib",
+    "bytes": 1143886,
+    "sha256": "bead173247ebbed6bba9196ca4bd9423ad9df3782d944cff633d17e10047fa8f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_interactions.joblib",
+    "bytes": 1148430,
+    "sha256": "a1b2285563433fe782d706dcab7ce15ad0d50f2de90d26f5e6b437394aaa23fd",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_seasonal.joblib",
+    "bytes": 1150478,
+    "sha256": "1ae49ed40bca356317e48eb7eede99794af2cdae3012783c5ad25328e24ec3cf",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_spatial.joblib",
+    "bytes": 1154206,
+    "sha256": "6cdc7a184b388f0d8f4a32ad9df5f5b11931c3e0765032ee1d6b796b2ccd47ec",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\feature_statistics.joblib",
+    "bytes": 1150814,
+    "sha256": "aa78345dedb9db476b1d7005c402517792d630ee0237e58b6cab451ce9f0cfd4",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\hybrid_switch_12.joblib",
+    "bytes": 10993103,
+    "sha256": "01204e99255bf9104e54e41ce802154267cdc627bfb5f93a21f2fb29acc846f7",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\hybrid_switch_12_portable.joblib",
+    "bytes": 10993327,
+    "sha256": "ad0503cc5b4104fd2a18bad3837ed4471b059338093bf8a521621978f3936722",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\hybrid_switch_24.joblib",
+    "bytes": 10993103,
+    "sha256": "6e600186ee3dce1bbe2772b9cf78f04fd624a50df8ccdb41f705efd14eb7e5d4",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\hybrid_switch_24_portable.joblib",
+    "bytes": 10993327,
+    "sha256": "3dabd51151c4ee9446690dd39a2de924ba0d46c323907266d271517ab2038d36",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\hybrid_switch_4.joblib",
+    "bytes": 10993103,
+    "sha256": "ed51a6940abf4a567a94f76af2519951f839b3208ef07ff71b650d73a5fd8424",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\hybrid_switch_4_portable.joblib",
+    "bytes": 10993327,
+    "sha256": "a16fd02819348b837385206a7e8e1d66726cf75a434d35c10471ff374b5e4c17",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\oof_bias_correction.joblib",
+    "bytes": 3914865,
+    "sha256": "1a25d8a71d204d2e0bcba89da53c22f788c353d4070d75cc68d515aae6c5af5d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\recursive_anchor_0.15.joblib",
+    "bytes": 3913824,
+    "sha256": "f6a4ca4977e4db984f16db70c984cf052170ed351403d4c1950bc20520c7aaa0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\recursive_anchor_0.3.joblib",
+    "bytes": 3913824,
+    "sha256": "16a15165bf86dec151d6c3b458b18ed1f5e75dd8c5e3b847b567715d35d6574d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\recursive_anchor_0.5.joblib",
+    "bytes": 3913824,
+    "sha256": "591d48c2046a2c217beb7bedcb116115db3c3ec63aecbe16f4858e428ba6b3f9",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_adaptive_24.joblib",
+    "bytes": 439,
+    "sha256": "6fccc5e4118dfe4b061ce600ccbde2165156d1866b90a891a0318df5a445fdf8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_adaptive_24_portable.joblib",
+    "bytes": 455,
+    "sha256": "230c8b6e6fd89c4c31f93f3f6f7a57317bee3ba8322844309a62b36943e16a99",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_adaptive_48.joblib",
+    "bytes": 439,
+    "sha256": "eb3c45464b5c4efa9136f26dfc31a9a0b7f1ef419ca0eba791251774adcce1b3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_adaptive_48_portable.joblib",
+    "bytes": 455,
+    "sha256": "173c05a52173968b42365ebc675d25a1206f248183fe2c5d866f11928841c21e",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_adaptive_8.joblib",
+    "bytes": 439,
+    "sha256": "2b190ea04fad9c316675c06f88b211c5c9436e3b53568c4e878947f98b8932bc",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_adaptive_8_portable.joblib",
+    "bytes": 455,
+    "sha256": "b19a9560f9fe0d41ebc8a837df0964f71c2e94f9399cd944134d1fd328cb8e6a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_profile_24.joblib",
+    "bytes": 438,
+    "sha256": "9b4206e65ef9b3ac95684f7f2a1a127dae8f09752e184a3aae2d3b785e8ac89a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_profile_24_portable.joblib",
+    "bytes": 454,
+    "sha256": "93949e754361ea8f986d15f6b665418fca5c6f44128f9a6e84fdb25a05f70e66",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_weekly_24.joblib",
+    "bytes": 437,
+    "sha256": "5e283c916fff4fb1deea88f0d8b9b1d45834c49530f235dcb40f3e7f16f6b950",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\seasonal_weekly_24_portable.joblib",
+    "bytes": 453,
+    "sha256": "2e24cc0a618dd742bafa123b5d7f2818b1ce52adf27ac3e5bd4374021973dd8d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\tune_direct_00.joblib",
+    "bytes": 4499053,
+    "sha256": "879640bdd84a29c76dc3782b7055ac8607880bb143baa6768489b17677560049",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\tune_direct_01.joblib",
+    "bytes": 7079565,
+    "sha256": "461eb645e5783d2f05374cf69e565fdf18d4ff29a230d4cec5b5ba6196b4f390",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\tune_lgb_01.joblib",
+    "bytes": 2921520,
+    "sha256": "5c9e8d30fd402456d74794e4df7bc637eb0ca997f48893403aabd9abeaf248bd",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\tune_xgb_00.joblib",
+    "bytes": 646544,
+    "sha256": "71b8ab4665d3c711c6cd5b359840211bda6f2c44bbacc63bd11950904f6bf05a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\tune_xgb_01.joblib",
+    "bytes": 2113008,
+    "sha256": "71a2e468e13e2fc144072f49b9c66ed6e20a9aa4d39ea28b8a7e5f10c4b15cf0",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\models\\tune_xgb_02.joblib",
+    "bytes": 3913824,
+    "sha256": "97e4338725e510d43373b9b966fa25ae7a53b4e1f403672ee13ab6d1e18cf926",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\blend_recursive_direct_0.25.npz",
+    "bytes": 620110,
+    "sha256": "2c0cbb4cd0dcf622b0882e9168b724e51c0f9a38b6b6662350fe517d7954398a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\blend_recursive_direct_0.5.npz",
+    "bytes": 619742,
+    "sha256": "04e9b038d5fdf157d7fdb6e695d4fbcc0f2596c02ea085b021d16c52363f5215",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\blend_recursive_direct_0.75.npz",
+    "bytes": 619910,
+    "sha256": "e0bc6d60ce0e2d720e454895d435a1adff48b256660a34e598514e242de1bfee",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_blend_direct_0.25.npz",
+    "bytes": 620288,
+    "sha256": "65eba66c1866a3ef45b8c61cfec2f5ff2a1ab60e02537ede45a3fdc2b4bc235c",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_blend_direct_0.5.npz",
+    "bytes": 619948,
+    "sha256": "a7b9added46e1d128053474c5d04e05d03fca491f7bb7a35ce560cdc9c2960b2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_blend_direct_0.75.npz",
+    "bytes": 620246,
+    "sha256": "6a12165a26bde7c15a99f83ddf3634ba3ee0f19fefc5712e65e86a57264d0faf",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_blend_recursive_0.25.npz",
+    "bytes": 619314,
+    "sha256": "a87c39b738461ece58d6923f6a079c4221fe77da2e1bf59101f5984d416e6a99",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_blend_recursive_0.5.npz",
+    "bytes": 618706,
+    "sha256": "cc0d3efd4256d2270ef50725ddd88c7edb33cfad14a8165d3c2c1884d39d5280",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_blend_recursive_0.75.npz",
+    "bytes": 619069,
+    "sha256": "acd061e71e559c7f242fa086d9319fb394ad47b52f8d2e6bc810ecd907f4f6cf",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_feedback_0.3.npz",
+    "bytes": 617097,
+    "sha256": "aefbaec9f43d21d9baeaef6496b9d0588ef56ebe3f583eaf5d63414a8af42e66",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_feedback_0.6.npz",
+    "bytes": 616887,
+    "sha256": "3342cfac7e992c7904820742aed9eae19896474027b0a74ffd8d40218e873d98",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_feedback_0.9.npz",
+    "bytes": 617282,
+    "sha256": "6996274e6a73cd0dac16fa94af59fcd6ae26c9c68afa91580cd68d08e9b4f5e6",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_hybrid_12.npz",
+    "bytes": 566597,
+    "sha256": "dfb0378cf581c42fd841b9fd3bbb7e9f30c800d5be3103cbfc2be66947c1d137",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_hybrid_4.npz",
+    "bytes": 605177,
+    "sha256": "dc820dbbbbcd874d4f8c16aa2950de287118c65c0b7fbddc9c3c1aa16ec55d83",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_profile_12.npz",
+    "bytes": 619042,
+    "sha256": "04c79eab4ee1a65fb3e029d1748c4e84f7cf8930edd4f05219ecc406111d2f9b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_profile_48.npz",
+    "bytes": 619130,
+    "sha256": "0f937728a89cfc2b2791b6de376d38201039c5fa7c4531f2ce91a6a6f22c58e8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\calendar_profile_96.npz",
+    "bytes": 619029,
+    "sha256": "7883e9a67033f6da258da671100fe550e72accf95e833983de1d78e86defb105",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\catboost_mae.npz",
+    "bytes": 618826,
+    "sha256": "0b664ef6bc91f8523674dce8b6ae15c2e5d6295942ef2c4015adc24431a47101",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\catboost_rmse.npz",
+    "bytes": 618424,
+    "sha256": "82c75752c29660b4e6bfe15e29bc38fdf3a327596a993f4747f3be50225f900b",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\comparable_v2_lightgbm.npz",
+    "bytes": 612199,
+    "sha256": "1636415bb36957ef9720b771fff2957006a4a0d719a59a72721c028da8074296",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\comparable_v2_xgboost.npz",
+    "bytes": 297749,
+    "sha256": "ec3ffa2cb58cbaff2ee4ddce61f76b4a798b12377cae723fba22d7f9f7ebaaa2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\direct_l1.npz",
+    "bytes": 618759,
+    "sha256": "75df0f7a11b90b57b77f917ca68601e1118c76caebcfcd7f99e3d08325427934",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\direct_normalized.npz",
+    "bytes": 620187,
+    "sha256": "46648ea419a4b97045dce34343e7d3fe95ff175acabf059faa684aa7fa38e836",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\direct_raw.npz",
+    "bytes": 598788,
+    "sha256": "b3ad50d7d2ed1ccbc489bfc4de6b33fbb32bd1df0fe1652d9444d8c2f1e82368",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\direct_residual.npz",
+    "bytes": 591689,
+    "sha256": "0f25edb1397390f6e6f81732d0ec5a81038d708a7841f643f0ff725565a6c50f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\exposure_weight_0.3.npz",
+    "bytes": 619655,
+    "sha256": "a765c3726a79cad9081d772a5de67d4ded0adcd0b161f457ac19bfb87298c9da",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\exposure_weight_1.0.npz",
+    "bytes": 619773,
+    "sha256": "c3dac584a89f25dcff2efd7b7b50db79fa6f704f4767f85580e6d36102893bb6",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_all.npz",
+    "bytes": 619354,
+    "sha256": "5b79ac15ea47d2c996b8c9807308ffb9f5d3e7a3682e0859302a7e2cdb4da47a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_calendar.npz",
+    "bytes": 617951,
+    "sha256": "24b4eda43ba9d04a764190ac0d118749c06c8d8112f98fe3f5efd6ac35b5c3d8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_core.npz",
+    "bytes": 612958,
+    "sha256": "47763ed7a3c7afbf16d3c699a0049bbd05683ed8bca8139ee70bb89615e4eaa3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_extended_lags.npz",
+    "bytes": 613744,
+    "sha256": "8c86df6ef11078f800140aaeeb844c246b5da691eaf15b2d16262521a3e001c2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_interactions.npz",
+    "bytes": 619157,
+    "sha256": "b54606ffeead27f7352c6e2002a91fbda81a0f8e7f68a19c7f53f7c7dc9e84ee",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_seasonal.npz",
+    "bytes": 617339,
+    "sha256": "02c142b533cab27209955618b28ec3fb0937207f25cbc89849c9d88630059eb3",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_spatial.npz",
+    "bytes": 617338,
+    "sha256": "829a38f5c2e655841fb1cc6c8fd67be49715a8a885f534d8dd97b6dc4af8cc24",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\feature_statistics.npz",
+    "bytes": 618520,
+    "sha256": "4ade5c855cfd144dc3142954052b9a9f97eac511d3ed23bb9e280414f719757e",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\hybrid_switch_12.npz",
+    "bytes": 566751,
+    "sha256": "35ded59f31d51f7c346f82624311eccc0727d442b055ff0a120abbb2b20c63d5",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\hybrid_switch_24.npz",
+    "bytes": 501487,
+    "sha256": "02140bb2da1825ff87d3b44d8e42a66b1d80f333423ac8f2f34c57a29e81c953",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\hybrid_switch_4.npz",
+    "bytes": 605421,
+    "sha256": "f07853a0f63c20efffa43dc4788c5b752e4930f1c3b0696ba726052398aa2baa",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\objective_huber.npz",
+    "bytes": 167274,
+    "sha256": "78628b9e57adf710aefee369a3b6e86d0557effb43f09c4248aa0d6b360048b1",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\objective_poisson.npz",
+    "bytes": 619255,
+    "sha256": "d29d862edc7abb5c5862380004a93f628993fae3a1b732f04c1208f2fac9ae1d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\objective_regression_l1.npz",
+    "bytes": 620150,
+    "sha256": "307a5cbf8a962e4d43563018cf655b78e82a9da3061e0c33d2e5cf6bd4c7ebd8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\objective_tweedie.npz",
+    "bytes": 620041,
+    "sha256": "22aa874c1ee44d0a574f2a2a45a812a5d91ea0154bfc135055e69e4c4ae69979",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\oof_bias_correction.npz",
+    "bytes": 408851,
+    "sha256": "a2d43b5b16d3c7c9573d0a6a4a2bb60c36c2294cdfc0f296fbcd043699818094",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\recursive_anchor_0.15.npz",
+    "bytes": 346492,
+    "sha256": "8cf16f8b349e0d3548f403ffd24efcabc296431af59a2d7cf59e2fb9a6970a39",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\recursive_anchor_0.3.npz",
+    "bytes": 346332,
+    "sha256": "ce66d367331c32fe7a3d453a01826b02c7cba4a9cc699a6e025f4479176c9476",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\recursive_anchor_0.5.npz",
+    "bytes": 346002,
+    "sha256": "f8512944bea1eb3c651c403442489f5c5b5ebfaf349da4e16ce4192d391d0098",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\region_specific.npz",
+    "bytes": 620014,
+    "sha256": "8609edb6366683cd56d6a8e436f857728a08ffe9e024feb1e62f658a478689c7",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\seasonal_adaptive_24.npz",
+    "bytes": 617439,
+    "sha256": "d88dd453f95d3829110ac0e320d3257c57acb31b2f7d2f6d8d2b50d794f37b5d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\seasonal_adaptive_48.npz",
+    "bytes": 617329,
+    "sha256": "e98a0b4833eba759e7a7199fc8ca2fdc8a0c1290b66497d58073e0e652610450",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\seasonal_adaptive_8.npz",
+    "bytes": 617329,
+    "sha256": "e7939167a12f3fe8b077118227b63f5e8189a4dcfe30b21801a2be8222ff2fca",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\seasonal_profile_24.npz",
+    "bytes": 210019,
+    "sha256": "1d7b692733e572f76a1054b030ebaafcabcbd943d9106c66ab3eb9aefc038703",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\seasonal_weekly_24.npz",
+    "bytes": 128610,
+    "sha256": "756380f47615df9491a1ddb07b8f191c4fce26a594fe3a3d41bbcd7319a54c80",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\target_log1p.npz",
+    "bytes": 620395,
+    "sha256": "861a72f21d79747aab1dddd00f0be890e17982de5a973818e5768a4ceff67e2a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\target_normalized.npz",
+    "bytes": 620181,
+    "sha256": "fdd8b68393b25eb931c4970b85aba4e86772bd303dfaf6bd02bd1fd6cefb0c31",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\target_residual.npz",
+    "bytes": 614370,
+    "sha256": "8050dd5c3c7f06fbcdfdfff2d4ba911e745bfd254c720fae669d469f60cee7b8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_direct_00.npz",
+    "bytes": 620361,
+    "sha256": "01789ab85a195570baae9760723e825f9261484c544f437381db4c2a61a11a43",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_direct_01.npz",
+    "bytes": 620292,
+    "sha256": "b4fa80741954f75d4f43c0c4bb7feeb69215e97915cd0e7c6a8ab9cc834bd413",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_direct_02.npz",
+    "bytes": 619061,
+    "sha256": "0f1523cc34b4d183a6c7b61c79cbef4891d6dab91c1ce47923106093d84f751f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_direct_03.npz",
+    "bytes": 620212,
+    "sha256": "1fca8b49ec0fa58218875a6d4ccbc69a88e625889bae8623b0a2e3b1598f2b94",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_direct_06.npz",
+    "bytes": 619777,
+    "sha256": "4f7ec3eaa6e0212ae04ca67b86abd8c492f18152e2a6ac25394185a37c4a52db",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_00.npz",
+    "bytes": 618000,
+    "sha256": "d22cae27b2f1aba9fb6f1d270e1359f30bdb7e2cf6c03b8e4a51e83210d60b37",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_01.npz",
+    "bytes": 619862,
+    "sha256": "3942e8cdf209cf339ecce91c5ad9f0572dd4fd3d778ee562a1fda80ff57cfb32",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_02.npz",
+    "bytes": 618958,
+    "sha256": "6b7f3eb722241dc46bfc56f6573089817c1636cbc0e80288786288912bb1300f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_03.npz",
+    "bytes": 619542,
+    "sha256": "89d62e18a51124257f760beedc0e9a61b1ee3861c8eee85e427e7cccf9a75c6d",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_05.npz",
+    "bytes": 619529,
+    "sha256": "6fc672849d8b186c641b2c7043fd406ff8fe22d17dd502bd2fbf493050fb8d1e",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_06.npz",
+    "bytes": 618378,
+    "sha256": "855e47cb183c1329fb1d7570508409af4c2e86741f428952fc246123a7bd605a",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_07.npz",
+    "bytes": 619583,
+    "sha256": "0d180be60b00860669c7bae40ea916d4c1e165a653590512231724e202293612",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_08.npz",
+    "bytes": 619623,
+    "sha256": "90a33bd337514f054f711c4060a11b32a3a0fdd59893bbaa850d7dcd1bd33f5f",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_10.npz",
+    "bytes": 619605,
+    "sha256": "560ecbdea925e0c26074cd997990e0ff36b688bc206ad2aeb4e1a1cc69399222",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_lgb_11.npz",
+    "bytes": 619505,
+    "sha256": "149452b8449c14c17201ef799d057a9c238cb6757fc95f2ae6b5bdeae5043bbe",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_xgb_00.npz",
+    "bytes": 211775,
+    "sha256": "86caac1a67493e467fa77a3cd72c77ec58758a0a4f0027b3f152360faf6b6414",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_xgb_01.npz",
+    "bytes": 346162,
+    "sha256": "e2ec1d5755247a5fe5f7d01a433c9016b5045c1b17c6a0075da17a35aa763792",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_xgb_02.npz",
+    "bytes": 346605,
+    "sha256": "595025c7030254a5c1363bc985e514c71e2127c74fb768c1b58b3297ad55e052",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\tune_xgb_03.npz",
+    "bytes": 346347,
+    "sha256": "6558d2feab56ba982c660a6f35278474778cbbd523768fe102aee2a1678f51c8",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "advanced_20261102\\validation_predictions\\weather_lagged_reanalysis_sensitivity.npz",
+    "bytes": 618194,
+    "sha256": "9cc6ac66b016ea972a859b58f830a4ca0688212a3e6a9ec20b0674757b2440f2",
+    "reason": "intermediate generated checkpoint/cache; original workspace retained"
+  },
+  {
+    "path": "urbanflow/backend/data/historical_seed_data.csv",
+    "bytes": 36597837,
+    "sha256": "ecc8d4454a870b8c1ac8ae966125e46baf80d917b334e3950a002957889c45a5",
+    "reason": "duplicate dense CSV; canonical v4 Parquet included; original workspace preserved"
+  }
+]

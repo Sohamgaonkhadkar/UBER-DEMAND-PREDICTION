@@ -1,0 +1,5926 @@
+{
+  "final": {
+    "server_model": "C:\\Users\\Soham\\Documents\\UBER DEMAND PREDICATION\\artifacts\\advanced_20261102\\advanced_candidate_v3.joblib",
+    "health": {
+      "status": "ok",
+      "model_loaded": true,
+      "observations_end": "2016-04-30 23:45:00-04:00",
+      "timezone": "America/New_York",
+      "default_mode": "historical"
+    },
+    "valid_requests": 45,
+    "invalid_requests": 9,
+    "requests": [
+      {
+        "request": {
+          "region": 0,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 1086.2541000242345,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 137.21
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 118.37
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 103.08
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 90.5
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 84.69
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 80.74
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 73.6
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 66.74
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 59.55
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 55.89
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 50.57
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 49.83
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 1,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 219.7866999777034,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 300.21
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 291.02
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 286.33
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 270.88
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 258.49
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 240.84
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 225.66
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 201.98
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 187.47
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 171.96
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 158.84
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 138.44
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 2,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 199.6915999916382,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 11.37
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 11.16
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 14.1
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 13.84
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 18.44
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 18.46
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 20.7
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 22.33
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 23.53
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 25.15
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 25.53
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 27.06
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 3,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 199.8714999645017,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 105.84
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 105.6
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 110.35
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 106.99
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 95.28
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 82.14
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 69.61
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 66.68
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 55.39
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 42.81
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 29.6
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 20.35
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 4,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 205.07399999769405,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 283.47
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 270.41
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 265.26
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 257.96
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 266.98
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 254.78
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 254.74
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 238.31
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 231.23
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 215.57
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 207.23
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 200.8
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 5,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 198.86309996945783,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 357.98
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 348.58
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 327.34
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 308.8
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 296.13
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 268.92
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 244.16
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 224.59
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 205.39
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 186.81
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 164.51
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 146.81
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 6,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 183.57659998582676,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 134.7
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 130.88
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 133.83
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 130.76
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 116.87
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 89.37
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 62.72
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 47.03
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 32.93
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 23.31
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 16.12
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 13.36
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 7,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 184.28029998904094,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 362.75
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 353.78
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 342.13
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 351.93
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 354.07
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 350.74
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 338.34
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 333.83
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 310.31
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 297.82
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 276.75
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 266.46
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 8,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 205.9103000210598,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 242.5
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 220.32
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 204.98
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 185.67
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 181.2
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 159.89
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 142.64
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 129.82
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 120.61
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 109.71
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 93.48
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 86.52
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 9,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 177.44309996487573,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 74.11
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 73.89
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 77.87
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 73.71
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 72.31
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 70.48
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 68.08
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 64.16
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 57.02
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 50.11
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 46.36
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 40.84
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 10,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 179.66500000329688,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 630.52
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 682.97
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 708.15
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 699.06
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 771.4
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 801.35
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 832.68
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 875.09
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 912.6
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 933.25
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 950.2
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 951.59
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 11,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 224.00739998556674,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 286.33
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 237.8
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 210.35
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 192.26
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 179.88
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 164.6
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 139.45
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 124.34
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 107.25
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 98.19
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 81.84
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 75.69
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 12,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 254.9200999783352,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 423.32
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 389.79
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 362.99
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 358.65
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 346.91
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 329.21
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 287.82
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 270.6
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 258.03
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 244.62
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 227.53
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 214.54
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 13,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 228.70809998130426,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 17.75
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 20.69
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 22.49
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 22.41
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 25.64
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 26.01
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 28.15
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 29.59
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 29.23
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 30.53
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 32.25
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 32.38
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 14,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 262.1266000205651,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 319.49
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 314.81
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 299.24
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 298.49
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 294.08
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 285.28
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 270.4
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 251.74
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 233.47
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 215.53
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 201.59
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 184.95
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 335.44170000823215,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 267.15
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 265.65
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 268.33
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 261.19
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 267.0
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 251.09
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 238.48
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 220.11
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 209.96
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 186.0
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 177.02
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 157.02
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 16,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 369.0383999492042,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 67.36
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 74.63
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 86.91
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 96.89
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 109.13
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 112.2
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 111.31
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 113.87
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 106.57
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 109.06
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 98.87
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 96.53
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 17,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 282.5192000018433,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 30.27
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 28.23
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 27.12
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 25.88
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 29.76
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 27.01
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 26.06
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 25.12
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 24.87
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 22.75
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 21.61
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 18.99
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 18,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 277.7454000315629,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 434.7
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 399.29
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 368.01
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 350.51
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 321.78
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 306.39
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 270.51
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 238.98
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 225.98
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 204.86
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 191.13
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 176.47
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 19,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 252.51980003667995,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 296.86
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 273.68
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 263.12
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 241.95
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 228.45
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 184.36
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 160.65
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 147.4
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 126.13
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 109.27
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 93.3
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 76.75
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 20,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 273.6078000161797,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 177.43
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 173.25
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 161.11
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 148.29
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 145.8
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 140.18
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 127.41
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 112.04
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 94.62
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 88.42
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 75.5
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 70.31
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 21,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 249.8203000286594,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 278.14
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 248.56
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 225.89
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 205.89
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 183.06
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 169.37
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 144.14
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 134.69
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 121.58
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 105.83
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 90.85
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 82.86
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 22,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 266.5582000045106,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 347.66
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 354.55
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 353.67
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 357.24
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 373.76
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 382.71
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 391.29
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 400.95
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 409.77
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 406.51
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 396.83
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 382.91
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 23,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 254.14370000362396,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 175.89
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 156.81
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 141.12
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 119.77
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 116.29
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 99.12
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 84.91
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 81.08
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 76.37
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 64.34
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 57.27
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 49.06
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 24,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 214.31470004608855,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 17.37
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 17.9
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 18.58
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 19.31
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 22.31
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 22.08
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 22.38
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 21.58
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 18.5
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 18.47
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 16.24
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 16.7
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 25,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 213.31299998564646,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 223.7
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 225.92
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 221.45
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 219.51
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 217.59
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 209.87
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 197.93
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 186.28
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 179.86
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 167.61
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 154.15
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 146.57
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 26,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 240.3307000058703,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 203.71
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 206.1
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 207.32
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 206.92
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 209.87
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 208.65
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 199.13
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 190.2
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 180.16
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 173.13
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 160.02
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 154.43
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 27,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 224.33210001327097,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 366.37
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 363.63
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 374.12
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 377.54
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 402.25
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 407.07
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 404.41
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 399.42
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 398.39
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 397.29
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 400.12
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 409.35
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 28,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 239.15799998212606,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 24.69
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 27.29
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 30.37
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 27.89
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 33.57
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 32.96
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 35.04
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 33.07
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 33.74
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 30.4
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 29.18
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 27.86
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 29,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 258.58389999484643,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 16.05
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 19.05
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 20.16
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 20.35
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 23.68
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 22.9
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 24.88
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 23.8
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 23.99
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 25.75
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 23.4
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 23.65
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 1
+        },
+        "latency_ms": 85.07599995937198,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 267.15
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 4
+        },
+        "latency_ms": 109.990100027062,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 267.15
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 265.65
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 268.33
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 261.19
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 198.83380003739148,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 267.15
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 265.65
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 268.33
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 261.19
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 267.0
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 251.09
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 238.48
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 220.11
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 209.96
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 186.0
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 177.02
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 157.02
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 24
+        },
+        "latency_ms": 328.6577999824658,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 267.15
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 265.65
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 268.33
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 261.19
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 267.0
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 251.09
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 238.48
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 220.11
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 209.96
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 186.0
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 177.02
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 157.02
+          },
+          {
+            "datetime": "2016-04-16T02:00:00-04:00",
+            "prediction": 145.26
+          },
+          {
+            "datetime": "2016-04-16T02:15:00-04:00",
+            "prediction": 136.81
+          },
+          {
+            "datetime": "2016-04-16T02:30:00-04:00",
+            "prediction": 125.25
+          },
+          {
+            "datetime": "2016-04-16T02:45:00-04:00",
+            "prediction": 115.85
+          },
+          {
+            "datetime": "2016-04-16T03:00:00-04:00",
+            "prediction": 105.62
+          },
+          {
+            "datetime": "2016-04-16T03:15:00-04:00",
+            "prediction": 98.96
+          },
+          {
+            "datetime": "2016-04-16T03:30:00-04:00",
+            "prediction": 97.19
+          },
+          {
+            "datetime": "2016-04-16T03:45:00-04:00",
+            "prediction": 103.02
+          },
+          {
+            "datetime": "2016-04-16T04:00:00-04:00",
+            "prediction": 104.64
+          },
+          {
+            "datetime": "2016-04-16T04:15:00-04:00",
+            "prediction": 89.93
+          },
+          {
+            "datetime": "2016-04-16T04:30:00-04:00",
+            "prediction": 70.41
+          },
+          {
+            "datetime": "2016-04-16T04:45:00-04:00",
+            "prediction": 53.61
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-15T23:00:00-04:00",
+          "horizon": 48
+        },
+        "latency_ms": 604.8617999767885,
+        "predictions": [
+          {
+            "datetime": "2016-04-15T23:00:00-04:00",
+            "prediction": 267.15
+          },
+          {
+            "datetime": "2016-04-15T23:15:00-04:00",
+            "prediction": 265.65
+          },
+          {
+            "datetime": "2016-04-15T23:30:00-04:00",
+            "prediction": 268.33
+          },
+          {
+            "datetime": "2016-04-15T23:45:00-04:00",
+            "prediction": 261.19
+          },
+          {
+            "datetime": "2016-04-16T00:00:00-04:00",
+            "prediction": 267.0
+          },
+          {
+            "datetime": "2016-04-16T00:15:00-04:00",
+            "prediction": 251.09
+          },
+          {
+            "datetime": "2016-04-16T00:30:00-04:00",
+            "prediction": 238.48
+          },
+          {
+            "datetime": "2016-04-16T00:45:00-04:00",
+            "prediction": 220.11
+          },
+          {
+            "datetime": "2016-04-16T01:00:00-04:00",
+            "prediction": 209.96
+          },
+          {
+            "datetime": "2016-04-16T01:15:00-04:00",
+            "prediction": 186.0
+          },
+          {
+            "datetime": "2016-04-16T01:30:00-04:00",
+            "prediction": 177.02
+          },
+          {
+            "datetime": "2016-04-16T01:45:00-04:00",
+            "prediction": 157.02
+          },
+          {
+            "datetime": "2016-04-16T02:00:00-04:00",
+            "prediction": 145.26
+          },
+          {
+            "datetime": "2016-04-16T02:15:00-04:00",
+            "prediction": 136.81
+          },
+          {
+            "datetime": "2016-04-16T02:30:00-04:00",
+            "prediction": 125.25
+          },
+          {
+            "datetime": "2016-04-16T02:45:00-04:00",
+            "prediction": 115.85
+          },
+          {
+            "datetime": "2016-04-16T03:00:00-04:00",
+            "prediction": 105.62
+          },
+          {
+            "datetime": "2016-04-16T03:15:00-04:00",
+            "prediction": 98.96
+          },
+          {
+            "datetime": "2016-04-16T03:30:00-04:00",
+            "prediction": 97.19
+          },
+          {
+            "datetime": "2016-04-16T03:45:00-04:00",
+            "prediction": 103.02
+          },
+          {
+            "datetime": "2016-04-16T04:00:00-04:00",
+            "prediction": 104.64
+          },
+          {
+            "datetime": "2016-04-16T04:15:00-04:00",
+            "prediction": 89.93
+          },
+          {
+            "datetime": "2016-04-16T04:30:00-04:00",
+            "prediction": 70.41
+          },
+          {
+            "datetime": "2016-04-16T04:45:00-04:00",
+            "prediction": 53.61
+          },
+          {
+            "datetime": "2016-04-16T05:00:00-04:00",
+            "prediction": 44.33
+          },
+          {
+            "datetime": "2016-04-16T05:15:00-04:00",
+            "prediction": 41.53
+          },
+          {
+            "datetime": "2016-04-16T05:30:00-04:00",
+            "prediction": 44.95
+          },
+          {
+            "datetime": "2016-04-16T05:45:00-04:00",
+            "prediction": 48.06
+          },
+          {
+            "datetime": "2016-04-16T06:00:00-04:00",
+            "prediction": 52.36
+          },
+          {
+            "datetime": "2016-04-16T06:15:00-04:00",
+            "prediction": 60.18
+          },
+          {
+            "datetime": "2016-04-16T06:30:00-04:00",
+            "prediction": 69.84
+          },
+          {
+            "datetime": "2016-04-16T06:45:00-04:00",
+            "prediction": 71.66
+          },
+          {
+            "datetime": "2016-04-16T07:00:00-04:00",
+            "prediction": 71.25
+          },
+          {
+            "datetime": "2016-04-16T07:15:00-04:00",
+            "prediction": 80.84
+          },
+          {
+            "datetime": "2016-04-16T07:30:00-04:00",
+            "prediction": 86.8
+          },
+          {
+            "datetime": "2016-04-16T07:45:00-04:00",
+            "prediction": 97.89
+          },
+          {
+            "datetime": "2016-04-16T08:00:00-04:00",
+            "prediction": 99.3
+          },
+          {
+            "datetime": "2016-04-16T08:15:00-04:00",
+            "prediction": 107.8
+          },
+          {
+            "datetime": "2016-04-16T08:30:00-04:00",
+            "prediction": 120.71
+          },
+          {
+            "datetime": "2016-04-16T08:45:00-04:00",
+            "prediction": 136.03
+          },
+          {
+            "datetime": "2016-04-16T09:00:00-04:00",
+            "prediction": 138.76
+          },
+          {
+            "datetime": "2016-04-16T09:15:00-04:00",
+            "prediction": 149.3
+          },
+          {
+            "datetime": "2016-04-16T09:30:00-04:00",
+            "prediction": 157.61
+          },
+          {
+            "datetime": "2016-04-16T09:45:00-04:00",
+            "prediction": 166.06
+          },
+          {
+            "datetime": "2016-04-16T10:00:00-04:00",
+            "prediction": 167.09
+          },
+          {
+            "datetime": "2016-04-16T10:15:00-04:00",
+            "prediction": 178.71
+          },
+          {
+            "datetime": "2016-04-16T10:30:00-04:00",
+            "prediction": 185.19
+          },
+          {
+            "datetime": "2016-04-16T10:45:00-04:00",
+            "prediction": 193.36
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-02T23:00:00-04:00",
+          "horizon": 1
+        },
+        "latency_ms": 81.25029999064282,
+        "predictions": [
+          {
+            "datetime": "2016-04-02T23:00:00-04:00",
+            "prediction": 312.13
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-02T23:00:00-04:00",
+          "horizon": 4
+        },
+        "latency_ms": 99.39940000185743,
+        "predictions": [
+          {
+            "datetime": "2016-04-02T23:00:00-04:00",
+            "prediction": 312.13
+          },
+          {
+            "datetime": "2016-04-02T23:15:00-04:00",
+            "prediction": 286.83
+          },
+          {
+            "datetime": "2016-04-02T23:30:00-04:00",
+            "prediction": 279.98
+          },
+          {
+            "datetime": "2016-04-02T23:45:00-04:00",
+            "prediction": 267.91
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-02T23:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 187.25209997501224,
+        "predictions": [
+          {
+            "datetime": "2016-04-02T23:00:00-04:00",
+            "prediction": 312.13
+          },
+          {
+            "datetime": "2016-04-02T23:15:00-04:00",
+            "prediction": 286.83
+          },
+          {
+            "datetime": "2016-04-02T23:30:00-04:00",
+            "prediction": 279.98
+          },
+          {
+            "datetime": "2016-04-02T23:45:00-04:00",
+            "prediction": 267.91
+          },
+          {
+            "datetime": "2016-04-03T00:00:00-04:00",
+            "prediction": 252.65
+          },
+          {
+            "datetime": "2016-04-03T00:15:00-04:00",
+            "prediction": 239.71
+          },
+          {
+            "datetime": "2016-04-03T00:30:00-04:00",
+            "prediction": 232.63
+          },
+          {
+            "datetime": "2016-04-03T00:45:00-04:00",
+            "prediction": 221.26
+          },
+          {
+            "datetime": "2016-04-03T01:00:00-04:00",
+            "prediction": 212.77
+          },
+          {
+            "datetime": "2016-04-03T01:15:00-04:00",
+            "prediction": 200.74
+          },
+          {
+            "datetime": "2016-04-03T01:30:00-04:00",
+            "prediction": 187.82
+          },
+          {
+            "datetime": "2016-04-03T01:45:00-04:00",
+            "prediction": 177.61
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-02T23:00:00-04:00",
+          "horizon": 24
+        },
+        "latency_ms": 300.3296999959275,
+        "predictions": [
+          {
+            "datetime": "2016-04-02T23:00:00-04:00",
+            "prediction": 312.13
+          },
+          {
+            "datetime": "2016-04-02T23:15:00-04:00",
+            "prediction": 286.83
+          },
+          {
+            "datetime": "2016-04-02T23:30:00-04:00",
+            "prediction": 279.98
+          },
+          {
+            "datetime": "2016-04-02T23:45:00-04:00",
+            "prediction": 267.91
+          },
+          {
+            "datetime": "2016-04-03T00:00:00-04:00",
+            "prediction": 252.65
+          },
+          {
+            "datetime": "2016-04-03T00:15:00-04:00",
+            "prediction": 239.71
+          },
+          {
+            "datetime": "2016-04-03T00:30:00-04:00",
+            "prediction": 232.63
+          },
+          {
+            "datetime": "2016-04-03T00:45:00-04:00",
+            "prediction": 221.26
+          },
+          {
+            "datetime": "2016-04-03T01:00:00-04:00",
+            "prediction": 212.77
+          },
+          {
+            "datetime": "2016-04-03T01:15:00-04:00",
+            "prediction": 200.74
+          },
+          {
+            "datetime": "2016-04-03T01:30:00-04:00",
+            "prediction": 187.82
+          },
+          {
+            "datetime": "2016-04-03T01:45:00-04:00",
+            "prediction": 177.61
+          },
+          {
+            "datetime": "2016-04-03T02:00:00-04:00",
+            "prediction": 169.81
+          },
+          {
+            "datetime": "2016-04-03T02:15:00-04:00",
+            "prediction": 161.45
+          },
+          {
+            "datetime": "2016-04-03T02:30:00-04:00",
+            "prediction": 155.82
+          },
+          {
+            "datetime": "2016-04-03T02:45:00-04:00",
+            "prediction": 144.32
+          },
+          {
+            "datetime": "2016-04-03T03:00:00-04:00",
+            "prediction": 139.93
+          },
+          {
+            "datetime": "2016-04-03T03:15:00-04:00",
+            "prediction": 133.43
+          },
+          {
+            "datetime": "2016-04-03T03:30:00-04:00",
+            "prediction": 128.0
+          },
+          {
+            "datetime": "2016-04-03T03:45:00-04:00",
+            "prediction": 127.59
+          },
+          {
+            "datetime": "2016-04-03T04:00:00-04:00",
+            "prediction": 131.52
+          },
+          {
+            "datetime": "2016-04-03T04:15:00-04:00",
+            "prediction": 120.76
+          },
+          {
+            "datetime": "2016-04-03T04:30:00-04:00",
+            "prediction": 98.5
+          },
+          {
+            "datetime": "2016-04-03T04:45:00-04:00",
+            "prediction": 73.98
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-02T23:00:00-04:00",
+          "horizon": 48
+        },
+        "latency_ms": 579.3116000131704,
+        "predictions": [
+          {
+            "datetime": "2016-04-02T23:00:00-04:00",
+            "prediction": 312.13
+          },
+          {
+            "datetime": "2016-04-02T23:15:00-04:00",
+            "prediction": 286.83
+          },
+          {
+            "datetime": "2016-04-02T23:30:00-04:00",
+            "prediction": 279.98
+          },
+          {
+            "datetime": "2016-04-02T23:45:00-04:00",
+            "prediction": 267.91
+          },
+          {
+            "datetime": "2016-04-03T00:00:00-04:00",
+            "prediction": 252.65
+          },
+          {
+            "datetime": "2016-04-03T00:15:00-04:00",
+            "prediction": 239.71
+          },
+          {
+            "datetime": "2016-04-03T00:30:00-04:00",
+            "prediction": 232.63
+          },
+          {
+            "datetime": "2016-04-03T00:45:00-04:00",
+            "prediction": 221.26
+          },
+          {
+            "datetime": "2016-04-03T01:00:00-04:00",
+            "prediction": 212.77
+          },
+          {
+            "datetime": "2016-04-03T01:15:00-04:00",
+            "prediction": 200.74
+          },
+          {
+            "datetime": "2016-04-03T01:30:00-04:00",
+            "prediction": 187.82
+          },
+          {
+            "datetime": "2016-04-03T01:45:00-04:00",
+            "prediction": 177.61
+          },
+          {
+            "datetime": "2016-04-03T02:00:00-04:00",
+            "prediction": 169.81
+          },
+          {
+            "datetime": "2016-04-03T02:15:00-04:00",
+            "prediction": 161.45
+          },
+          {
+            "datetime": "2016-04-03T02:30:00-04:00",
+            "prediction": 155.82
+          },
+          {
+            "datetime": "2016-04-03T02:45:00-04:00",
+            "prediction": 144.32
+          },
+          {
+            "datetime": "2016-04-03T03:00:00-04:00",
+            "prediction": 139.93
+          },
+          {
+            "datetime": "2016-04-03T03:15:00-04:00",
+            "prediction": 133.43
+          },
+          {
+            "datetime": "2016-04-03T03:30:00-04:00",
+            "prediction": 128.0
+          },
+          {
+            "datetime": "2016-04-03T03:45:00-04:00",
+            "prediction": 127.59
+          },
+          {
+            "datetime": "2016-04-03T04:00:00-04:00",
+            "prediction": 131.52
+          },
+          {
+            "datetime": "2016-04-03T04:15:00-04:00",
+            "prediction": 120.76
+          },
+          {
+            "datetime": "2016-04-03T04:30:00-04:00",
+            "prediction": 98.5
+          },
+          {
+            "datetime": "2016-04-03T04:45:00-04:00",
+            "prediction": 73.98
+          },
+          {
+            "datetime": "2016-04-03T05:00:00-04:00",
+            "prediction": 57.18
+          },
+          {
+            "datetime": "2016-04-03T05:15:00-04:00",
+            "prediction": 49.37
+          },
+          {
+            "datetime": "2016-04-03T05:30:00-04:00",
+            "prediction": 43.62
+          },
+          {
+            "datetime": "2016-04-03T05:45:00-04:00",
+            "prediction": 42.65
+          },
+          {
+            "datetime": "2016-04-03T06:00:00-04:00",
+            "prediction": 45.7
+          },
+          {
+            "datetime": "2016-04-03T06:15:00-04:00",
+            "prediction": 46.16
+          },
+          {
+            "datetime": "2016-04-03T06:30:00-04:00",
+            "prediction": 50.19
+          },
+          {
+            "datetime": "2016-04-03T06:45:00-04:00",
+            "prediction": 53.87
+          },
+          {
+            "datetime": "2016-04-03T07:00:00-04:00",
+            "prediction": 57.46
+          },
+          {
+            "datetime": "2016-04-03T07:15:00-04:00",
+            "prediction": 59.46
+          },
+          {
+            "datetime": "2016-04-03T07:30:00-04:00",
+            "prediction": 67.07
+          },
+          {
+            "datetime": "2016-04-03T07:45:00-04:00",
+            "prediction": 75.87
+          },
+          {
+            "datetime": "2016-04-03T08:00:00-04:00",
+            "prediction": 80.15
+          },
+          {
+            "datetime": "2016-04-03T08:15:00-04:00",
+            "prediction": 93.86
+          },
+          {
+            "datetime": "2016-04-03T08:30:00-04:00",
+            "prediction": 99.71
+          },
+          {
+            "datetime": "2016-04-03T08:45:00-04:00",
+            "prediction": 111.4
+          },
+          {
+            "datetime": "2016-04-03T09:00:00-04:00",
+            "prediction": 116.5
+          },
+          {
+            "datetime": "2016-04-03T09:15:00-04:00",
+            "prediction": 127.25
+          },
+          {
+            "datetime": "2016-04-03T09:30:00-04:00",
+            "prediction": 140.79
+          },
+          {
+            "datetime": "2016-04-03T09:45:00-04:00",
+            "prediction": 156.94
+          },
+          {
+            "datetime": "2016-04-03T10:00:00-04:00",
+            "prediction": 161.8
+          },
+          {
+            "datetime": "2016-04-03T10:15:00-04:00",
+            "prediction": 170.29
+          },
+          {
+            "datetime": "2016-04-03T10:30:00-04:00",
+            "prediction": 183.53
+          },
+          {
+            "datetime": "2016-04-03T10:45:00-04:00",
+            "prediction": 194.35
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-24T06:00:00-04:00",
+          "horizon": 1
+        },
+        "latency_ms": 74.6629000059329,
+        "predictions": [
+          {
+            "datetime": "2016-04-24T06:00:00-04:00",
+            "prediction": 47.75
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-24T06:00:00-04:00",
+          "horizon": 4
+        },
+        "latency_ms": 120.20820000907406,
+        "predictions": [
+          {
+            "datetime": "2016-04-24T06:00:00-04:00",
+            "prediction": 47.75
+          },
+          {
+            "datetime": "2016-04-24T06:15:00-04:00",
+            "prediction": 45.88
+          },
+          {
+            "datetime": "2016-04-24T06:30:00-04:00",
+            "prediction": 61.29
+          },
+          {
+            "datetime": "2016-04-24T06:45:00-04:00",
+            "prediction": 59.9
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-24T06:00:00-04:00",
+          "horizon": 12
+        },
+        "latency_ms": 223.04389998316765,
+        "predictions": [
+          {
+            "datetime": "2016-04-24T06:00:00-04:00",
+            "prediction": 47.75
+          },
+          {
+            "datetime": "2016-04-24T06:15:00-04:00",
+            "prediction": 45.88
+          },
+          {
+            "datetime": "2016-04-24T06:30:00-04:00",
+            "prediction": 61.29
+          },
+          {
+            "datetime": "2016-04-24T06:45:00-04:00",
+            "prediction": 59.9
+          },
+          {
+            "datetime": "2016-04-24T07:00:00-04:00",
+            "prediction": 64.59
+          },
+          {
+            "datetime": "2016-04-24T07:15:00-04:00",
+            "prediction": 64.74
+          },
+          {
+            "datetime": "2016-04-24T07:30:00-04:00",
+            "prediction": 78.01
+          },
+          {
+            "datetime": "2016-04-24T07:45:00-04:00",
+            "prediction": 84.73
+          },
+          {
+            "datetime": "2016-04-24T08:00:00-04:00",
+            "prediction": 90.44
+          },
+          {
+            "datetime": "2016-04-24T08:15:00-04:00",
+            "prediction": 104.74
+          },
+          {
+            "datetime": "2016-04-24T08:30:00-04:00",
+            "prediction": 117.32
+          },
+          {
+            "datetime": "2016-04-24T08:45:00-04:00",
+            "prediction": 123.14
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-24T06:00:00-04:00",
+          "horizon": 24
+        },
+        "latency_ms": 338.49840000038967,
+        "predictions": [
+          {
+            "datetime": "2016-04-24T06:00:00-04:00",
+            "prediction": 47.75
+          },
+          {
+            "datetime": "2016-04-24T06:15:00-04:00",
+            "prediction": 45.88
+          },
+          {
+            "datetime": "2016-04-24T06:30:00-04:00",
+            "prediction": 61.29
+          },
+          {
+            "datetime": "2016-04-24T06:45:00-04:00",
+            "prediction": 59.9
+          },
+          {
+            "datetime": "2016-04-24T07:00:00-04:00",
+            "prediction": 64.59
+          },
+          {
+            "datetime": "2016-04-24T07:15:00-04:00",
+            "prediction": 64.74
+          },
+          {
+            "datetime": "2016-04-24T07:30:00-04:00",
+            "prediction": 78.01
+          },
+          {
+            "datetime": "2016-04-24T07:45:00-04:00",
+            "prediction": 84.73
+          },
+          {
+            "datetime": "2016-04-24T08:00:00-04:00",
+            "prediction": 90.44
+          },
+          {
+            "datetime": "2016-04-24T08:15:00-04:00",
+            "prediction": 104.74
+          },
+          {
+            "datetime": "2016-04-24T08:30:00-04:00",
+            "prediction": 117.32
+          },
+          {
+            "datetime": "2016-04-24T08:45:00-04:00",
+            "prediction": 123.14
+          },
+          {
+            "datetime": "2016-04-24T09:00:00-04:00",
+            "prediction": 126.37
+          },
+          {
+            "datetime": "2016-04-24T09:15:00-04:00",
+            "prediction": 135.29
+          },
+          {
+            "datetime": "2016-04-24T09:30:00-04:00",
+            "prediction": 146.76
+          },
+          {
+            "datetime": "2016-04-24T09:45:00-04:00",
+            "prediction": 160.56
+          },
+          {
+            "datetime": "2016-04-24T10:00:00-04:00",
+            "prediction": 164.27
+          },
+          {
+            "datetime": "2016-04-24T10:15:00-04:00",
+            "prediction": 174.78
+          },
+          {
+            "datetime": "2016-04-24T10:30:00-04:00",
+            "prediction": 184.75
+          },
+          {
+            "datetime": "2016-04-24T10:45:00-04:00",
+            "prediction": 194.43
+          },
+          {
+            "datetime": "2016-04-24T11:00:00-04:00",
+            "prediction": 195.36
+          },
+          {
+            "datetime": "2016-04-24T11:15:00-04:00",
+            "prediction": 196.57
+          },
+          {
+            "datetime": "2016-04-24T11:30:00-04:00",
+            "prediction": 201.13
+          },
+          {
+            "datetime": "2016-04-24T11:45:00-04:00",
+            "prediction": 201.88
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-04-24T06:00:00-04:00",
+          "horizon": 48
+        },
+        "latency_ms": 539.2286000424065,
+        "predictions": [
+          {
+            "datetime": "2016-04-24T06:00:00-04:00",
+            "prediction": 47.75
+          },
+          {
+            "datetime": "2016-04-24T06:15:00-04:00",
+            "prediction": 45.88
+          },
+          {
+            "datetime": "2016-04-24T06:30:00-04:00",
+            "prediction": 61.29
+          },
+          {
+            "datetime": "2016-04-24T06:45:00-04:00",
+            "prediction": 59.9
+          },
+          {
+            "datetime": "2016-04-24T07:00:00-04:00",
+            "prediction": 64.59
+          },
+          {
+            "datetime": "2016-04-24T07:15:00-04:00",
+            "prediction": 64.74
+          },
+          {
+            "datetime": "2016-04-24T07:30:00-04:00",
+            "prediction": 78.01
+          },
+          {
+            "datetime": "2016-04-24T07:45:00-04:00",
+            "prediction": 84.73
+          },
+          {
+            "datetime": "2016-04-24T08:00:00-04:00",
+            "prediction": 90.44
+          },
+          {
+            "datetime": "2016-04-24T08:15:00-04:00",
+            "prediction": 104.74
+          },
+          {
+            "datetime": "2016-04-24T08:30:00-04:00",
+            "prediction": 117.32
+          },
+          {
+            "datetime": "2016-04-24T08:45:00-04:00",
+            "prediction": 123.14
+          },
+          {
+            "datetime": "2016-04-24T09:00:00-04:00",
+            "prediction": 126.37
+          },
+          {
+            "datetime": "2016-04-24T09:15:00-04:00",
+            "prediction": 135.29
+          },
+          {
+            "datetime": "2016-04-24T09:30:00-04:00",
+            "prediction": 146.76
+          },
+          {
+            "datetime": "2016-04-24T09:45:00-04:00",
+            "prediction": 160.56
+          },
+          {
+            "datetime": "2016-04-24T10:00:00-04:00",
+            "prediction": 164.27
+          },
+          {
+            "datetime": "2016-04-24T10:15:00-04:00",
+            "prediction": 174.78
+          },
+          {
+            "datetime": "2016-04-24T10:30:00-04:00",
+            "prediction": 184.75
+          },
+          {
+            "datetime": "2016-04-24T10:45:00-04:00",
+            "prediction": 194.43
+          },
+          {
+            "datetime": "2016-04-24T11:00:00-04:00",
+            "prediction": 195.36
+          },
+          {
+            "datetime": "2016-04-24T11:15:00-04:00",
+            "prediction": 196.57
+          },
+          {
+            "datetime": "2016-04-24T11:30:00-04:00",
+            "prediction": 201.13
+          },
+          {
+            "datetime": "2016-04-24T11:45:00-04:00",
+            "prediction": 201.88
+          },
+          {
+            "datetime": "2016-04-24T12:00:00-04:00",
+            "prediction": 201.82
+          },
+          {
+            "datetime": "2016-04-24T12:15:00-04:00",
+            "prediction": 197.26
+          },
+          {
+            "datetime": "2016-04-24T12:30:00-04:00",
+            "prediction": 189.51
+          },
+          {
+            "datetime": "2016-04-24T12:45:00-04:00",
+            "prediction": 181.09
+          },
+          {
+            "datetime": "2016-04-24T13:00:00-04:00",
+            "prediction": 180.85
+          },
+          {
+            "datetime": "2016-04-24T13:15:00-04:00",
+            "prediction": 178.25
+          },
+          {
+            "datetime": "2016-04-24T13:30:00-04:00",
+            "prediction": 171.41
+          },
+          {
+            "datetime": "2016-04-24T13:45:00-04:00",
+            "prediction": 165.35
+          },
+          {
+            "datetime": "2016-04-24T14:00:00-04:00",
+            "prediction": 172.09
+          },
+          {
+            "datetime": "2016-04-24T14:15:00-04:00",
+            "prediction": 171.01
+          },
+          {
+            "datetime": "2016-04-24T14:30:00-04:00",
+            "prediction": 172.41
+          },
+          {
+            "datetime": "2016-04-24T14:45:00-04:00",
+            "prediction": 169.86
+          },
+          {
+            "datetime": "2016-04-24T15:00:00-04:00",
+            "prediction": 170.36
+          },
+          {
+            "datetime": "2016-04-24T15:15:00-04:00",
+            "prediction": 166.58
+          },
+          {
+            "datetime": "2016-04-24T15:30:00-04:00",
+            "prediction": 174.62
+          },
+          {
+            "datetime": "2016-04-24T15:45:00-04:00",
+            "prediction": 176.16
+          },
+          {
+            "datetime": "2016-04-24T16:00:00-04:00",
+            "prediction": 176.24
+          },
+          {
+            "datetime": "2016-04-24T16:15:00-04:00",
+            "prediction": 180.81
+          },
+          {
+            "datetime": "2016-04-24T16:30:00-04:00",
+            "prediction": 192.5
+          },
+          {
+            "datetime": "2016-04-24T16:45:00-04:00",
+            "prediction": 190.71
+          },
+          {
+            "datetime": "2016-04-24T17:00:00-04:00",
+            "prediction": 185.9
+          },
+          {
+            "datetime": "2016-04-24T17:15:00-04:00",
+            "prediction": 199.53
+          },
+          {
+            "datetime": "2016-04-24T17:30:00-04:00",
+            "prediction": 226.18
+          },
+          {
+            "datetime": "2016-04-24T17:45:00-04:00",
+            "prediction": 236.31
+          }
+        ]
+      }
+    ],
+    "sample": {
+      "forecast": [
+        {
+          "datetime": "2016-04-24T06:00:00-04:00",
+          "prediction": 47.75
+        },
+        {
+          "datetime": "2016-04-24T06:15:00-04:00",
+          "prediction": 45.88
+        },
+        {
+          "datetime": "2016-04-24T06:30:00-04:00",
+          "prediction": 61.29
+        },
+        {
+          "datetime": "2016-04-24T06:45:00-04:00",
+          "prediction": 59.9
+        },
+        {
+          "datetime": "2016-04-24T07:00:00-04:00",
+          "prediction": 64.59
+        },
+        {
+          "datetime": "2016-04-24T07:15:00-04:00",
+          "prediction": 64.74
+        },
+        {
+          "datetime": "2016-04-24T07:30:00-04:00",
+          "prediction": 78.01
+        },
+        {
+          "datetime": "2016-04-24T07:45:00-04:00",
+          "prediction": 84.73
+        },
+        {
+          "datetime": "2016-04-24T08:00:00-04:00",
+          "prediction": 90.44
+        },
+        {
+          "datetime": "2016-04-24T08:15:00-04:00",
+          "prediction": 104.74
+        },
+        {
+          "datetime": "2016-04-24T08:30:00-04:00",
+          "prediction": 117.32
+        },
+        {
+          "datetime": "2016-04-24T08:45:00-04:00",
+          "prediction": 123.14
+        },
+        {
+          "datetime": "2016-04-24T09:00:00-04:00",
+          "prediction": 126.37
+        },
+        {
+          "datetime": "2016-04-24T09:15:00-04:00",
+          "prediction": 135.29
+        },
+        {
+          "datetime": "2016-04-24T09:30:00-04:00",
+          "prediction": 146.76
+        },
+        {
+          "datetime": "2016-04-24T09:45:00-04:00",
+          "prediction": 160.56
+        },
+        {
+          "datetime": "2016-04-24T10:00:00-04:00",
+          "prediction": 164.27
+        },
+        {
+          "datetime": "2016-04-24T10:15:00-04:00",
+          "prediction": 174.78
+        },
+        {
+          "datetime": "2016-04-24T10:30:00-04:00",
+          "prediction": 184.75
+        },
+        {
+          "datetime": "2016-04-24T10:45:00-04:00",
+          "prediction": 194.43
+        },
+        {
+          "datetime": "2016-04-24T11:00:00-04:00",
+          "prediction": 195.36
+        },
+        {
+          "datetime": "2016-04-24T11:15:00-04:00",
+          "prediction": 196.57
+        },
+        {
+          "datetime": "2016-04-24T11:30:00-04:00",
+          "prediction": 201.13
+        },
+        {
+          "datetime": "2016-04-24T11:45:00-04:00",
+          "prediction": 201.88
+        },
+        {
+          "datetime": "2016-04-24T12:00:00-04:00",
+          "prediction": 201.82
+        },
+        {
+          "datetime": "2016-04-24T12:15:00-04:00",
+          "prediction": 197.26
+        },
+        {
+          "datetime": "2016-04-24T12:30:00-04:00",
+          "prediction": 189.51
+        },
+        {
+          "datetime": "2016-04-24T12:45:00-04:00",
+          "prediction": 181.09
+        },
+        {
+          "datetime": "2016-04-24T13:00:00-04:00",
+          "prediction": 180.85
+        },
+        {
+          "datetime": "2016-04-24T13:15:00-04:00",
+          "prediction": 178.25
+        },
+        {
+          "datetime": "2016-04-24T13:30:00-04:00",
+          "prediction": 171.41
+        },
+        {
+          "datetime": "2016-04-24T13:45:00-04:00",
+          "prediction": 165.35
+        },
+        {
+          "datetime": "2016-04-24T14:00:00-04:00",
+          "prediction": 172.09
+        },
+        {
+          "datetime": "2016-04-24T14:15:00-04:00",
+          "prediction": 171.01
+        },
+        {
+          "datetime": "2016-04-24T14:30:00-04:00",
+          "prediction": 172.41
+        },
+        {
+          "datetime": "2016-04-24T14:45:00-04:00",
+          "prediction": 169.86
+        },
+        {
+          "datetime": "2016-04-24T15:00:00-04:00",
+          "prediction": 170.36
+        },
+        {
+          "datetime": "2016-04-24T15:15:00-04:00",
+          "prediction": 166.58
+        },
+        {
+          "datetime": "2016-04-24T15:30:00-04:00",
+          "prediction": 174.62
+        },
+        {
+          "datetime": "2016-04-24T15:45:00-04:00",
+          "prediction": 176.16
+        },
+        {
+          "datetime": "2016-04-24T16:00:00-04:00",
+          "prediction": 176.24
+        },
+        {
+          "datetime": "2016-04-24T16:15:00-04:00",
+          "prediction": 180.81
+        },
+        {
+          "datetime": "2016-04-24T16:30:00-04:00",
+          "prediction": 192.5
+        },
+        {
+          "datetime": "2016-04-24T16:45:00-04:00",
+          "prediction": 190.71
+        },
+        {
+          "datetime": "2016-04-24T17:00:00-04:00",
+          "prediction": 185.9
+        },
+        {
+          "datetime": "2016-04-24T17:15:00-04:00",
+          "prediction": 199.53
+        },
+        {
+          "datetime": "2016-04-24T17:30:00-04:00",
+          "prediction": 226.18
+        },
+        {
+          "datetime": "2016-04-24T17:45:00-04:00",
+          "prediction": 236.31
+        }
+      ],
+      "history": [
+        {
+          "datetime": "2016-04-22T06:00:00-04:00",
+          "actual": 180.0
+        },
+        {
+          "datetime": "2016-04-22T06:15:00-04:00",
+          "actual": 175.0
+        },
+        {
+          "datetime": "2016-04-22T06:30:00-04:00",
+          "actual": 216.0
+        },
+        {
+          "datetime": "2016-04-22T06:45:00-04:00",
+          "actual": 189.0
+        },
+        {
+          "datetime": "2016-04-22T07:00:00-04:00",
+          "actual": 204.0
+        },
+        {
+          "datetime": "2016-04-22T07:15:00-04:00",
+          "actual": 216.0
+        },
+        {
+          "datetime": "2016-04-22T07:30:00-04:00",
+          "actual": 207.0
+        },
+        {
+          "datetime": "2016-04-22T07:45:00-04:00",
+          "actual": 200.0
+        },
+        {
+          "datetime": "2016-04-22T08:00:00-04:00",
+          "actual": 200.0
+        },
+        {
+          "datetime": "2016-04-22T08:15:00-04:00",
+          "actual": 193.0
+        },
+        {
+          "datetime": "2016-04-22T08:30:00-04:00",
+          "actual": 196.0
+        },
+        {
+          "datetime": "2016-04-22T08:45:00-04:00",
+          "actual": 206.0
+        },
+        {
+          "datetime": "2016-04-22T09:00:00-04:00",
+          "actual": 203.0
+        },
+        {
+          "datetime": "2016-04-22T09:15:00-04:00",
+          "actual": 199.0
+        },
+        {
+          "datetime": "2016-04-22T09:30:00-04:00",
+          "actual": 185.0
+        },
+        {
+          "datetime": "2016-04-22T09:45:00-04:00",
+          "actual": 213.0
+        },
+        {
+          "datetime": "2016-04-22T10:00:00-04:00",
+          "actual": 195.0
+        },
+        {
+          "datetime": "2016-04-22T10:15:00-04:00",
+          "actual": 218.0
+        },
+        {
+          "datetime": "2016-04-22T10:30:00-04:00",
+          "actual": 198.0
+        },
+        {
+          "datetime": "2016-04-22T10:45:00-04:00",
+          "actual": 187.0
+        },
+        {
+          "datetime": "2016-04-22T11:00:00-04:00",
+          "actual": 173.0
+        },
+        {
+          "datetime": "2016-04-22T11:15:00-04:00",
+          "actual": 220.0
+        },
+        {
+          "datetime": "2016-04-22T11:30:00-04:00",
+          "actual": 182.0
+        },
+        {
+          "datetime": "2016-04-22T11:45:00-04:00",
+          "actual": 219.0
+        },
+        {
+          "datetime": "2016-04-22T12:00:00-04:00",
+          "actual": 205.0
+        },
+        {
+          "datetime": "2016-04-22T12:15:00-04:00",
+          "actual": 198.0
+        },
+        {
+          "datetime": "2016-04-22T12:30:00-04:00",
+          "actual": 164.0
+        },
+        {
+          "datetime": "2016-04-22T12:45:00-04:00",
+          "actual": 159.0
+        },
+        {
+          "datetime": "2016-04-22T13:00:00-04:00",
+          "actual": 153.0
+        },
+        {
+          "datetime": "2016-04-22T13:15:00-04:00",
+          "actual": 164.0
+        },
+        {
+          "datetime": "2016-04-22T13:30:00-04:00",
+          "actual": 182.0
+        },
+        {
+          "datetime": "2016-04-22T13:45:00-04:00",
+          "actual": 157.0
+        },
+        {
+          "datetime": "2016-04-22T14:00:00-04:00",
+          "actual": 190.0
+        },
+        {
+          "datetime": "2016-04-22T14:15:00-04:00",
+          "actual": 179.0
+        },
+        {
+          "datetime": "2016-04-22T14:30:00-04:00",
+          "actual": 185.0
+        },
+        {
+          "datetime": "2016-04-22T14:45:00-04:00",
+          "actual": 176.0
+        },
+        {
+          "datetime": "2016-04-22T15:00:00-04:00",
+          "actual": 172.0
+        },
+        {
+          "datetime": "2016-04-22T15:15:00-04:00",
+          "actual": 159.0
+        },
+        {
+          "datetime": "2016-04-22T15:30:00-04:00",
+          "actual": 156.0
+        },
+        {
+          "datetime": "2016-04-22T15:45:00-04:00",
+          "actual": 133.0
+        },
+        {
+          "datetime": "2016-04-22T16:00:00-04:00",
+          "actual": 150.0
+        },
+        {
+          "datetime": "2016-04-22T16:15:00-04:00",
+          "actual": 122.0
+        },
+        {
+          "datetime": "2016-04-22T16:30:00-04:00",
+          "actual": 123.0
+        },
+        {
+          "datetime": "2016-04-22T16:45:00-04:00",
+          "actual": 108.0
+        },
+        {
+          "datetime": "2016-04-22T17:00:00-04:00",
+          "actual": 109.0
+        },
+        {
+          "datetime": "2016-04-22T17:15:00-04:00",
+          "actual": 126.0
+        },
+        {
+          "datetime": "2016-04-22T17:30:00-04:00",
+          "actual": 139.0
+        },
+        {
+          "datetime": "2016-04-22T17:45:00-04:00",
+          "actual": 154.0
+        },
+        {
+          "datetime": "2016-04-22T18:00:00-04:00",
+          "actual": 140.0
+        },
+        {
+          "datetime": "2016-04-22T18:15:00-04:00",
+          "actual": 201.0
+        },
+        {
+          "datetime": "2016-04-22T18:30:00-04:00",
+          "actual": 168.0
+        },
+        {
+          "datetime": "2016-04-22T18:45:00-04:00",
+          "actual": 195.0
+        },
+        {
+          "datetime": "2016-04-22T19:00:00-04:00",
+          "actual": 199.0
+        },
+        {
+          "datetime": "2016-04-22T19:15:00-04:00",
+          "actual": 221.0
+        },
+        {
+          "datetime": "2016-04-22T19:30:00-04:00",
+          "actual": 218.0
+        },
+        {
+          "datetime": "2016-04-22T19:45:00-04:00",
+          "actual": 239.0
+        },
+        {
+          "datetime": "2016-04-22T20:00:00-04:00",
+          "actual": 244.0
+        },
+        {
+          "datetime": "2016-04-22T20:15:00-04:00",
+          "actual": 219.0
+        },
+        {
+          "datetime": "2016-04-22T20:30:00-04:00",
+          "actual": 219.0
+        },
+        {
+          "datetime": "2016-04-22T20:45:00-04:00",
+          "actual": 230.0
+        },
+        {
+          "datetime": "2016-04-22T21:00:00-04:00",
+          "actual": 233.0
+        },
+        {
+          "datetime": "2016-04-22T21:15:00-04:00",
+          "actual": 244.0
+        },
+        {
+          "datetime": "2016-04-22T21:30:00-04:00",
+          "actual": 225.0
+        },
+        {
+          "datetime": "2016-04-22T21:45:00-04:00",
+          "actual": 259.0
+        },
+        {
+          "datetime": "2016-04-22T22:00:00-04:00",
+          "actual": 201.0
+        },
+        {
+          "datetime": "2016-04-22T22:15:00-04:00",
+          "actual": 268.0
+        },
+        {
+          "datetime": "2016-04-22T22:30:00-04:00",
+          "actual": 330.0
+        },
+        {
+          "datetime": "2016-04-22T22:45:00-04:00",
+          "actual": 231.0
+        },
+        {
+          "datetime": "2016-04-22T23:00:00-04:00",
+          "actual": 265.0
+        },
+        {
+          "datetime": "2016-04-22T23:15:00-04:00",
+          "actual": 247.0
+        },
+        {
+          "datetime": "2016-04-22T23:30:00-04:00",
+          "actual": 246.0
+        },
+        {
+          "datetime": "2016-04-22T23:45:00-04:00",
+          "actual": 315.0
+        },
+        {
+          "datetime": "2016-04-23T00:00:00-04:00",
+          "actual": 263.0
+        },
+        {
+          "datetime": "2016-04-23T00:15:00-04:00",
+          "actual": 257.0
+        },
+        {
+          "datetime": "2016-04-23T00:30:00-04:00",
+          "actual": 301.0
+        },
+        {
+          "datetime": "2016-04-23T00:45:00-04:00",
+          "actual": 232.0
+        },
+        {
+          "datetime": "2016-04-23T01:00:00-04:00",
+          "actual": 232.0
+        },
+        {
+          "datetime": "2016-04-23T01:15:00-04:00",
+          "actual": 228.0
+        },
+        {
+          "datetime": "2016-04-23T01:30:00-04:00",
+          "actual": 198.0
+        },
+        {
+          "datetime": "2016-04-23T01:45:00-04:00",
+          "actual": 147.0
+        },
+        {
+          "datetime": "2016-04-23T02:00:00-04:00",
+          "actual": 129.0
+        },
+        {
+          "datetime": "2016-04-23T02:15:00-04:00",
+          "actual": 129.0
+        },
+        {
+          "datetime": "2016-04-23T02:30:00-04:00",
+          "actual": 134.0
+        },
+        {
+          "datetime": "2016-04-23T02:45:00-04:00",
+          "actual": 122.0
+        },
+        {
+          "datetime": "2016-04-23T03:00:00-04:00",
+          "actual": 130.0
+        },
+        {
+          "datetime": "2016-04-23T03:15:00-04:00",
+          "actual": 117.0
+        },
+        {
+          "datetime": "2016-04-23T03:30:00-04:00",
+          "actual": 100.0
+        },
+        {
+          "datetime": "2016-04-23T03:45:00-04:00",
+          "actual": 120.0
+        },
+        {
+          "datetime": "2016-04-23T04:00:00-04:00",
+          "actual": 88.0
+        },
+        {
+          "datetime": "2016-04-23T04:15:00-04:00",
+          "actual": 64.0
+        },
+        {
+          "datetime": "2016-04-23T04:30:00-04:00",
+          "actual": 40.0
+        },
+        {
+          "datetime": "2016-04-23T04:45:00-04:00",
+          "actual": 43.0
+        },
+        {
+          "datetime": "2016-04-23T05:00:00-04:00",
+          "actual": 37.0
+        },
+        {
+          "datetime": "2016-04-23T05:15:00-04:00",
+          "actual": 33.0
+        },
+        {
+          "datetime": "2016-04-23T05:30:00-04:00",
+          "actual": 50.0
+        },
+        {
+          "datetime": "2016-04-23T05:45:00-04:00",
+          "actual": 24.0
+        },
+        {
+          "datetime": "2016-04-23T06:00:00-04:00",
+          "actual": 51.0
+        },
+        {
+          "datetime": "2016-04-23T06:15:00-04:00",
+          "actual": 57.0
+        },
+        {
+          "datetime": "2016-04-23T06:30:00-04:00",
+          "actual": 77.0
+        },
+        {
+          "datetime": "2016-04-23T06:45:00-04:00",
+          "actual": 69.0
+        },
+        {
+          "datetime": "2016-04-23T07:00:00-04:00",
+          "actual": 73.0
+        },
+        {
+          "datetime": "2016-04-23T07:15:00-04:00",
+          "actual": 67.0
+        },
+        {
+          "datetime": "2016-04-23T07:30:00-04:00",
+          "actual": 81.0
+        },
+        {
+          "datetime": "2016-04-23T07:45:00-04:00",
+          "actual": 89.0
+        },
+        {
+          "datetime": "2016-04-23T08:00:00-04:00",
+          "actual": 114.0
+        },
+        {
+          "datetime": "2016-04-23T08:15:00-04:00",
+          "actual": 139.0
+        },
+        {
+          "datetime": "2016-04-23T08:30:00-04:00",
+          "actual": 132.0
+        },
+        {
+          "datetime": "2016-04-23T08:45:00-04:00",
+          "actual": 138.0
+        },
+        {
+          "datetime": "2016-04-23T09:00:00-04:00",
+          "actual": 130.0
+        },
+        {
+          "datetime": "2016-04-23T09:15:00-04:00",
+          "actual": 159.0
+        },
+        {
+          "datetime": "2016-04-23T09:30:00-04:00",
+          "actual": 167.0
+        },
+        {
+          "datetime": "2016-04-23T09:45:00-04:00",
+          "actual": 154.0
+        },
+        {
+          "datetime": "2016-04-23T10:00:00-04:00",
+          "actual": 178.0
+        },
+        {
+          "datetime": "2016-04-23T10:15:00-04:00",
+          "actual": 196.0
+        },
+        {
+          "datetime": "2016-04-23T10:30:00-04:00",
+          "actual": 184.0
+        },
+        {
+          "datetime": "2016-04-23T10:45:00-04:00",
+          "actual": 201.0
+        },
+        {
+          "datetime": "2016-04-23T11:00:00-04:00",
+          "actual": 218.0
+        },
+        {
+          "datetime": "2016-04-23T11:15:00-04:00",
+          "actual": 182.0
+        },
+        {
+          "datetime": "2016-04-23T11:30:00-04:00",
+          "actual": 190.0
+        },
+        {
+          "datetime": "2016-04-23T11:45:00-04:00",
+          "actual": 175.0
+        },
+        {
+          "datetime": "2016-04-23T12:00:00-04:00",
+          "actual": 180.0
+        },
+        {
+          "datetime": "2016-04-23T12:15:00-04:00",
+          "actual": 149.0
+        },
+        {
+          "datetime": "2016-04-23T12:30:00-04:00",
+          "actual": 196.0
+        },
+        {
+          "datetime": "2016-04-23T12:45:00-04:00",
+          "actual": 175.0
+        },
+        {
+          "datetime": "2016-04-23T13:00:00-04:00",
+          "actual": 174.0
+        },
+        {
+          "datetime": "2016-04-23T13:15:00-04:00",
+          "actual": 174.0
+        },
+        {
+          "datetime": "2016-04-23T13:30:00-04:00",
+          "actual": 160.0
+        },
+        {
+          "datetime": "2016-04-23T13:45:00-04:00",
+          "actual": 153.0
+        },
+        {
+          "datetime": "2016-04-23T14:00:00-04:00",
+          "actual": 162.0
+        },
+        {
+          "datetime": "2016-04-23T14:15:00-04:00",
+          "actual": 196.0
+        },
+        {
+          "datetime": "2016-04-23T14:30:00-04:00",
+          "actual": 151.0
+        },
+        {
+          "datetime": "2016-04-23T14:45:00-04:00",
+          "actual": 181.0
+        },
+        {
+          "datetime": "2016-04-23T15:00:00-04:00",
+          "actual": 179.0
+        },
+        {
+          "datetime": "2016-04-23T15:15:00-04:00",
+          "actual": 147.0
+        },
+        {
+          "datetime": "2016-04-23T15:30:00-04:00",
+          "actual": 171.0
+        },
+        {
+          "datetime": "2016-04-23T15:45:00-04:00",
+          "actual": 177.0
+        },
+        {
+          "datetime": "2016-04-23T16:00:00-04:00",
+          "actual": 143.0
+        },
+        {
+          "datetime": "2016-04-23T16:15:00-04:00",
+          "actual": 161.0
+        },
+        {
+          "datetime": "2016-04-23T16:30:00-04:00",
+          "actual": 181.0
+        },
+        {
+          "datetime": "2016-04-23T16:45:00-04:00",
+          "actual": 180.0
+        },
+        {
+          "datetime": "2016-04-23T17:00:00-04:00",
+          "actual": 171.0
+        },
+        {
+          "datetime": "2016-04-23T17:15:00-04:00",
+          "actual": 157.0
+        },
+        {
+          "datetime": "2016-04-23T17:30:00-04:00",
+          "actual": 205.0
+        },
+        {
+          "datetime": "2016-04-23T17:45:00-04:00",
+          "actual": 196.0
+        },
+        {
+          "datetime": "2016-04-23T18:00:00-04:00",
+          "actual": 197.0
+        },
+        {
+          "datetime": "2016-04-23T18:15:00-04:00",
+          "actual": 204.0
+        },
+        {
+          "datetime": "2016-04-23T18:30:00-04:00",
+          "actual": 203.0
+        },
+        {
+          "datetime": "2016-04-23T18:45:00-04:00",
+          "actual": 223.0
+        },
+        {
+          "datetime": "2016-04-23T19:00:00-04:00",
+          "actual": 207.0
+        },
+        {
+          "datetime": "2016-04-23T19:15:00-04:00",
+          "actual": 198.0
+        },
+        {
+          "datetime": "2016-04-23T19:30:00-04:00",
+          "actual": 187.0
+        },
+        {
+          "datetime": "2016-04-23T19:45:00-04:00",
+          "actual": 212.0
+        },
+        {
+          "datetime": "2016-04-23T20:00:00-04:00",
+          "actual": 195.0
+        },
+        {
+          "datetime": "2016-04-23T20:15:00-04:00",
+          "actual": 174.0
+        },
+        {
+          "datetime": "2016-04-23T20:30:00-04:00",
+          "actual": 169.0
+        },
+        {
+          "datetime": "2016-04-23T20:45:00-04:00",
+          "actual": 179.0
+        },
+        {
+          "datetime": "2016-04-23T21:00:00-04:00",
+          "actual": 216.0
+        },
+        {
+          "datetime": "2016-04-23T21:15:00-04:00",
+          "actual": 229.0
+        },
+        {
+          "datetime": "2016-04-23T21:30:00-04:00",
+          "actual": 228.0
+        },
+        {
+          "datetime": "2016-04-23T21:45:00-04:00",
+          "actual": 211.0
+        },
+        {
+          "datetime": "2016-04-23T22:00:00-04:00",
+          "actual": 244.0
+        },
+        {
+          "datetime": "2016-04-23T22:15:00-04:00",
+          "actual": 250.0
+        },
+        {
+          "datetime": "2016-04-23T22:30:00-04:00",
+          "actual": 376.0
+        },
+        {
+          "datetime": "2016-04-23T22:45:00-04:00",
+          "actual": 345.0
+        },
+        {
+          "datetime": "2016-04-23T23:00:00-04:00",
+          "actual": 280.0
+        },
+        {
+          "datetime": "2016-04-23T23:15:00-04:00",
+          "actual": 264.0
+        },
+        {
+          "datetime": "2016-04-23T23:30:00-04:00",
+          "actual": 260.0
+        },
+        {
+          "datetime": "2016-04-23T23:45:00-04:00",
+          "actual": 249.0
+        },
+        {
+          "datetime": "2016-04-24T00:00:00-04:00",
+          "actual": 282.0
+        },
+        {
+          "datetime": "2016-04-24T00:15:00-04:00",
+          "actual": 238.0
+        },
+        {
+          "datetime": "2016-04-24T00:30:00-04:00",
+          "actual": 227.0
+        },
+        {
+          "datetime": "2016-04-24T00:45:00-04:00",
+          "actual": 259.0
+        },
+        {
+          "datetime": "2016-04-24T01:00:00-04:00",
+          "actual": 222.0
+        },
+        {
+          "datetime": "2016-04-24T01:15:00-04:00",
+          "actual": 185.0
+        },
+        {
+          "datetime": "2016-04-24T01:30:00-04:00",
+          "actual": 178.0
+        },
+        {
+          "datetime": "2016-04-24T01:45:00-04:00",
+          "actual": 160.0
+        },
+        {
+          "datetime": "2016-04-24T02:00:00-04:00",
+          "actual": 154.0
+        },
+        {
+          "datetime": "2016-04-24T02:15:00-04:00",
+          "actual": 148.0
+        },
+        {
+          "datetime": "2016-04-24T02:30:00-04:00",
+          "actual": 129.0
+        },
+        {
+          "datetime": "2016-04-24T02:45:00-04:00",
+          "actual": 144.0
+        },
+        {
+          "datetime": "2016-04-24T03:00:00-04:00",
+          "actual": 111.0
+        },
+        {
+          "datetime": "2016-04-24T03:15:00-04:00",
+          "actual": 101.0
+        },
+        {
+          "datetime": "2016-04-24T03:30:00-04:00",
+          "actual": 110.0
+        },
+        {
+          "datetime": "2016-04-24T03:45:00-04:00",
+          "actual": 121.0
+        },
+        {
+          "datetime": "2016-04-24T04:00:00-04:00",
+          "actual": 132.0
+        },
+        {
+          "datetime": "2016-04-24T04:15:00-04:00",
+          "actual": 115.0
+        },
+        {
+          "datetime": "2016-04-24T04:30:00-04:00",
+          "actual": 95.0
+        },
+        {
+          "datetime": "2016-04-24T04:45:00-04:00",
+          "actual": 72.0
+        },
+        {
+          "datetime": "2016-04-24T05:00:00-04:00",
+          "actual": 43.0
+        },
+        {
+          "datetime": "2016-04-24T05:15:00-04:00",
+          "actual": 39.0
+        },
+        {
+          "datetime": "2016-04-24T05:30:00-04:00",
+          "actual": 42.0
+        },
+        {
+          "datetime": "2016-04-24T05:45:00-04:00",
+          "actual": 35.0
+        }
+      ],
+      "weather": {
+        "temperature": null,
+        "condition": "Not used by this model",
+        "source": "not_used"
+      },
+      "heatmap": [
+        {
+          "id": 0,
+          "name": "NYC Sector 00",
+          "demand": 37,
+          "level": "Low"
+        },
+        {
+          "id": 1,
+          "name": "NYC Sector 01",
+          "demand": 108,
+          "level": "Low"
+        },
+        {
+          "id": 2,
+          "name": "NYC Sector 02",
+          "demand": 20,
+          "level": "Low"
+        },
+        {
+          "id": 3,
+          "name": "NYC Sector 03",
+          "demand": 13,
+          "level": "Low"
+        },
+        {
+          "id": 4,
+          "name": "NYC Sector 04",
+          "demand": 150,
+          "level": "Low"
+        },
+        {
+          "id": 5,
+          "name": "NYC Sector 05",
+          "demand": 120,
+          "level": "Low"
+        },
+        {
+          "id": 6,
+          "name": "NYC Sector 06",
+          "demand": 15,
+          "level": "Low"
+        },
+        {
+          "id": 7,
+          "name": "NYC Sector 07",
+          "demand": 182,
+          "level": "Low"
+        },
+        {
+          "id": 8,
+          "name": "NYC Sector 08",
+          "demand": 87,
+          "level": "Low"
+        },
+        {
+          "id": 9,
+          "name": "NYC Sector 09",
+          "demand": 42,
+          "level": "Low"
+        },
+        {
+          "id": 10,
+          "name": "NYC Sector 10",
+          "demand": 661,
+          "level": "Medium"
+        },
+        {
+          "id": 11,
+          "name": "NYC Sector 11",
+          "demand": 62,
+          "level": "Low"
+        },
+        {
+          "id": 12,
+          "name": "NYC Sector 12",
+          "demand": 192,
+          "level": "Low"
+        },
+        {
+          "id": 13,
+          "name": "NYC Sector 13",
+          "demand": 41,
+          "level": "Low"
+        },
+        {
+          "id": 14,
+          "name": "NYC Sector 14",
+          "demand": 150,
+          "level": "Low"
+        },
+        {
+          "id": 15,
+          "name": "NYC Sector 15",
+          "demand": 139,
+          "level": "Low"
+        },
+        {
+          "id": 16,
+          "name": "NYC Sector 16",
+          "demand": 97,
+          "level": "Low"
+        },
+        {
+          "id": 17,
+          "name": "NYC Sector 17",
+          "demand": 19,
+          "level": "Low"
+        },
+        {
+          "id": 18,
+          "name": "NYC Sector 18",
+          "demand": 140,
+          "level": "Low"
+        },
+        {
+          "id": 19,
+          "name": "NYC Sector 19",
+          "demand": 60,
+          "level": "Low"
+        },
+        {
+          "id": 20,
+          "name": "NYC Sector 20",
+          "demand": 57,
+          "level": "Low"
+        },
+        {
+          "id": 21,
+          "name": "NYC Sector 21",
+          "demand": 72,
+          "level": "Low"
+        },
+        {
+          "id": 22,
+          "name": "NYC Sector 22",
+          "demand": 258,
+          "level": "Low"
+        },
+        {
+          "id": 23,
+          "name": "NYC Sector 23",
+          "demand": 40,
+          "level": "Low"
+        },
+        {
+          "id": 24,
+          "name": "NYC Sector 24",
+          "demand": 14,
+          "level": "Low"
+        },
+        {
+          "id": 25,
+          "name": "NYC Sector 25",
+          "demand": 131,
+          "level": "Low"
+        },
+        {
+          "id": 26,
+          "name": "NYC Sector 26",
+          "demand": 115,
+          "level": "Low"
+        },
+        {
+          "id": 27,
+          "name": "NYC Sector 27",
+          "demand": 343,
+          "level": "Low"
+        },
+        {
+          "id": 28,
+          "name": "NYC Sector 28",
+          "demand": 28,
+          "level": "Low"
+        },
+        {
+          "id": 29,
+          "name": "NYC Sector 29",
+          "demand": 25,
+          "level": "Low"
+        }
+      ],
+      "feature_importance": [],
+      "alerts": [],
+      "metadata": {
+        "mode": "historical",
+        "timezone": "America/New_York",
+        "schema_version": 3,
+        "heatmap_source": "historical_observations_before_origin",
+        "confidence_intervals": "unavailable",
+        "latency_ms": 533.02,
+        "forecast_strategy": "recursive",
+        "candidate_id": "calendar_feedback_0.6"
+      }
+    },
+    "whole_backend_process_tree_RSS_MiB": 420.890625
+  },
+  "validation_demo": {
+    "server_model": "C:\\Users\\Soham\\Documents\\UBER DEMAND PREDICATION\\artifacts\\advanced_20261102\\validation_demo_v3.joblib",
+    "health": {
+      "status": "ok",
+      "model_loaded": true,
+      "observations_end": "2016-04-30 23:45:00-04:00",
+      "timezone": "America/New_York",
+      "default_mode": "historical"
+    },
+    "valid_requests": 3,
+    "invalid_requests": 0,
+    "requests": [
+      {
+        "request": {
+          "region": 0,
+          "datetime": "2016-03-12T23:00:00-05:00",
+          "horizon": 48
+        },
+        "latency_ms": 943.7298999982886,
+        "predictions": [
+          {
+            "datetime": "2016-03-12T23:00:00-05:00",
+            "prediction": 78.4
+          },
+          {
+            "datetime": "2016-03-12T23:15:00-05:00",
+            "prediction": 71.64
+          },
+          {
+            "datetime": "2016-03-12T23:30:00-05:00",
+            "prediction": 76.56
+          },
+          {
+            "datetime": "2016-03-12T23:45:00-05:00",
+            "prediction": 75.51
+          },
+          {
+            "datetime": "2016-03-13T00:00:00-05:00",
+            "prediction": 77.88
+          },
+          {
+            "datetime": "2016-03-13T00:15:00-05:00",
+            "prediction": 69.6
+          },
+          {
+            "datetime": "2016-03-13T00:30:00-05:00",
+            "prediction": 68.07
+          },
+          {
+            "datetime": "2016-03-13T00:45:00-05:00",
+            "prediction": 57.72
+          },
+          {
+            "datetime": "2016-03-13T01:00:00-05:00",
+            "prediction": 55.2
+          },
+          {
+            "datetime": "2016-03-13T01:15:00-05:00",
+            "prediction": 51.34
+          },
+          {
+            "datetime": "2016-03-13T01:30:00-05:00",
+            "prediction": 50.56
+          },
+          {
+            "datetime": "2016-03-13T01:45:00-05:00",
+            "prediction": 46.04
+          },
+          {
+            "datetime": "2016-03-13T03:00:00-04:00",
+            "prediction": 38.44
+          },
+          {
+            "datetime": "2016-03-13T03:15:00-04:00",
+            "prediction": 36.07
+          },
+          {
+            "datetime": "2016-03-13T03:30:00-04:00",
+            "prediction": 33.14
+          },
+          {
+            "datetime": "2016-03-13T03:45:00-04:00",
+            "prediction": 34.33
+          },
+          {
+            "datetime": "2016-03-13T04:00:00-04:00",
+            "prediction": 32.17
+          },
+          {
+            "datetime": "2016-03-13T04:15:00-04:00",
+            "prediction": 30.43
+          },
+          {
+            "datetime": "2016-03-13T04:30:00-04:00",
+            "prediction": 26.12
+          },
+          {
+            "datetime": "2016-03-13T04:45:00-04:00",
+            "prediction": 23.63
+          },
+          {
+            "datetime": "2016-03-13T05:00:00-04:00",
+            "prediction": 23.82
+          },
+          {
+            "datetime": "2016-03-13T05:15:00-04:00",
+            "prediction": 23.57
+          },
+          {
+            "datetime": "2016-03-13T05:30:00-04:00",
+            "prediction": 23.16
+          },
+          {
+            "datetime": "2016-03-13T05:45:00-04:00",
+            "prediction": 24.24
+          },
+          {
+            "datetime": "2016-03-13T06:00:00-04:00",
+            "prediction": 24.46
+          },
+          {
+            "datetime": "2016-03-13T06:15:00-04:00",
+            "prediction": 28.63
+          },
+          {
+            "datetime": "2016-03-13T06:30:00-04:00",
+            "prediction": 36.39
+          },
+          {
+            "datetime": "2016-03-13T06:45:00-04:00",
+            "prediction": 39.66
+          },
+          {
+            "datetime": "2016-03-13T07:00:00-04:00",
+            "prediction": 36.23
+          },
+          {
+            "datetime": "2016-03-13T07:15:00-04:00",
+            "prediction": 37.31
+          },
+          {
+            "datetime": "2016-03-13T07:30:00-04:00",
+            "prediction": 44.26
+          },
+          {
+            "datetime": "2016-03-13T07:45:00-04:00",
+            "prediction": 47.85
+          },
+          {
+            "datetime": "2016-03-13T08:00:00-04:00",
+            "prediction": 45.17
+          },
+          {
+            "datetime": "2016-03-13T08:15:00-04:00",
+            "prediction": 46.43
+          },
+          {
+            "datetime": "2016-03-13T08:30:00-04:00",
+            "prediction": 53.67
+          },
+          {
+            "datetime": "2016-03-13T08:45:00-04:00",
+            "prediction": 60.5
+          },
+          {
+            "datetime": "2016-03-13T09:00:00-04:00",
+            "prediction": 58.27
+          },
+          {
+            "datetime": "2016-03-13T09:15:00-04:00",
+            "prediction": 60.56
+          },
+          {
+            "datetime": "2016-03-13T09:30:00-04:00",
+            "prediction": 66.57
+          },
+          {
+            "datetime": "2016-03-13T09:45:00-04:00",
+            "prediction": 75.52
+          },
+          {
+            "datetime": "2016-03-13T10:00:00-04:00",
+            "prediction": 73.88
+          },
+          {
+            "datetime": "2016-03-13T10:15:00-04:00",
+            "prediction": 73.81
+          },
+          {
+            "datetime": "2016-03-13T10:30:00-04:00",
+            "prediction": 77.47
+          },
+          {
+            "datetime": "2016-03-13T10:45:00-04:00",
+            "prediction": 80.22
+          },
+          {
+            "datetime": "2016-03-13T11:00:00-04:00",
+            "prediction": 74.58
+          },
+          {
+            "datetime": "2016-03-13T11:15:00-04:00",
+            "prediction": 69.19
+          },
+          {
+            "datetime": "2016-03-13T11:30:00-04:00",
+            "prediction": 72.67
+          },
+          {
+            "datetime": "2016-03-13T11:45:00-04:00",
+            "prediction": 74.16
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 15,
+          "datetime": "2016-03-12T23:00:00-05:00",
+          "horizon": 48
+        },
+        "latency_ms": 558.1850000307895,
+        "predictions": [
+          {
+            "datetime": "2016-03-12T23:00:00-05:00",
+            "prediction": 314.97
+          },
+          {
+            "datetime": "2016-03-12T23:15:00-05:00",
+            "prediction": 288.63
+          },
+          {
+            "datetime": "2016-03-12T23:30:00-05:00",
+            "prediction": 281.44
+          },
+          {
+            "datetime": "2016-03-12T23:45:00-05:00",
+            "prediction": 282.6
+          },
+          {
+            "datetime": "2016-03-13T00:00:00-05:00",
+            "prediction": 268.21
+          },
+          {
+            "datetime": "2016-03-13T00:15:00-05:00",
+            "prediction": 259.86
+          },
+          {
+            "datetime": "2016-03-13T00:30:00-05:00",
+            "prediction": 253.06
+          },
+          {
+            "datetime": "2016-03-13T00:45:00-05:00",
+            "prediction": 239.51
+          },
+          {
+            "datetime": "2016-03-13T01:00:00-05:00",
+            "prediction": 229.23
+          },
+          {
+            "datetime": "2016-03-13T01:15:00-05:00",
+            "prediction": 212.01
+          },
+          {
+            "datetime": "2016-03-13T01:30:00-05:00",
+            "prediction": 195.37
+          },
+          {
+            "datetime": "2016-03-13T01:45:00-05:00",
+            "prediction": 178.73
+          },
+          {
+            "datetime": "2016-03-13T03:00:00-04:00",
+            "prediction": 160.64
+          },
+          {
+            "datetime": "2016-03-13T03:15:00-04:00",
+            "prediction": 148.08
+          },
+          {
+            "datetime": "2016-03-13T03:30:00-04:00",
+            "prediction": 139.57
+          },
+          {
+            "datetime": "2016-03-13T03:45:00-04:00",
+            "prediction": 130.91
+          },
+          {
+            "datetime": "2016-03-13T04:00:00-04:00",
+            "prediction": 127.79
+          },
+          {
+            "datetime": "2016-03-13T04:15:00-04:00",
+            "prediction": 111.63
+          },
+          {
+            "datetime": "2016-03-13T04:30:00-04:00",
+            "prediction": 96.93
+          },
+          {
+            "datetime": "2016-03-13T04:45:00-04:00",
+            "prediction": 84.14
+          },
+          {
+            "datetime": "2016-03-13T05:00:00-04:00",
+            "prediction": 70.01
+          },
+          {
+            "datetime": "2016-03-13T05:15:00-04:00",
+            "prediction": 62.04
+          },
+          {
+            "datetime": "2016-03-13T05:30:00-04:00",
+            "prediction": 52.97
+          },
+          {
+            "datetime": "2016-03-13T05:45:00-04:00",
+            "prediction": 43.87
+          },
+          {
+            "datetime": "2016-03-13T06:00:00-04:00",
+            "prediction": 40.14
+          },
+          {
+            "datetime": "2016-03-13T06:15:00-04:00",
+            "prediction": 40.38
+          },
+          {
+            "datetime": "2016-03-13T06:30:00-04:00",
+            "prediction": 44.79
+          },
+          {
+            "datetime": "2016-03-13T06:45:00-04:00",
+            "prediction": 49.11
+          },
+          {
+            "datetime": "2016-03-13T07:00:00-04:00",
+            "prediction": 52.74
+          },
+          {
+            "datetime": "2016-03-13T07:15:00-04:00",
+            "prediction": 55.94
+          },
+          {
+            "datetime": "2016-03-13T07:30:00-04:00",
+            "prediction": 66.15
+          },
+          {
+            "datetime": "2016-03-13T07:45:00-04:00",
+            "prediction": 78.29
+          },
+          {
+            "datetime": "2016-03-13T08:00:00-04:00",
+            "prediction": 88.26
+          },
+          {
+            "datetime": "2016-03-13T08:15:00-04:00",
+            "prediction": 95.24
+          },
+          {
+            "datetime": "2016-03-13T08:30:00-04:00",
+            "prediction": 104.18
+          },
+          {
+            "datetime": "2016-03-13T08:45:00-04:00",
+            "prediction": 116.08
+          },
+          {
+            "datetime": "2016-03-13T09:00:00-04:00",
+            "prediction": 123.32
+          },
+          {
+            "datetime": "2016-03-13T09:15:00-04:00",
+            "prediction": 134.86
+          },
+          {
+            "datetime": "2016-03-13T09:30:00-04:00",
+            "prediction": 151.84
+          },
+          {
+            "datetime": "2016-03-13T09:45:00-04:00",
+            "prediction": 165.51
+          },
+          {
+            "datetime": "2016-03-13T10:00:00-04:00",
+            "prediction": 170.95
+          },
+          {
+            "datetime": "2016-03-13T10:15:00-04:00",
+            "prediction": 178.4
+          },
+          {
+            "datetime": "2016-03-13T10:30:00-04:00",
+            "prediction": 188.43
+          },
+          {
+            "datetime": "2016-03-13T10:45:00-04:00",
+            "prediction": 194.94
+          },
+          {
+            "datetime": "2016-03-13T11:00:00-04:00",
+            "prediction": 189.5
+          },
+          {
+            "datetime": "2016-03-13T11:15:00-04:00",
+            "prediction": 191.4
+          },
+          {
+            "datetime": "2016-03-13T11:30:00-04:00",
+            "prediction": 201.29
+          },
+          {
+            "datetime": "2016-03-13T11:45:00-04:00",
+            "prediction": 209.76
+          }
+        ]
+      },
+      {
+        "request": {
+          "region": 29,
+          "datetime": "2016-03-12T23:00:00-05:00",
+          "horizon": 48
+        },
+        "latency_ms": 513.3350000251085,
+        "predictions": [
+          {
+            "datetime": "2016-03-12T23:00:00-05:00",
+            "prediction": 22.4
+          },
+          {
+            "datetime": "2016-03-12T23:15:00-05:00",
+            "prediction": 22.87
+          },
+          {
+            "datetime": "2016-03-12T23:30:00-05:00",
+            "prediction": 22.88
+          },
+          {
+            "datetime": "2016-03-12T23:45:00-05:00",
+            "prediction": 23.31
+          },
+          {
+            "datetime": "2016-03-13T00:00:00-05:00",
+            "prediction": 26.36
+          },
+          {
+            "datetime": "2016-03-13T00:15:00-05:00",
+            "prediction": 27.67
+          },
+          {
+            "datetime": "2016-03-13T00:30:00-05:00",
+            "prediction": 24.94
+          },
+          {
+            "datetime": "2016-03-13T00:45:00-05:00",
+            "prediction": 24.77
+          },
+          {
+            "datetime": "2016-03-13T01:00:00-05:00",
+            "prediction": 23.65
+          },
+          {
+            "datetime": "2016-03-13T01:15:00-05:00",
+            "prediction": 24.26
+          },
+          {
+            "datetime": "2016-03-13T01:30:00-05:00",
+            "prediction": 22.93
+          },
+          {
+            "datetime": "2016-03-13T01:45:00-05:00",
+            "prediction": 23.74
+          },
+          {
+            "datetime": "2016-03-13T03:00:00-04:00",
+            "prediction": 20.63
+          },
+          {
+            "datetime": "2016-03-13T03:15:00-04:00",
+            "prediction": 19.86
+          },
+          {
+            "datetime": "2016-03-13T03:30:00-04:00",
+            "prediction": 20.04
+          },
+          {
+            "datetime": "2016-03-13T03:45:00-04:00",
+            "prediction": 20.69
+          },
+          {
+            "datetime": "2016-03-13T04:00:00-04:00",
+            "prediction": 20.3
+          },
+          {
+            "datetime": "2016-03-13T04:15:00-04:00",
+            "prediction": 19.54
+          },
+          {
+            "datetime": "2016-03-13T04:30:00-04:00",
+            "prediction": 18.37
+          },
+          {
+            "datetime": "2016-03-13T04:45:00-04:00",
+            "prediction": 15.4
+          },
+          {
+            "datetime": "2016-03-13T05:00:00-04:00",
+            "prediction": 14.84
+          },
+          {
+            "datetime": "2016-03-13T05:15:00-04:00",
+            "prediction": 14.52
+          },
+          {
+            "datetime": "2016-03-13T05:30:00-04:00",
+            "prediction": 13.21
+          },
+          {
+            "datetime": "2016-03-13T05:45:00-04:00",
+            "prediction": 12.41
+          },
+          {
+            "datetime": "2016-03-13T06:00:00-04:00",
+            "prediction": 12.43
+          },
+          {
+            "datetime": "2016-03-13T06:15:00-04:00",
+            "prediction": 13.15
+          },
+          {
+            "datetime": "2016-03-13T06:30:00-04:00",
+            "prediction": 14.96
+          },
+          {
+            "datetime": "2016-03-13T06:45:00-04:00",
+            "prediction": 15.31
+          },
+          {
+            "datetime": "2016-03-13T07:00:00-04:00",
+            "prediction": 14.58
+          },
+          {
+            "datetime": "2016-03-13T07:15:00-04:00",
+            "prediction": 14.14
+          },
+          {
+            "datetime": "2016-03-13T07:30:00-04:00",
+            "prediction": 15.26
+          },
+          {
+            "datetime": "2016-03-13T07:45:00-04:00",
+            "prediction": 14.62
+          },
+          {
+            "datetime": "2016-03-13T08:00:00-04:00",
+            "prediction": 14.47
+          },
+          {
+            "datetime": "2016-03-13T08:15:00-04:00",
+            "prediction": 15.36
+          },
+          {
+            "datetime": "2016-03-13T08:30:00-04:00",
+            "prediction": 17.65
+          },
+          {
+            "datetime": "2016-03-13T08:45:00-04:00",
+            "prediction": 17.45
+          },
+          {
+            "datetime": "2016-03-13T09:00:00-04:00",
+            "prediction": 17.11
+          },
+          {
+            "datetime": "2016-03-13T09:15:00-04:00",
+            "prediction": 18.34
+          },
+          {
+            "datetime": "2016-03-13T09:30:00-04:00",
+            "prediction": 19.16
+          },
+          {
+            "datetime": "2016-03-13T09:45:00-04:00",
+            "prediction": 20.51
+          },
+          {
+            "datetime": "2016-03-13T10:00:00-04:00",
+            "prediction": 19.86
+          },
+          {
+            "datetime": "2016-03-13T10:15:00-04:00",
+            "prediction": 20.05
+          },
+          {
+            "datetime": "2016-03-13T10:30:00-04:00",
+            "prediction": 20.8
+          },
+          {
+            "datetime": "2016-03-13T10:45:00-04:00",
+            "prediction": 20.14
+          },
+          {
+            "datetime": "2016-03-13T11:00:00-04:00",
+            "prediction": 19.78
+          },
+          {
+            "datetime": "2016-03-13T11:15:00-04:00",
+            "prediction": 19.32
+          },
+          {
+            "datetime": "2016-03-13T11:30:00-04:00",
+            "prediction": 18.95
+          },
+          {
+            "datetime": "2016-03-13T11:45:00-04:00",
+            "prediction": 18.05
+          }
+        ]
+      }
+    ],
+    "sample": {
+      "forecast": [
+        {
+          "datetime": "2016-03-12T23:00:00-05:00",
+          "prediction": 22.4
+        },
+        {
+          "datetime": "2016-03-12T23:15:00-05:00",
+          "prediction": 22.87
+        },
+        {
+          "datetime": "2016-03-12T23:30:00-05:00",
+          "prediction": 22.88
+        },
+        {
+          "datetime": "2016-03-12T23:45:00-05:00",
+          "prediction": 23.31
+        },
+        {
+          "datetime": "2016-03-13T00:00:00-05:00",
+          "prediction": 26.36
+        },
+        {
+          "datetime": "2016-03-13T00:15:00-05:00",
+          "prediction": 27.67
+        },
+        {
+          "datetime": "2016-03-13T00:30:00-05:00",
+          "prediction": 24.94
+        },
+        {
+          "datetime": "2016-03-13T00:45:00-05:00",
+          "prediction": 24.77
+        },
+        {
+          "datetime": "2016-03-13T01:00:00-05:00",
+          "prediction": 23.65
+        },
+        {
+          "datetime": "2016-03-13T01:15:00-05:00",
+          "prediction": 24.26
+        },
+        {
+          "datetime": "2016-03-13T01:30:00-05:00",
+          "prediction": 22.93
+        },
+        {
+          "datetime": "2016-03-13T01:45:00-05:00",
+          "prediction": 23.74
+        },
+        {
+          "datetime": "2016-03-13T03:00:00-04:00",
+          "prediction": 20.63
+        },
+        {
+          "datetime": "2016-03-13T03:15:00-04:00",
+          "prediction": 19.86
+        },
+        {
+          "datetime": "2016-03-13T03:30:00-04:00",
+          "prediction": 20.04
+        },
+        {
+          "datetime": "2016-03-13T03:45:00-04:00",
+          "prediction": 20.69
+        },
+        {
+          "datetime": "2016-03-13T04:00:00-04:00",
+          "prediction": 20.3
+        },
+        {
+          "datetime": "2016-03-13T04:15:00-04:00",
+          "prediction": 19.54
+        },
+        {
+          "datetime": "2016-03-13T04:30:00-04:00",
+          "prediction": 18.37
+        },
+        {
+          "datetime": "2016-03-13T04:45:00-04:00",
+          "prediction": 15.4
+        },
+        {
+          "datetime": "2016-03-13T05:00:00-04:00",
+          "prediction": 14.84
+        },
+        {
+          "datetime": "2016-03-13T05:15:00-04:00",
+          "prediction": 14.52
+        },
+        {
+          "datetime": "2016-03-13T05:30:00-04:00",
+          "prediction": 13.21
+        },
+        {
+          "datetime": "2016-03-13T05:45:00-04:00",
+          "prediction": 12.41
+        },
+        {
+          "datetime": "2016-03-13T06:00:00-04:00",
+          "prediction": 12.43
+        },
+        {
+          "datetime": "2016-03-13T06:15:00-04:00",
+          "prediction": 13.15
+        },
+        {
+          "datetime": "2016-03-13T06:30:00-04:00",
+          "prediction": 14.96
+        },
+        {
+          "datetime": "2016-03-13T06:45:00-04:00",
+          "prediction": 15.31
+        },
+        {
+          "datetime": "2016-03-13T07:00:00-04:00",
+          "prediction": 14.58
+        },
+        {
+          "datetime": "2016-03-13T07:15:00-04:00",
+          "prediction": 14.14
+        },
+        {
+          "datetime": "2016-03-13T07:30:00-04:00",
+          "prediction": 15.26
+        },
+        {
+          "datetime": "2016-03-13T07:45:00-04:00",
+          "prediction": 14.62
+        },
+        {
+          "datetime": "2016-03-13T08:00:00-04:00",
+          "prediction": 14.47
+        },
+        {
+          "datetime": "2016-03-13T08:15:00-04:00",
+          "prediction": 15.36
+        },
+        {
+          "datetime": "2016-03-13T08:30:00-04:00",
+          "prediction": 17.65
+        },
+        {
+          "datetime": "2016-03-13T08:45:00-04:00",
+          "prediction": 17.45
+        },
+        {
+          "datetime": "2016-03-13T09:00:00-04:00",
+          "prediction": 17.11
+        },
+        {
+          "datetime": "2016-03-13T09:15:00-04:00",
+          "prediction": 18.34
+        },
+        {
+          "datetime": "2016-03-13T09:30:00-04:00",
+          "prediction": 19.16
+        },
+        {
+          "datetime": "2016-03-13T09:45:00-04:00",
+          "prediction": 20.51
+        },
+        {
+          "datetime": "2016-03-13T10:00:00-04:00",
+          "prediction": 19.86
+        },
+        {
+          "datetime": "2016-03-13T10:15:00-04:00",
+          "prediction": 20.05
+        },
+        {
+          "datetime": "2016-03-13T10:30:00-04:00",
+          "prediction": 20.8
+        },
+        {
+          "datetime": "2016-03-13T10:45:00-04:00",
+          "prediction": 20.14
+        },
+        {
+          "datetime": "2016-03-13T11:00:00-04:00",
+          "prediction": 19.78
+        },
+        {
+          "datetime": "2016-03-13T11:15:00-04:00",
+          "prediction": 19.32
+        },
+        {
+          "datetime": "2016-03-13T11:30:00-04:00",
+          "prediction": 18.95
+        },
+        {
+          "datetime": "2016-03-13T11:45:00-04:00",
+          "prediction": 18.05
+        }
+      ],
+      "history": [
+        {
+          "datetime": "2016-03-10T23:00:00-05:00",
+          "actual": 30.0
+        },
+        {
+          "datetime": "2016-03-10T23:15:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-10T23:30:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-10T23:45:00-05:00",
+          "actual": 8.0
+        },
+        {
+          "datetime": "2016-03-11T00:00:00-05:00",
+          "actual": 9.0
+        },
+        {
+          "datetime": "2016-03-11T00:15:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T00:30:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-11T00:45:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T01:00:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-11T01:15:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T01:30:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-11T01:45:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T02:00:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T02:15:00-05:00",
+          "actual": 10.0
+        },
+        {
+          "datetime": "2016-03-11T02:30:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-11T02:45:00-05:00",
+          "actual": 10.0
+        },
+        {
+          "datetime": "2016-03-11T03:00:00-05:00",
+          "actual": 6.0
+        },
+        {
+          "datetime": "2016-03-11T03:15:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T03:30:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T03:45:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T04:00:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T04:15:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T04:30:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T04:45:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T05:00:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T05:15:00-05:00",
+          "actual": 10.0
+        },
+        {
+          "datetime": "2016-03-11T05:30:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T05:45:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T06:00:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-11T06:15:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-11T06:30:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-11T06:45:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-11T07:00:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T07:15:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-11T07:30:00-05:00",
+          "actual": 27.0
+        },
+        {
+          "datetime": "2016-03-11T07:45:00-05:00",
+          "actual": 30.0
+        },
+        {
+          "datetime": "2016-03-11T08:00:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-11T08:15:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-11T08:30:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-11T08:45:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T09:00:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-11T09:15:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T09:30:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-11T09:45:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-11T10:00:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T10:15:00-05:00",
+          "actual": 9.0
+        },
+        {
+          "datetime": "2016-03-11T10:30:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T10:45:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-11T11:00:00-05:00",
+          "actual": 15.0
+        },
+        {
+          "datetime": "2016-03-11T11:15:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T11:30:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-11T11:45:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-11T12:00:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-11T12:15:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-11T12:30:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-11T12:45:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T13:00:00-05:00",
+          "actual": 9.0
+        },
+        {
+          "datetime": "2016-03-11T13:15:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T13:30:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T13:45:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-11T14:00:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-11T14:15:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T14:30:00-05:00",
+          "actual": 15.0
+        },
+        {
+          "datetime": "2016-03-11T14:45:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-11T15:00:00-05:00",
+          "actual": 10.0
+        },
+        {
+          "datetime": "2016-03-11T15:15:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T15:30:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T15:45:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T16:00:00-05:00",
+          "actual": 9.0
+        },
+        {
+          "datetime": "2016-03-11T16:15:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-11T16:30:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T16:45:00-05:00",
+          "actual": 15.0
+        },
+        {
+          "datetime": "2016-03-11T17:00:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-11T17:15:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-11T17:30:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-11T17:45:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-11T18:00:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-11T18:15:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T18:30:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-11T18:45:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T19:00:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T19:15:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T19:30:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T19:45:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-11T20:00:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-11T20:15:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T20:30:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-11T20:45:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-11T21:00:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T21:15:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-11T21:30:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T21:45:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-11T22:00:00-05:00",
+          "actual": 14.0
+        },
+        {
+          "datetime": "2016-03-11T22:15:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-11T22:30:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-11T22:45:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-11T23:00:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-11T23:15:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T23:30:00-05:00",
+          "actual": 12.0
+        },
+        {
+          "datetime": "2016-03-11T23:45:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-12T00:00:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T00:15:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-12T00:30:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T00:45:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-12T01:00:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T01:15:00-05:00",
+          "actual": 27.0
+        },
+        {
+          "datetime": "2016-03-12T01:30:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T01:45:00-05:00",
+          "actual": 24.0
+        },
+        {
+          "datetime": "2016-03-12T02:00:00-05:00",
+          "actual": 28.0
+        },
+        {
+          "datetime": "2016-03-12T02:15:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T02:30:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-12T02:45:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-12T03:00:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T03:15:00-05:00",
+          "actual": 19.0
+        },
+        {
+          "datetime": "2016-03-12T03:30:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T03:45:00-05:00",
+          "actual": 10.0
+        },
+        {
+          "datetime": "2016-03-12T04:00:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T04:15:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T04:30:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T04:45:00-05:00",
+          "actual": 29.0
+        },
+        {
+          "datetime": "2016-03-12T05:00:00-05:00",
+          "actual": 13.0
+        },
+        {
+          "datetime": "2016-03-12T05:15:00-05:00",
+          "actual": 15.0
+        },
+        {
+          "datetime": "2016-03-12T05:30:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T05:45:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T06:00:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-12T06:15:00-05:00",
+          "actual": 29.0
+        },
+        {
+          "datetime": "2016-03-12T06:30:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T06:45:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-12T07:00:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-12T07:15:00-05:00",
+          "actual": 21.0
+        },
+        {
+          "datetime": "2016-03-12T07:30:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T07:45:00-05:00",
+          "actual": 24.0
+        },
+        {
+          "datetime": "2016-03-12T08:00:00-05:00",
+          "actual": 29.0
+        },
+        {
+          "datetime": "2016-03-12T08:15:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T08:30:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-12T08:45:00-05:00",
+          "actual": 30.0
+        },
+        {
+          "datetime": "2016-03-12T09:00:00-05:00",
+          "actual": 41.0
+        },
+        {
+          "datetime": "2016-03-12T09:15:00-05:00",
+          "actual": 37.0
+        },
+        {
+          "datetime": "2016-03-12T09:30:00-05:00",
+          "actual": 39.0
+        },
+        {
+          "datetime": "2016-03-12T09:45:00-05:00",
+          "actual": 44.0
+        },
+        {
+          "datetime": "2016-03-12T10:00:00-05:00",
+          "actual": 30.0
+        },
+        {
+          "datetime": "2016-03-12T10:15:00-05:00",
+          "actual": 30.0
+        },
+        {
+          "datetime": "2016-03-12T10:30:00-05:00",
+          "actual": 28.0
+        },
+        {
+          "datetime": "2016-03-12T10:45:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T11:00:00-05:00",
+          "actual": 37.0
+        },
+        {
+          "datetime": "2016-03-12T11:15:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T11:30:00-05:00",
+          "actual": 27.0
+        },
+        {
+          "datetime": "2016-03-12T11:45:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T12:00:00-05:00",
+          "actual": 40.0
+        },
+        {
+          "datetime": "2016-03-12T12:15:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T12:30:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T12:45:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T13:00:00-05:00",
+          "actual": 24.0
+        },
+        {
+          "datetime": "2016-03-12T13:15:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T13:30:00-05:00",
+          "actual": 28.0
+        },
+        {
+          "datetime": "2016-03-12T13:45:00-05:00",
+          "actual": 24.0
+        },
+        {
+          "datetime": "2016-03-12T14:00:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-12T14:15:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T14:30:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-12T14:45:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T15:00:00-05:00",
+          "actual": 24.0
+        },
+        {
+          "datetime": "2016-03-12T15:15:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T15:30:00-05:00",
+          "actual": 33.0
+        },
+        {
+          "datetime": "2016-03-12T15:45:00-05:00",
+          "actual": 30.0
+        },
+        {
+          "datetime": "2016-03-12T16:00:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-12T16:15:00-05:00",
+          "actual": 36.0
+        },
+        {
+          "datetime": "2016-03-12T16:30:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T16:45:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-12T17:00:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-12T17:15:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-12T17:30:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-12T17:45:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-12T18:00:00-05:00",
+          "actual": 23.0
+        },
+        {
+          "datetime": "2016-03-12T18:15:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T18:30:00-05:00",
+          "actual": 29.0
+        },
+        {
+          "datetime": "2016-03-12T18:45:00-05:00",
+          "actual": 29.0
+        },
+        {
+          "datetime": "2016-03-12T19:00:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-12T19:15:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T19:30:00-05:00",
+          "actual": 25.0
+        },
+        {
+          "datetime": "2016-03-12T19:45:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T20:00:00-05:00",
+          "actual": 20.0
+        },
+        {
+          "datetime": "2016-03-12T20:15:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-12T20:30:00-05:00",
+          "actual": 22.0
+        },
+        {
+          "datetime": "2016-03-12T20:45:00-05:00",
+          "actual": 10.0
+        },
+        {
+          "datetime": "2016-03-12T21:00:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T21:15:00-05:00",
+          "actual": 15.0
+        },
+        {
+          "datetime": "2016-03-12T21:30:00-05:00",
+          "actual": 17.0
+        },
+        {
+          "datetime": "2016-03-12T21:45:00-05:00",
+          "actual": 16.0
+        },
+        {
+          "datetime": "2016-03-12T22:00:00-05:00",
+          "actual": 11.0
+        },
+        {
+          "datetime": "2016-03-12T22:15:00-05:00",
+          "actual": 18.0
+        },
+        {
+          "datetime": "2016-03-12T22:30:00-05:00",
+          "actual": 26.0
+        },
+        {
+          "datetime": "2016-03-12T22:45:00-05:00",
+          "actual": 29.0
+        }
+      ],
+      "weather": {
+        "temperature": null,
+        "condition": "Not used by this model",
+        "source": "not_used"
+      },
+      "heatmap": [
+        {
+          "id": 0,
+          "name": "NYC Sector 00",
+          "demand": 69,
+          "level": "Low"
+        },
+        {
+          "id": 1,
+          "name": "NYC Sector 01",
+          "demand": 279,
+          "level": "Low"
+        },
+        {
+          "id": 2,
+          "name": "NYC Sector 02",
+          "demand": 3,
+          "level": "Low"
+        },
+        {
+          "id": 3,
+          "name": "NYC Sector 03",
+          "demand": 122,
+          "level": "Low"
+        },
+        {
+          "id": 4,
+          "name": "NYC Sector 04",
+          "demand": 207,
+          "level": "Low"
+        },
+        {
+          "id": 5,
+          "name": "NYC Sector 05",
+          "demand": 333,
+          "level": "Low"
+        },
+        {
+          "id": 6,
+          "name": "NYC Sector 06",
+          "demand": 84,
+          "level": "Low"
+        },
+        {
+          "id": 7,
+          "name": "NYC Sector 07",
+          "demand": 324,
+          "level": "Low"
+        },
+        {
+          "id": 8,
+          "name": "NYC Sector 08",
+          "demand": 356,
+          "level": "Low"
+        },
+        {
+          "id": 9,
+          "name": "NYC Sector 09",
+          "demand": 53,
+          "level": "Low"
+        },
+        {
+          "id": 10,
+          "name": "NYC Sector 10",
+          "demand": 406,
+          "level": "Medium"
+        },
+        {
+          "id": 11,
+          "name": "NYC Sector 11",
+          "demand": 260,
+          "level": "Low"
+        },
+        {
+          "id": 12,
+          "name": "NYC Sector 12",
+          "demand": 399,
+          "level": "Low"
+        },
+        {
+          "id": 13,
+          "name": "NYC Sector 13",
+          "demand": 15,
+          "level": "Low"
+        },
+        {
+          "id": 14,
+          "name": "NYC Sector 14",
+          "demand": 282,
+          "level": "Low"
+        },
+        {
+          "id": 15,
+          "name": "NYC Sector 15",
+          "demand": 240,
+          "level": "Low"
+        },
+        {
+          "id": 16,
+          "name": "NYC Sector 16",
+          "demand": 29,
+          "level": "Low"
+        },
+        {
+          "id": 17,
+          "name": "NYC Sector 17",
+          "demand": 18,
+          "level": "Low"
+        },
+        {
+          "id": 18,
+          "name": "NYC Sector 18",
+          "demand": 434,
+          "level": "Medium"
+        },
+        {
+          "id": 19,
+          "name": "NYC Sector 19",
+          "demand": 248,
+          "level": "Low"
+        },
+        {
+          "id": 20,
+          "name": "NYC Sector 20",
+          "demand": 202,
+          "level": "Low"
+        },
+        {
+          "id": 21,
+          "name": "NYC Sector 21",
+          "demand": 382,
+          "level": "Low"
+        },
+        {
+          "id": 22,
+          "name": "NYC Sector 22",
+          "demand": 316,
+          "level": "Low"
+        },
+        {
+          "id": 23,
+          "name": "NYC Sector 23",
+          "demand": 163,
+          "level": "Low"
+        },
+        {
+          "id": 24,
+          "name": "NYC Sector 24",
+          "demand": 13,
+          "level": "Low"
+        },
+        {
+          "id": 25,
+          "name": "NYC Sector 25",
+          "demand": 172,
+          "level": "Low"
+        },
+        {
+          "id": 26,
+          "name": "NYC Sector 26",
+          "demand": 166,
+          "level": "Low"
+        },
+        {
+          "id": 27,
+          "name": "NYC Sector 27",
+          "demand": 364,
+          "level": "Low"
+        },
+        {
+          "id": 28,
+          "name": "NYC Sector 28",
+          "demand": 14,
+          "level": "Low"
+        },
+        {
+          "id": 29,
+          "name": "NYC Sector 29",
+          "demand": 21,
+          "level": "Low"
+        }
+      ],
+      "feature_importance": [],
+      "alerts": [],
+      "metadata": {
+        "mode": "historical",
+        "timezone": "America/New_York",
+        "schema_version": 3,
+        "heatmap_source": "historical_observations_before_origin",
+        "confidence_intervals": "unavailable",
+        "latency_ms": 508.44,
+        "forecast_strategy": "recursive",
+        "candidate_id": "calendar_feedback_0.6_validation"
+      }
+    },
+    "whole_backend_process_tree_RSS_MiB": 409.07421875
+  }
+}

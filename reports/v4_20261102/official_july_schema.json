@@ -1,0 +1,29 @@
+{
+  "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2016-07.parquet",
+  "fields": [
+    "VendorID",
+    "tpep_pickup_datetime",
+    "tpep_dropoff_datetime",
+    "passenger_count",
+    "trip_distance",
+    "RatecodeID",
+    "store_and_fwd_flag",
+    "PULocationID",
+    "DOLocationID",
+    "payment_type",
+    "fare_amount",
+    "extra",
+    "mta_tax",
+    "tip_amount",
+    "tolls_amount",
+    "improvement_surcharge",
+    "total_amount",
+    "congestion_surcharge",
+    "airport_fee"
+  ],
+  "bytes_read": 10292,
+  "trip_rows_read": 0,
+  "has_coordinates": false,
+  "has_taxi_zone_ids": true,
+  "scope": "Schema-only feasibility; no June/July target outcomes inspected. Zone IDs alone cannot exactly reproduce fixed point-level clusters or original pickup/dropoff geographic filters."
+}

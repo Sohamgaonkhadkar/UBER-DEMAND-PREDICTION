@@ -1,0 +1,25 @@
+{
+  "month": "2016-04",
+  "model": "sparse_nb",
+  "metrics": {
+    "WAPE": 10.936101179059285,
+    "MAE": 14.465113369319775,
+    "RMSE": 23.740234810170847,
+    "R2": 0.9669050284592197,
+    "bias": -0.88937733170059,
+    "bias_pct": -0.6723984968184735
+  },
+  "seconds_per_origin": 0.04262689090947705,
+  "details": {
+    "regions": [
+      2,
+      24,
+      28
+    ],
+    "alpha": 0.05523085953591837,
+    "optimizer_success": true,
+    "iterations": 12,
+    "objective": "regularized NB2 likelihood; output conditional median for absolute-error scoring",
+    "training_seconds": 0.34231889998773113
+  }
+}

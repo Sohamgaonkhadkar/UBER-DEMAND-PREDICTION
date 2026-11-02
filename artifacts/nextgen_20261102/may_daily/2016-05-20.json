@@ -1,0 +1,8 @@
+{
+  "date": "2016-05-20",
+  "retained_rows": 399064,
+  "returned_below_limit": true,
+  "request": "https://data.cityofnewyork.us/resource/uacg-pexx.json?%24select=tpep_pickup_datetime%2Cpickup_longitude%2Cpickup_latitude&%24where=tpep_pickup_datetime+%3E%3D+%272016-05-20T00%3A00%3A00%27+AND+tpep_pickup_datetime+%3C+%272016-05-21T00%3A00%3A00%27+AND+pickup_latitude+between+40.60+and+40.85+AND+pickup_longitude+between+-74.05+and+-73.70+AND+dropoff_latitude+between+40.60+and+40.85+AND+dropoff_longitude+between+-74.05+and+-73.70+AND+fare_amount+between+0.50+and+81.0+AND+trip_distance+between+0.25+and+24.43&%24limit=1000000",
+  "response_sha256": "177266ffd2e53715f7a94574cd9fb71f35ec5a180c342d9b63df17248cf9afd0",
+  "retrieved_at": "2026-11-01T22:30:43.063826+00:00"
+}

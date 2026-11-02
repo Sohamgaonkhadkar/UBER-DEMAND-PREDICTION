@@ -1,0 +1,4137 @@
+{
+  "valid_requests": 45,
+  "invalid_requests": 10,
+  "requests": [
+    {
+      "request": {
+        "region": 0,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 1101.3648000080138,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 44.63
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 41.31
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 41.48
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 39.8
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 38.97
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 35.6
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 30.81
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 28.81
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 29.13
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 27.47
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 22.42
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 21.33
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 1,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 274.50939995469525,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 212.8
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 190.16
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 168.77
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 157.24
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 150.39
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 129.74
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 106.84
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 90.14
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 76.48
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 63.7
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 51.54
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 45.11
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 2,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 247.64999997569248,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 7.29
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 7.66
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 8.1
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 7.95
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 8.83
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 7.87
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 8.51
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 7.99
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 7.73
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 7.31
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 6.54
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 6.62
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 3,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 273.0322999996133,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 108.73
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 106.32
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 111.35
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 106.18
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 97.54
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 84.59
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 76.39
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 67.54
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 59.9
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 47.2
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 32.79
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 22.87
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 4,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 249.80540003161877,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 223.52
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 210.99
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 191.46
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 169.75
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 155.01
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 136.66
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 118.14
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 101.1
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 86.27
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 77.49
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 66.01
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 53.26
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 5,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 267.77819998096675,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 372.58
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 354.37
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 320.89
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 287.57
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 259.21
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 230.51
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 187.71
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 161.02
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 132.82
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 118.83
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 95.97
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 88.63
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 6,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 255.7838999782689,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 157.84
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 148.77
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 141.69
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 142.51
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 120.97
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 94.57
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 64.09
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 37.31
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 22.14
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 14.39
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 9.36
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 6.19
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 7,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 258.01759999012575,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 289.44
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 277.49
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 265.31
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 241.91
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 216.45
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 183.61
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 164.92
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 141.97
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 119.53
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 99.8
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 86.71
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 75.53
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 8,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 257.23160000052303,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 204.95
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 161.76
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 134.11
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 119.42
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 110.29
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 90.01
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 68.68
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 64.57
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 51.36
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 45.39
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 37.72
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 31.89
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 9,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 239.13689999608323,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 84.04
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 74.38
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 66.47
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 57.14
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 50.12
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 38.68
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 35.72
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 27.31
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 24.84
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 20.88
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 18.37
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 16.01
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 10,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 236.68019997421652,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 422.01
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 413.77
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 404.47
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 388.27
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 360.78
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 330.82
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 288.62
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 260.66
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 230.9
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 204.81
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 179.93
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 161.54
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 11,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 260.096300044097,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 206.06
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 159.58
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 130.67
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 106.16
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 92.66
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 73.91
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 61.67
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 51.66
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 41.96
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 37.47
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 30.51
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 26.54
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 12,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 261.0265999683179,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 287.36
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 245.99
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 238.64
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 203.65
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 209.64
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 178.95
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 159.63
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 130.94
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 114.38
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 104.08
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 90.35
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 86.23
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 13,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 297.55040002055466,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 13.45
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 14.2
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 15.94
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 16.51
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 17.28
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 16.83
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 17.66
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 16.25
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 17.18
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 15.78
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 16.41
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 14.48
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 14,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 253.54499998502433,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 259.72
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 237.19
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 219.36
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 201.57
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 187.94
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 167.81
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 145.79
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 133.59
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 116.63
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 95.99
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 78.91
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 65.68
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 211.78700000746176,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 261.81
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 245.42
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 228.66
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 218.62
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 201.74
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 180.13
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 160.86
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 144.28
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 120.62
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 99.71
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 87.23
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 74.71
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 16,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 250.35340001340955,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 49.92
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 51.59
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 59.39
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 56.55
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 55.42
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 48.2
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 44.65
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 39.2
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 34.02
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 31.33
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 28.1
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 24.63
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 17,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 279.60589999565855,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 20.19
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 17.3
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 16.67
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 15.25
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 14.42
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 13.0
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 11.86
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 10.25
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 9.46
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 8.22
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 8.11
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 7.13
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 18,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 264.2475999891758,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 434.42
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 372.41
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 310.84
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 274.53
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 258.24
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 222.78
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 190.59
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 165.79
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 136.64
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 118.79
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 101.94
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 88.58
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 19,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 266.20999997248873,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 194.23
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 159.81
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 137.5
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 123.29
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 111.18
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 87.6
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 71.29
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 60.12
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 50.39
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 42.57
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 35.35
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 31.29
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 20,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 305.5904000066221,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 160.22
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 140.62
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 122.12
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 109.5
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 99.53
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 86.17
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 73.1
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 64.75
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 50.2
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 43.31
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 35.07
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 29.74
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 21,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 301.7049999907613,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 239.11
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 199.41
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 172.58
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 145.23
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 133.98
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 104.2
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 82.41
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 67.17
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 54.47
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 48.79
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 38.4
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 32.84
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 22,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 280.44330002740026,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 264.75
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 263.36
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 259.76
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 246.08
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 231.42
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 199.72
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 172.34
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 149.79
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 129.34
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 108.34
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 92.77
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 84.78
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 23,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 294.6487999870442,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 76.66
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 64.96
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 57.86
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 53.35
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 49.26
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 42.44
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 37.16
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 31.02
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 28.81
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 25.26
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 22.28
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 19.92
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 24,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 294.59789994871244,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 32.31
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 29.0
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 25.01
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 23.12
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 20.21
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 16.68
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 14.18
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 11.63
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 9.97
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 7.73
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 6.89
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 5.86
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 25,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 217.9179000086151,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 142.67
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 136.01
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 122.36
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 113.74
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 103.47
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 87.98
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 81.02
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 69.5
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 65.68
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 51.64
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 43.43
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 38.43
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 26,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 230.5511999875307,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 102.92
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 100.87
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 92.19
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 87.41
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 81.3
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 70.08
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 59.01
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 48.32
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 43.74
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 38.15
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 34.14
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 28.49
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 27,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 227.07510000327602,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 283.68
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 282.14
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 278.74
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 256.27
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 250.89
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 222.37
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 206.51
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 183.04
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 167.83
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 144.27
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 129.64
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 116.22
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 28,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 225.06909997900948,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 24.43
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 23.27
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 24.0
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 20.52
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 22.04
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 18.92
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 19.09
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 16.38
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 14.31
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 12.31
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 10.72
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 9.38
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 29,
+        "datetime": "2016-06-15T23:00:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 253.70289996499196,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:00:00-04:00",
+          "prediction": 30.89
+        },
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 24.97
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 23.72
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 22.85
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 23.16
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 21.83
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 20.85
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 18.39
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 17.74
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 16.11
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 14.08
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 11.92
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-15T23:15:00-04:00",
+        "horizon": 1
+      },
+      "latency_ms": 123.3185000019148,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 231.76
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-15T23:15:00-04:00",
+        "horizon": 4
+      },
+      "latency_ms": 138.76479997998103,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 231.76
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 223.53
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 215.07
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 199.54
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-15T23:15:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 293.365299992729,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 231.76
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 223.53
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 215.07
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 199.54
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 178.23
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 159.89
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 143.73
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 120.31
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 99.67
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 86.45
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 74.42
+        },
+        {
+          "datetime": "2016-06-16T02:00:00-04:00",
+          "prediction": 61.43
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-15T23:15:00-04:00",
+        "horizon": 24
+      },
+      "latency_ms": 434.1639000340365,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 231.76
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 223.53
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 215.07
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 199.54
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 178.23
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 159.89
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 143.73
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 120.31
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 99.67
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 86.45
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 74.42
+        },
+        {
+          "datetime": "2016-06-16T02:00:00-04:00",
+          "prediction": 61.43
+        },
+        {
+          "datetime": "2016-06-16T02:15:00-04:00",
+          "prediction": 55.56
+        },
+        {
+          "datetime": "2016-06-16T02:30:00-04:00",
+          "prediction": 47.5
+        },
+        {
+          "datetime": "2016-06-16T02:45:00-04:00",
+          "prediction": 43.46
+        },
+        {
+          "datetime": "2016-06-16T03:00:00-04:00",
+          "prediction": 39.36
+        },
+        {
+          "datetime": "2016-06-16T03:15:00-04:00",
+          "prediction": 34.37
+        },
+        {
+          "datetime": "2016-06-16T03:30:00-04:00",
+          "prediction": 36.31
+        },
+        {
+          "datetime": "2016-06-16T03:45:00-04:00",
+          "prediction": 38.17
+        },
+        {
+          "datetime": "2016-06-16T04:00:00-04:00",
+          "prediction": 42.21
+        },
+        {
+          "datetime": "2016-06-16T04:15:00-04:00",
+          "prediction": 39.59
+        },
+        {
+          "datetime": "2016-06-16T04:30:00-04:00",
+          "prediction": 36.17
+        },
+        {
+          "datetime": "2016-06-16T04:45:00-04:00",
+          "prediction": 37.39
+        },
+        {
+          "datetime": "2016-06-16T05:00:00-04:00",
+          "prediction": 41.44
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-15T23:15:00-04:00",
+        "horizon": 48
+      },
+      "latency_ms": 720.5742999794893,
+      "forecast": [
+        {
+          "datetime": "2016-06-15T23:15:00-04:00",
+          "prediction": 231.76
+        },
+        {
+          "datetime": "2016-06-15T23:30:00-04:00",
+          "prediction": 223.53
+        },
+        {
+          "datetime": "2016-06-15T23:45:00-04:00",
+          "prediction": 215.07
+        },
+        {
+          "datetime": "2016-06-16T00:00:00-04:00",
+          "prediction": 199.54
+        },
+        {
+          "datetime": "2016-06-16T00:15:00-04:00",
+          "prediction": 178.23
+        },
+        {
+          "datetime": "2016-06-16T00:30:00-04:00",
+          "prediction": 159.89
+        },
+        {
+          "datetime": "2016-06-16T00:45:00-04:00",
+          "prediction": 143.73
+        },
+        {
+          "datetime": "2016-06-16T01:00:00-04:00",
+          "prediction": 120.31
+        },
+        {
+          "datetime": "2016-06-16T01:15:00-04:00",
+          "prediction": 99.67
+        },
+        {
+          "datetime": "2016-06-16T01:30:00-04:00",
+          "prediction": 86.45
+        },
+        {
+          "datetime": "2016-06-16T01:45:00-04:00",
+          "prediction": 74.42
+        },
+        {
+          "datetime": "2016-06-16T02:00:00-04:00",
+          "prediction": 61.43
+        },
+        {
+          "datetime": "2016-06-16T02:15:00-04:00",
+          "prediction": 55.56
+        },
+        {
+          "datetime": "2016-06-16T02:30:00-04:00",
+          "prediction": 47.5
+        },
+        {
+          "datetime": "2016-06-16T02:45:00-04:00",
+          "prediction": 43.46
+        },
+        {
+          "datetime": "2016-06-16T03:00:00-04:00",
+          "prediction": 39.36
+        },
+        {
+          "datetime": "2016-06-16T03:15:00-04:00",
+          "prediction": 34.37
+        },
+        {
+          "datetime": "2016-06-16T03:30:00-04:00",
+          "prediction": 36.31
+        },
+        {
+          "datetime": "2016-06-16T03:45:00-04:00",
+          "prediction": 38.17
+        },
+        {
+          "datetime": "2016-06-16T04:00:00-04:00",
+          "prediction": 42.21
+        },
+        {
+          "datetime": "2016-06-16T04:15:00-04:00",
+          "prediction": 39.59
+        },
+        {
+          "datetime": "2016-06-16T04:30:00-04:00",
+          "prediction": 36.17
+        },
+        {
+          "datetime": "2016-06-16T04:45:00-04:00",
+          "prediction": 37.39
+        },
+        {
+          "datetime": "2016-06-16T05:00:00-04:00",
+          "prediction": 41.44
+        },
+        {
+          "datetime": "2016-06-16T05:15:00-04:00",
+          "prediction": 60.05
+        },
+        {
+          "datetime": "2016-06-16T05:30:00-04:00",
+          "prediction": 97.67
+        },
+        {
+          "datetime": "2016-06-16T05:45:00-04:00",
+          "prediction": 121.52
+        },
+        {
+          "datetime": "2016-06-16T06:00:00-04:00",
+          "prediction": 150.28
+        },
+        {
+          "datetime": "2016-06-16T06:15:00-04:00",
+          "prediction": 178.06
+        },
+        {
+          "datetime": "2016-06-16T06:30:00-04:00",
+          "prediction": 213.01
+        },
+        {
+          "datetime": "2016-06-16T06:45:00-04:00",
+          "prediction": 221.93
+        },
+        {
+          "datetime": "2016-06-16T07:00:00-04:00",
+          "prediction": 223.08
+        },
+        {
+          "datetime": "2016-06-16T07:15:00-04:00",
+          "prediction": 229.4
+        },
+        {
+          "datetime": "2016-06-16T07:30:00-04:00",
+          "prediction": 231.91
+        },
+        {
+          "datetime": "2016-06-16T07:45:00-04:00",
+          "prediction": 230.02
+        },
+        {
+          "datetime": "2016-06-16T08:00:00-04:00",
+          "prediction": 220.79
+        },
+        {
+          "datetime": "2016-06-16T08:15:00-04:00",
+          "prediction": 220.96
+        },
+        {
+          "datetime": "2016-06-16T08:30:00-04:00",
+          "prediction": 221.05
+        },
+        {
+          "datetime": "2016-06-16T08:45:00-04:00",
+          "prediction": 222.59
+        },
+        {
+          "datetime": "2016-06-16T09:00:00-04:00",
+          "prediction": 220.31
+        },
+        {
+          "datetime": "2016-06-16T09:15:00-04:00",
+          "prediction": 221.63
+        },
+        {
+          "datetime": "2016-06-16T09:30:00-04:00",
+          "prediction": 227.58
+        },
+        {
+          "datetime": "2016-06-16T09:45:00-04:00",
+          "prediction": 225.38
+        },
+        {
+          "datetime": "2016-06-16T10:00:00-04:00",
+          "prediction": 223.15
+        },
+        {
+          "datetime": "2016-06-16T10:15:00-04:00",
+          "prediction": 222.18
+        },
+        {
+          "datetime": "2016-06-16T10:30:00-04:00",
+          "prediction": 224.14
+        },
+        {
+          "datetime": "2016-06-16T10:45:00-04:00",
+          "prediction": 216.86
+        },
+        {
+          "datetime": "2016-06-16T11:00:00-04:00",
+          "prediction": 216.51
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-04T23:30:00-04:00",
+        "horizon": 1
+      },
+      "latency_ms": 94.41419999348,
+      "forecast": [
+        {
+          "datetime": "2016-06-04T23:30:00-04:00",
+          "prediction": 242.56
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-04T23:30:00-04:00",
+        "horizon": 4
+      },
+      "latency_ms": 112.76489996816963,
+      "forecast": [
+        {
+          "datetime": "2016-06-04T23:30:00-04:00",
+          "prediction": 242.56
+        },
+        {
+          "datetime": "2016-06-04T23:45:00-04:00",
+          "prediction": 238.81
+        },
+        {
+          "datetime": "2016-06-05T00:00:00-04:00",
+          "prediction": 227.4
+        },
+        {
+          "datetime": "2016-06-05T00:15:00-04:00",
+          "prediction": 225.11
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-04T23:30:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 214.49329995084554,
+      "forecast": [
+        {
+          "datetime": "2016-06-04T23:30:00-04:00",
+          "prediction": 242.56
+        },
+        {
+          "datetime": "2016-06-04T23:45:00-04:00",
+          "prediction": 238.81
+        },
+        {
+          "datetime": "2016-06-05T00:00:00-04:00",
+          "prediction": 227.4
+        },
+        {
+          "datetime": "2016-06-05T00:15:00-04:00",
+          "prediction": 225.11
+        },
+        {
+          "datetime": "2016-06-05T00:30:00-04:00",
+          "prediction": 209.08
+        },
+        {
+          "datetime": "2016-06-05T00:45:00-04:00",
+          "prediction": 203.26
+        },
+        {
+          "datetime": "2016-06-05T01:00:00-04:00",
+          "prediction": 187.02
+        },
+        {
+          "datetime": "2016-06-05T01:15:00-04:00",
+          "prediction": 184.65
+        },
+        {
+          "datetime": "2016-06-05T01:30:00-04:00",
+          "prediction": 172.72
+        },
+        {
+          "datetime": "2016-06-05T01:45:00-04:00",
+          "prediction": 159.02
+        },
+        {
+          "datetime": "2016-06-05T02:00:00-04:00",
+          "prediction": 153.35
+        },
+        {
+          "datetime": "2016-06-05T02:15:00-04:00",
+          "prediction": 145.35
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-04T23:30:00-04:00",
+        "horizon": 24
+      },
+      "latency_ms": 378.48610000219196,
+      "forecast": [
+        {
+          "datetime": "2016-06-04T23:30:00-04:00",
+          "prediction": 242.56
+        },
+        {
+          "datetime": "2016-06-04T23:45:00-04:00",
+          "prediction": 238.81
+        },
+        {
+          "datetime": "2016-06-05T00:00:00-04:00",
+          "prediction": 227.4
+        },
+        {
+          "datetime": "2016-06-05T00:15:00-04:00",
+          "prediction": 225.11
+        },
+        {
+          "datetime": "2016-06-05T00:30:00-04:00",
+          "prediction": 209.08
+        },
+        {
+          "datetime": "2016-06-05T00:45:00-04:00",
+          "prediction": 203.26
+        },
+        {
+          "datetime": "2016-06-05T01:00:00-04:00",
+          "prediction": 187.02
+        },
+        {
+          "datetime": "2016-06-05T01:15:00-04:00",
+          "prediction": 184.65
+        },
+        {
+          "datetime": "2016-06-05T01:30:00-04:00",
+          "prediction": 172.72
+        },
+        {
+          "datetime": "2016-06-05T01:45:00-04:00",
+          "prediction": 159.02
+        },
+        {
+          "datetime": "2016-06-05T02:00:00-04:00",
+          "prediction": 153.35
+        },
+        {
+          "datetime": "2016-06-05T02:15:00-04:00",
+          "prediction": 145.35
+        },
+        {
+          "datetime": "2016-06-05T02:30:00-04:00",
+          "prediction": 140.8
+        },
+        {
+          "datetime": "2016-06-05T02:45:00-04:00",
+          "prediction": 133.78
+        },
+        {
+          "datetime": "2016-06-05T03:00:00-04:00",
+          "prediction": 126.01
+        },
+        {
+          "datetime": "2016-06-05T03:15:00-04:00",
+          "prediction": 123.7
+        },
+        {
+          "datetime": "2016-06-05T03:30:00-04:00",
+          "prediction": 119.84
+        },
+        {
+          "datetime": "2016-06-05T03:45:00-04:00",
+          "prediction": 120.42
+        },
+        {
+          "datetime": "2016-06-05T04:00:00-04:00",
+          "prediction": 125.46
+        },
+        {
+          "datetime": "2016-06-05T04:15:00-04:00",
+          "prediction": 108.12
+        },
+        {
+          "datetime": "2016-06-05T04:30:00-04:00",
+          "prediction": 87.12
+        },
+        {
+          "datetime": "2016-06-05T04:45:00-04:00",
+          "prediction": 71.23
+        },
+        {
+          "datetime": "2016-06-05T05:00:00-04:00",
+          "prediction": 58.95
+        },
+        {
+          "datetime": "2016-06-05T05:15:00-04:00",
+          "prediction": 48.91
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-04T23:30:00-04:00",
+        "horizon": 48
+      },
+      "latency_ms": 704.9535000114702,
+      "forecast": [
+        {
+          "datetime": "2016-06-04T23:30:00-04:00",
+          "prediction": 242.56
+        },
+        {
+          "datetime": "2016-06-04T23:45:00-04:00",
+          "prediction": 238.81
+        },
+        {
+          "datetime": "2016-06-05T00:00:00-04:00",
+          "prediction": 227.4
+        },
+        {
+          "datetime": "2016-06-05T00:15:00-04:00",
+          "prediction": 225.11
+        },
+        {
+          "datetime": "2016-06-05T00:30:00-04:00",
+          "prediction": 209.08
+        },
+        {
+          "datetime": "2016-06-05T00:45:00-04:00",
+          "prediction": 203.26
+        },
+        {
+          "datetime": "2016-06-05T01:00:00-04:00",
+          "prediction": 187.02
+        },
+        {
+          "datetime": "2016-06-05T01:15:00-04:00",
+          "prediction": 184.65
+        },
+        {
+          "datetime": "2016-06-05T01:30:00-04:00",
+          "prediction": 172.72
+        },
+        {
+          "datetime": "2016-06-05T01:45:00-04:00",
+          "prediction": 159.02
+        },
+        {
+          "datetime": "2016-06-05T02:00:00-04:00",
+          "prediction": 153.35
+        },
+        {
+          "datetime": "2016-06-05T02:15:00-04:00",
+          "prediction": 145.35
+        },
+        {
+          "datetime": "2016-06-05T02:30:00-04:00",
+          "prediction": 140.8
+        },
+        {
+          "datetime": "2016-06-05T02:45:00-04:00",
+          "prediction": 133.78
+        },
+        {
+          "datetime": "2016-06-05T03:00:00-04:00",
+          "prediction": 126.01
+        },
+        {
+          "datetime": "2016-06-05T03:15:00-04:00",
+          "prediction": 123.7
+        },
+        {
+          "datetime": "2016-06-05T03:30:00-04:00",
+          "prediction": 119.84
+        },
+        {
+          "datetime": "2016-06-05T03:45:00-04:00",
+          "prediction": 120.42
+        },
+        {
+          "datetime": "2016-06-05T04:00:00-04:00",
+          "prediction": 125.46
+        },
+        {
+          "datetime": "2016-06-05T04:15:00-04:00",
+          "prediction": 108.12
+        },
+        {
+          "datetime": "2016-06-05T04:30:00-04:00",
+          "prediction": 87.12
+        },
+        {
+          "datetime": "2016-06-05T04:45:00-04:00",
+          "prediction": 71.23
+        },
+        {
+          "datetime": "2016-06-05T05:00:00-04:00",
+          "prediction": 58.95
+        },
+        {
+          "datetime": "2016-06-05T05:15:00-04:00",
+          "prediction": 48.91
+        },
+        {
+          "datetime": "2016-06-05T05:30:00-04:00",
+          "prediction": 43.98
+        },
+        {
+          "datetime": "2016-06-05T05:45:00-04:00",
+          "prediction": 43.15
+        },
+        {
+          "datetime": "2016-06-05T06:00:00-04:00",
+          "prediction": 46.43
+        },
+        {
+          "datetime": "2016-06-05T06:15:00-04:00",
+          "prediction": 46.65
+        },
+        {
+          "datetime": "2016-06-05T06:30:00-04:00",
+          "prediction": 51.41
+        },
+        {
+          "datetime": "2016-06-05T06:45:00-04:00",
+          "prediction": 55.68
+        },
+        {
+          "datetime": "2016-06-05T07:00:00-04:00",
+          "prediction": 58.63
+        },
+        {
+          "datetime": "2016-06-05T07:15:00-04:00",
+          "prediction": 60.14
+        },
+        {
+          "datetime": "2016-06-05T07:30:00-04:00",
+          "prediction": 68.49
+        },
+        {
+          "datetime": "2016-06-05T07:45:00-04:00",
+          "prediction": 78.39
+        },
+        {
+          "datetime": "2016-06-05T08:00:00-04:00",
+          "prediction": 88.49
+        },
+        {
+          "datetime": "2016-06-05T08:15:00-04:00",
+          "prediction": 94.63
+        },
+        {
+          "datetime": "2016-06-05T08:30:00-04:00",
+          "prediction": 103.39
+        },
+        {
+          "datetime": "2016-06-05T08:45:00-04:00",
+          "prediction": 115.63
+        },
+        {
+          "datetime": "2016-06-05T09:00:00-04:00",
+          "prediction": 126.49
+        },
+        {
+          "datetime": "2016-06-05T09:15:00-04:00",
+          "prediction": 138.11
+        },
+        {
+          "datetime": "2016-06-05T09:30:00-04:00",
+          "prediction": 150.9
+        },
+        {
+          "datetime": "2016-06-05T09:45:00-04:00",
+          "prediction": 169.79
+        },
+        {
+          "datetime": "2016-06-05T10:00:00-04:00",
+          "prediction": 174.52
+        },
+        {
+          "datetime": "2016-06-05T10:15:00-04:00",
+          "prediction": 181.36
+        },
+        {
+          "datetime": "2016-06-05T10:30:00-04:00",
+          "prediction": 190.22
+        },
+        {
+          "datetime": "2016-06-05T10:45:00-04:00",
+          "prediction": 195.51
+        },
+        {
+          "datetime": "2016-06-05T11:00:00-04:00",
+          "prediction": 191.88
+        },
+        {
+          "datetime": "2016-06-05T11:15:00-04:00",
+          "prediction": 200.35
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-30T23:45:00-04:00",
+        "horizon": 1
+      },
+      "latency_ms": 112.69519996130839,
+      "forecast": [
+        {
+          "datetime": "2016-06-30T23:45:00-04:00",
+          "prediction": 242.01
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-30T23:45:00-04:00",
+        "horizon": 4
+      },
+      "latency_ms": 176.97129998123273,
+      "forecast": [
+        {
+          "datetime": "2016-06-30T23:45:00-04:00",
+          "prediction": 242.01
+        },
+        {
+          "datetime": "2016-07-01T00:00:00-04:00",
+          "prediction": 230.85
+        },
+        {
+          "datetime": "2016-07-01T00:15:00-04:00",
+          "prediction": 214.47
+        },
+        {
+          "datetime": "2016-07-01T00:30:00-04:00",
+          "prediction": 196.54
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-30T23:45:00-04:00",
+        "horizon": 12
+      },
+      "latency_ms": 244.67779998667538,
+      "forecast": [
+        {
+          "datetime": "2016-06-30T23:45:00-04:00",
+          "prediction": 242.01
+        },
+        {
+          "datetime": "2016-07-01T00:00:00-04:00",
+          "prediction": 230.85
+        },
+        {
+          "datetime": "2016-07-01T00:15:00-04:00",
+          "prediction": 214.47
+        },
+        {
+          "datetime": "2016-07-01T00:30:00-04:00",
+          "prediction": 196.54
+        },
+        {
+          "datetime": "2016-07-01T00:45:00-04:00",
+          "prediction": 177.82
+        },
+        {
+          "datetime": "2016-07-01T01:00:00-04:00",
+          "prediction": 162.37
+        },
+        {
+          "datetime": "2016-07-01T01:15:00-04:00",
+          "prediction": 143.96
+        },
+        {
+          "datetime": "2016-07-01T01:30:00-04:00",
+          "prediction": 126.42
+        },
+        {
+          "datetime": "2016-07-01T01:45:00-04:00",
+          "prediction": 106.32
+        },
+        {
+          "datetime": "2016-07-01T02:00:00-04:00",
+          "prediction": 99.53
+        },
+        {
+          "datetime": "2016-07-01T02:15:00-04:00",
+          "prediction": 86.3
+        },
+        {
+          "datetime": "2016-07-01T02:30:00-04:00",
+          "prediction": 81.55
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-30T23:45:00-04:00",
+        "horizon": 24
+      },
+      "latency_ms": 337.5444000121206,
+      "forecast": [
+        {
+          "datetime": "2016-06-30T23:45:00-04:00",
+          "prediction": 242.01
+        },
+        {
+          "datetime": "2016-07-01T00:00:00-04:00",
+          "prediction": 230.85
+        },
+        {
+          "datetime": "2016-07-01T00:15:00-04:00",
+          "prediction": 214.47
+        },
+        {
+          "datetime": "2016-07-01T00:30:00-04:00",
+          "prediction": 196.54
+        },
+        {
+          "datetime": "2016-07-01T00:45:00-04:00",
+          "prediction": 177.82
+        },
+        {
+          "datetime": "2016-07-01T01:00:00-04:00",
+          "prediction": 162.37
+        },
+        {
+          "datetime": "2016-07-01T01:15:00-04:00",
+          "prediction": 143.96
+        },
+        {
+          "datetime": "2016-07-01T01:30:00-04:00",
+          "prediction": 126.42
+        },
+        {
+          "datetime": "2016-07-01T01:45:00-04:00",
+          "prediction": 106.32
+        },
+        {
+          "datetime": "2016-07-01T02:00:00-04:00",
+          "prediction": 99.53
+        },
+        {
+          "datetime": "2016-07-01T02:15:00-04:00",
+          "prediction": 86.3
+        },
+        {
+          "datetime": "2016-07-01T02:30:00-04:00",
+          "prediction": 81.55
+        },
+        {
+          "datetime": "2016-07-01T02:45:00-04:00",
+          "prediction": 70.1
+        },
+        {
+          "datetime": "2016-07-01T03:00:00-04:00",
+          "prediction": 65.07
+        },
+        {
+          "datetime": "2016-07-01T03:15:00-04:00",
+          "prediction": 53.91
+        },
+        {
+          "datetime": "2016-07-01T03:30:00-04:00",
+          "prediction": 52.8
+        },
+        {
+          "datetime": "2016-07-01T03:45:00-04:00",
+          "prediction": 50.81
+        },
+        {
+          "datetime": "2016-07-01T04:00:00-04:00",
+          "prediction": 56.07
+        },
+        {
+          "datetime": "2016-07-01T04:15:00-04:00",
+          "prediction": 51.01
+        },
+        {
+          "datetime": "2016-07-01T04:30:00-04:00",
+          "prediction": 48.28
+        },
+        {
+          "datetime": "2016-07-01T04:45:00-04:00",
+          "prediction": 48.65
+        },
+        {
+          "datetime": "2016-07-01T05:00:00-04:00",
+          "prediction": 53.08
+        },
+        {
+          "datetime": "2016-07-01T05:15:00-04:00",
+          "prediction": 66.66
+        },
+        {
+          "datetime": "2016-07-01T05:30:00-04:00",
+          "prediction": 105.39
+        }
+      ]
+    },
+    {
+      "request": {
+        "region": 15,
+        "datetime": "2016-06-30T23:45:00-04:00",
+        "horizon": 48
+      },
+      "latency_ms": 625.6714999908581,
+      "forecast": [
+        {
+          "datetime": "2016-06-30T23:45:00-04:00",
+          "prediction": 242.01
+        },
+        {
+          "datetime": "2016-07-01T00:00:00-04:00",
+          "prediction": 230.85
+        },
+        {
+          "datetime": "2016-07-01T00:15:00-04:00",
+          "prediction": 214.47
+        },
+        {
+          "datetime": "2016-07-01T00:30:00-04:00",
+          "prediction": 196.54
+        },
+        {
+          "datetime": "2016-07-01T00:45:00-04:00",
+          "prediction": 177.82
+        },
+        {
+          "datetime": "2016-07-01T01:00:00-04:00",
+          "prediction": 162.37
+        },
+        {
+          "datetime": "2016-07-01T01:15:00-04:00",
+          "prediction": 143.96
+        },
+        {
+          "datetime": "2016-07-01T01:30:00-04:00",
+          "prediction": 126.42
+        },
+        {
+          "datetime": "2016-07-01T01:45:00-04:00",
+          "prediction": 106.32
+        },
+        {
+          "datetime": "2016-07-01T02:00:00-04:00",
+          "prediction": 99.53
+        },
+        {
+          "datetime": "2016-07-01T02:15:00-04:00",
+          "prediction": 86.3
+        },
+        {
+          "datetime": "2016-07-01T02:30:00-04:00",
+          "prediction": 81.55
+        },
+        {
+          "datetime": "2016-07-01T02:45:00-04:00",
+          "prediction": 70.1
+        },
+        {
+          "datetime": "2016-07-01T03:00:00-04:00",
+          "prediction": 65.07
+        },
+        {
+          "datetime": "2016-07-01T03:15:00-04:00",
+          "prediction": 53.91
+        },
+        {
+          "datetime": "2016-07-01T03:30:00-04:00",
+          "prediction": 52.8
+        },
+        {
+          "datetime": "2016-07-01T03:45:00-04:00",
+          "prediction": 50.81
+        },
+        {
+          "datetime": "2016-07-01T04:00:00-04:00",
+          "prediction": 56.07
+        },
+        {
+          "datetime": "2016-07-01T04:15:00-04:00",
+          "prediction": 51.01
+        },
+        {
+          "datetime": "2016-07-01T04:30:00-04:00",
+          "prediction": 48.28
+        },
+        {
+          "datetime": "2016-07-01T04:45:00-04:00",
+          "prediction": 48.65
+        },
+        {
+          "datetime": "2016-07-01T05:00:00-04:00",
+          "prediction": 53.08
+        },
+        {
+          "datetime": "2016-07-01T05:15:00-04:00",
+          "prediction": 66.66
+        },
+        {
+          "datetime": "2016-07-01T05:30:00-04:00",
+          "prediction": 105.39
+        },
+        {
+          "datetime": "2016-07-01T05:45:00-04:00",
+          "prediction": 126.67
+        },
+        {
+          "datetime": "2016-07-01T06:00:00-04:00",
+          "prediction": 154.24
+        },
+        {
+          "datetime": "2016-07-01T06:15:00-04:00",
+          "prediction": 176.34
+        },
+        {
+          "datetime": "2016-07-01T06:30:00-04:00",
+          "prediction": 205.4
+        },
+        {
+          "datetime": "2016-07-01T06:45:00-04:00",
+          "prediction": 209.78
+        },
+        {
+          "datetime": "2016-07-01T07:00:00-04:00",
+          "prediction": 209.87
+        },
+        {
+          "datetime": "2016-07-01T07:15:00-04:00",
+          "prediction": 211.27
+        },
+        {
+          "datetime": "2016-07-01T07:30:00-04:00",
+          "prediction": 214.22
+        },
+        {
+          "datetime": "2016-07-01T07:45:00-04:00",
+          "prediction": 212.63
+        },
+        {
+          "datetime": "2016-07-01T08:00:00-04:00",
+          "prediction": 207.02
+        },
+        {
+          "datetime": "2016-07-01T08:15:00-04:00",
+          "prediction": 205.15
+        },
+        {
+          "datetime": "2016-07-01T08:30:00-04:00",
+          "prediction": 207.66
+        },
+        {
+          "datetime": "2016-07-01T08:45:00-04:00",
+          "prediction": 207.53
+        },
+        {
+          "datetime": "2016-07-01T09:00:00-04:00",
+          "prediction": 210.66
+        },
+        {
+          "datetime": "2016-07-01T09:15:00-04:00",
+          "prediction": 215.77
+        },
+        {
+          "datetime": "2016-07-01T09:30:00-04:00",
+          "prediction": 220.51
+        },
+        {
+          "datetime": "2016-07-01T09:45:00-04:00",
+          "prediction": 215.89
+        },
+        {
+          "datetime": "2016-07-01T10:00:00-04:00",
+          "prediction": 210.56
+        },
+        {
+          "datetime": "2016-07-01T10:15:00-04:00",
+          "prediction": 208.74
+        },
+        {
+          "datetime": "2016-07-01T10:30:00-04:00",
+          "prediction": 209.49
+        },
+        {
+          "datetime": "2016-07-01T10:45:00-04:00",
+          "prediction": 206.74
+        },
+        {
+          "datetime": "2016-07-01T11:00:00-04:00",
+          "prediction": 207.85
+        },
+        {
+          "datetime": "2016-07-01T11:15:00-04:00",
+          "prediction": 209.48
+        },
+        {
+          "datetime": "2016-07-01T11:30:00-04:00",
+          "prediction": 217.27
+        }
+      ]
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "model_loaded": true,
+    "observations_end": "2016-06-30 23:45:00-04:00",
+    "timezone": "America/New_York",
+    "default_mode": "historical"
+  },
+  "sample": {
+    "forecast": [
+      {
+        "datetime": "2016-06-30T23:45:00-04:00",
+        "prediction": 242.01
+      },
+      {
+        "datetime": "2016-07-01T00:00:00-04:00",
+        "prediction": 230.85
+      },
+      {
+        "datetime": "2016-07-01T00:15:00-04:00",
+        "prediction": 214.47
+      },
+      {
+        "datetime": "2016-07-01T00:30:00-04:00",
+        "prediction": 196.54
+      },
+      {
+        "datetime": "2016-07-01T00:45:00-04:00",
+        "prediction": 177.82
+      },
+      {
+        "datetime": "2016-07-01T01:00:00-04:00",
+        "prediction": 162.37
+      },
+      {
+        "datetime": "2016-07-01T01:15:00-04:00",
+        "prediction": 143.96
+      },
+      {
+        "datetime": "2016-07-01T01:30:00-04:00",
+        "prediction": 126.42
+      },
+      {
+        "datetime": "2016-07-01T01:45:00-04:00",
+        "prediction": 106.32
+      },
+      {
+        "datetime": "2016-07-01T02:00:00-04:00",
+        "prediction": 99.53
+      },
+      {
+        "datetime": "2016-07-01T02:15:00-04:00",
+        "prediction": 86.3
+      },
+      {
+        "datetime": "2016-07-01T02:30:00-04:00",
+        "prediction": 81.55
+      },
+      {
+        "datetime": "2016-07-01T02:45:00-04:00",
+        "prediction": 70.1
+      },
+      {
+        "datetime": "2016-07-01T03:00:00-04:00",
+        "prediction": 65.07
+      },
+      {
+        "datetime": "2016-07-01T03:15:00-04:00",
+        "prediction": 53.91
+      },
+      {
+        "datetime": "2016-07-01T03:30:00-04:00",
+        "prediction": 52.8
+      },
+      {
+        "datetime": "2016-07-01T03:45:00-04:00",
+        "prediction": 50.81
+      },
+      {
+        "datetime": "2016-07-01T04:00:00-04:00",
+        "prediction": 56.07
+      },
+      {
+        "datetime": "2016-07-01T04:15:00-04:00",
+        "prediction": 51.01
+      },
+      {
+        "datetime": "2016-07-01T04:30:00-04:00",
+        "prediction": 48.28
+      },
+      {
+        "datetime": "2016-07-01T04:45:00-04:00",
+        "prediction": 48.65
+      },
+      {
+        "datetime": "2016-07-01T05:00:00-04:00",
+        "prediction": 53.08
+      },
+      {
+        "datetime": "2016-07-01T05:15:00-04:00",
+        "prediction": 66.66
+      },
+      {
+        "datetime": "2016-07-01T05:30:00-04:00",
+        "prediction": 105.39
+      },
+      {
+        "datetime": "2016-07-01T05:45:00-04:00",
+        "prediction": 126.67
+      },
+      {
+        "datetime": "2016-07-01T06:00:00-04:00",
+        "prediction": 154.24
+      },
+      {
+        "datetime": "2016-07-01T06:15:00-04:00",
+        "prediction": 176.34
+      },
+      {
+        "datetime": "2016-07-01T06:30:00-04:00",
+        "prediction": 205.4
+      },
+      {
+        "datetime": "2016-07-01T06:45:00-04:00",
+        "prediction": 209.78
+      },
+      {
+        "datetime": "2016-07-01T07:00:00-04:00",
+        "prediction": 209.87
+      },
+      {
+        "datetime": "2016-07-01T07:15:00-04:00",
+        "prediction": 211.27
+      },
+      {
+        "datetime": "2016-07-01T07:30:00-04:00",
+        "prediction": 214.22
+      },
+      {
+        "datetime": "2016-07-01T07:45:00-04:00",
+        "prediction": 212.63
+      },
+      {
+        "datetime": "2016-07-01T08:00:00-04:00",
+        "prediction": 207.02
+      },
+      {
+        "datetime": "2016-07-01T08:15:00-04:00",
+        "prediction": 205.15
+      },
+      {
+        "datetime": "2016-07-01T08:30:00-04:00",
+        "prediction": 207.66
+      },
+      {
+        "datetime": "2016-07-01T08:45:00-04:00",
+        "prediction": 207.53
+      },
+      {
+        "datetime": "2016-07-01T09:00:00-04:00",
+        "prediction": 210.66
+      },
+      {
+        "datetime": "2016-07-01T09:15:00-04:00",
+        "prediction": 215.77
+      },
+      {
+        "datetime": "2016-07-01T09:30:00-04:00",
+        "prediction": 220.51
+      },
+      {
+        "datetime": "2016-07-01T09:45:00-04:00",
+        "prediction": 215.89
+      },
+      {
+        "datetime": "2016-07-01T10:00:00-04:00",
+        "prediction": 210.56
+      },
+      {
+        "datetime": "2016-07-01T10:15:00-04:00",
+        "prediction": 208.74
+      },
+      {
+        "datetime": "2016-07-01T10:30:00-04:00",
+        "prediction": 209.49
+      },
+      {
+        "datetime": "2016-07-01T10:45:00-04:00",
+        "prediction": 206.74
+      },
+      {
+        "datetime": "2016-07-01T11:00:00-04:00",
+        "prediction": 207.85
+      },
+      {
+        "datetime": "2016-07-01T11:15:00-04:00",
+        "prediction": 209.48
+      },
+      {
+        "datetime": "2016-07-01T11:30:00-04:00",
+        "prediction": 217.27
+      }
+    ],
+    "history": [
+      {
+        "datetime": "2016-06-28T23:45:00-04:00",
+        "actual": 191.0
+      },
+      {
+        "datetime": "2016-06-29T00:00:00-04:00",
+        "actual": 177.0
+      },
+      {
+        "datetime": "2016-06-29T00:15:00-04:00",
+        "actual": 180.0
+      },
+      {
+        "datetime": "2016-06-29T00:30:00-04:00",
+        "actual": 157.0
+      },
+      {
+        "datetime": "2016-06-29T00:45:00-04:00",
+        "actual": 117.0
+      },
+      {
+        "datetime": "2016-06-29T01:00:00-04:00",
+        "actual": 107.0
+      },
+      {
+        "datetime": "2016-06-29T01:15:00-04:00",
+        "actual": 88.0
+      },
+      {
+        "datetime": "2016-06-29T01:30:00-04:00",
+        "actual": 62.0
+      },
+      {
+        "datetime": "2016-06-29T01:45:00-04:00",
+        "actual": 61.0
+      },
+      {
+        "datetime": "2016-06-29T02:00:00-04:00",
+        "actual": 69.0
+      },
+      {
+        "datetime": "2016-06-29T02:15:00-04:00",
+        "actual": 40.0
+      },
+      {
+        "datetime": "2016-06-29T02:30:00-04:00",
+        "actual": 35.0
+      },
+      {
+        "datetime": "2016-06-29T02:45:00-04:00",
+        "actual": 44.0
+      },
+      {
+        "datetime": "2016-06-29T03:00:00-04:00",
+        "actual": 50.0
+      },
+      {
+        "datetime": "2016-06-29T03:15:00-04:00",
+        "actual": 34.0
+      },
+      {
+        "datetime": "2016-06-29T03:30:00-04:00",
+        "actual": 26.0
+      },
+      {
+        "datetime": "2016-06-29T03:45:00-04:00",
+        "actual": 40.0
+      },
+      {
+        "datetime": "2016-06-29T04:00:00-04:00",
+        "actual": 47.0
+      },
+      {
+        "datetime": "2016-06-29T04:15:00-04:00",
+        "actual": 36.0
+      },
+      {
+        "datetime": "2016-06-29T04:30:00-04:00",
+        "actual": 30.0
+      },
+      {
+        "datetime": "2016-06-29T04:45:00-04:00",
+        "actual": 39.0
+      },
+      {
+        "datetime": "2016-06-29T05:00:00-04:00",
+        "actual": 40.0
+      },
+      {
+        "datetime": "2016-06-29T05:15:00-04:00",
+        "actual": 52.0
+      },
+      {
+        "datetime": "2016-06-29T05:30:00-04:00",
+        "actual": 114.0
+      },
+      {
+        "datetime": "2016-06-29T05:45:00-04:00",
+        "actual": 126.0
+      },
+      {
+        "datetime": "2016-06-29T06:00:00-04:00",
+        "actual": 140.0
+      },
+      {
+        "datetime": "2016-06-29T06:15:00-04:00",
+        "actual": 191.0
+      },
+      {
+        "datetime": "2016-06-29T06:30:00-04:00",
+        "actual": 220.0
+      },
+      {
+        "datetime": "2016-06-29T06:45:00-04:00",
+        "actual": 210.0
+      },
+      {
+        "datetime": "2016-06-29T07:00:00-04:00",
+        "actual": 248.0
+      },
+      {
+        "datetime": "2016-06-29T07:15:00-04:00",
+        "actual": 204.0
+      },
+      {
+        "datetime": "2016-06-29T07:30:00-04:00",
+        "actual": 213.0
+      },
+      {
+        "datetime": "2016-06-29T07:45:00-04:00",
+        "actual": 257.0
+      },
+      {
+        "datetime": "2016-06-29T08:00:00-04:00",
+        "actual": 198.0
+      },
+      {
+        "datetime": "2016-06-29T08:15:00-04:00",
+        "actual": 217.0
+      },
+      {
+        "datetime": "2016-06-29T08:30:00-04:00",
+        "actual": 212.0
+      },
+      {
+        "datetime": "2016-06-29T08:45:00-04:00",
+        "actual": 227.0
+      },
+      {
+        "datetime": "2016-06-29T09:00:00-04:00",
+        "actual": 217.0
+      },
+      {
+        "datetime": "2016-06-29T09:15:00-04:00",
+        "actual": 216.0
+      },
+      {
+        "datetime": "2016-06-29T09:30:00-04:00",
+        "actual": 222.0
+      },
+      {
+        "datetime": "2016-06-29T09:45:00-04:00",
+        "actual": 231.0
+      },
+      {
+        "datetime": "2016-06-29T10:00:00-04:00",
+        "actual": 211.0
+      },
+      {
+        "datetime": "2016-06-29T10:15:00-04:00",
+        "actual": 218.0
+      },
+      {
+        "datetime": "2016-06-29T10:30:00-04:00",
+        "actual": 203.0
+      },
+      {
+        "datetime": "2016-06-29T10:45:00-04:00",
+        "actual": 193.0
+      },
+      {
+        "datetime": "2016-06-29T11:00:00-04:00",
+        "actual": 209.0
+      },
+      {
+        "datetime": "2016-06-29T11:15:00-04:00",
+        "actual": 241.0
+      },
+      {
+        "datetime": "2016-06-29T11:30:00-04:00",
+        "actual": 205.0
+      },
+      {
+        "datetime": "2016-06-29T11:45:00-04:00",
+        "actual": 208.0
+      },
+      {
+        "datetime": "2016-06-29T12:00:00-04:00",
+        "actual": 239.0
+      },
+      {
+        "datetime": "2016-06-29T12:15:00-04:00",
+        "actual": 214.0
+      },
+      {
+        "datetime": "2016-06-29T12:30:00-04:00",
+        "actual": 197.0
+      },
+      {
+        "datetime": "2016-06-29T12:45:00-04:00",
+        "actual": 191.0
+      },
+      {
+        "datetime": "2016-06-29T13:00:00-04:00",
+        "actual": 176.0
+      },
+      {
+        "datetime": "2016-06-29T13:15:00-04:00",
+        "actual": 202.0
+      },
+      {
+        "datetime": "2016-06-29T13:30:00-04:00",
+        "actual": 189.0
+      },
+      {
+        "datetime": "2016-06-29T13:45:00-04:00",
+        "actual": 203.0
+      },
+      {
+        "datetime": "2016-06-29T14:00:00-04:00",
+        "actual": 189.0
+      },
+      {
+        "datetime": "2016-06-29T14:15:00-04:00",
+        "actual": 193.0
+      },
+      {
+        "datetime": "2016-06-29T14:30:00-04:00",
+        "actual": 182.0
+      },
+      {
+        "datetime": "2016-06-29T14:45:00-04:00",
+        "actual": 196.0
+      },
+      {
+        "datetime": "2016-06-29T15:00:00-04:00",
+        "actual": 169.0
+      },
+      {
+        "datetime": "2016-06-29T15:15:00-04:00",
+        "actual": 180.0
+      },
+      {
+        "datetime": "2016-06-29T15:30:00-04:00",
+        "actual": 164.0
+      },
+      {
+        "datetime": "2016-06-29T15:45:00-04:00",
+        "actual": 142.0
+      },
+      {
+        "datetime": "2016-06-29T16:00:00-04:00",
+        "actual": 147.0
+      },
+      {
+        "datetime": "2016-06-29T16:15:00-04:00",
+        "actual": 130.0
+      },
+      {
+        "datetime": "2016-06-29T16:30:00-04:00",
+        "actual": 130.0
+      },
+      {
+        "datetime": "2016-06-29T16:45:00-04:00",
+        "actual": 123.0
+      },
+      {
+        "datetime": "2016-06-29T17:00:00-04:00",
+        "actual": 132.0
+      },
+      {
+        "datetime": "2016-06-29T17:15:00-04:00",
+        "actual": 137.0
+      },
+      {
+        "datetime": "2016-06-29T17:30:00-04:00",
+        "actual": 134.0
+      },
+      {
+        "datetime": "2016-06-29T17:45:00-04:00",
+        "actual": 170.0
+      },
+      {
+        "datetime": "2016-06-29T18:00:00-04:00",
+        "actual": 164.0
+      },
+      {
+        "datetime": "2016-06-29T18:15:00-04:00",
+        "actual": 166.0
+      },
+      {
+        "datetime": "2016-06-29T18:30:00-04:00",
+        "actual": 166.0
+      },
+      {
+        "datetime": "2016-06-29T18:45:00-04:00",
+        "actual": 188.0
+      },
+      {
+        "datetime": "2016-06-29T19:00:00-04:00",
+        "actual": 216.0
+      },
+      {
+        "datetime": "2016-06-29T19:15:00-04:00",
+        "actual": 218.0
+      },
+      {
+        "datetime": "2016-06-29T19:30:00-04:00",
+        "actual": 236.0
+      },
+      {
+        "datetime": "2016-06-29T19:45:00-04:00",
+        "actual": 241.0
+      },
+      {
+        "datetime": "2016-06-29T20:00:00-04:00",
+        "actual": 218.0
+      },
+      {
+        "datetime": "2016-06-29T20:15:00-04:00",
+        "actual": 215.0
+      },
+      {
+        "datetime": "2016-06-29T20:30:00-04:00",
+        "actual": 208.0
+      },
+      {
+        "datetime": "2016-06-29T20:45:00-04:00",
+        "actual": 211.0
+      },
+      {
+        "datetime": "2016-06-29T21:00:00-04:00",
+        "actual": 210.0
+      },
+      {
+        "datetime": "2016-06-29T21:15:00-04:00",
+        "actual": 232.0
+      },
+      {
+        "datetime": "2016-06-29T21:30:00-04:00",
+        "actual": 294.0
+      },
+      {
+        "datetime": "2016-06-29T21:45:00-04:00",
+        "actual": 274.0
+      },
+      {
+        "datetime": "2016-06-29T22:00:00-04:00",
+        "actual": 292.0
+      },
+      {
+        "datetime": "2016-06-29T22:15:00-04:00",
+        "actual": 240.0
+      },
+      {
+        "datetime": "2016-06-29T22:30:00-04:00",
+        "actual": 260.0
+      },
+      {
+        "datetime": "2016-06-29T22:45:00-04:00",
+        "actual": 288.0
+      },
+      {
+        "datetime": "2016-06-29T23:00:00-04:00",
+        "actual": 329.0
+      },
+      {
+        "datetime": "2016-06-29T23:15:00-04:00",
+        "actual": 267.0
+      },
+      {
+        "datetime": "2016-06-29T23:30:00-04:00",
+        "actual": 215.0
+      },
+      {
+        "datetime": "2016-06-29T23:45:00-04:00",
+        "actual": 224.0
+      },
+      {
+        "datetime": "2016-06-30T00:00:00-04:00",
+        "actual": 211.0
+      },
+      {
+        "datetime": "2016-06-30T00:15:00-04:00",
+        "actual": 197.0
+      },
+      {
+        "datetime": "2016-06-30T00:30:00-04:00",
+        "actual": 140.0
+      },
+      {
+        "datetime": "2016-06-30T00:45:00-04:00",
+        "actual": 138.0
+      },
+      {
+        "datetime": "2016-06-30T01:00:00-04:00",
+        "actual": 119.0
+      },
+      {
+        "datetime": "2016-06-30T01:15:00-04:00",
+        "actual": 88.0
+      },
+      {
+        "datetime": "2016-06-30T01:30:00-04:00",
+        "actual": 75.0
+      },
+      {
+        "datetime": "2016-06-30T01:45:00-04:00",
+        "actual": 75.0
+      },
+      {
+        "datetime": "2016-06-30T02:00:00-04:00",
+        "actual": 72.0
+      },
+      {
+        "datetime": "2016-06-30T02:15:00-04:00",
+        "actual": 60.0
+      },
+      {
+        "datetime": "2016-06-30T02:30:00-04:00",
+        "actual": 49.0
+      },
+      {
+        "datetime": "2016-06-30T02:45:00-04:00",
+        "actual": 44.0
+      },
+      {
+        "datetime": "2016-06-30T03:00:00-04:00",
+        "actual": 40.0
+      },
+      {
+        "datetime": "2016-06-30T03:15:00-04:00",
+        "actual": 36.0
+      },
+      {
+        "datetime": "2016-06-30T03:30:00-04:00",
+        "actual": 37.0
+      },
+      {
+        "datetime": "2016-06-30T03:45:00-04:00",
+        "actual": 47.0
+      },
+      {
+        "datetime": "2016-06-30T04:00:00-04:00",
+        "actual": 49.0
+      },
+      {
+        "datetime": "2016-06-30T04:15:00-04:00",
+        "actual": 47.0
+      },
+      {
+        "datetime": "2016-06-30T04:30:00-04:00",
+        "actual": 36.0
+      },
+      {
+        "datetime": "2016-06-30T04:45:00-04:00",
+        "actual": 37.0
+      },
+      {
+        "datetime": "2016-06-30T05:00:00-04:00",
+        "actual": 46.0
+      },
+      {
+        "datetime": "2016-06-30T05:15:00-04:00",
+        "actual": 55.0
+      },
+      {
+        "datetime": "2016-06-30T05:30:00-04:00",
+        "actual": 104.0
+      },
+      {
+        "datetime": "2016-06-30T05:45:00-04:00",
+        "actual": 118.0
+      },
+      {
+        "datetime": "2016-06-30T06:00:00-04:00",
+        "actual": 147.0
+      },
+      {
+        "datetime": "2016-06-30T06:15:00-04:00",
+        "actual": 183.0
+      },
+      {
+        "datetime": "2016-06-30T06:30:00-04:00",
+        "actual": 207.0
+      },
+      {
+        "datetime": "2016-06-30T06:45:00-04:00",
+        "actual": 192.0
+      },
+      {
+        "datetime": "2016-06-30T07:00:00-04:00",
+        "actual": 216.0
+      },
+      {
+        "datetime": "2016-06-30T07:15:00-04:00",
+        "actual": 234.0
+      },
+      {
+        "datetime": "2016-06-30T07:30:00-04:00",
+        "actual": 223.0
+      },
+      {
+        "datetime": "2016-06-30T07:45:00-04:00",
+        "actual": 215.0
+      },
+      {
+        "datetime": "2016-06-30T08:00:00-04:00",
+        "actual": 193.0
+      },
+      {
+        "datetime": "2016-06-30T08:15:00-04:00",
+        "actual": 202.0
+      },
+      {
+        "datetime": "2016-06-30T08:30:00-04:00",
+        "actual": 165.0
+      },
+      {
+        "datetime": "2016-06-30T08:45:00-04:00",
+        "actual": 190.0
+      },
+      {
+        "datetime": "2016-06-30T09:00:00-04:00",
+        "actual": 173.0
+      },
+      {
+        "datetime": "2016-06-30T09:15:00-04:00",
+        "actual": 197.0
+      },
+      {
+        "datetime": "2016-06-30T09:30:00-04:00",
+        "actual": 233.0
+      },
+      {
+        "datetime": "2016-06-30T09:45:00-04:00",
+        "actual": 205.0
+      },
+      {
+        "datetime": "2016-06-30T10:00:00-04:00",
+        "actual": 196.0
+      },
+      {
+        "datetime": "2016-06-30T10:15:00-04:00",
+        "actual": 195.0
+      },
+      {
+        "datetime": "2016-06-30T10:30:00-04:00",
+        "actual": 192.0
+      },
+      {
+        "datetime": "2016-06-30T10:45:00-04:00",
+        "actual": 186.0
+      },
+      {
+        "datetime": "2016-06-30T11:00:00-04:00",
+        "actual": 199.0
+      },
+      {
+        "datetime": "2016-06-30T11:15:00-04:00",
+        "actual": 200.0
+      },
+      {
+        "datetime": "2016-06-30T11:30:00-04:00",
+        "actual": 208.0
+      },
+      {
+        "datetime": "2016-06-30T11:45:00-04:00",
+        "actual": 214.0
+      },
+      {
+        "datetime": "2016-06-30T12:00:00-04:00",
+        "actual": 209.0
+      },
+      {
+        "datetime": "2016-06-30T12:15:00-04:00",
+        "actual": 201.0
+      },
+      {
+        "datetime": "2016-06-30T12:30:00-04:00",
+        "actual": 209.0
+      },
+      {
+        "datetime": "2016-06-30T12:45:00-04:00",
+        "actual": 187.0
+      },
+      {
+        "datetime": "2016-06-30T13:00:00-04:00",
+        "actual": 201.0
+      },
+      {
+        "datetime": "2016-06-30T13:15:00-04:00",
+        "actual": 191.0
+      },
+      {
+        "datetime": "2016-06-30T13:30:00-04:00",
+        "actual": 225.0
+      },
+      {
+        "datetime": "2016-06-30T13:45:00-04:00",
+        "actual": 199.0
+      },
+      {
+        "datetime": "2016-06-30T14:00:00-04:00",
+        "actual": 206.0
+      },
+      {
+        "datetime": "2016-06-30T14:15:00-04:00",
+        "actual": 207.0
+      },
+      {
+        "datetime": "2016-06-30T14:30:00-04:00",
+        "actual": 157.0
+      },
+      {
+        "datetime": "2016-06-30T14:45:00-04:00",
+        "actual": 155.0
+      },
+      {
+        "datetime": "2016-06-30T15:00:00-04:00",
+        "actual": 144.0
+      },
+      {
+        "datetime": "2016-06-30T15:15:00-04:00",
+        "actual": 163.0
+      },
+      {
+        "datetime": "2016-06-30T15:30:00-04:00",
+        "actual": 163.0
+      },
+      {
+        "datetime": "2016-06-30T15:45:00-04:00",
+        "actual": 118.0
+      },
+      {
+        "datetime": "2016-06-30T16:00:00-04:00",
+        "actual": 147.0
+      },
+      {
+        "datetime": "2016-06-30T16:15:00-04:00",
+        "actual": 104.0
+      },
+      {
+        "datetime": "2016-06-30T16:30:00-04:00",
+        "actual": 106.0
+      },
+      {
+        "datetime": "2016-06-30T16:45:00-04:00",
+        "actual": 105.0
+      },
+      {
+        "datetime": "2016-06-30T17:00:00-04:00",
+        "actual": 109.0
+      },
+      {
+        "datetime": "2016-06-30T17:15:00-04:00",
+        "actual": 126.0
+      },
+      {
+        "datetime": "2016-06-30T17:30:00-04:00",
+        "actual": 149.0
+      },
+      {
+        "datetime": "2016-06-30T17:45:00-04:00",
+        "actual": 159.0
+      },
+      {
+        "datetime": "2016-06-30T18:00:00-04:00",
+        "actual": 146.0
+      },
+      {
+        "datetime": "2016-06-30T18:15:00-04:00",
+        "actual": 168.0
+      },
+      {
+        "datetime": "2016-06-30T18:30:00-04:00",
+        "actual": 190.0
+      },
+      {
+        "datetime": "2016-06-30T18:45:00-04:00",
+        "actual": 196.0
+      },
+      {
+        "datetime": "2016-06-30T19:00:00-04:00",
+        "actual": 204.0
+      },
+      {
+        "datetime": "2016-06-30T19:15:00-04:00",
+        "actual": 182.0
+      },
+      {
+        "datetime": "2016-06-30T19:30:00-04:00",
+        "actual": 211.0
+      },
+      {
+        "datetime": "2016-06-30T19:45:00-04:00",
+        "actual": 211.0
+      },
+      {
+        "datetime": "2016-06-30T20:00:00-04:00",
+        "actual": 218.0
+      },
+      {
+        "datetime": "2016-06-30T20:15:00-04:00",
+        "actual": 194.0
+      },
+      {
+        "datetime": "2016-06-30T20:30:00-04:00",
+        "actual": 175.0
+      },
+      {
+        "datetime": "2016-06-30T20:45:00-04:00",
+        "actual": 225.0
+      },
+      {
+        "datetime": "2016-06-30T21:00:00-04:00",
+        "actual": 203.0
+      },
+      {
+        "datetime": "2016-06-30T21:15:00-04:00",
+        "actual": 269.0
+      },
+      {
+        "datetime": "2016-06-30T21:30:00-04:00",
+        "actual": 313.0
+      },
+      {
+        "datetime": "2016-06-30T21:45:00-04:00",
+        "actual": 267.0
+      },
+      {
+        "datetime": "2016-06-30T22:00:00-04:00",
+        "actual": 245.0
+      },
+      {
+        "datetime": "2016-06-30T22:15:00-04:00",
+        "actual": 228.0
+      },
+      {
+        "datetime": "2016-06-30T22:30:00-04:00",
+        "actual": 237.0
+      },
+      {
+        "datetime": "2016-06-30T22:45:00-04:00",
+        "actual": 235.0
+      },
+      {
+        "datetime": "2016-06-30T23:00:00-04:00",
+        "actual": 220.0
+      },
+      {
+        "datetime": "2016-06-30T23:15:00-04:00",
+        "actual": 250.0
+      },
+      {
+        "datetime": "2016-06-30T23:30:00-04:00",
+        "actual": 240.0
+      }
+    ],
+    "weather": {
+      "temperature": null,
+      "condition": "Not used by this model",
+      "source": "not_used"
+    },
+    "heatmap": [
+      {
+        "id": 0,
+        "name": "NYC Sector 00",
+        "demand": 51,
+        "level": "Low"
+      },
+      {
+        "id": 1,
+        "name": "NYC Sector 01",
+        "demand": 266,
+        "level": "Low"
+      },
+      {
+        "id": 2,
+        "name": "NYC Sector 02",
+        "demand": 4,
+        "level": "Low"
+      },
+      {
+        "id": 3,
+        "name": "NYC Sector 03",
+        "demand": 117,
+        "level": "Low"
+      },
+      {
+        "id": 4,
+        "name": "NYC Sector 04",
+        "demand": 167,
+        "level": "Low"
+      },
+      {
+        "id": 5,
+        "name": "NYC Sector 05",
+        "demand": 336,
+        "level": "Low"
+      },
+      {
+        "id": 6,
+        "name": "NYC Sector 06",
+        "demand": 165,
+        "level": "Low"
+      },
+      {
+        "id": 7,
+        "name": "NYC Sector 07",
+        "demand": 310,
+        "level": "Low"
+      },
+      {
+        "id": 8,
+        "name": "NYC Sector 08",
+        "demand": 237,
+        "level": "Low"
+      },
+      {
+        "id": 9,
+        "name": "NYC Sector 09",
+        "demand": 42,
+        "level": "Low"
+      },
+      {
+        "id": 10,
+        "name": "NYC Sector 10",
+        "demand": 297,
+        "level": "Low"
+      },
+      {
+        "id": 11,
+        "name": "NYC Sector 11",
+        "demand": 167,
+        "level": "Low"
+      },
+      {
+        "id": 12,
+        "name": "NYC Sector 12",
+        "demand": 350,
+        "level": "Low"
+      },
+      {
+        "id": 13,
+        "name": "NYC Sector 13",
+        "demand": 17,
+        "level": "Low"
+      },
+      {
+        "id": 14,
+        "name": "NYC Sector 14",
+        "demand": 259,
+        "level": "Low"
+      },
+      {
+        "id": 15,
+        "name": "NYC Sector 15",
+        "demand": 216,
+        "level": "Low"
+      },
+      {
+        "id": 16,
+        "name": "NYC Sector 16",
+        "demand": 32,
+        "level": "Low"
+      },
+      {
+        "id": 17,
+        "name": "NYC Sector 17",
+        "demand": 13,
+        "level": "Low"
+      },
+      {
+        "id": 18,
+        "name": "NYC Sector 18",
+        "demand": 484,
+        "level": "Medium"
+      },
+      {
+        "id": 19,
+        "name": "NYC Sector 19",
+        "demand": 211,
+        "level": "Low"
+      },
+      {
+        "id": 20,
+        "name": "NYC Sector 20",
+        "demand": 201,
+        "level": "Low"
+      },
+      {
+        "id": 21,
+        "name": "NYC Sector 21",
+        "demand": 301,
+        "level": "Low"
+      },
+      {
+        "id": 22,
+        "name": "NYC Sector 22",
+        "demand": 212,
+        "level": "Low"
+      },
+      {
+        "id": 23,
+        "name": "NYC Sector 23",
+        "demand": 101,
+        "level": "Low"
+      },
+      {
+        "id": 24,
+        "name": "NYC Sector 24",
+        "demand": 10,
+        "level": "Low"
+      },
+      {
+        "id": 25,
+        "name": "NYC Sector 25",
+        "demand": 137,
+        "level": "Low"
+      },
+      {
+        "id": 26,
+        "name": "NYC Sector 26",
+        "demand": 126,
+        "level": "Low"
+      },
+      {
+        "id": 27,
+        "name": "NYC Sector 27",
+        "demand": 261,
+        "level": "Low"
+      },
+      {
+        "id": 28,
+        "name": "NYC Sector 28",
+        "demand": 10,
+        "level": "Low"
+      },
+      {
+        "id": 29,
+        "name": "NYC Sector 29",
+        "demand": 17,
+        "level": "Low"
+      }
+    ],
+    "feature_importance": [],
+    "alerts": [],
+    "metadata": {
+      "mode": "historical",
+      "timezone": "America/New_York",
+      "schema_version": 3,
+      "heatmap_source": "historical_observations_before_origin",
+      "confidence_intervals": "unavailable",
+      "latency_ms": 617.97,
+      "forecast_strategy": "regional 15-minute recursive",
+      "candidate_id": "v4_calendar_feedback"
+    }
+  },
+  "process_tree_RSS_MiB": 444.7734375
+}

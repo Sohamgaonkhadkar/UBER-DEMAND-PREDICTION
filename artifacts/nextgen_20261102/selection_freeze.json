@@ -1,0 +1,29 @@
+{
+  "selected_recipe": "current",
+  "selected_id": "matched_refit_current",
+  "selection_reason": "Prespecified March materiality/paired-block/region gates; April forecast errors never fitted/selected correction weights.",
+  "comparators": [
+    "frozen_Q1_current",
+    "matched_refit_current",
+    "matched_refit_tuned_xgboost",
+    "matched_refit_tuned_lightgbm",
+    "matched_refit_v2_xgboost",
+    "matched_refit_v2_lightgbm",
+    "clock_weekly_naive"
+  ],
+  "frozen_at": "2026-11-01T22:37:08.713579+00:00",
+  "validation_sha256": "cdf75aac8865bb935f37c667cf0744bfe1b8fad7bb1893a6df1ed10ae063ed6e",
+  "code_sha256": {
+    "urbanflow\\ml\\nextgen\\data_audit.py": "d12dd35f327619377835dfb4f7c9b7ac2af2b3339c106234839fc1905359a492",
+    "urbanflow\\ml\\nextgen\\diagnose.py": "7bd87deae02def0e5b8c4178592c83e7edf1d8399273dc8dbc677ef459ca3fd6",
+    "urbanflow\\ml\\nextgen\\final_evaluate.py": "e89bdb488262ad8ab52da9f2bcdeb3aef6cc0bc90bab90699169858d1a1bb054",
+    "urbanflow\\ml\\nextgen\\fit.py": "28235c52f134e29efce063828d0ecb0ab604ea0ce8ec80878940050e62c78042",
+    "urbanflow\\ml\\nextgen\\fresh_may.py": "9eb259ad523a84d6cff1b2eaac396833a346c9992310d72a50cf2ce2805a6f74",
+    "urbanflow\\ml\\nextgen\\models.py": "1a6314b208c9503ce780901a3b9d064fe243a9839eb0eb431d6a65de5ccde906",
+    "urbanflow\\ml\\nextgen\\protocol.py": "6af17a932e1a9106ac0ee9c9b5d130272ade4688e0f3616c9b7a65107add10ee",
+    "urbanflow\\ml\\nextgen\\research.py": "86d8f5cabf73d7c8d1ca3f4e5567bc4db5dbe62064edb69cef0a57124e5fa87e",
+    "urbanflow\\ml\\nextgen\\__init__.py": "2875b21a5c9141014b2f0383c25f5357cd323ad74109cb329721bfc932e4f97a"
+  },
+  "added_history_comparison": "Frozen existing Q1 candidate vs identical configuration fitted Jan-April; no new hyperparameter search.",
+  "tuned_baseline_note": "Strongest previously validated pure XGBoost/LightGBM and V2 references, all with matched Jan-April labels and warmup; recipes fixed before May outcomes."
+}

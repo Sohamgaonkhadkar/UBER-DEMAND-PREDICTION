@@ -1,0 +1,17 @@
+{
+  "month": "2016-03",
+  "model": "cross_temporal",
+  "metrics": {
+    "WAPE": 12.738797767430839,
+    "MAE": 16.857657088260133,
+    "RMSE": 27.849108854497214,
+    "R2": 0.9545704006332517,
+    "bias": 1.882912814223249,
+    "bias_pct": 1.4228576028396143
+  },
+  "seconds_per_origin": 0.05782055087783782,
+  "details": {
+    "weights": "Temporal alignment then equal city-hour target alignment; original regional errors remain primary",
+    "training_seconds": 1.5400000847876072e-05
+  }
+}

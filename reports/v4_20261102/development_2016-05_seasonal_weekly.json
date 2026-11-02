@@ -1,0 +1,17 @@
+{
+  "month": "2016-05",
+  "model": "seasonal_weekly",
+  "metrics": {
+    "WAPE": 16.41658461252385,
+    "MAE": 20.80204678362573,
+    "RMSE": 34.74175894819971,
+    "R2": 0.9208605916152426,
+    "bias": 3.064254385964912,
+    "bias_pct": 2.418252007830662
+  },
+  "seconds_per_origin": 0.020049654386463788,
+  "details": {
+    "reference": true,
+    "training_seconds": 8.00999696366489e-05
+  }
+}

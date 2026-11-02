@@ -1,0 +1,130 @@
+[
+  {
+    "id": "comparable_v2_lightgbm",
+    "preserved": "artifacts\\advanced_20261102\\models\\comparable_v2_lightgbm.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\comparable_v2_lightgbm_portable.joblib",
+    "original_sha256": "051c74af677cb7fe847944cdfc7ad42244faeca00909bf30661ebfb6449bdd27",
+    "portable_sha256": "d0bedf5fdb9caa2f1c6b0e8ccaa5410285d6bf2ac4dfde6b4ea341f7bf8e5cf0",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "comparable_v2_xgboost",
+    "preserved": "artifacts\\advanced_20261102\\models\\comparable_v2_xgboost.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\comparable_v2_xgboost_portable.joblib",
+    "original_sha256": "0687b4907ed0863e56348bcb309c58e65815f9647c71fe85dcbaac2609ebaff9",
+    "portable_sha256": "477635e2e6fe642b178b5da056f1deb9d8be5f602f382720e2fd3686e0b08210",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "seasonal_weekly_24",
+    "preserved": "artifacts\\advanced_20261102\\models\\seasonal_weekly_24.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\seasonal_weekly_24_portable.joblib",
+    "original_sha256": "5e283c916fff4fb1deea88f0d8b9b1d45834c49530f235dcb40f3e7f16f6b950",
+    "portable_sha256": "2e24cc0a618dd742bafa123b5d7f2818b1ce52adf27ac3e5bd4374021973dd8d",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "seasonal_profile_24",
+    "preserved": "artifacts\\advanced_20261102\\models\\seasonal_profile_24.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\seasonal_profile_24_portable.joblib",
+    "original_sha256": "9b4206e65ef9b3ac95684f7f2a1a127dae8f09752e184a3aae2d3b785e8ac89a",
+    "portable_sha256": "93949e754361ea8f986d15f6b665418fca5c6f44128f9a6e84fdb25a05f70e66",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "seasonal_adaptive_8",
+    "preserved": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_8.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_8_portable.joblib",
+    "original_sha256": "2b190ea04fad9c316675c06f88b211c5c9436e3b53568c4e878947f98b8932bc",
+    "portable_sha256": "b19a9560f9fe0d41ebc8a837df0964f71c2e94f9399cd944134d1fd328cb8e6a",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "seasonal_adaptive_24",
+    "preserved": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_24.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_24_portable.joblib",
+    "original_sha256": "6fccc5e4118dfe4b061ce600ccbde2165156d1866b90a891a0318df5a445fdf8",
+    "portable_sha256": "230c8b6e6fd89c4c31f93f3f6f7a57317bee3ba8322844309a62b36943e16a99",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "seasonal_adaptive_48",
+    "preserved": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_48.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\seasonal_adaptive_48_portable.joblib",
+    "original_sha256": "eb3c45464b5c4efa9136f26dfc31a9a0b7f1ef419ca0eba791251774adcce1b3",
+    "portable_sha256": "173c05a52173968b42365ebc675d25a1206f248183fe2c5d866f11928841c21e",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "calendar_profile_12",
+    "preserved": "artifacts\\advanced_20261102\\models\\calendar_profile_12.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\calendar_profile_12_portable.joblib",
+    "original_sha256": "35d69978490681746fb3cbe4ef9fa04c390e0152405aaf63269c518e6d86b7b5",
+    "portable_sha256": "d526cde26b46793c1a01b662adc4ed63b076c43da86a2fc4793c325fcf479bc5",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "calendar_profile_48",
+    "preserved": "artifacts\\advanced_20261102\\models\\calendar_profile_48.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\calendar_profile_48_portable.joblib",
+    "original_sha256": "69ea2761f7aca8c3246fc2ba54ad951ca878d520977a771b0d382572f72bc92b",
+    "portable_sha256": "c1c032555a507ed8d45a08079ea87f049ed1b17c73e6049a171f9cf2b277e1fc",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "calendar_profile_96",
+    "preserved": "artifacts\\advanced_20261102\\models\\calendar_profile_96.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\calendar_profile_96_portable.joblib",
+    "original_sha256": "a0e937c71dd7be5b11324903edc301ce94c20968a500fb7a7af0e8e3400cff51",
+    "portable_sha256": "b09ec8cd50e5f6f451c03359e8b883d1deeda78fe8b606c81bb0879ebf2d7417",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "hybrid_switch_4",
+    "preserved": "artifacts\\advanced_20261102\\models\\hybrid_switch_4.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\hybrid_switch_4_portable.joblib",
+    "original_sha256": "ed51a6940abf4a567a94f76af2519951f839b3208ef07ff71b650d73a5fd8424",
+    "portable_sha256": "a16fd02819348b837385206a7e8e1d66726cf75a434d35c10471ff374b5e4c17",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "hybrid_switch_12",
+    "preserved": "artifacts\\advanced_20261102\\models\\hybrid_switch_12.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\hybrid_switch_12_portable.joblib",
+    "original_sha256": "01204e99255bf9104e54e41ce802154267cdc627bfb5f93a21f2fb29acc846f7",
+    "portable_sha256": "ad0503cc5b4104fd2a18bad3837ed4471b059338093bf8a521621978f3936722",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "hybrid_switch_24",
+    "preserved": "artifacts\\advanced_20261102\\models\\hybrid_switch_24.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\hybrid_switch_24_portable.joblib",
+    "original_sha256": "6e600186ee3dce1bbe2772b9cf78f04fd624a50df8ccdb41f705efd14eb7e5d4",
+    "portable_sha256": "3dabd51151c4ee9446690dd39a2de924ba0d46c323907266d271517ab2038d36",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "blend_recursive_direct_0.25",
+    "preserved": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.25.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.25_portable.joblib",
+    "original_sha256": "c164c584c83e31e86a644ebf4d2d7714e3947b0da2b3ff69be5e691a5766a86d",
+    "portable_sha256": "0342a7fda1ea9809285ef404f8fe5ee2b41752df1fa13fa37c866028a8fbfcac",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "blend_recursive_direct_0.5",
+    "preserved": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.5.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.5_portable.joblib",
+    "original_sha256": "121fb770b88778490da81cc61c823d8dca1c82c576833816aa818b6bdc8109f2",
+    "portable_sha256": "6efa947eb6e90f4cf5fc665895e529f59b47efaab8b90bad63b6bc8c2c2214f3",
+    "all_validation_predictions_unchanged": true
+  },
+  {
+    "id": "blend_recursive_direct_0.75",
+    "preserved": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.75.joblib",
+    "portable": "artifacts\\advanced_20261102\\models\\blend_recursive_direct_0.75_portable.joblib",
+    "original_sha256": "533edb4c27d524e8293e495c7a786e2ef4838bbfa77cb6825296410ac2d824e3",
+    "portable_sha256": "6de2a56b0e93858ef7bcb83fd275c09e518b51249e29774a66c4346e2fbdc09a",
+    "all_validation_predictions_unchanged": true
+  }
+]

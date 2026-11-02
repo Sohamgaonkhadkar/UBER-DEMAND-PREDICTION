@@ -1,0 +1,7 @@
+# Additional imports required by the separately opt-in advanced engine.
+# The full tested Windows environment is pinned in requirements-local-lock.txt.
+-r requirements.txt
+xgboost==3.4.1
+catboost==1.2.10
+optuna==5.0.0
+mlflow==3.17.2
