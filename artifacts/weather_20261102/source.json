@@ -1,0 +1,5 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=40.7128&longitude=-74.006&start_date=2015-12-31&end_date=2016-07-01&hourly=temperature_2m%2Capparent_temperature%2Cprecipitation%2Csnowfall%2Cwind_speed_10m%2Crelative_humidity_2m%2Cweather_code%2Ccloud_cover&timezone=UTC&timeformat=unixtime&models=era5&temperature_unit=celsius&wind_speed_unit=kmh&precipitation_unit=mm",
+  "sha256": "9f4a4995c7548ec793e2e8b1e9646fff725b796c521d51f8ea71b547b6fd63c6",
+  "bytes": 190807
+}

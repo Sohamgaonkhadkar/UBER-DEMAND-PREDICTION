@@ -40,6 +40,7 @@ is historical; it does not establish current operational performance.
 - [Final result](#final-result)
 - [Maps and research figures](#maps-and-research-figures)
 - [Mathematical formulation](#mathematical-formulation)
+- [Weather-aware extension and geographic names](#weather-aware-extension-and-geographic-names)
 - [Selected architecture](#selected-architecture)
 - [Research sequence and evidence](#research-sequence-and-evidence)
 - [Dataset and target definition](#dataset-and-target-definition)
@@ -115,6 +116,26 @@ another.
 
 Original image locations, README revisions and SHA-256 hashes are recorded in
 [historical visual provenance](docs/legacy/provenance.json).
+
+## Weather-aware extension and geographic names
+
+A separate experimental model now uses six lagged historical weather fields
+from the real Open-Meteo ERA5 API. Its June diagnostic WAPE is **9.6992% at
+15 minutes** and **11.4395% cumulatively over 12 hours**. June is reused,
+spent diagnostic data for this extension, so these values do not establish a
+new independent test result. Its small May development gain did not clear the
+predeclared default-promotion threshold; the frozen v4 remains unchanged.
+
+The website offers a **Forecast model** selector for `Validated v4` and
+`Weather-aware · experimental`. Actual temperature, precipitation, wind and
+humidity are shown for the selected historical origin. Model inputs precede
+the origin by at least three hours and remain fixed through recursion.
+Reanalysis publication availability in 2016 is not certified.
+
+All 30 geographic centers also have official NYC NTA area labels derived from
+their coordinates, preserving IDs and avoiding invented cluster boundaries.
+Read the [complete extension report](reports/weather_integration_20261102.md)
+and [fixed experiment protocol](artifacts/weather_20261102/protocol.json).
 
 ## Selected architecture
 

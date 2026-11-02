@@ -42,3 +42,16 @@ README attachments. Their original canonical URLs, revisions and hashes are in
 `docs/legacy/provenance.json`. Existing embedded map, tile or other third-party
 attributions remain applicable. The figures are labeled as historical material;
 the root MIT license does not relabel third-party material inside a screenshot.
+
+## Historical weather and neighborhood area labels
+
+Weather data is obtained from [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api),
+using Copernicus ERA5 reanalysis; attribution: Open-Meteo and Copernicus Climate
+Change Service/ECMWF. Open-Meteo data is provided under
+[CC BY 4.0](https://open-meteo.com/en/licence). The public API's
+[non-commercial usage terms](https://open-meteo.com/en/terms) apply.
+
+Centroid area labels derive from NYC Department of City Planning's
+[2020 Neighborhood Tabulation Areas](https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd).
+The data's NYC Open Data terms remain applicable. The project MIT license does
+not replace provider data terms. Area labels do not define model boundaries.
