@@ -15,7 +15,7 @@ provides the evidence needed to inspect the result: ordered feature schemas,
 selection protocols, acquisition provenance, frozen artifacts, sealed prediction
 arrays and executable validation tests.
 
-**Maps:** [Original pickup-cluster image](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/codex/final-v4-integration-20261102/docs/legacy/pickup-clusters-original.png) · [Verified geographic centroids](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/codex/final-v4-integration-20261102/docs/figures/verified-region-centroids.png) · [Map gallery](#maps-and-research-figures)
+**Maps:** [Original pickup-cluster image](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/main/docs/legacy/pickup-clusters-original.png) · [Verified geographic centroids](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/main/docs/figures/verified-region-centroids.png) · [Map gallery](#maps-and-research-figures)
 
 ## Project at a glance
 
@@ -68,7 +68,7 @@ WAPE is `100 × Σ|prediction − actual| / Σ|actual|`. Lower is better; these 
 
 ### Original pickup-cluster visualization
 
-![Original standardized-coordinate pickup-cluster figure](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/codex/final-v4-integration-20261102/docs/legacy/pickup-clusters-original.png)
+![Original standardized-coordinate pickup-cluster figure](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/main/docs/legacy/pickup-clusters-original.png)
 
 The original spatial figure from the earlier README is preserved byte-for-byte.
 Its axes show transformed coordinates, not geographic degrees; the original
@@ -77,7 +77,7 @@ centroid coordinates are shown in the verified figure below.
 
 ### Verified geographic centroids
 
-![All 30 fitted regional centroids and central NYC detail](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/codex/final-v4-integration-20261102/docs/figures/verified-region-centroids.png)
+![All 30 fitted regional centroids and central NYC detail](https://raw.githubusercontent.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION/main/docs/figures/verified-region-centroids.png)
 
 This figure inverse-transforms the frozen scaler and K-means centers. Numbers are
 the actual model region IDs; the dashed box selects the detail panel. These are
@@ -159,7 +159,7 @@ $`t_i`$ the pickup timestamp, and $`a(p_i)`$ the fixed region assignment. With
 $`\Delta=15`$ minutes and $`r\in\{0,\ldots,29\}`$:
 
 ```math
-y_{r,t}=\sum_i \mathbf{1}[a(p_i)=r]\,\mathbf{1}[t\leq t_i<t+\Delta].
+y_{r,t}=\sum_i \mathbf{1}[a(p_i)=r]\,\mathbf{1}[t\leq t_i\lt t+\Delta].
 ```
 
 The count is formed after the original fare, distance and **both pickup and
