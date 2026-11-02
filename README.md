@@ -1,8 +1,50 @@
 # UrbanFlow AI · Model Experimentation
 
-This repository preserves the research behind UrbanFlow AI's 30-region, 15-minute NYC taxi demand forecasting model: original notebooks, causal feature code, bounded model comparisons, protocols, frozen artifacts and evaluation evidence. The [deployment platform](https://github.com/Sohamgaonkhadkar/UrbanFlow-AI-Spatiotemporal-Demand-Forecasting-Platform) serves the selected model through FastAPI and the finalized cinematic frontend.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python 3.14](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)
 
-The final integration uses the existing **v4 calendar-feedback** artifact without retraining or changing the selection protocol. The source workspace, its notebooks, artifacts, uncommitted changes and prior Git history remain preserved. This repository is an independent checkout containing the portable research layout; it is not nested inside the deployment repository.
+**A reproducible research pipeline for regional urban-demand forecasting:
+66.9 million retained historical trips, causal multi-step inference, and a frozen
+June 2016 evaluation.**
+
+This repository preserves the research behind UrbanFlow AI's 30-region, 15-minute NYC taxi demand forecasting model: original notebooks, causal feature code, bounded model comparisons, protocols, frozen artifacts and evaluation evidence. The [deployment platform](https://github.com/Sohamgaonkhadkar/UrbanFlow-AI-Spatiotemporal-Demand-Forecasting-Platform/tree/codex/final-v4-integration-20261102) serves the selected model through FastAPI and the finalized cinematic frontend.
+
+The selected **v4 calendar-feedback** model combines gradient boosting,
+training-only calendar structure and causal recursive feedback. This repository
+provides the evidence needed to inspect the result: ordered feature schemas,
+selection protocols, acquisition provenance, frozen artifacts, sealed prediction
+arrays and executable validation tests.
+
+## Project at a glance
+
+| Dimension | Verified scope |
+|---|---|
+| Research question | Forecast retained completed Yellow Taxi trips across regional time series |
+| Observation panel | 66,874,467 retained trips; 524,040 region/time rows; January–June 2016 |
+| Spatial / temporal resolution | 30 fixed K-means regions / 15-minute bins |
+| Forecast trajectory | Up to 48 steps, covering 12 hours |
+| Selected model | XGBoost with recursive calendar feedback; 46 fitted features |
+| Primary result | 9.7507% WAPE at one step; 11.6086% cumulative WAPE over 48 steps |
+| Primary evaluation | 55 non-overlapping June origins; 79,200 region/lead predictions |
+| Validation | 118 research tests passed in the recorded integration run |
+
+The project demonstrates chronological evaluation, training/inference feature
+agreement, original-scale count forecasting, regional consistency, and a clear
+boundary between experimental evidence and application serving. The benchmark
+is historical; it does not establish current operational performance.
+
+## Contents
+
+- [Final result](#final-result)
+- [Selected architecture](#selected-architecture)
+- [Research sequence and evidence](#research-sequence-and-evidence)
+- [Dataset and target definition](#dataset-and-target-definition)
+- [Layout](#layout)
+- [Reproduce validation](#reproduce-validation)
+- [Research directions](#research-directions)
+- [Operational relationship](#operational-relationship)
+- [License and third-party materials](#license-and-third-party-materials)
+
 
 ## Final result
 
@@ -31,26 +73,54 @@ The fitted schema is `feature_schema.json`; the artifact's legacy top-level feat
 
 Training labels end at **May 31, 2016 21:45 America/New_York**. The exclusive training cutoff is **22:00**, retaining the protocol's 2-hour gap. Warmup needs 1,536 bins (16 days). Training labels therefore begin January 17. Feature calculations and origin adaptation use observations strictly before each origin. Later June observations can legitimately become history for later June origins; they never alter fitted weights or selection.
 
+
+```mermaid
+flowchart LR
+  Source[Historical coordinate-bearing taxi records] --> Panel[Fixed regions and 15-minute counts]
+  Panel --> Features[Causal features and calendar context]
+  Features --> Development[Chronological development comparisons]
+  Development --> Freeze[Frozen selection and May cutoff]
+  Freeze --> June[Sealed June evaluation]
+  June --> Artifact[Versioned artifact and evidence]
+  Artifact --> Serving[Separate deployment platform]
+```
+
+This diagram describes the completed research sequence. June outcomes are now
+spent evaluation evidence and are not an untouched selection window for future
+experiments.
+
 ## Research sequence and evidence
 
 The experiments retain chronological development, causal feature construction and explicit final-test sealing. March, April and May were spent development windows. June was the primary final month after freezing selection; it is now spent evaluation evidence and must not be described as an untouched test for future experiments.
 
 The v4 study examined 17 bounded recipes across three development windows, including extra historical holiday profiles, temporal aggregation/disaggregation and reconciliation, expanding/rolling/decayed history, sparse-count objectives and calendar alternatives. Novel recipes did not clear the prespecified material improvement threshold of 0.1 WAPE point with the required paired confidence and regional/monthly checks. The strongest existing calendar-feedback specification was retained and fit at the frozen May cutoff.
 
-June's pure XGBoost and LightGBM baselines obtained cumulative WAPE **11.7512%** and **11.8268%**. Their paired differences from the selected model have confidence intervals crossing zero; the tiny ranking difference is not conclusive statistical superiority. Sparse regions, airports, weekends and nights remain more difficult. Actual-peak-conditioned diagnostics are retrospective subgroup summaries, not features available at an origin.
+The frozen June comparison reports:
+
+| Model | Cumulative 12-hour WAPE |
+|---|---:|
+| Selected calendar-feedback model | **11.6086%** |
+| Pure XGBoost | 11.7512% |
+| Pure LightGBM | 11.8268% |
+
+Paired differences from the selected model have confidence intervals crossing
+zero; the small ranking differences are not conclusive statistical superiority.
+Sparse regions, airports, weekends and nights remain more difficult.
+Actual-peak-conditioned diagnostics are retrospective subgroup summaries,
+not features available at an origin.
 
 The prespecified July 1–7 holiday confirmation was **not executed**: compatible complete coordinate-bearing source coverage could not be established. The official July schema inspected in the study used taxi-zone IDs, which cannot exactly reproduce the original point mapping and pickup/dropoff filters. No replacement period was substituted. See the availability ledger and frozen report for the bounded probes and their limitations.
 
 Start with these records:
 
 - [Complete v4 report](reports/research_driven_forecasting_v4.md)
-- `artifacts/v4_20261102/protocol.json` — test and selection protocol, original protected hashes.
-- `artifacts/v4_20261102/selection_freeze.json` — exact frozen selection and secondary-test availability.
-- `artifacts/v4_20261102/training_metadata.json` — cutoffs and fitted component metadata.
-- `artifacts/v4_20261102/final_test_results.json` — complete primary/secondary evaluation ledger.
-- `artifacts/v4_20261102/june_primary_predictions.npz` — sealed truth and forecast arrays.
-- `artifacts/v4_20261102/frozen_source/` — original frozen study source snapshots.
-- `reports/v4_20261102/` — acquisition, environment, sensitivity and system evidence.
+- [artifacts/v4_20261102/protocol.json](artifacts/v4_20261102/protocol.json) — test and selection protocol, original protected hashes.
+- [artifacts/v4_20261102/selection_freeze.json](artifacts/v4_20261102/selection_freeze.json) — exact frozen selection and secondary-test availability.
+- [artifacts/v4_20261102/training_metadata.json](artifacts/v4_20261102/training_metadata.json) — cutoffs and fitted component metadata.
+- [artifacts/v4_20261102/final_test_results.json](artifacts/v4_20261102/final_test_results.json) — complete primary/secondary evaluation ledger.
+- [artifacts/v4_20261102/june_primary_predictions.npz](artifacts/v4_20261102/june_primary_predictions.npz) — sealed truth and forecast arrays.
+- [artifacts/v4_20261102/frozen_source/](artifacts/v4_20261102/frozen_source/) — original frozen study source snapshots.
+- [reports/v4_20261102/](reports/v4_20261102/) — acquisition, environment, sensitivity and system evidence.
 
 ## Dataset and target definition
 
@@ -58,7 +128,7 @@ The target is **retained completed Yellow Taxi trips per fitted region per 15-mi
 
 The original fitted scaler and 30 K-means centers remain fixed. `artifacts/advanced_20261102/geography.json` preserves their mean, scale and centers. Longitude is the first coordinate. Inverse-transforming gives the verified centroid for each model region ID. Neighborhood labels from earlier interfaces were not authoritative cluster identities; the serving application uses generic sector names and does not invent cluster polygons.
 
-The genuine dense panel spans January 1 through June 30, 2016, with zero bins retained under source-completeness assumptions and historical DST handling documented in the report. The canonical deployment observation panel is included. Research raw trip files, daily downloads and feature caches are deliberately omitted from Git. The source workspace still preserves its existing local outputs. Intermediate exclusions and original hashes are recorded in `provenance/excluded_generated_artifacts.json` and `provenance/original_workspace.json`.
+The genuine dense panel spans January 1 through June 30, 2016, with zero bins retained under source-completeness assumptions and historical DST handling documented in the report. The canonical deployment observation panel is included. Research raw trip files, daily downloads and feature caches are deliberately omitted from Git. Intermediate exclusions and original hashes are recorded in `provenance/excluded_generated_artifacts.json` and `provenance/original_workspace.json`.
 
 Fare/distance/completion filters require post-trip information. Immediate availability of a completed-bin count is an idealized benchmark assumption. No independent production as-of feed certification, current-domain generalization, weather contribution, calibrated prediction intervals, validated whole-hybrid attribution or operational alerts is established by this work. July holiday robustness remains unvalidated.
 
@@ -76,13 +146,25 @@ reports/                         Detailed research reports and diagnostics
 provenance/                      Original hashes/status and generated-output exclusion ledger
 requirements-local-lock.txt      Exact tested research environment
 pytest.ini                      Portable package/test discovery
+LICENSE                         MIT license for original software/documentation
+THIRD_PARTY_NOTICES.md           Dataset, dependency and embedded-material notices
 ```
 
-The repository keeps the original `urbanflow/ml` depth so root-relative research paths continue to resolve. It includes no nested `.git` directory. Old remote history remains intact; notebook relocation and generated-cache cleanup are normal commits on an integration branch.
+The `urbanflow/ml` package depth is intentional: root-relative research paths resolve within this repository. Experimental source, serving compatibility code and versioned evidence remain separate from generated caches and raw downloads. Earlier notebook versions remain available in Git history.
 
 ## Reproduce validation
 
-Use Python **3.14**. From the repository root, in PowerShell:
+Use Python **3.14**. The completed v4 work is currently on
+`codex/final-v4-integration-20261102`; clone that branch while the default branch retains
+the earlier version:
+
+```powershell
+git clone --branch codex/final-v4-integration-20261102 https://github.com/Sohamgaonkhadkar/UBER-DEMAND-PREDICTION.git Model-Experimentation
+cd Model-Experimentation
+```
+
+Create the research environment and execute validation from the repository root:
+
 
 ```powershell
 py -3.14 -m venv .venv
@@ -104,6 +186,36 @@ $env:PYTHONPATH = Join-Path (Get-Location) 'urbanflow'
 
 Acquisition/research entry points may contact public data services, create caches, consume substantial resources, refit models or require excluded raw input. They are preserved for reproducibility and are **not** automatically run by the validation command. Network availability and exact historical upstream content cannot be guaranteed. Do not rerun model selection against spent June outcomes. A future study needs a new frozen protocol and genuinely unexamined compatible evaluation data.
 
+## Research directions
+
+The following are future research objectives, not capabilities already validated
+by the v4 benchmark:
+
+1. Establish compatible, complete coordinate-bearing evaluation data beyond
+   June, including an independently frozen holiday/event window.
+2. Audit the availability time of completed-trip aggregates before testing an
+   operational as-of forecast feed.
+3. Evaluate calibrated count-prediction intervals on new chronological cohorts,
+   with explicit regional and horizon coverage checks.
+4. Assess domain shift and difficult sparse/night/weekend segments without
+   changing selection rules in response to spent final-test outcomes.
+
+Contributions should include a frozen evaluation protocol, causal feature
+checks, reproducible environment information and evidence beyond a single
+aggregate score. New candidates should be published under a new artifact ID;
+the selected v4 artifact and its sealed evaluation evidence remain immutable.
+
 ## Operational relationship
 
 This research checkout owns experiments and evidence. The deployment checkout owns a compact checked-in runtime bundle, genuine observation seed, stable API contract, cinematic frontend, Compose definition and integration tests. Neither depends on the other's local filesystem path. No secrets, environment directories, raw trip exports or generated model-search checkpoints should be committed. Hashes identify the selected artifact in both repositories; no model was retrained during final integration.
+
+## License and third-party materials
+
+Original UrbanFlow AI software and documentation are available under the
+[MIT License](LICENSE), copyright © 2026 Soham Mahesh Gaonkhadkar.
+Third-party photographs, source datasets, map services, fonts and dependencies
+retain their applicable terms; see [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Author
+
+**Soham Mahesh Gaonkhadkar** · [GitHub](https://github.com/Sohamgaonkhadkar)
